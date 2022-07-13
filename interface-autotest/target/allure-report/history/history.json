@@ -1,0 +1,223 @@
+{
+  "d061fca8106a06aff2811bd6536a68cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fc26a4e86a480b",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/8fc26a4e86a480b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653638388256,
+        "stop" : 1653638388284,
+        "duration" : 28
+      }
+    } ]
+  },
+  "ee33f2b5e5bf25c93100aebd050c1d07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1ed17e9c10da472",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/1ed17e9c10da472",
+      "status" : "skipped",
+      "statusDetails" : "Method SourceTest.updateSource()[pri:0, instance:com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest@7fe7c640] depends on not successfully finished methods in group \"source\"",
+      "time" : {
+        "start" : 1653638370607,
+        "stop" : 1653638370608,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f34c869e07e50735",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/f34c869e07e50735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411168071,
+        "stop" : 1651411169353,
+        "duration" : 1282
+      }
+    } ]
+  },
+  "738ce17b48b68406ce78c3d3a26396b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ed75167ce9cf432b",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/ed75167ce9cf432b",
+      "status" : "skipped",
+      "statusDetails" : "Method SourceTest.deleteFirstSource()[pri:0, instance:com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest@7fe7c640] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1653638365588,
+        "stop" : 1653638365589,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dca25e2892e05fd4",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/dca25e2892e05fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411166409,
+        "stop" : 1651411168054,
+        "duration" : 1645
+      }
+    } ]
+  },
+  "83bcb9e0c415ac957db41c4055a03778" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3254f5b8e18ee989",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/3254f5b8e18ee989",
+      "status" : "failed",
+      "statusDetails" : "【接口可用性报警】 \n运行环境：test\n业务：yolocast-business \n场景：登录模块 \n报错类型：接口返回码非200\n接口：https://yolocast-test.yololiv.com/api/passport/login \n入参信息：{\"password\":\"zsc123456\",\"email\":\"zhangsc@yunxi.tv\"}\n返回结果：{\"code\":10007,\"data\":null,\"success\":false,\"requestId\":\"4d8a962e-4d2a-4204-b1e1-302a68e0eb10\",\"message\":\"The email and password provided could not be authenticated\",\"errorData\":null} ",
+      "time" : {
+        "start" : 1653638350404,
+        "stop" : 1653638352491,
+        "duration" : 2087
+      }
+    }, {
+      "uid" : "e33f407e47dd9f62",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/e33f407e47dd9f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411158209,
+        "stop" : 1651411159719,
+        "duration" : 1510
+      }
+    } ]
+  },
+  "ce807ae881c0db4a55192d4b34497771" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f9318f14416d73d3",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/f9318f14416d73d3",
+      "status" : "failed",
+      "statusDetails" : "【接口可用性报警】 \n运行环境：test\n业务：yolocast-business \n场景：source页面 \n报错类型：接口返回码非200\n接口：https://yolocast-test.yololiv.com/api/source \n入参信息：null\n返回结果：{\"code\":99999,\"data\":null,\"success\":false,\"requestId\":null,\"message\":\"invalid token\",\"errorData\":null} ",
+      "time" : {
+        "start" : 1653638358819,
+        "stop" : 1653638360551,
+        "duration" : 1732
+      }
+    }, {
+      "uid" : "2135380f60fa6fc4",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/2135380f60fa6fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411160017,
+        "stop" : 1651411166382,
+        "duration" : 6365
+      }
+    } ]
+  },
+  "1d221b2a239820527d96d349bfc94990" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a1acd4c9fbcd2e26",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/a1acd4c9fbcd2e26",
+      "status" : "skipped",
+      "statusDetails" : "Method SourceTest.updateSourceStreamKey()[pri:0, instance:com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest@7fe7c640] depends on not successfully finished methods in group \"source\"",
+      "time" : {
+        "start" : 1653638375628,
+        "stop" : 1653638375628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ccd9f12b6880a9ef",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/ccd9f12b6880a9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411169372,
+        "stop" : 1651411170844,
+        "duration" : 1472
+      }
+    } ]
+  },
+  "8203bc9907c73d29c924da4086f7f517" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "febdf4a536325484",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/febdf4a536325484",
+      "status" : "failed",
+      "statusDetails" : "【接口可用性报警】 \n运行环境：test\n业务：yolocast-business \n场景：活动列表 \n报错类型：接口返回码非200\n接口：https://yolocast-test.yololiv.com/api/activity \n入参信息：{\"startTime\":1653638938399,\"endTime\":1653640738399,\"title\":\"Create by2022-05-27 15:59:41\"}\n返回结果：{\"code\":99999,\"data\":null,\"success\":false,\"requestId\":null,\"message\":\"invalid token\",\"errorData\":null} ",
+      "time" : {
+        "start" : 1653638381859,
+        "stop" : 1653638383226,
+        "duration" : 1367
+      }
+    } ]
+  },
+  "20da0e0b401096345f463717954e9b97" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "af4906db1fe2c714",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/3/allure/#testresult/af4906db1fe2c714",
+      "status" : "failed",
+      "statusDetails" : "【接口可用性报警】 \n运行环境：test\n业务：yolocast-business \n场景：活动列表 \n报错类型：接口返回码非200\n接口：https://yolocast-test.yololiv.com/api/activity \n入参信息：{pageNo=1, pageSize=10, status=3}\n返回结果：{\"code\":99999,\"data\":null,\"success\":false,\"requestId\":null,\"message\":\"invalid token\",\"errorData\":null} ",
+      "time" : {
+        "start" : 1653638393312,
+        "stop" : 1653638394527,
+        "duration" : 1215
+      }
+    }, {
+      "uid" : "d35102864aad3641",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/d35102864aad3641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411173113,
+        "stop" : 1651411174143,
+        "duration" : 1030
+      }
+    } ]
+  }
+}

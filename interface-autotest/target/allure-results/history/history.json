@@ -1,0 +1,122 @@
+{
+  "ee33f2b5e5bf25c93100aebd050c1d07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f34c869e07e50735",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/f34c869e07e50735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411168071,
+        "stop" : 1651411169353,
+        "duration" : 1282
+      }
+    } ]
+  },
+  "738ce17b48b68406ce78c3d3a26396b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dca25e2892e05fd4",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/dca25e2892e05fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411166409,
+        "stop" : 1651411168054,
+        "duration" : 1645
+      }
+    } ]
+  },
+  "83bcb9e0c415ac957db41c4055a03778" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e33f407e47dd9f62",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/e33f407e47dd9f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411158209,
+        "stop" : 1651411159719,
+        "duration" : 1510
+      }
+    } ]
+  },
+  "ce807ae881c0db4a55192d4b34497771" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2135380f60fa6fc4",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/2135380f60fa6fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411160017,
+        "stop" : 1651411166382,
+        "duration" : 6365
+      }
+    } ]
+  },
+  "1d221b2a239820527d96d349bfc94990" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccd9f12b6880a9ef",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/ccd9f12b6880a9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411169372,
+        "stop" : 1651411170844,
+        "duration" : 1472
+      }
+    } ]
+  },
+  "20da0e0b401096345f463717954e9b97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d35102864aad3641",
+      "reportUrl" : "http://localhost:8080/job/Interface-Autotest/2/allure/#testresult/d35102864aad3641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651411173113,
+        "stop" : 1651411174143,
+        "duration" : 1030
+      }
+    } ]
+  }
+}

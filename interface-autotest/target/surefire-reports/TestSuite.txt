@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 58.035 s <<< FAILURE! - in TestSuite
+loginYolocast(com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest)  Time elapsed: 12.218 s  <<< FAILURE!
+java.lang.AssertionError: 
+【接口可用性报警】 
+运行环境：test
+业务：yolocast-business 
+场景：登录模块 
+报错类型：接口返回码非200
+接口：https://yolocast-test.yololiv.com/api/passport/login 
+入参信息：{"password":"zsc123456","email":"zhangsc@yunxi.tv"}
+返回结果：{"code":10007,"data":null,"success":false,"requestId":"4d8a962e-4d2a-4204-b1e1-302a68e0eb10","message":"The email and password provided could not be authenticated","errorData":null} 
+	at com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest.loginYolocast(loginTest.java:49)
+
+getSourceList(com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest)  Time elapsed: 6.753 s  <<< FAILURE!
+java.lang.AssertionError: 
+【接口可用性报警】 
+运行环境：test
+业务：yolocast-business 
+场景：source页面 
+报错类型：接口返回码非200
+接口：https://yolocast-test.yololiv.com/api/source 
+入参信息：null
+返回结果：{"code":99999,"data":null,"success":false,"requestId":null,"message":"invalid token","errorData":null} 
+	at com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest.getSourceList(SourceTest.java:80)
+
+createEvent(com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest)  Time elapsed: 6.377 s  <<< FAILURE!
+java.lang.AssertionError: 
+【接口可用性报警】 
+运行环境：test
+业务：yolocast-business 
+场景：活动列表 
+报错类型：接口返回码非200
+接口：https://yolocast-test.yololiv.com/api/activity 
+入参信息：{"startTime":1653638938399,"endTime":1653640738399,"title":"Create by2022-05-27 15:59:41"}
+返回结果：{"code":99999,"data":null,"success":false,"requestId":null,"message":"invalid token","errorData":null} 
+	at com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest.createEvent(ActivityTest.java:130)
+
+getScheduleEventsList(com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest)  Time elapsed: 6.236 s  <<< FAILURE!
+java.lang.AssertionError: 
+【接口可用性报警】 
+运行环境：test
+业务：yolocast-business 
+场景：活动列表 
+报错类型：接口返回码非200
+接口：https://yolocast-test.yololiv.com/api/activity 
+入参信息：{pageNo=1, pageSize=10, status=3}
+返回结果：{"code":99999,"data":null,"success":false,"requestId":null,"message":"invalid token","errorData":null} 
+	at com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest.getScheduleEventsList(ActivityTest.java:73)
+

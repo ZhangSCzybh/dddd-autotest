@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="runAll">
+    <test name ="source">
+        <classes>
+            <class name="com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest"/>
+            <class name="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest"/>
+
+        </classes>
+
+    </test>
+    <test name ="activity">
+        <classes>
+            <class name="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest"/>
+        </classes>
+
+    </test>
+
+
+</suite>

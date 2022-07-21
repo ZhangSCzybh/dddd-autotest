@@ -28,11 +28,10 @@ import java.util.*;
 public class SendResultToDingtalk {
 
     private static final int timeout =10000;
-    // /Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json
-    public static String pathname1 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
-    public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
+    public static String pathname1 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-report/widgets/summary.json";
+    public static String pathname2 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results/executor.json";
     //public static String pathname3 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json";
-    public static String deteleAllureResult = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/allure-results";
+    public static String deteleAllureResult = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results";
 
     public static String assertioncontent="Product defects";
     static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=6ca1bc74766afffbe49369ae6d7a06de954f7fd01aace49b8c22769e33bb143d";
@@ -40,6 +39,15 @@ public class SendResultToDingtalk {
     static Date date;
 
 
+    public static void main(String[] args){
+
+        //发送测试报告给钉钉机器人
+        readSummaryJsonSendDingTalk();
+
+        //删除interface-autotest module里的allure-results；taeget里已经有了allure报告了
+        deleteFile(new File(deteleAllureResult));
+
+    }
 
     //读取txt文件内容 pathname
     public static Map readText(String pathname) throws Exception{
@@ -55,7 +63,16 @@ public class SendResultToDingtalk {
         return map;
     }
 
-    //组装请求报文 content,isAtAll,mobileList
+
+    /**
+     * 组装请求报文 content,isAtAll,mobileList
+     * @author zhangsc
+     * @date 2022/7/13 下午7:36
+     * @param content
+     * @param isAtAll
+     * @param mobileList
+     * @return java.lang.String
+     */
     public static String buildReqStr(String content, boolean isAtAll, List<String> mobileList) {
         //消息内容
         Map<String, String> contentMap = Maps.newHashMap();
@@ -218,6 +235,13 @@ public class SendResultToDingtalk {
 
     }
 
+    /**
+     *
+     * @author zhangsc
+     * @date 2022/7/13 下午7:34
+     * @param file
+     * @return java.lang.Boolean
+     */
     public static Boolean deleteFile(File file) {
         //判断文件不为null或文件目录存在
         if (file == null || !file.exists()) {
@@ -245,17 +269,5 @@ public class SendResultToDingtalk {
         return true;
     }
 
-
-
-    public static void main(String[] args){
-
-        //发送测试报告给钉钉机器人
-        readSummaryJsonSendDingTalk();
-
-        //删除interface-autotest module里的allure-results；taeget里已经有了allure报告了
-        deleteFile(new File(deteleAllureResult));
-
-
-    }
 
 }

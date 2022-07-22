@@ -45,7 +45,7 @@ public class SendResultToDingtalk {
         readSummaryJsonSendDingTalk();
 
         //删除interface-autotest module里的allure-results；taeget里已经有了allure报告了
-        deleteFile(new File(deteleAllureResult));
+        //deleteFile(new File(deteleAllureResult));
 
     }
 

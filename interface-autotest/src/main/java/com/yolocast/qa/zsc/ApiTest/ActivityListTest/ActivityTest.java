@@ -1,9 +1,12 @@
 package com.yolocast.qa.zsc.ApiTest.ActivityListTest;
 
 import cn.hutool.core.util.StrUtil;
+import cn.hutool.http.HttpRequest;
+import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
+import cn.hutool.json.JSONUtil;
 import com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest;
 import com.yolocast.qa.zsc.BaseTest;
 import com.yolocast.qa.zsc.Constant.Common;
@@ -13,12 +16,21 @@ import com.yolocast.qa.zsc.utils.DateUtil;
 import com.yolocast.qa.zsc.utils.ErrorEnum;
 import com.yolocast.qa.zsc.utils.GetCaseUtil;
 import com.yolocast.qa.zsc.utils.LoginUtil;
+import jdk.nashorn.internal.parser.Token;
+import okhttp3.Headers;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.*;
 
 public class ActivityTest extends BaseTest {
@@ -190,13 +202,38 @@ public class ActivityTest extends BaseTest {
 
 
     }
-
+    //TODO
     @Test
-    public void emptyTest(){
+    public void getToken() throws IOException {
+        String phone =  "17858805009";
+        JSONObject param = JSONUtil.createObj();
+        param.put("phone", phone);
+        param.put("type", "2");
 
+        String smsUrl = "http://hrtest.ddingddang.com/api/enterprise/account/sms";
+        String body = param.toString();
+        String result = HttpUtil.createPost(smsUrl).addHeaders(headers).body(body).execute().body();
+        JSONObject jsonresult = new JSONObject(result);
+        String smsCode = (String) jsonresult.get("result");
+        System.out.println(smsCode);
+
+        JSONObject param2 = JSONUtil.createObj();
+        param2.put("code", smsCode);
+        param2.put("identityType", "3");
+        param2.put("username", phone);
+
+        String loginUrl = "http://hrtest.ddingddang.com/api/enterprise/account/login";
+        String body2 = param2.toString();
+        String result2 = HttpUtil.createPost(loginUrl).addHeaders(headers).body(body2).execute().body();
+        JSONObject jsonresult2 = new JSONObject(result2);
+        System.out.println("*********************"+jsonresult2);
+        String name = jsonresult2.getStr("msg");
+        System.out.println("zheshmsg:"+ name);
+        //jsonobject中嵌套了json对象
+        JSONObject addJsonObject = jsonresult2.getJSONObject("result");
+        String nickName = addJsonObject.getStr("nickName");
+        System.out.println(nickName);
 
     }
-
-
 
 }

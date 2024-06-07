@@ -15,6 +15,13 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+import java.util.Map;
+
 public class loginTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static String scene = "登录模块";
@@ -68,7 +75,55 @@ public class loginTest extends BaseTest {
 
     }
 
+    @Test
+    public void test0607(){
+        try {
+            // 1. 创建 URL 对象
+            URL url = new URL("http://hrtest.ddingddang.com/api/enterprise/account/login");
 
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                String identity ="3";
+                String pass = "zybh123456";
+                String username = "17858805009";
+
+                String str= Common.loginDDingDDangInfo;
+                byte[] input= str.getBytes("UTF-8");
+
+                //byte[] input = ("{ \"identityType\": \"3\" ,\"password\": \"zybh123456\",\"username\": \"17858805099\"}").getBytes("utf-8");
+                os.write(input, 0, input.length);
+            }
+
+            // 7. 获取响应状态码
+            int responseCode = connection.getResponseCode();
+            System.out.println("Response Code: " + responseCode);
+
+            // 8. 获取响应头
+            Map<String, List<String>> headers = connection.getHeaderFields();
+            for (Map.Entry<String, java.util.List<String>> entry : headers.entrySet()) {
+                System.out.println(entry.getKey() + ": " + entry.getValue());
+            }
+            System.out.println(connection.getHeaderField("session-token"));
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 }

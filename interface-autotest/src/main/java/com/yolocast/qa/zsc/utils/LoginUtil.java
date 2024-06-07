@@ -1,5 +1,7 @@
 package com.yolocast.qa.zsc.utils;
 
+import cn.hutool.http.HttpRequest;
+import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.JSON;
@@ -16,7 +18,10 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+import javax.xml.ws.Response;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author zhangsc
@@ -63,16 +68,16 @@ public class LoginUtil {
     }
 
 
-    /**
-     *
-     * @author zhangsc
-     * @date 2022/5/1 下午12:57
-     * @param url
-     * @param eamil
-     * @param password
-     * @return java.lang.String
-     *
-     */
+/**
+ * @Description: TODO methods
+ * @param
+ * @param url
+ * @param eamil
+ * @param password
+ * @return java.lang.String
+ * @author Zhangsc
+ * @date 2024/6/7 21:43
+ */
     //获取账号中心登录cookie
     public static String loginCookie(String url, String eamil, String password){
         //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
@@ -82,11 +87,41 @@ public class LoginUtil {
             param.put("email", eamil);
             param.put("password", password);
             String body = param.toString();
-
             String result = HttpUtil.post(url, body);
             //System.out.println(result);
             cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
             return (String) (new cn.hutool.json.JSONObject(jsonresult.get("data"))).get("token");
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    //TODO  获取账号中心登录cookie
+    public static String loginCookie2(String url, String eamil, String password){
+        //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
+        //String body = String.format("{\"eamil\":\"%s\",\"password\":\"%s\"}", eamil, password);
+        try {
+            cn.hutool.json.JSONObject param = JSONUtil.createObj();
+            param.put("email", eamil);
+            param.put("password", password);
+            String body = param.toString();
+            String result = HttpUtil.post(url, body);
+            //System.out.println(result);
+            HttpRequest request = HttpUtil.createPost(url);
+            request.form("identityType", "3")
+                    .form("password", "zybh123456")
+                    .form("username", "17858805099");
+            HttpResponse response = request.execute();
+            // 获取响应状态码
+            int statusCode = response.getStatus();
+            System.out.println(statusCode);
+            Map<String, List<String>> headers = response.headers();
+            String Token = response.header("Session-Token");
+            System.out.println(Token);
+
+
         }catch(Exception e){
             e.printStackTrace();
         }

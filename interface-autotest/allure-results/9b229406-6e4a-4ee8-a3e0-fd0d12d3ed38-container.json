@@ -1,0 +1,1 @@
+{"uuid":"9b229406-6e4a-4ee8-a3e0-fd0d12d3ed38","name":"yololiv-autotest","start":1717812429384,"stop":1717812430303,"children":["e52a1e0d-2cc7-4903-adc5-ed71c5da7765"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","start":1717812429397,"stop":1717812429956}]}

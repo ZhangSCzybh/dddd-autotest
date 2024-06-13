@@ -10,85 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="获取叮叮当当token接口">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0ae6a2a8-6d87-4eed-b3b4-fb49044afb8e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0b3d1f36-cdec-4284-bb16-c712a20400de-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/12194258-e101-4a8f-ace7-3e4a84d82929-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/12545728-327f-49e4-acde-bd290c24eb3c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/15d10f74-8fce-4a47-9d79-f98c5b546e80-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1753769b-c4c4-4dc5-8026-641c8f7c865a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/178f3bab-38ec-49fd-9b89-7d6fe9f07765-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1aaa7bb8-ea62-47f1-8beb-a1bbd3639274-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1e58e667-3b49-4847-8df7-d93dcdb223d2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/20457b26-7aa0-4055-ae64-1de4a49f7a51-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2382dc98-603c-4ed2-8484-cc36dddde505-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/24f566cf-c3c7-4675-8c34-f737a9d56314-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/25113ee5-3bc6-4ee1-b160-5616435cef15-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2c88cb34-f923-4475-ae7a-7000754f5620-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2d42ccb4-a38d-4bcb-b199-21c85ee1e689-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3061eaaa-d021-4cb4-a75e-7da0cdfc4556-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/30c058a7-6e81-423e-92f0-ab948adda69b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/33d11e3e-360b-433f-b56f-4391de75aaf3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/34251e84-b141-41f6-b08b-da7bf15b32ed-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/390cd17a-ac17-4b1b-9fe7-c530c2006d7d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/42d0cc44-50ba-44e8-be5f-297fdea364e9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/42f46d2f-6e5d-41cf-bbd5-4b38c0fd11a5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4415e9a5-046e-452c-8f95-8712d399d809-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/44b4385a-0f82-4a8b-ae6c-170496c9a249-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/479b9a65-4192-4e4f-8188-197a9dab6ccd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/49674a26-2bd1-42d9-97a0-4c13a1f27c78-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4e83b0e4-9bdb-48a2-8aa1-c4b0fd381abc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/54048154-3650-4cd9-8bda-45641a9601f8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5f19332c-c823-4556-b65c-4200e35bb014-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/69be73b5-3faa-4c3b-81a8-0236ba559564-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/70670e8a-c143-433f-8478-e4affe1f08ec-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/75d0bf46-ec69-4b12-9d8e-36fc9caffa3e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/79e9c253-1dcf-4104-ad32-9bb70a871821-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7ce51846-fbff-4941-95d3-8a765fa56f09-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7ff2f0ce-73a4-4d14-a5de-447af48a8625-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/86445c49-ff9f-4b86-b05d-ef7c4ae63220-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/871c7814-0c78-4031-910d-2668d2ea0554-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/87d80a0f-c6f9-46b6-b149-a953f1af46bf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8ce00869-6c12-4b77-bf30-8c16fb95c2b9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8dae3a1c-9324-47d2-971d-4b7b937b9654-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8eeb4291-7b7e-4e6a-b4c3-4d389f085ccf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/92eebdb0-03bf-41f0-a6c8-49d7418afa1a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/948d0da5-be69-47d4-ba88-bae6e4a0a106-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/95d8ea04-b352-4e1f-85d3-932d3bee1711-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9a93ab0b-4b93-47b8-bd2c-ef7efde712f7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9b229406-6e4a-4ee8-a3e0-fd0d12d3ed38-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9c096a46-e3f1-4444-b2c9-23a5130a8b93-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a81da930-c4da-4a0b-b2d1-ed3fbe888ab1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b0dd5693-f613-4706-bbfe-ccb1e2915b43-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b425b1bf-68ed-4bd2-92d4-9a6c0df907bb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bae5b854-887f-409d-bdd3-b82b799465bb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bf7c4ac5-0291-4b2f-8e02-d5e2781be993-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c1bcf1e9-0e6e-4633-a75b-173144b8be2a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c2c44170-b8d5-4ae7-aaf6-43d19a502291-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c7785fc0-a56b-436f-a4df-ca8f71030151-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c81343f5-1907-4a06-b8b2-aa7a87606916-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cfb85baa-fb03-497a-8b00-1d1f983cf93a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d8e42066-d2a2-4871-8c34-0dc451576084-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e52a1e0d-2cc7-4903-adc5-ed71c5da7765-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e7a1acec-dfe7-43ba-a233-113b39dfe026-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e8ab8b17-b9f7-4d57-8f54-035c4f613cb4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e98e30ba-39e8-4a5d-9535-40f4e9f57bb6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f05de590-668a-4890-8322-26bd394dffad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f6bdc84d-49d4-43c4-98d5-320cf5bcffc0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f74e231a-c9c9-4b86-8311-a5f5342884f4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f95ac7e2-7575-4c1d-9e05-9ce08c0139ea-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f9e84a6d-d0ee-477a-96a7-1531477ca1f3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fcc73734-6c13-4ee6-81a1-4c90c7cb6a5f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ffe44d94-b65d-4336-8810-79ba2766081a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/31b28ec3-cf91-4eb7-9b88-c7704bcc7759-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b7b40003-1f0e-49a2-a4d7-41a69a5ea5b8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cfad9e4c-a84d-420a-93a4-4b317163b732-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/eed5ce3e-7e31-44a3-87c7-35bbec781c5c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createGoods.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/interface-autotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/interface-autotest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yololiv-autotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dddd-autotest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/DestinationTest/DestinationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/EventDetailTest/EventDetailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/EventDetailTest/EventDetailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/MaterialTest/MaterialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/MaterialTest/MaterialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/SettingAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/SettingAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SourceTest/SourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/1111.html" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/1111.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/ExtractFieldValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ExtractFieldValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/jd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/DingTalkRobotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/DingTalkRobotUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/ErrorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/ErrorEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/GetCaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast/createActivity.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createActivity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,34 +71,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="TestNG.loginTest.test0607">
-    <configuration name="ActivityTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.loginTest.loginYolocast">
     <configuration name="ActivityTest.getToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -196,6 +140,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="loginTest.loginYolocast" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.SettingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.SettingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest" />
+      <option name="METHOD_NAME" value="loginYolocast" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="loginTest.test0607" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -216,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.loginTest.loginYolocast" />
         <item itemvalue="TestNG.loginTest.test0607" />
         <item itemvalue="TestNG.loginTest" />
         <item itemvalue="TestNG.ActivityTest.test0607" />
         <item itemvalue="TestNG.ActivityTest.getToken" />
-        <item itemvalue="TestNG.ActivityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +210,9 @@
       <workItem from="1717296047152" duration="1108000" />
       <workItem from="1717765492914" duration="16149000" />
       <workItem from="1717811336210" duration="2060000" />
+      <workItem from="1717828066981" duration="946000" />
+      <workItem from="1718247922720" duration="1509000" />
+      <workItem from="1718250651276" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="获取叮叮当当token接口">
       <created>1717781027761</created>

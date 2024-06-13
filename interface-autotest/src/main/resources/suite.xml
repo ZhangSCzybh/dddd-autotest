@@ -3,15 +3,15 @@
 <suite name="runAll">
     <test name ="source">
         <classes>
-            <class name="com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest"/>
-            <class name="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.loginTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest"/>
 
         </classes>
 
     </test>
     <test name ="activity">
         <classes>
-            <class name="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest"/>
         </classes>
 
     </test>

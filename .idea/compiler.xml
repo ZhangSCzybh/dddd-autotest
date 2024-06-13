@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dddd-autotest" target="1.8" />
       <module name="interface-autotest" target="1.8" />
       <module name="SendMessageTools" target="1.8" />
-      <module name="yololiv-autotest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -10,41 +10,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="获取叮叮当当token接口">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/31b28ec3-cf91-4eb7-9b88-c7704bcc7759-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b7b40003-1f0e-49a2-a4d7-41a69a5ea5b8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cfad9e4c-a84d-420a-93a4-4b317163b732-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/eed5ce3e-7e31-44a3-87c7-35bbec781c5c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createGoods.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2cdbce8e-5089-404b-b75a-879ceb4ca910-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/39a5f784-2a89-47ef-a339-32bd70c06b1f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3a71b54a-5d1f-4363-b889-c5a382b7346b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3e2e492e-9bb9-401e-b287-463917c0ae8d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4a0ddc85-f508-42be-832b-e9b2b202c183-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4c37e5e7-6f35-4b8d-8bae-5694d35f7753-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/50ea29e1-dd66-4813-b122-9b32c51b4aaa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5e768f2a-4215-4086-a2d6-71b7d0c3e1b4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/641ea2fb-6be2-488b-8a1e-afa382aec071-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/69a08004-7d8e-4eca-b77a-05f780f0fd66-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/715ad78a-acaa-42af-87d5-29d593534a43-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/795906f1-3087-48f2-8c8d-4c89dab0e849-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/839ee2a2-28a2-4ff1-bf56-ffa79a2b501e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/87ac37af-feac-479e-a597-c2dc0ca8c53c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8953b1b3-a67f-4caf-b273-5eace484a414-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a6e3c53f-a626-4f7b-8843-0a9077cc150a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a7660d1d-7b8a-49ab-8d09-42345640f0b0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c3d7efd9-949c-46c7-9d3c-53aa68ca2182-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c701b658-30f8-4c72-88ce-ed04fa001f3d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e6c70dcb-542e-491f-9f05-89c0a4c376fc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e89261ad-f861-4a4e-8e60-0e7788d97484-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ea8c9c00-f988-4194-ad85-901d72f07e12-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/eab1f874-77c7-417b-9958-13de197d5f6c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f29ae5bb-cc6b-4211-9273-be1b6a553ebd-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yololiv-autotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dddd-autotest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/DestinationTest/DestinationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/EventDetailTest/EventDetailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/EventDetailTest/EventDetailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/MaterialTest/MaterialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/MaterialTest/MaterialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/SettingAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/SettingAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SourceTest/SourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/JDBCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/1111.html" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/1111.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/ExtractFieldValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ExtractFieldValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/others/jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/jd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/DingTalkRobotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/DingTalkRobotUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/ErrorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/ErrorEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/GetCaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/JdbcUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast/createActivity.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createActivity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/META-INF/SendMessageTools.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,39 +82,16 @@
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.loginTest.loginYolocast">
-    <configuration name="ActivityTest.getToken" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
+  <component name="RunManager" selected="TestNG.loginTest.loginYolocast (1)">
+    <configuration name="SendResultToDingtalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dingtalk.SendResultToDingtalk" />
+      <module name="SendMessageTools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.*" />
+          <option name="PATTERN" value="Dingtalk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" />
-      <option name="METHOD_NAME" value="getToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActivityTest.test0607" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" />
-      <option name="METHOD_NAME" value="test0607" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +107,24 @@
       <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.SettingTest" />
       <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginTest.loginYolocast (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.SettingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.SettingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.SettingTest.loginTest" />
+      <option name="METHOD_NAME" value="loginYolocast" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -178,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.loginTest.loginYolocast (1)" />
+        <item itemvalue="Application.SendResultToDingtalk" />
         <item itemvalue="TestNG.loginTest.loginYolocast" />
         <item itemvalue="TestNG.loginTest.test0607" />
         <item itemvalue="TestNG.loginTest" />
-        <item itemvalue="TestNG.ActivityTest.test0607" />
-        <item itemvalue="TestNG.ActivityTest.getToken" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +204,7 @@
       <workItem from="1717828066981" duration="946000" />
       <workItem from="1718247922720" duration="1509000" />
       <workItem from="1718250651276" duration="6000" />
+      <workItem from="1718250725638" duration="1896000" />
     </task>
     <task id="LOCAL-00001" summary="获取叮叮当当token接口">
       <created>1717781027761</created>

@@ -1,0 +1,48 @@
+{
+
+  "description": "232345667676",
+  "coverUrl": "https://yolocast-cos-test.yololiv.com/image/882085993523781632/8883f462-9f66-41b0-bd39-54e9f7fd0ef5.gif",
+  "sourceReferenceType": 1,
+  "videoResolution": 3,
+  "videoFrameRate": 2,
+  "broadcastType": 1,
+
+  "isLiveOnly": 0,
+  "isAutoSubtitle": 0,
+  "isSetPassword": 1,
+  "isEmbeddedConfig": 0,
+  "sourceReferenceId": "898378579270701056",
+
+  "password": "123456",
+  "dateSetting": {
+    "endMethod": 1,
+    "dateList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      6
+    ],
+    "dateType": 2,
+    "dateNum": 3
+  },
+  "destinationData": [
+    {
+      "platformId": "892297839631474688",
+      "platformType": 5
+    },
+    {
+      "platformId": "892266086300721152",
+      "platformType": 3,
+      "facebookType": 1,
+      "privacyStatus": 3
+    },
+    {
+      "platformId": "888708873984483328",
+      "platformType": 2,
+      "privacyStatus": 3
+    }
+  ]
+}

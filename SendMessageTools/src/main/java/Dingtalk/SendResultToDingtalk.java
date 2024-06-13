@@ -28,15 +28,18 @@ import java.util.*;
 public class SendResultToDingtalk {
 
     private static final int timeout =10000;
-    public static String pathname1 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-report/widgets/summary.json";
-    public static String pathname2 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results/executor.json";
+    // /Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/target
+    //public static String pathname1 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-report/widgets/summary.json";
+    //public static String pathname2 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results/executor.json";
     //public static String pathname3 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json";
     public static String deteleAllureResult = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results";
-
     public static String assertioncontent="Product defects";
     static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=6ca1bc74766afffbe49369ae6d7a06de954f7fd01aace49b8c22769e33bb143d";
     static String secret = "SECefdb1f1012985e2fc0fc8bb04dcbcfadfaae08cf976f6883d7d152e01f3b1a9f";
     static Date date;
+
+    public static String pathname1 = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/target/allure-report/widgets/summary.json";
+    public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/target/allure-results/executor.json";
 
 
     public static void main(String[] args){

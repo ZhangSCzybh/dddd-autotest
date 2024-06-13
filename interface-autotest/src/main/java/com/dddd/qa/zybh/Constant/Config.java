@@ -18,7 +18,8 @@ public class Config {
     //用于检查推流分发情况报警信息
 
     /**********************************业务**********************************************/
-    public static String Pro = "yolocast-business";
+    public static String Pro = "yolocast";
+    public static String Pro1 = "智采企业平台";
 
 
 

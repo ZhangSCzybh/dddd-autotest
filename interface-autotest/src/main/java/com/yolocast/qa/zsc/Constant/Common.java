@@ -30,17 +30,21 @@ public class Common {
 
     //不同环境切换**** 修改15行的配置文件
     public static String profiesEnv = STATIC_PROPERTIES.getProperty("profiles.active");
-    public static String yolocastUrl = STATIC_PROPERTIES.getProperty("yolocast.url");
 
+    public static String DDingDDdangUrl = STATIC_PROPERTIES.getProperty("ddingddang.url");
+    public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
+    public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
+
+
+
+
+    public static String yolocastUrl = STATIC_PROPERTIES.getProperty("yolocast.url");
     public static String loginYolocastEmail = STATIC_PROPERTIES.getProperty("login.Yolocast.email");
     public static String loginYolocastPassword = STATIC_PROPERTIES.getProperty("login.Yolocast.password");
-
     public static String loginUri = STATIC_PROPERTIES.getProperty("login.uri");
-
     public static String scheduleEventsListuri = STATIC_PROPERTIES.getProperty("schedule.events.List.uri");
     public static String sourceListuri = STATIC_PROPERTIES.getProperty("source.uri");
     public static String sourceResetKeyuri = STATIC_PROPERTIES.getProperty("source.reset.key.uri");
-
     public static String activityCreateuri = STATIC_PROPERTIES.getProperty("create.activity.uri");
 
 
@@ -61,7 +65,7 @@ public class Common {
 
         //用来存储cookies的变量
     public static String Cookies;
-
+    public static String DDingDDangToken;
 
 
 

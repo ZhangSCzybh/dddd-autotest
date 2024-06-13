@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SendMessageTools/SendMessageTools.iml" filepath="$PROJECT_DIR$/SendMessageTools/SendMessageTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dddd-autotest.iml" filepath="$PROJECT_DIR$/.idea/dddd-autotest.iml" />
       <module fileurl="file://$PROJECT_DIR$/interface-autotest/interface-autotest.iml" filepath="$PROJECT_DIR$/interface-autotest/interface-autotest.iml" />
     </modules>
   </component>

@@ -1,0 +1,1 @@
+{"uuid":"1949e41f-c8fd-4ec3-b1c4-d5594ef73aae","name":"com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest","start":1717773964659,"stop":1717773965841,"children":["4ac3a8d0-d026-467e-9572-0d3fef4002cb"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1717773964669,"stop":1717773965628}]}

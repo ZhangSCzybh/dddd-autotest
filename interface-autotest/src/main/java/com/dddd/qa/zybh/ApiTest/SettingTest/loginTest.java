@@ -1,14 +1,14 @@
-package com.yolocast.qa.zsc.ApiTest.SettingTest;
+package com.dddd.qa.zybh.ApiTest.SettingTest;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
-import com.yolocast.qa.zsc.Constant.Common;
-import com.yolocast.qa.zsc.Constant.Config;
-import com.yolocast.qa.zsc.utils.ErrorEnum;
-import com.yolocast.qa.zsc.BaseTest;
-import com.yolocast.qa.zsc.Constant.CommonUtil;
+import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
+import com.dddd.qa.zybh.utils.ErrorEnum;
+import com.dddd.qa.zybh.BaseTest;
+import com.dddd.qa.zybh.Constant.CommonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;

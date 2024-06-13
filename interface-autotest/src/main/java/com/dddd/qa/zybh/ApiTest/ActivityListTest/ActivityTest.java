@@ -7,9 +7,9 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.BaseTest;
-import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.CommonUtil;
 import com.dddd.qa.zybh.Constant.Config;
+import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.utils.DateUtil;
 import com.dddd.qa.zybh.utils.ErrorEnum;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
@@ -39,7 +39,8 @@ public class ActivityTest extends BaseTest {
     @BeforeClass
     public static void setUp() {
         System.out.println("执行登录获取cookie操作");
-        Common.Cookies = LoginUtil.loginCookie(Common.yolocastUrl + Common.loginUri, Common.loginYolocastEmail, Common.loginYolocastPassword);
+       Common.Cookies = LoginUtil.loginCookie(Common.yolocastUrl + Common.loginUri, Common.loginYolocastEmail, Common.loginYolocastPassword);
+
     }
 
 
@@ -56,9 +57,9 @@ public class ActivityTest extends BaseTest {
         //String uri = bundle.getString("ScheduleEventsList.uri");
         //String ScheduleEventsListUrl = this.yolocastUrl + uri;
         Map<String, Object> map = new HashMap<>();//存放参数
-        map.put("pageNo", "1");
-        map.put("pageSize", "10");
-        map.put("status", "3");
+        map.put("pageNo", 1);
+        map.put("pageSize", 10);
+        map.put("status", 3);
         //headers = new HashMap<>();//存放请求头，可以存放多个请求头
         headers.put("cast-auth", Common.Cookies);
 
@@ -111,11 +112,11 @@ public class ActivityTest extends BaseTest {
 
     @Test(description = "创建obs推流的活动")
     public void createEvent(){
-        long getTimestampAfterTenMinutes = Config.getTimestampAfterTenMinutes;
+
         //存放参数
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(fileName);
-        param.put("startTime", Optional.of(Config.getTimestampAfterTenMinutes));
-        param.put("endTime", Optional.of(Config.getTimestampAfterFortyMinutes));
+        param.put("startTime",Config.getTimestampAfterTenMinutes);
+        param.put("endTime",Config.getTimestampAfterFortyMinutes);
         param.put("title","Create by"+DateUtil.getSysdateStr());
 
         String body = param.toString();

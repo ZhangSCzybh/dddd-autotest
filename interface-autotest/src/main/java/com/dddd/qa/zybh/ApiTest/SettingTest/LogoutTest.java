@@ -1,7 +1,7 @@
 package com.dddd.qa.zybh.ApiTest.SettingTest;
 
-import com.yolocast.qa.zsc.BaseTest;
-import com.yolocast.qa.zsc.Constant.Common;
+import com.dddd.qa.zybh.BaseTest;
+import com.dddd.qa.zybh.Constant.Common;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;

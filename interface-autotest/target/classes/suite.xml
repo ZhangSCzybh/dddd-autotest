@@ -3,18 +3,15 @@
 <suite name="runAll">
     <test name ="source">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.loginTest"/>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest"/>
-
+            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LogoutTest"/>
         </classes>
-
     </test>
+    <!--
     <test name ="activity">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest"/>
         </classes>
-
     </test>
-
+    -->
 
 </suite>

@@ -1,137 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="58.035" tests="8" errors="0" skipped="3" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.056" tests="9" errors="0" skipped="3" failures="5">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="idea.version" value="2024.1.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.412-b08"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="jdk.vendor.version" value="Zulu 8.78.0.19-CA-macos-aarch64"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest"/>
-    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.dir" value="/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest"/>
+    <property name="java.runtime.version" value="1.8.0_412-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/01/k21r2byx2ws6cylb6l6cnvb40000gn/T/"/>
+    <property name="java.endorsed.dirs" value="/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/g0/3vq7k09s0j3_9pbbwyj1d6dr0000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="socksProxyPort" value="7890"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="https.proxyHost" value="127.0.0.1"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/zhangshichao/Documents/apache-maven-3.8.1/bin/m2.conf"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/zhangshichao/Documents/Source/apache-maven-3.8.6/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/zhangshichao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="http.proxyPort" value="7890"/>
-    <property name="maven.conf" value="/Users/zhangshichao/Documents/apache-maven-3.8.1/conf"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Users/zhangshichao/Documents/Source/apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.16"/>
-    <property name="http.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
-    <property name="library.jansi.path" value="/Users/zhangshichao/Documents/apache-maven-3.8.1/lib/jansi-native"/>
+    <property name="maven.repo.local" value="/Users/zhangshichao/Documents/Source/maven-repository"/>
+    <property name="os.version" value="14.2"/>
     <property name="user.home" value="/Users/zhangshichao"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="zhangshichao"/>
-    <property name="java.class.path" value="/Users/zhangshichao/Documents/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="java.class.path" value="/Users/zhangshichao/Documents/Source/apache-maven-3.8.6/boot/plexus-classworlds.license:/Users/zhangshichao/Documents/Source/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2024.1.3 -s /Users/zhangshichao/Documents/Source/apache-maven-3.8.6/conf/settings.xml -Dmaven.repo.local=/Users/zhangshichao/Documents/Source/maven-repository test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_291"/>
-    <property name="java.ext.dirs" value="/Users/zhangshichao/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="http.proxyHost" value="127.0.0.1"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/zhangshichao/Documents/apache-maven-3.8.1"/>
+    <property name="java.version" value="1.8.0_412"/>
+    <property name="java.ext.dirs" value="/Users/zhangshichao/Library/Java/Extensions:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/resources.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/rt.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/sunrsasign.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/jsse.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/jce.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/charsets.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/jfr.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/lib/cat.jar:/Users/zhangshichao/Library/Java/JavaVirtualMachines/azul-1.8.0_412/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="maven.home" value="/Users/zhangshichao/Documents/Source/apache-maven-3.8.6"/>
     <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="https.proxyPort" value="7890"/>
-    <property name="socksNonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
-    <property name="ftp.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="loginYolocast" classname="com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest" time="12.218">
-    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：yolocast-business &#10;场景：登录模块 &#10;报错类型：接口返回码非200&#10;接口：https://yolocast-test.yololiv.com/api/passport/login &#10;入参信息：{&quot;password&quot;:&quot;zsc123456&quot;,&quot;email&quot;:&quot;zhangsc@yunxi.tv&quot;}&#10;返回结果：{&quot;code&quot;:10007,&quot;data&quot;:null,&quot;success&quot;:false,&quot;requestId&quot;:&quot;4d8a962e-4d2a-4204-b1e1-302a68e0eb10&quot;,&quot;message&quot;:&quot;The email and password provided could not be authenticated&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="loginYolocast" classname="com.dddd.qa.zybh.ApiTest.SettingTest.loginTest" time="1.072">
+    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：智采企业平台 &#10;场景：登录模块 &#10;报错类型：接口返回报错&#10;接口：https://yolocast-test.yololiv.com/api/passport/login &#10;入参信息：{&quot;password&quot;:&quot;zsc123456&quot;,&quot;email&quot;:&quot;zhangsc@yunxi.tv&quot;}&#10;返回结果：{&quot;code&quot;:200,&quot;data&quot;:{&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNDIyNDQwNjIxNDEyMzU2MDk4IiwiZXhwIjoxNzE4ODk1ODc4LCJpYXQiOjE3MTgyOTEwNzgsInVzZXJJZCI6MTQyMjQ0MDYyMTQxMjM1NjA5OCwib3JnSWQiOjg4MjA4NTk5MzUyMzc4MTYzMn0.Xd1reApvU2nTcOt4-8YrXh-tH3KVSWioPkHcQcaG3Jw&quot;},&quot;success&quot;:true,&quot;requestId&quot;:&quot;29d44d11-c472-4c2c-8de0-65382a15672d&quot;,&quot;message&quot;:&quot;successful&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
 【接口可用性报警】 
 运行环境：test
-业务：yolocast-business 
+业务：智采企业平台 
 场景：登录模块 
-报错类型：接口返回码非200
+报错类型：接口返回报错
 接口：https://yolocast-test.yololiv.com/api/passport/login 
 入参信息：{"password":"zsc123456","email":"zhangsc@yunxi.tv"}
-返回结果：{"code":10007,"data":null,"success":false,"requestId":"4d8a962e-4d2a-4204-b1e1-302a68e0eb10","message":"The email and password provided could not be authenticated","errorData":null} 
-	at com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest.loginYolocast(loginTest.java:49)
+返回结果：{"code":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNDIyNDQwNjIxNDEyMzU2MDk4IiwiZXhwIjoxNzE4ODk1ODc4LCJpYXQiOjE3MTgyOTEwNzgsInVzZXJJZCI6MTQyMjQ0MDYyMTQxMjM1NjA5OCwib3JnSWQiOjg4MjA4NTk5MzUyMzc4MTYzMn0.Xd1reApvU2nTcOt4-8YrXh-tH3KVSWioPkHcQcaG3Jw"},"success":true,"requestId":"29d44d11-c472-4c2c-8de0-65382a15672d","message":"successful","errorData":null} 
+	at com.dddd.qa.zybh.ApiTest.SettingTest.loginTest.loginYolocast(loginTest.java:49)
 </failure>
     <system-out><![CDATA[{"errcode":0,"errmsg":"ok"}
 {"errcode":0,"errmsg":"ok"}
 ]]></system-out>
   </testcase>
-  <testcase name="getSourceList" classname="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest" time="6.753">
-    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：yolocast-business &#10;场景：source页面 &#10;报错类型：接口返回码非200&#10;接口：https://yolocast-test.yololiv.com/api/source &#10;入参信息：null&#10;返回结果：{&quot;code&quot;:99999,&quot;data&quot;:null,&quot;success&quot;:false,&quot;requestId&quot;:null,&quot;message&quot;:&quot;invalid token&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="getSourceList" classname="com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest" time="0.978">
+    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：智采企业平台 &#10;场景：source页面 &#10;报错类型：接口返回报错&#10;接口：https://yolocast-test.yololiv.com/api/source &#10;入参信息：null&#10;返回结果：{&quot;code&quot;:200,&quot;data&quot;:[],&quot;success&quot;:true,&quot;requestId&quot;:&quot;281a9f22-308d-4b34-b3ac-67d502c9f8b1&quot;,&quot;count&quot;:0,&quot;message&quot;:&quot;successful&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
 【接口可用性报警】 
 运行环境：test
-业务：yolocast-business 
+业务：智采企业平台 
 场景：source页面 
-报错类型：接口返回码非200
+报错类型：接口返回报错
 接口：https://yolocast-test.yololiv.com/api/source 
 入参信息：null
-返回结果：{"code":99999,"data":null,"success":false,"requestId":null,"message":"invalid token","errorData":null} 
-	at com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest.getSourceList(SourceTest.java:80)
+返回结果：{"code":200,"data":[],"success":true,"requestId":"281a9f22-308d-4b34-b3ac-67d502c9f8b1","count":0,"message":"successful","errorData":null} 
+	at com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest.getSourceList(SourceTest.java:80)
 </failure>
     <system-out><![CDATA[执行登录获取cookie操作
 {"errcode":0,"errmsg":"ok"}
 ]]></system-out>
   </testcase>
-  <testcase name="deleteFirstSource" classname="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest" time="0">
-    <skipped message="Method SourceTest.deleteFirstSource()[pri:0, instance:com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest@7fe7c640] depends on not successfully finished methods"/>
+  <testcase name="deleteFirstSource" classname="com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest" time="0">
+    <skipped message="Method SourceTest.deleteFirstSource()[pri:0, instance:com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest@765f05af] depends on not successfully finished methods"/>
   </testcase>
-  <testcase name="updateSource" classname="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest" time="0">
-    <skipped message="Method SourceTest.updateSource()[pri:0, instance:com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest@7fe7c640] depends on not successfully finished methods in group &quot;source&quot;"/>
+  <testcase name="updateSource" classname="com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest" time="0">
+    <skipped message="Method SourceTest.updateSource()[pri:0, instance:com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest@765f05af] depends on not successfully finished methods in group &quot;source&quot;"/>
   </testcase>
-  <testcase name="updateSourceStreamKey" classname="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest" time="0">
-    <skipped message="Method SourceTest.updateSourceStreamKey()[pri:0, instance:com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest@7fe7c640] depends on not successfully finished methods in group &quot;source&quot;"/>
+  <testcase name="updateSourceStreamKey" classname="com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest" time="0">
+    <skipped message="Method SourceTest.updateSourceStreamKey()[pri:0, instance:com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest@765f05af] depends on not successfully finished methods in group &quot;source&quot;"/>
   </testcase>
-  <testcase name="createEvent" classname="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" time="6.377">
-    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：yolocast-business &#10;场景：活动列表 &#10;报错类型：接口返回码非200&#10;接口：https://yolocast-test.yololiv.com/api/activity &#10;入参信息：{&quot;startTime&quot;:1653638938399,&quot;endTime&quot;:1653640738399,&quot;title&quot;:&quot;Create by2022-05-27 15:59:41&quot;}&#10;返回结果：{&quot;code&quot;:99999,&quot;data&quot;:null,&quot;success&quot;:false,&quot;requestId&quot;:null,&quot;message&quot;:&quot;invalid token&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="checkData" classname="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest" time="0.701">
+    <failure message="A JSONObject text must begin with &apos;{&apos; at 1 [character 2 line 1]" type="cn.hutool.json.JSONException">cn.hutool.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest.checkData(ActivityTest.java:172)
+</failure>
+    <system-out><![CDATA[执行登录获取cookie操作
+]]></system-out>
+  </testcase>
+  <testcase name="createEvent" classname="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest" time="1.153">
+    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：yolocast &#10;场景：活动列表 &#10;报错类型：接口返回码非200&#10;接口：https://yolocast-test.yololiv.com/api/activity &#10;入参信息：{&quot;startTime&quot;:1718291677833,&quot;endTime&quot;:1718293477833,&quot;title&quot;:&quot;Create by2024-06-13 23:04:42&quot;}&#10;返回结果：{&quot;code&quot;:400,&quot;data&quot;:null,&quot;success&quot;:false,&quot;requestId&quot;:&quot;70810931-f9c1-4b8f-8e91-a7e88c37dbb7&quot;,&quot;message&quot;:&quot;Key: &apos;CreateActivityReq.SourceReferenceType&apos; Error:Field validation for &apos;SourceReferenceType&apos; failed on the &apos;required&apos; tag\nKey: &apos;CreateActivityReq.BroadcastType&apos; Error:Field validation for &apos;BroadcastType&apos; failed on the &apos;required&apos; tag&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
 【接口可用性报警】 
 运行环境：test
-业务：yolocast-business 
+业务：yolocast 
 场景：活动列表 
 报错类型：接口返回码非200
 接口：https://yolocast-test.yololiv.com/api/activity 
-入参信息：{"startTime":1653638938399,"endTime":1653640738399,"title":"Create by2022-05-27 15:59:41"}
-返回结果：{"code":99999,"data":null,"success":false,"requestId":null,"message":"invalid token","errorData":null} 
-	at com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest.createEvent(ActivityTest.java:130)
+入参信息：{"startTime":1718291677833,"endTime":1718293477833,"title":"Create by2024-06-13 23:04:42"}
+返回结果：{"code":400,"data":null,"success":false,"requestId":"70810931-f9c1-4b8f-8e91-a7e88c37dbb7","message":"Key: 'CreateActivityReq.SourceReferenceType' Error:Field validation for 'SourceReferenceType' failed on the 'required' tag\nKey: 'CreateActivityReq.BroadcastType' Error:Field validation for 'BroadcastType' failed on the 'required' tag","errorData":null} 
+	at com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest.createEvent(ActivityTest.java:134)
 </failure>
-    <system-out><![CDATA[执行登录获取cookie操作
-{"errcode":0,"errmsg":"ok"}
+    <system-out><![CDATA[{"errcode":0,"errmsg":"ok"}
 ]]></system-out>
-    <system-err><![CDATA[java.io.FileNotFoundException: /Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/src/main/resources/yolocast/createActivity.json (No such file or directory)
+    <system-err><![CDATA[java.io.FileNotFoundException: /Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/target/src/main/resources/dddd/createActivity.json (No such file or directory)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at com.yolocast.qa.zsc.utils.GetCaseUtil.getAllCases(GetCaseUtil.java:39)
-	at com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest.createEvent(ActivityTest.java:113)
+	at com.dddd.qa.zybh.utils.GetCaseUtil.getAllCases(GetCaseUtil.java:39)
+	at com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest.createEvent(ActivityTest.java:117)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,20 +164,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]></system-err>
   </testcase>
-  <testcase name="emptyTest" classname="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" time="5.028"/>
-  <testcase name="getScheduleEventsList" classname="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" time="6.236">
-    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：yolocast-business &#10;场景：活动列表 &#10;报错类型：接口返回码非200&#10;接口：https://yolocast-test.yololiv.com/api/activity &#10;入参信息：{pageNo=1, pageSize=10, status=3}&#10;返回结果：{&quot;code&quot;:99999,&quot;data&quot;:null,&quot;success&quot;:false,&quot;requestId&quot;:null,&quot;message&quot;:&quot;invalid token&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="getScheduleEventsList" classname="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest" time="1.373">
+    <failure message="【接口可用性报警】 &#10;运行环境：test&#10;业务：智采企业平台 &#10;场景：活动列表 &#10;报错类型：接口返回报错&#10;接口：https://yolocast-test.yololiv.com/api/activity &#10;入参信息：{pageNo=1, pageSize=10, status=3}&#10;返回结果：{&quot;code&quot;:200,&quot;data&quot;:{&quot;paginator&quot;:{&quot;pageSize&quot;:10,&quot;page&quot;:1,&quot;totalCount&quot;:195},&quot;items&quot;:[{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;This is a description.\nThis is a description.\nThis is a description.\nThis is a description.\nThis is a description.&quot;,&quot;title&quot;:&quot;多源直播test1-系列&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;https://yolocast-cos-test.yololiv.com/image/882085993523781632/931788564839690240&quot;,&quot;activityId&quot;:&quot;944044070637289474&quot;,&quot;replayMaterialId&quot;:null,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-03T03:30:57.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-03T03:39:16.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;This is a description.\nThis is a description.\nThis is a description.\nThis is a description.\nThis is a description.&quot;,&quot;title&quot;:&quot;多源直播test1-系列&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;https://yolocast-cos-test.yololiv.com/image/882085993523781632/931788564839690240&quot;,&quot;activityId&quot;:&quot;944044070637289473&quot;,&quot;replayMaterialId&quot;:null,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-02T03:30:57.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-02T03:39:16.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;多元直播播自动开播&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;944094442198286336&quot;,&quot;replayMaterialId&quot;:&quot;944328576086728704&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-01T06:39:13.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-01T22:05:24.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;多源直播7788&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;944090555882029056&quot;,&quot;replayMaterialId&quot;:&quot;944095513729720320&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-01T06:30:03.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-01T06:39:21.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;asd&quot;,&quot;title&quot;:&quot;多源自动开播&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;944052949387460608&quot;,&quot;replayMaterialId&quot;:&quot;944056636596187136&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-01T03:55:18.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-01T04:04:52.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;多源1个视频&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;944048954531004416&quot;,&quot;replayMaterialId&quot;:&quot;944053171534852096&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-01T03:45:37.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-01T03:51:07.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;多源直播&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;944048519757840384&quot;,&quot;replayMaterialId&quot;:&quot;944050533329952768&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-01T03:34:48.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-01T03:40:37.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:3,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;This is a description.\nThis is a description.\nThis is a description.\nThis is a description.\nThis is a description.&quot;,&quot;title&quot;:&quot;多源直播test1-系列&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;https://yolocast-cos-test.yololiv.com/image/882085993523781632/931788564839690240&quot;,&quot;activityId&quot;:&quot;944044070637289472&quot;,&quot;replayMaterialId&quot;:&quot;944049702866149376&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-09-01T03:30:57.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-09-01T03:37:20.000+00:00&quot;,&quot;sourceName&quot;:&quot;Media Video&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:1,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11提前开播&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;941237408561102848&quot;,&quot;replayMaterialId&quot;:null,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-08-24T09:24:28.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-08-24T09:24:37.000+00:00&quot;,&quot;sourceName&quot;:&quot;obs&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3},{&quot;sourceReferenceType&quot;:1,&quot;replaceMaterialId&quot;:null,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;safari浏览器&quot;,&quot;coverMaterialId&quot;:null,&quot;broadcastType&quot;:1,&quot;coverUrl&quot;:&quot;&quot;,&quot;activityId&quot;:&quot;940863895425703936&quot;,&quot;replayMaterialId&quot;:&quot;940880464613896192&quot;,&quot;isLiveOnly&quot;:0,&quot;startTime&quot;:&quot;2022-08-23T08:42:20.000+00:00&quot;,&quot;endTime&quot;:&quot;2022-08-23T09:43:54.000+00:00&quot;,&quot;sourceName&quot;:&quot;obs&quot;,&quot;replayNum&quot;:0,&quot;streamStatus&quot;:0,&quot;status&quot;:3}]},&quot;success&quot;:true,&quot;requestId&quot;:&quot;8f08e8bf-5ea8-454a-aa53-7277b2e3c2e5&quot;,&quot;message&quot;:&quot;successful&quot;,&quot;errorData&quot;:null} " type="java.lang.AssertionError">java.lang.AssertionError: 
 【接口可用性报警】 
 运行环境：test
-业务：yolocast-business 
+业务：智采企业平台 
 场景：活动列表 
-报错类型：接口返回码非200
+报错类型：接口返回报错
 接口：https://yolocast-test.yololiv.com/api/activity 
 入参信息：{pageNo=1, pageSize=10, status=3}
-返回结果：{"code":99999,"data":null,"success":false,"requestId":null,"message":"invalid token","errorData":null} 
-	at com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest.getScheduleEventsList(ActivityTest.java:73)
+返回结果：{"code":200,"data":{"paginator":{"pageSize":10,"page":1,"totalCount":195},"items":[{"sourceReferenceType":3,"replaceMaterialId":null,"description":"This is a description.\nThis is a description.\nThis is a description.\nThis is a description.\nThis is a description.","title":"多源直播test1-系列","coverMaterialId":null,"broadcastType":1,"coverUrl":"https://yolocast-cos-test.yololiv.com/image/882085993523781632/931788564839690240","activityId":"944044070637289474","replayMaterialId":null,"isLiveOnly":0,"startTime":"2022-09-03T03:30:57.000+00:00","endTime":"2022-09-03T03:39:16.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"This is a description.\nThis is a description.\nThis is a description.\nThis is a description.\nThis is a description.","title":"多源直播test1-系列","coverMaterialId":null,"broadcastType":1,"coverUrl":"https://yolocast-cos-test.yololiv.com/image/882085993523781632/931788564839690240","activityId":"944044070637289473","replayMaterialId":null,"isLiveOnly":0,"startTime":"2022-09-02T03:30:57.000+00:00","endTime":"2022-09-02T03:39:16.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"","title":"多元直播播自动开播","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"944094442198286336","replayMaterialId":"944328576086728704","isLiveOnly":0,"startTime":"2022-09-01T06:39:13.000+00:00","endTime":"2022-09-01T22:05:24.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"","title":"多源直播7788","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"944090555882029056","replayMaterialId":"944095513729720320","isLiveOnly":0,"startTime":"2022-09-01T06:30:03.000+00:00","endTime":"2022-09-01T06:39:21.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"asd","title":"多源自动开播","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"944052949387460608","replayMaterialId":"944056636596187136","isLiveOnly":0,"startTime":"2022-09-01T03:55:18.000+00:00","endTime":"2022-09-01T04:04:52.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"","title":"多源1个视频","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"944048954531004416","replayMaterialId":"944053171534852096","isLiveOnly":0,"startTime":"2022-09-01T03:45:37.000+00:00","endTime":"2022-09-01T03:51:07.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"","title":"多源直播","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"944048519757840384","replayMaterialId":"944050533329952768","isLiveOnly":0,"startTime":"2022-09-01T03:34:48.000+00:00","endTime":"2022-09-01T03:40:37.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":3,"replaceMaterialId":null,"description":"This is a description.\nThis is a description.\nThis is a description.\nThis is a description.\nThis is a description.","title":"多源直播test1-系列","coverMaterialId":null,"broadcastType":1,"coverUrl":"https://yolocast-cos-test.yololiv.com/image/882085993523781632/931788564839690240","activityId":"944044070637289472","replayMaterialId":"944049702866149376","isLiveOnly":0,"startTime":"2022-09-01T03:30:57.000+00:00","endTime":"2022-09-01T03:37:20.000+00:00","sourceName":"Media Video","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":1,"replaceMaterialId":null,"description":"","title":"11提前开播","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"941237408561102848","replayMaterialId":null,"isLiveOnly":0,"startTime":"2022-08-24T09:24:28.000+00:00","endTime":"2022-08-24T09:24:37.000+00:00","sourceName":"obs","replayNum":0,"streamStatus":0,"status":3},{"sourceReferenceType":1,"replaceMaterialId":null,"description":"","title":"safari浏览器","coverMaterialId":null,"broadcastType":1,"coverUrl":"","activityId":"940863895425703936","replayMaterialId":"940880464613896192","isLiveOnly":0,"startTime":"2022-08-23T08:42:20.000+00:00","endTime":"2022-08-23T09:43:54.000+00:00","sourceName":"obs","replayNum":0,"streamStatus":0,"status":3}]},"success":true,"requestId":"8f08e8bf-5ea8-454a-aa53-7277b2e3c2e5","message":"successful","errorData":null} 
+	at com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest.getScheduleEventsList(ActivityTest.java:77)
 </failure>
     <system-out><![CDATA[{"errcode":0,"errmsg":"ok"}
 ]]></system-out>
   </testcase>
+  <testcase name="getToken" classname="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest" time="0.125"/>
 </testsuite>

@@ -10,31 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/0945ffc4-f410-4aab-8187-021be6359c8f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/1d6d428c-aa0c-452b-923c-f51139deec52-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/2037a49a-bb0a-4f50-b418-c0a97220b698-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/358215c1-df0c-4f62-b772-4e9f41f6a36c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/3a5f6af1-ae70-4366-9f28-4bc5497c6b8d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/5b7cbece-55e9-4e70-9bd0-25ba2badccfb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/66a10210-1411-48ce-843e-3eef558c9bda-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/6f75fd5a-0062-4bf0-a777-cabbc43a42a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/7f31cdde-9ffc-4b01-be58-6955e8322ab8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/838a2b1b-fc3a-4ba4-8ad8-e4ff8a405736-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/98149efc-ab3d-4502-9d2e-8f920e567da3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/a5ae92de-7e03-491c-af1c-2bb8b80a3aec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/ad40945d-05ec-4934-ad1d-f96ae3f4f53e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/addbb4f0-0cbc-44f2-8ee1-88a64487b148-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/aefb4b23-828d-4859-a15a-4dde37337c16-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/beb198c1-47b0-4579-9c4b-0cffaeac03a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/d2ed611d-1ddd-4a27-8aef-099ed0eac52c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/e6eb2ea2-5b78-4dee-b04b-b37b9d27ccd0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/eefd9634-2a55-4da7-8d57-5427fac97931-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/656a0157-1813-4adc-8ec9-4474495e372a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/981bec0b-bd0e-46bc-b855-f1c8e2e2215d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/a40ff22e-e6a9-48a7-a5eb-ac5b8498c531-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/d77c02fd-4dce-4b30-953c-ebd5c0f712f2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/interface-autotest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TestSuite.txt" afterDir="false" />
     </list>
@@ -70,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.SendResultToDingtalk.executor": "Run",
     "Maven.interface-autotest [clean].executor": "Run",
     "Maven.interface-autotest [install].executor": "Run",
     "Maven.interface-autotest [test].executor": "Run",
@@ -86,14 +73,27 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28275862",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ActivityTest.getScheduleEventsList">
+  <component name="RunManager" selected="Application.SendResultToDingtalk">
+    <configuration name="SendResultToDingtalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dingtalk.SendResultToDingtalk" />
+      <module name="SendMessageTools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dingtalk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActivityTest.createEvent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -123,24 +123,6 @@
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ActivityListTest" />
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest" />
       <option name="METHOD_NAME" value="getScheduleEventsList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogoutTest.loginDDingDDangHR (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.SettingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.SettingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.SettingTest.LogoutTest" />
-      <option name="METHOD_NAME" value="loginDDingDDangHR" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SendResultToDingtalk" />
         <item itemvalue="TestNG.ActivityTest.getScheduleEventsList" />
         <item itemvalue="TestNG.loginTest.loginYolocast (1)" />
         <item itemvalue="TestNG.ActivityTest.createEvent" />
         <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml" />
-        <item itemvalue="TestNG.LogoutTest.loginDDingDDangHR (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +199,8 @@
       <workItem from="1718285429695" duration="2999000" />
       <workItem from="1718288452347" duration="2545000" />
       <workItem from="1718291007033" duration="6774000" />
-      <workItem from="1718356965902" duration="3441000" />
+      <workItem from="1718356965902" duration="3613000" />
+      <workItem from="1718368705811" duration="1144000" />
     </task>
     <servers />
   </component>

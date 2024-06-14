@@ -28,13 +28,9 @@ import java.util.*;
 public class SendResultToDingtalk {
 
     private static final int timeout =10000;
-
-    //20240613测试本地allure
-    //public static String pathname1 = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/target/allure-report/widgets/summary.json";
-    //public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/target/allure-results/executor.json";
-
-    public static String pathname1 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-report/widgets/summary.json";
-    public static String pathname2 = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results/executor.json";
+    //  /Users/zhangshichao/.jenkins/workspace/test02/interface-autotest/target
+    public static String pathname1 = "/Users/zhangshichao/.jenkins/workspace/test02/interface-autotest/target/allure-report/widgets/summary.json";
+    public static String pathname2 = "/Users/zhangshichao/.jenkins/workspace/test02/interface-autotest/target/allure-results/executor.json";
     //public static String pathname3 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json";
     public static String deteleAllureResult = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results";
 

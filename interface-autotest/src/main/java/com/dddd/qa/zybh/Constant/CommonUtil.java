@@ -39,7 +39,7 @@ public class CommonUtil {
                 Assert.fail(wrong);
             }
             if (!result.get("success").toString().equals(true)) {
-                String wrong = String.format(Config.availableInfo, Config.Pro1, scene, ErrorEnum.ISNOSUCCESS.getMsg(), url, params, result);
+                String wrong = String.format(Config.availableInfo, Config.DDingDDangPro, scene, ErrorEnum.ISNOSUCCESS.getMsg(), url, params, result);
                 BaseTest.caveat(wrong);
                 Assert.fail(wrong);
             }

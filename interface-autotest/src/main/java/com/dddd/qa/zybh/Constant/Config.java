@@ -19,8 +19,8 @@ public class Config {
 
     /**********************************业务**********************************************/
     public static String Pro = "yolocast";
-    public static String Pro1 = "智采企业平台";
-    public static String Pro2 = "福粒企业平台";
+    public static String DDingDDangPro = "智采企业平台";
+    public static String FuliPro = "福粒企业平台";
 
 
 

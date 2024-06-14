@@ -6,6 +6,7 @@ import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.dddd.qa.zybh.Constant.Common;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.config.CookieSpecs;
 import org.apache.http.client.config.RequestConfig;
@@ -20,6 +21,9 @@ import org.apache.http.util.EntityUtils;
 
 import javax.xml.ws.Response;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
 import java.util.Map;
 
@@ -69,12 +73,6 @@ public class LoginUtil {
 
 
 /**
- * @Description: TODO methods
- * @param
- * @param url
- * @param eamil
- * @param password
- * @return java.lang.String
  * @author Zhangsc
  * @date 2024/6/7 21:43
  */
@@ -97,6 +95,44 @@ public class LoginUtil {
         return null;
     }
 
+    /**
+     * @Description: TODO methods
+     * @param
+     * @param loginUrl
+     * @param userinfo
+     * @return java.lang.String
+     * @author Zhangsc
+     * @date 2024/6/14 21:32
+     */
+
+    public  static String loginToken(String loginUrl, String userinfo){
+
+        try {
+            // 1. 创建 URL 对象
+            URL url = new URL(loginUrl);
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                byte[] input= userinfo.getBytes("UTF-8");
+                //byte[] input = ("{ \"identityType\": \"3\" ,\"password\": \"zybh123456\",\"username\": \"17858805009\"}").getBytes("utf-8");
+                os.write(input, 0, input.length);
+            }
+            return connection.getHeaderField("session-token");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 
     //TODO  获取账号中心登录cookie
     public static String loginCookie2(String url, String eamil, String password){

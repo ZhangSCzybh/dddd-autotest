@@ -2,8 +2,10 @@ package com.dddd.qa.zybh.ApiTest.SettingTest;
 
 import com.dddd.qa.zybh.BaseTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.utils.LoginUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -18,6 +20,13 @@ import java.net.URL;
  */
 public class LogoutTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
+
+    @BeforeClass
+    public static void setUp() {
+        System.out.println("执行登录获取token操作");
+        Common.DDingDDangToken = LoginUtil.loginToken(Common.DDingDDdangUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo);
+        System.out.println("这是token==========" + Common.DDingDDangToken);
+    }
 
 
 

@@ -23,11 +23,9 @@ public class LogoutTest extends BaseTest {
 
     @BeforeClass
     public static void setUp() {
-        System.out.println("执行登录获取token操作");
         Common.DDingDDangToken = LoginUtil.loginToken(Common.DDingDDdangUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo);
-        System.out.println("这是token==========" + Common.DDingDDangToken);
+        logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
     }
-
 
 
     @Test
@@ -53,15 +51,15 @@ public class LogoutTest extends BaseTest {
                 os.write(input, 0, input.length);
             }
             // 7. 获取响应状态码
-            int responseCode = connection.getResponseCode();
-            System.out.println("Response Code: " + responseCode);
+            //int responseCode = connection.getResponseCode();
+            //System.out.println("Response Code: " + responseCode);
             // 8. 获取响应头
             //Map<String, List<String>> headers = connection.getHeaderFields();
             //for (Map.Entry<String, java.util.List<String>> entry : headers.entrySet()) {
             //    System.out.println(entry.getKey() + ": " + entry.getValue());
             //}
             Common.DDingDDangToken = connection.getHeaderField("session-token");
-            logger.info("access-token:" + Common.DDingDDangToken);
+            logger.info("获取到access-token:" + Common.DDingDDangToken);
             caveat("access-token:" + Common.DDingDDangToken);
         } catch (IOException e) {
             e.printStackTrace();

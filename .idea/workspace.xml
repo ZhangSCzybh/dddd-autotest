@@ -10,21 +10,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/031e8042-9dcf-44d2-a0d4-444e8cb68c21-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5e02ec0c-1680-4f54-93c8-122ac9d62cce-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7d32e681-82f5-4884-961d-ce9df54c6f1a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8dc64868-d4f4-4410-9abd-69b6beba4042-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9015dc3a-0118-4602-80b6-86774275b18b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/99c81f35-b766-448f-91c3-86598d029c48-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ce42c135-7bb8-415d-82be-f299251daf01-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/eec0e52f-22bc-4f99-9836-9ff0f6cf411d-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SendMessageTools_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SendMessageTools_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/45b9c482-76f9-4962-92c2-ad61511510e6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a80b50ec-78d7-4605-a351-a006c8a12d1f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bdce4ad9-95b5-4a86-afcc-c14dd5ddd6ad-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e47b7c4b-311e-4497-8fa4-b827e520b5ce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f0736996-78ef-4b23-822f-37fc10cdc865-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SendMessageTools/META-INF/SendMessageTools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/META-INF/SendMessageTools.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/031e8042-9dcf-44d2-a0d4-444e8cb68c21-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/09009ae5-87f3-46ce-bea1-f258eb07a576-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/15dcfeda-eccd-493b-8b0c-6d7579972e1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/1850574a-bf32-4b47-a2f0-c264f09ad0fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/3e8ea073-4f08-43d9-9ba2-ad6dea12481f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/513d024b-985e-455a-8cb3-ab82139bc0b6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/5e02ec0c-1680-4f54-93c8-122ac9d62cce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/699ec6df-3b9b-4605-b3db-33f513ea8ae3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/7d32e681-82f5-4884-961d-ce9df54c6f1a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/88a2c954-d681-4a24-9789-a047ce31f897-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/8dc64868-d4f4-4410-9abd-69b6beba4042-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/9015dc3a-0118-4602-80b6-86774275b18b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/99c81f35-b766-448f-91c3-86598d029c48-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/ce42c135-7bb8-415d-82be-f299251daf01-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/e5d70978-ceef-4a89-90a0-59f4ca960e0c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/eec0e52f-22bc-4f99-9836-9ff0f6cf411d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LogoutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/LoginUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/LoginUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SendMessageTools_jar/SendMessageTools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SendMessageTools_jar/SendMessageTools.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +90,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28275862",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
@@ -211,7 +224,7 @@
       <workItem from="1718288452347" duration="2545000" />
       <workItem from="1718291007033" duration="6774000" />
       <workItem from="1718356965902" duration="3613000" />
-      <workItem from="1718368705811" duration="4107000" />
+      <workItem from="1718368705811" duration="8275000" />
     </task>
     <servers />
   </component>

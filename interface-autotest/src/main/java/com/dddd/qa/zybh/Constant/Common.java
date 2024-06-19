@@ -26,8 +26,6 @@ public class Common {
 
 
 
-    //yolocast-b端平台
-
     //不同环境切换**** 修改15行的配置文件
     public static String profiesEnv = STATIC_PROPERTIES.getProperty("profiles.active");
 

@@ -15,17 +15,14 @@ public class Config {
 
     //用于CommonUtil中，字段存在，为空判断报警信息
     public static String common_message = "【信息】 \n运行环境：" + Common.profiesEnv + " \n接口：%s \n入参：%s \n详细信息: %s";
-    //用于检查推流分发情况报警信息
+
 
     /**********************************业务**********************************************/
-    public static String Pro = "yolocast";
+    public static String Pro = "cast";
     public static String DDingDDangPro = "智采企业平台";
     public static String FuliPro = "福粒企业平台";
 
-
-
     public static String zsc = "17858803001";
-
 
 
 

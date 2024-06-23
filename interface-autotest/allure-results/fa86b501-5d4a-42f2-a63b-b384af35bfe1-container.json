@@ -1,0 +1,1 @@
+{"uuid":"fa86b501-5d4a-42f2-a63b-b384af35bfe1","name":"com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest","start":1718774792308,"stop":1718774792459,"children":["deb598b2-6aeb-4072-bdd5-27d1214c4b63"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1718774792316,"stop":1718774792381}]}

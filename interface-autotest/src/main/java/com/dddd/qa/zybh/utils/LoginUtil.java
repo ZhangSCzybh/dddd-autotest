@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -33,6 +34,7 @@ import java.util.Map;
  */
 public class LoginUtil {
 
+    private static  String skuListfile = "dddd/skuList";
     //获取账号中心登录cookie
     public static String loginCookie1(String url, String eamil, String password) {
         // 全局请求设置
@@ -95,6 +97,7 @@ public class LoginUtil {
         return null;
     }
 
+
     /**
      * @Description: TODO methods
      * @param
@@ -106,6 +109,7 @@ public class LoginUtil {
      */
 
     public  static String loginToken(String loginUrl, String userinfo){
+
 
         try {
             // 1. 创建 URL 对象
@@ -164,4 +168,24 @@ public class LoginUtil {
         return null;
     }
 
+
+    public static String addShopCartUtil(String skuId){
+
+        List<String> list = Arrays.asList("a", "b", "c", "d");
+        for (String s : list) {
+            System.out.println(s);
+        }
+        return skuId;
+    }
+
+
+
+    public static void main(String[] args){
+        List<String> list = Arrays.asList("a", "b", "c", "d");
+        for (String skuId : list) {
+            System.out.println(skuId);
+        }
+    }
 }
+
+

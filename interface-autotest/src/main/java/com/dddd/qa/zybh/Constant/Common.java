@@ -29,13 +29,40 @@ public class Common {
     //不同环境切换**** 修改15行的配置文件
     public static String profiesEnv = STATIC_PROPERTIES.getProperty("profiles.active");
 
+    //叮叮当当
     public static String DDingDDdangUrl = STATIC_PROPERTIES.getProperty("ddingddang.url");
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
 
 
+    //福粒
+    public static String FuliUrl = STATIC_PROPERTIES.getProperty("fuli.url");
+    public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
+    public static String submitOrderUri = STATIC_PROPERTIES.getProperty("submit.order.uri");
+    public static String comfirmOrderUri = STATIC_PROPERTIES.getProperty("confirm.order.uri");
 
 
+
+
+    //dingding
+    public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private.dingtalk.alert.url");
+    public static String dingTalkUrlSecret = STATIC_PROPERTIES.getProperty("dingding,url.secret");
+
+    //用来存储cookies的变量
+    public static String Cookies;
+    public static String DDingDDangToken;
+    public static String FuliToken = "11a39b391b9b4de4ae38785499c5dd10";
+
+
+
+
+
+
+
+
+
+
+    //yolocast
     public static String yolocastUrl = STATIC_PROPERTIES.getProperty("yolocast.url");
     public static String loginYolocastEmail = STATIC_PROPERTIES.getProperty("login.Yolocast.email");
     public static String loginYolocastPassword = STATIC_PROPERTIES.getProperty("login.Yolocast.password");
@@ -44,9 +71,6 @@ public class Common {
     public static String sourceListuri = STATIC_PROPERTIES.getProperty("source.uri");
     public static String sourceResetKeyuri = STATIC_PROPERTIES.getProperty("source.reset.key.uri");
     public static String activityCreateuri = STATIC_PROPERTIES.getProperty("create.activity.uri");
-
-
-
     //test环境数据库
     public static String driver = STATIC_PROPERTIES.getProperty("driver");
     public static String username = STATIC_PROPERTIES.getProperty("username");
@@ -55,22 +79,8 @@ public class Common {
     public static String activityUrl = STATIC_PROPERTIES.getProperty("activity.url");
     public static String streamUrl = STATIC_PROPERTIES.getProperty("stream.url");
     public static String usercenterUrl = STATIC_PROPERTIES.getProperty("usercenter.url");
-
-
-    //dingding
-    public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private.dingtalk.alert.url");
-    public static String dingTalkUrlSecret = STATIC_PROPERTIES.getProperty("dingding,url.secret");
-
-        //用来存储cookies的变量
-    public static String Cookies;
-    public static String DDingDDangToken;
-
-
-
     //yolocast-c端平台
     //TODO c端 apitest
-
-
     //yolocast-dashboard
     //TODO dashboard apitest
 

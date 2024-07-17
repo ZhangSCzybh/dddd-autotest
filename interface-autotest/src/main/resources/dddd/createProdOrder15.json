@@ -1,0 +1,559 @@
+{
+  "productDeliveryType": "1",
+  "creditSource": 4,
+  "integralType": "",
+  "source": 0,
+  "campaginId": "",
+  "sellerOrderList": [
+    {
+      "sellerId": 889597,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 3842878,
+          "skuId": 9147305,
+          "spuCode": 3842878,
+          "title": "奖杯",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720449268945.png",
+          "goodsSpec": "26.5cmX12cmX6cm/水晶奖杯",
+          "goodsPrice": 120,
+          "quantity": 1,
+          "totalGoodsPrice": 120,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 120,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842882,
+          "skuId": 9147309,
+          "spuCode": 3842882,
+          "title": "小小银行家存折",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720449533052.png",
+          "goodsSpec": "20cmX20cm/250克白卡纸正反面打印",
+          "goodsPrice": 3,
+          "quantity": 1,
+          "totalGoodsPrice": 3,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 3,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842977,
+          "skuId": 9147419,
+          "spuCode": 3842977,
+          "title": "会议指示牌",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720488277406.png",
+          "goodsSpec": "50x64cm",
+          "goodsPrice": 40,
+          "quantity": 1,
+          "totalGoodsPrice": 40,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 40,
+          "pointAmount": 109555.3
+        }
+      ]
+    },
+    {
+      "sellerId": 889596,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 3842788,
+          "skuId": 9147215,
+          "spuCode": 3842788,
+          "title": "佑康宁波芝麻汤圆500g（一袋50颗）杭州万畴",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720432087319.png",
+          "goodsSpec": "500g",
+          "goodsPrice": 10.8,
+          "quantity": 1,
+          "totalGoodsPrice": 10.8,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 10.8,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842813,
+          "skuId": 9147240,
+          "spuCode": 3842813,
+          "title": "香山电子秤家庭用电子体重秤杭州万畴",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720441109227.png",
+          "goodsSpec": "高强度钢化玻璃+环保塑料件/一箱10台",
+          "goodsPrice": 39.5,
+          "quantity": 1,
+          "totalGoodsPrice": 39.5,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 39.5,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842821,
+          "skuId": 9147248,
+          "spuCode": 3842821,
+          "title": "海天致美味0添加礼盒 0金标生抽蚝油料酒米醋厨房调味杭州万畴",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720441663082.png",
+          "goodsSpec": "18个月",
+          "goodsPrice": 35.9,
+          "quantity": 1,
+          "totalGoodsPrice": 35.9,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 35.9,
+          "pointAmount": 109555.3
+        }
+      ]
+    },
+    {
+      "sellerId": 889598,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 3842920,
+          "skuId": 9147347,
+          "spuCode": 3842920,
+          "title": "爱普生(EPSON)002系列原装墨水((适用L415X/L416X/L426X/L616X/L617X系列等)",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720455493184.png",
+          "goodsSpec": "红色",
+          "goodsPrice": 59,
+          "quantity": 1,
+          "totalGoodsPrice": 59,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 59,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842930,
+          "skuId": 9147357,
+          "spuCode": 3842930,
+          "title": "天威 CE278A/CRG328硒鼓（红包） 78A 适用惠普HP-1566 1606 佳能6200 6230 4410 4420 4450打印机",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720456462272.png",
+          "goodsSpec": "CE278A/CRG328（红包）",
+          "goodsPrice": 95,
+          "quantity": 1,
+          "totalGoodsPrice": 95,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 95,
+          "pointAmount": 109555.3
+        }
+      ]
+    },
+    {
+      "sellerId": 889595,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 3842842,
+          "skuId": 9147269,
+          "spuCode": 3842842,
+          "title": "得力 6824 红色小双头记号笔 12支/盒",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720445209808.png",
+          "goodsSpec": "红色",
+          "goodsPrice": 17,
+          "quantity": 1,
+          "totalGoodsPrice": 17,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 17,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842850,
+          "skuId": 9147277,
+          "spuCode": 3842850,
+          "title": "得力 双面胶带  宽9mm长9.1m 32卷装30400",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720445732036.png",
+          "goodsSpec": "9mm",
+          "goodsPrice": 17.5,
+          "quantity": 1,
+          "totalGoodsPrice": 17.5,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 17.5,
+          "pointAmount": 109555.3
+        },
+        {
+          "id": 3842870,
+          "skuId": 9147297,
+          "spuCode": 3842870,
+          "title": "得力 文具胶带 小卷胶带 30015(12mm*30y 12卷)",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1720447038083.png",
+          "goodsSpec": "12卷装",
+          "goodsPrice": 6,
+          "quantity": 1,
+          "totalGoodsPrice": 6,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 109555.3,
+              "canUsePointAmount": 443.7,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 289,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "叮叮当当",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 289,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 6,
+          "pointAmount": 109555.3
+        }
+      ]
+    }
+  ],
+  "topicId": "",
+  "seckillId": "",
+  "voucherId": "",
+  "creditInfoList": [
+    {
+      "creditSource": 4,
+      "creditName": "通用积分",
+      "creditType": 1,
+      "integralType": 100101,
+      "pointAmount": 109555.3,
+      "canUsePointAmount": 443.7,
+      "checked": true,
+      "businessId": 100101,
+      "isBudget": false,
+      "isPurchaseApproval": 1,
+      "payEnterpriseId": 289,
+      "isUpperOrganization": false,
+      "payEnterpriseName": "叮叮当当",
+      "businessOpportunitiesVoList": [
+        {
+          "globalCredit": true,
+          "isWhitelist": false
+        }
+      ],
+      "usePointAmount": 443.7
+    }
+  ],
+  "payPassword": "",
+  "creditJson": "[{\"creditSource\":4,\"creditName\":\"通用积分\",\"creditType\":1,\"integralType\":100101,\"pointAmount\":109555.3,\"canUsePointAmount\":443.7,\"checked\":true,\"businessId\":100101,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":289,\"isUpperOrganization\":false,\"payEnterpriseName\":\"叮叮当当\",\"businessOpportunitiesVoList\":[{\"globalCredit\":true,\"isWhitelist\":false}],\"usePointAmount\":443.7}]",
+  "isPurchaseApproval": 1,
+  "sceneStatus": 0
+}

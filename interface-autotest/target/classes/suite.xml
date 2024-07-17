@@ -6,12 +6,12 @@
             <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LogoutTest"/>
         </classes>
     </test>
-    <!--
-    <test name ="activity">
+
+    <test name ="purchase">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.ActivityListTest.ActivityTest"/>
+             <class name="com.dddd.qa.zybh.PurchaseProductsTool"/>
         </classes>
     </test>
-    -->
+
 
 </suite>

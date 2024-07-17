@@ -1,0 +1,143 @@
+{
+  "productDeliveryType": "1",
+  "creditSource": 4,
+  "integralType": "",
+  "source": 0,
+  "userReceiveAddrId": 27462,
+  "campaginId": "",
+  "sellerOrderList": [
+    {
+      "sellerId": 889224,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 2359219,
+          "skuId": 3995042,
+          "spuCode": 2359219,
+          "title": "洗刷自建供应商商品08",
+          "titleEn": "",
+          "goodsImage": "https://supplier.qn.seagoor.com/1711962510803.jpg",
+          "goodsSpec": "辛辣",
+          "goodsPrice": 1,
+          "quantity": 1,
+          "totalGoodsPrice": 1,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 118.39,
+              "canUsePointAmount": 2,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 1193,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "兰州市洗刷刷刷环保科技有限公司",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 1193,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 1,
+          "pointAmount": 118.39
+        }
+      ]
+    },
+    {
+      "sellerId": 889223,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 2359212,
+          "skuId": 3995035,
+          "spuCode": 2359212,
+          "title": "洗刷自建供应商商品01",
+          "titleEn": "",
+          "goodsImage": "https://supplier.qn.seagoor.com/1711961861585.jpeg",
+          "goodsSpec": "40",
+          "goodsPrice": 1,
+          "quantity": 1,
+          "totalGoodsPrice": 1,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 118.39,
+              "canUsePointAmount": 2,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 1193,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "兰州市洗刷刷刷环保科技有限公司",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 1193,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 1,
+          "pointAmount": 118.39
+        }
+      ]
+    }
+  ],
+  "topicId": "",
+  "seckillId": "",
+  "voucherId": "",
+  "creditInfoList": [
+    {
+      "creditSource": 4,
+      "creditName": "通用积分",
+      "creditType": 1,
+      "integralType": 100101,
+      "pointAmount": 118.39,
+      "canUsePointAmount": 2,
+      "checked": true,
+      "businessId": 100101,
+      "isBudget": false,
+      "isPurchaseApproval": 1,
+      "payEnterpriseId": 1193,
+      "isUpperOrganization": false,
+      "payEnterpriseName": "兰州市洗刷刷刷环保科技有限公司",
+      "businessOpportunitiesVoList": [
+        {
+          "globalCredit": true,
+          "isWhitelist": false
+        }
+      ],
+      "usePointAmount": 2
+    }
+  ],
+  "payPassword": "",
+  "creditJson": "[{\"creditSource\":4,\"creditName\":\"福利昌吉二级命名积分\",\"creditType\":1,\"integralType\":100104,\"pointAmount\":9877.48,\"checked\":false,\"businessId\":100104,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":1193,\"isUpperOrganization\":false,\"payEnterpriseName\":\"兰州市洗刷刷刷环保科技有限公司\",\"businessOpportunitiesVoList\":[{\"globalCredit\":false,\"jumpType\":12,\"thirdPayTag\":\"obt\",\"isWhitelist\":false}]},{\"creditSource\":4,\"creditName\":\"通用积分\",\"creditType\":1,\"integralType\":100101,\"pointAmount\":118.39,\"canUsePointAmount\":2,\"checked\":true,\"businessId\":100101,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":1193,\"isUpperOrganization\":false,\"payEnterpriseName\":\"兰州市洗刷刷刷环保科技有限公司\",\"businessOpportunitiesVoList\":[{\"globalCredit\":true,\"isWhitelist\":false}],\"usePointAmount\":2}]",
+  "isPurchaseApproval": 1,
+  "sceneStatus": 0
+}

@@ -30,6 +30,7 @@ import java.util.HashMap;
  * 不同账号新增token
  * 修改sku列表
  * 修改dataProvider = "tokenDataProvider-Test"  /"tokenDataProvider-Prod"
+ *  //todo 本地运行 需要修改getAllCases1 -->getAllCases
  */
 public class PurchaseProductsTool extends BaseTest {
 
@@ -99,11 +100,11 @@ public class PurchaseProductsTool extends BaseTest {
     @DataProvider(name = "tokenDataProvider-Prod")
     public Object[][] tokenDataProvider1() {
         return new Object[][]{
-                {1, "fe84dd3442044fb4bc691d6c839f8722", 11951}//ceshi 测试
-                //{2, "a06a29079c1541989b5db3ebe8b38d6c", 11946},//karen 吴女士
-                //{3, "0f621cc6b3de4f0ebd5b9735020e8aa6", 11967}, //蒋美娣 13858653282
-                //{4, "2b1c7c89596844e4901a8d4d5bb0fe11", 11965},//赵秀、WXY13666605555
-                //{5, "53d8c099e12c460a812e6f3b940cdb52", 11969}//仙齐、18767176714
+                {1, "fe84dd3442044fb4bc691d6c839f8722", 11951},//ceshi 测试
+                {2, "a06a29079c1541989b5db3ebe8b38d6c", 11946},//karen 吴女士
+                {3, "0f621cc6b3de4f0ebd5b9735020e8aa6", 11967}, //蒋美娣 13858653282
+                {4, "2b1c7c89596844e4901a8d4d5bb0fe11", 11965},//赵秀、WXY13666605555
+                {5, "53d8c099e12c460a812e6f3b940cdb52", 11969}//仙齐、18767176714
 
         };
     }
@@ -202,7 +203,7 @@ public class PurchaseProductsTool extends BaseTest {
         for(int i = 0; i < length; i++){
             String number = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("data"))).get("rows"))).get(i))).get("number").toString();
             GetCaseUtil.sendPostRequest(Common.SupplierUrl+Common.supplierOrderShipUri + number,supplierTokenData);
-            logger.info("第" + num + "账号商品发货完成：" + number);
+            logger.info("第" + num + "供应商发货完成：" + number);
             //caveat("第" + num + "账号商品发货完成：" + number);
             try {
                 Thread.sleep(100); // 暂停100毫秒，

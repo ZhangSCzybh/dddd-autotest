@@ -54,7 +54,20 @@ public class GetCaseUtil {
         }
         return result;
     }
+    public static JSONObject getAllCases1(String fileName) {
+        JSONObject result = new JSONObject();
+        try {
+            File file = new File("");
+            String filePath = "/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/target/src/main/resources/" + fileName + ".json";
 
+            InputStream inputStream = new FileInputStream(filePath);
+            String caseTags = IOUtils.toString(inputStream, "utf8");
+            result = JSONObject.parseObject(caseTags);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
 
     //自建供应商发货接口

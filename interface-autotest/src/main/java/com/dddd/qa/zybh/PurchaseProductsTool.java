@@ -134,7 +134,7 @@ public class PurchaseProductsTool extends BaseTest {
         String[] selectedArray = selectArrayByDay(dayOfWeek);
 
         //存放参数
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(skuListfile);
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(skuListfile);
         //List<String> list = Arrays.asList(array3);
         for (String skuId : selectedArray) {
             param.put("skuId", skuId);
@@ -147,7 +147,7 @@ public class PurchaseProductsTool extends BaseTest {
         }
 
         //对购物车里的商品进行提交订单
-        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(orderProdDetails);
+        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases1(orderProdDetails);
         param2.put("userReceiveAddrId", addressId);
         String body2 = param2.toString();
         String createUrl2 = Common.FuliUrl+Common.submitOrderUri;
@@ -183,7 +183,7 @@ public class PurchaseProductsTool extends BaseTest {
     //description = "自建供应商订单发货"
     @Test(dataProvider = "supplierTokenDataProvider-Prod",dependsOnMethods = {"purchaseGoods"}, alwaysRun = true)
     public  void SupplierOrderDelivery(int num, String supplierTokenData) throws Exception {
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(supplierOrderList);
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(supplierOrderList);
         String body = param.toString();
         String createUrl = Common.SupplierUrl+Common.supplierOrderUri;
         headers.put("Supplier-Cache", supplierTokenData);

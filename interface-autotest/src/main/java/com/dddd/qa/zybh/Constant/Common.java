@@ -37,9 +37,13 @@ public class Common {
 
     //福粒
     public static String FuliUrl = STATIC_PROPERTIES.getProperty("fuli.url");
+    public static String SupplierUrl = STATIC_PROPERTIES.getProperty("supplier.url");
+
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
     public static String submitOrderUri = STATIC_PROPERTIES.getProperty("submit.order.uri");
     public static String comfirmOrderUri = STATIC_PROPERTIES.getProperty("confirm.order.uri");
+    public static String supplierOrderUri = STATIC_PROPERTIES.getProperty("supplier.order.uri");
+    public static String supplierOrderShipUri = STATIC_PROPERTIES.getProperty("supplier.order.ship.uri");
 
 
 
@@ -51,7 +55,6 @@ public class Common {
     //用来存储cookies的变量
     public static String Cookies;
     public static String DDingDDangToken;
-    public static String FuliToken = "11a39b391b9b4de4ae38785499c5dd10";
 
 
 

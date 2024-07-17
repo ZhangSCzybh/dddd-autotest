@@ -169,14 +169,6 @@ public class LoginUtil {
     }
 
 
-    public static String addShopCartUtil(String skuId){
-
-        List<String> list = Arrays.asList("a", "b", "c", "d");
-        for (String s : list) {
-            System.out.println(s);
-        }
-        return skuId;
-    }
 
 
 

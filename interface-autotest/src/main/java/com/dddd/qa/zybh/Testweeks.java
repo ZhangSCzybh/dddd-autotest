@@ -1,6 +1,8 @@
 package com.dddd.qa.zybh;
 
 import com.dddd.qa.zybh.utils.DateUtil;
+import com.dddd.qa.zybh.utils.GetCaseUtil;
+import org.springframework.beans.factory.xml.DocumentDefaultsDefinition;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -50,7 +52,7 @@ public class Testweeks {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // 获取当前日期
         LocalDate now = LocalDate.now();
         // 获取当前是星期几
@@ -62,5 +64,13 @@ public class Testweeks {
         for (String skuid : selectedArray) {
             System.out.println(skuid);
         }
+
+
+
+        System.out.println( DateUtil.getTodayCurrent());
+        String number = "77326728723";
+        String token = "Y2pmZDBdbi2adN0T7h7ZcaDD3R0jeMCm6t2adMAG3pFX9Y7WbU9zbR3n0BA42W8FfQF48aVdBMUdRMVRnQU5KNmtOTFU4QTFKL2g5VjNkVGhweE5jeUN6TXo3WmtFUTZlWno5czNTMzdaaVc0Uy9TL0xDdUEzUjdReW9YdXpyRUVxY21CNVlWdjIrVHozVy8yOEp1dXhVY3dtWHJoNjl1aXBwOHpjT0pKVmJlMDdhR3hVa1lzeE1XME5ubUpJb2VMWVBVPQ";
+        GetCaseUtil.sendPostRequest("http://cardback.ddingddang.com/supplieradmin/order/ship/" + number , token);
+
     }
 }

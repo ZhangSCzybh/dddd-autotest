@@ -123,7 +123,8 @@ public class PurchaseProductsTool extends BaseTest {
         };
     }
 
-    @Test(dataProvider = "tokenDataProvider-Prod",description = "商品下单")
+    //,description = "商品下单"
+    @Test(dataProvider = "tokenDataProvider-Prod")
     public void purchaseGoods(int num, String Tokendata,int addressId ) throws InterruptedException {
         // 获取当前日期
         LocalDate now = LocalDate.now();
@@ -179,7 +180,8 @@ public class PurchaseProductsTool extends BaseTest {
     }
 
 
-    @Test(dataProvider = "supplierTokenDataProvider-Prod",description = "自建供应商订单发货")
+    //description = "自建供应商订单发货"
+    @Test(dataProvider = "supplierTokenDataProvider-Prod",dependsOnMethods = {"purchaseGoods"}, alwaysRun = true)
     public  void SupplierOrderDelivery(int num, String supplierTokenData) throws Exception {
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(supplierOrderList);
         String body = param.toString();

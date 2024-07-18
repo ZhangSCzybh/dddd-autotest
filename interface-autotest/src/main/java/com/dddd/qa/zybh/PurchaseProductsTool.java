@@ -206,7 +206,6 @@ public class PurchaseProductsTool extends BaseTest {
             GetCaseUtil.sendPostRequest(Common.SupplierUrl+Common.supplierOrderShipUri + number,supplierTokenData);
             //logger.info("第" + num + "个供应商发货完成：" + number);
             logger.info("第" + num + "个供应商--商品" + i + "--发货完成：" + number);
-            //caveat("第" + num + "账号商品发货完成：" + number);
             try {
                 Thread.sleep(100); // 暂停100毫秒，
             } catch (InterruptedException e) {
@@ -215,6 +214,8 @@ public class PurchaseProductsTool extends BaseTest {
                 break; // 可选择退出循环或继续处理
             }
         }
+        caveat("发货情况：第" + num + "个供应商--商品发货完成！！！");
+
     }
 
 }

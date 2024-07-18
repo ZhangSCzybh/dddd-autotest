@@ -87,7 +87,7 @@ public class DingTalkRobotUtil {
         httppost.addHeader("Content-Type", "application/json; charset=utf-8");
 
         JSONObject textContent = new JSONObject();
-        textContent.put("content", content+"\n 当前时间："+ LocalDateTime.now());
+        textContent.put("content", content+"\n当前时间："+ LocalDateTime.now());
         JSONObject atMobilesContent = new JSONObject();
         atMobilesContent.put("atMobiles",atMobiles);
         atMobilesContent.put("isAtAll",isAtAll);

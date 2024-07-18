@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.HashMap;
+import java.util.NoSuchElementException;
 
 
 /**
@@ -183,7 +184,7 @@ public class PurchaseProductsTool extends BaseTest {
 
     //description = "自建供应商订单发货"
     @Test(dataProvider = "supplierTokenDataProvider-Prod",dependsOnMethods = {"purchaseGoods"}, alwaysRun = true)
-    public  void SupplierOrderDelivery(int num, String supplierTokenData) throws Exception {
+    public  void supplierOrderDelivery(int num, String supplierTokenData) throws Exception {
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(supplierOrderList);
         String body = param.toString();
         String createUrl = Common.SupplierUrl+Common.supplierOrderUri;
@@ -203,7 +204,8 @@ public class PurchaseProductsTool extends BaseTest {
         for(int i = 0; i < length; i++){
             String number = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("data"))).get("rows"))).get(i))).get("number").toString();
             GetCaseUtil.sendPostRequest(Common.SupplierUrl+Common.supplierOrderShipUri + number,supplierTokenData);
-            logger.info("第" + num + "供应商发货完成：" + number);
+            //logger.info("第" + num + "个供应商发货完成：" + number);
+            logger.info("第" + num + "个供应商--商品" + i + "--发货完成：" + number);
             //caveat("第" + num + "账号商品发货完成：" + number);
             try {
                 Thread.sleep(100); // 暂停100毫秒，

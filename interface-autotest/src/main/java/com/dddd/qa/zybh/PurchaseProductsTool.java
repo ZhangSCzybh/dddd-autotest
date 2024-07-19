@@ -183,7 +183,7 @@ public class PurchaseProductsTool extends BaseTest {
 
 
     //description = "自建供应商订单发货"
-    @Test(dataProvider = "supplierTokenDataProvider-Prod",dependsOnMethods = {"purchaseGoods"}, alwaysRun = true)
+    @Test(dataProvider = "supplierTokenDataProvider-Prod",dependsOnMethods = {"purchaseGoods"})
     public  void supplierOrderDelivery(int num, String supplierTokenData) throws Exception {
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(supplierOrderList);
         String body = param.toString();

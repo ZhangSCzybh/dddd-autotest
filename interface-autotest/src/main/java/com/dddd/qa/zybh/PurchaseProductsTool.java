@@ -214,7 +214,7 @@ public class PurchaseProductsTool extends BaseTest {
                 break; // 可选择退出循环或继续处理
             }
         }
-        caveat("发货情况：第" + num + "个供应商--商品发货完成！！！");
+        //caveat("发货情况：第" + num + "个供应商--商品发货完成！！！");
 
     }
 

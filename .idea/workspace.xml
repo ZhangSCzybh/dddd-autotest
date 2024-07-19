@@ -10,8 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/085f2537-aef3-470b-a407-39b259d93040-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0d623c21-a126-4d01-88dc-7e77f93f023a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/129b9e6a-c3e7-421c-badc-9f3e9532466a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1735d4b5-3e1f-4b97-b1d5-338646459f4a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1c07cc32-3932-4865-8722-6404f5c0a024-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6ca60745-c275-44c4-943a-a2a36bb39588-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/787ec651-2270-4710-9689-8ef2b896b3fb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8c7c70f4-7001-4917-8f7a-1fe5a7daa3e1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8d632cab-e38d-4f5e-854f-d314a519cbe8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bde24533-4348-4d00-ae93-cdef5ad7bbef-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e4c1ef50-899b-463a-a8f2-0131729a3ffa-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/PurchaseProductsTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/PurchaseProductsTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +251,7 @@
       <workItem from="1718768952483" duration="10458000" />
       <workItem from="1721099588650" duration="55216000" />
       <workItem from="1721210021683" duration="12283000" />
-      <workItem from="1721352193952" duration="4393000" />
+      <workItem from="1721352193952" duration="5065000" />
     </task>
     <servers />
   </component>

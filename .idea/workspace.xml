@@ -10,9 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/05a7c0b1-754e-4e2a-ae69-5eab4ca99214-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1dc96072-4162-4ef0-b4a6-1d89014d351f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2ac37e6e-6963-4ee3-a401-fa2d230ef23c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2f55ab3b-7642-4937-a710-d808eb2d2ca9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/389d754f-9a8b-4fe4-9d1c-b26c7af64455-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/53e2c89f-3f05-47dc-9cff-2138342852e8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/68040967-ac03-4739-bc7d-6ba7f7d6e05e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b0edf059-4fcf-4332-8d75-60b7d70331ef-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bfca5c15-b401-4354-8841-b5aeae3bc3a6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/db514bb0-e36a-4529-afa0-134303a43c2b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e8af62d6-c501-494d-a2ab-65a5814450db-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e9f71d5c-cb5f-4eec-897f-63286c681cd1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ef4d4e28-798b-4716-bf88-3a0e629de806-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f2a3f3f9-387a-4367-b1d1-1abfe15eb66f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fb4baa71-a53f-4456-a70f-a7b129675072-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/src/main/java/Dingtalk/SendResultToDingtalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/PurchaseProductsTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/PurchaseProductsTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +128,13 @@
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml">
-    <configuration name="Testweeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.Testweeks" />
-      <module name="interface-autotest" />
+  <component name="RunManager" selected="Application.SendResultToDingtalk">
+    <configuration name="SendResultToDingtalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dingtalk.SendResultToDingtalk" />
+      <module name="SendMessageTools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
+          <option name="PATTERN" value="Dingtalk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SendResultToDingtalk" />
         <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml" />
         <item itemvalue="TestNG.PurchaseProductsTool.SupplierOrderDelivery" />
         <item itemvalue="TestNG.PurchaseProductsTool.purchaseGoods" />
         <item itemvalue="TestNG.PurchaseProductsTool.SupplierOrderDelivery (1)" />
-        <item itemvalue="Application.Testweeks" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +253,7 @@
       <workItem from="1718768952483" duration="10458000" />
       <workItem from="1721099588650" duration="55216000" />
       <workItem from="1721210021683" duration="12283000" />
-      <workItem from="1721352193952" duration="3104000" />
+      <workItem from="1721352193952" duration="3888000" />
     </task>
     <servers />
   </component>

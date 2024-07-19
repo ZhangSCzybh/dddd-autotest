@@ -40,30 +40,24 @@ public class PurchaseProductsTool extends BaseTest {
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
 
-    private static String[] array1 = {"9147280", "9147301", "9147304", "9147239"};
-    private static String[] array2 = {"9147167", "9147172", "9147194", "9147221","9147420","9147423","9147173","9147205","9147224","9147232","9147251","9147254","9147211","9147346","9147354","9147268","9147283","9147300"};
-    private static String[] array3 = {"9147309", "9147239", "9147343", "9147346","9147268","9147274","9147280","9147301","9147304"};
-    private static String[] array4 = {"9147325", "9147417", "9147418", "9147422","9147424","9147253","9147254","9147255","9147257","9147262","9147357","9147292","9147295","9147298","9147302"};
-    private static String[] array5 = {"9147305", "9147309", "9147419", "9147215","9147240","9147248","9147347","9147357","9147269","9147277","9147297"};
-
     //根据星期选择不同的sku和json文件
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
         switch (dayOfWeek) {
             case MONDAY:
                 orderProdDetails="dddd/createProdOrder11";
-                return array1;
+                return Common.array1;
             case TUESDAY:
                 orderProdDetails="dddd/createProdOrder12";
-                return array2;
+                return Common.array2;
             case WEDNESDAY:
                 orderProdDetails="dddd/createProdOrder13";
-                return array3;
+                return Common.array3;
             case THURSDAY:
                 orderProdDetails="dddd/createProdOrder14";
-                return array4;
+                return Common.array4;
             case FRIDAY:
                 orderProdDetails="dddd/createProdOrder15";
-                return array5;
+                return Common.array5;
             // 如果是周六或周日，你可以选择默认数组或抛出异常
             case SATURDAY:
             case SUNDAY:
@@ -78,11 +72,11 @@ public class PurchaseProductsTool extends BaseTest {
     @DataProvider(name = "tokenDataProvider-Prod")
     public Object[][] tokenDataProvider1() {
         return new Object[][]{
-                {1, "fe84dd3442044fb4bc691d6c839f8722", 11951},//ceshi 测试
-                {2, "a06a29079c1541989b5db3ebe8b38d6c", 11946},//karen 吴女士
-                {3, "0f621cc6b3de4f0ebd5b9735020e8aa6", 11967}, //蒋美娣 13858653282
-                {4, "2b1c7c89596844e4901a8d4d5bb0fe11", 11965},//赵秀、WXY13666605555
-                {5, "53d8c099e12c460a812e6f3b940cdb52", 11969}//仙齐、18767176714
+                {1, Common.staffFuliToken01, 11951},//ceshi 测试
+                {2, Common.staffFuliToken02, 11946},//karen 吴女士
+                {3, Common.staffFuliToken03, 11967}, //蒋美娣 13858653282
+                {4, Common.staffFuliToken04, 11965},//赵秀、WXY13666605555
+                {5, Common.staffFuliToken05, 11969}//仙齐、18767176714
 
         };
     }
@@ -92,13 +86,13 @@ public class PurchaseProductsTool extends BaseTest {
     public Object[][] tokenDataProvider2() {
         return new Object[][]{
                 //信达办公用品经营部
-                {1, "Y2pmZDBdbi2adN0T7h7ZcaDD3R0jeMCm6t2adMAG3pFX9Y7WbU9zbR3n0BA42W8FfQF48aVdBMUdRMVRnQU5KNmtOTFU4QTFKL2g5VjNkVGhweE5jeUN6TXo3WmtFUTZlWno5czNTMzdaaVc0Uy9TL0xDdUEzUjdReW9YdXpyRUVxY21CNVlWdjIrVHozVy8yOEp1dXhVY3dtWHJoNjl1aXBwOHpjT0pKVmJlMDdhR3hVa1lzeE1XME5ubUpJb2VMWVBVPQ"},
+                {1, Common.supplierToken01},
                 //万客隆商贸有限公司
-                {2, "cUxGbW194l7U0EDh1VCT4DCI236d4T7lfZER41DB0j9Ra17pf39M3l4Yc0CSfj1h72AY7lRFSkpmSE5RT3lwRDdQWW5YMG5xbEl3M0pzZThiaUEFla3NTeUpkcUVLeFliabFBSNDdSZTZYdkQ1aDN3UHZPcGtCMXUrdDhsNzQ0STc3c1RXQWFDQldoL1lQV0x6WGN4VklFaVlFcmFiaQ0lENW9ycEQ2d09renp5ZzF3ZENZa2h0RzlaVEQ2Q0gzdGpmSFlFPQ"},
+                {2, Common.supplierToken02},
                 //宇轩图文设计中心
-                {3, "L1lPZUEJ2BDNcmBF9iFa8a1G1d82cZFHeh614QFW1ZFu0d2E0xEY8VBS59E6ec7DbU82aOEsycWhzaHlOclg2YTRWSXc1Vm4vTEZFbGxtWjNVeHJsVW5KNFNLQ0I0Wia9jRmlYVFdFdEpKemt6T284blYxdW1rc3d1SUc0WnBiaWnZxT0RIc20xK2RjRCs3aEYrbW5RVnZuWDNoVTZ4aEpQMmdRS3llNUZ6d2tiaMzJRPT0"},
+                {3, Common.supplierToken03},
                 //智惠恒数码有限公司
-                {4, "ZStXRT5l2R3cfHFNemFY0nEAf35R5275dyFW0n0hcjAZ3TAF3HBU6W6V5nEUdm0J6a1T8kttdCsrdFJycERLREhXY21vQlZ0UVpTWk51bkFRU21PNFBxMmpLRmprWnd0bEExanNUc3pZMmVGS0phNjArUU9uOHhaL2JUWHpsOEw4U0oxUjZKbDdsQ0FuaFcrNjRIM3Rhc1JFYjdURkFZUWVYemdjbTkveStSbURGVWdSUDRlRXU0dy9TOERjclRpUmNRPQ"}
+                {4, Common.supplierToken04}
         };
     }
 
@@ -114,7 +108,6 @@ public class PurchaseProductsTool extends BaseTest {
 
         //存放参数
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(skuListfile);
-        //List<String> list = Arrays.asList(array3);
         for (String skuId : selectedArray) {
             param.put("skuId", skuId);
             String body = param.toString();

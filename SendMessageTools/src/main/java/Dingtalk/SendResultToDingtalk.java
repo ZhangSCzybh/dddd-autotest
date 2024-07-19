@@ -19,7 +19,7 @@ import java.util.*;
 /**
  * @author zhangsc
  * @date 2022-05-01 下午9:24
- *
+ * 记得打jar包
  */
 public class SendResultToDingtalk {
 
@@ -33,8 +33,6 @@ public class SendResultToDingtalk {
     public static String assertioncontent="Product defects";
     static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=6ca1bc74766afffbe49369ae6d7a06de954f7fd01aace49b8c22769e33bb143d";
     static String secret = "SECefdb1f1012985e2fc0fc8bb04dcbcfadfaae08cf976f6883d7d152e01f3b1a9f";
-    //static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=a73e56e2f75f247c3262100825d3fe4a24e198c744cfd1bd8dbd0d7e4a3bff1c";
-    //static String secret = "SECf115a91e1dc25a6b4408ee80838b4e84096e07e61fff51851ae6fb2706ea7d52";
     static Date date;
 
 

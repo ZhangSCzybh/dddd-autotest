@@ -3,10 +3,8 @@ package com.dddd.qa.zybh;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
-import com.dddd.qa.zybh.utils.DateUtil;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +14,6 @@ import org.testng.annotations.Test;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.HashMap;
-import java.util.NoSuchElementException;
 
 
 /**
@@ -25,13 +22,11 @@ import java.util.NoSuchElementException;
  * @packageName com.dddd.qa.zybh
  * @className PurchaseProductsTool
  * @describe
- * 1、修改common第15行的配置文件--test/prod 或者修改test.properties 福粒域名
- * 2、修改array  周一array1、周二array2、周三array3、周四array4、、周五array5
- * 3、修改orderProdDetails字段 周一至周五
- * 不同账号新增token
- * 修改sku列表
- * 修改dataProvider = "tokenDataProvider-Test"  /"tokenDataProvider-Prod"
- *  //todo 本地运行 需要修改getAllCases1 -->getAllCases
+ * todo 本地运行 需要修改getAllCases1 -->getAllCases
+ * tokenDataProvider1 下单账号
+ * tokenDataProvider2 供应商账号
+ * orderProdDetails 订单参数配置
+ * array 每日sku列表
  */
 public class PurchaseProductsTool extends BaseTest {
 
@@ -42,27 +37,9 @@ public class PurchaseProductsTool extends BaseTest {
     private static String supplierOrderList = "dddd/supplierOrderList";
     private static HashMap<String, String> headers =new HashMap<>();
 
-    /**********************************测试环境的token、json文件、地址id配置*******************************************/
-    /**********************************测试环境的benefits/order/submitNew在这里添加***********************************/
-    private static String orderTestDetails01 = "dddd/createTestOrder01";
-    private static String orderTestDetails02 = "dddd/createTestOrder02";
-    @DataProvider(name = "tokenDataProvider-Test")
-    public Object[][] tokenDataProvider() {
-        return new Object[][]{
-                {1, "11a39b391b9b4de4ae38785499c5dd10",orderTestDetails01}, //ceshi
-                {2, "ff7b2d6f1d9f43dfbf183c9dff226092",orderTestDetails02}  //karen
-        };
-    }
-
-
-
-    /**********************************生产环境的benefits/order/submitNew在这里添加***********************************/
-    //周一：array1     orderProdDetails=dddd/createProdOrder11
-    //周二：array2     orderProdDetails=dddd/createProdOrder12
-    //周三：array3     orderProdDetails=dddd/createProdOrder13
-    //周四：array4     orderProdDetails=dddd/createProdOrder14
-    //周五：array5     orderProdDetails=dddd/createProdOrder15
+    /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
+
     private static String[] array1 = {"9147280", "9147301", "9147304", "9147239"};
     private static String[] array2 = {"9147167", "9147172", "9147194", "9147221","9147420","9147423","9147173","9147205","9147224","9147232","9147251","9147254","9147211","9147346","9147354","9147268","9147283","9147300"};
     private static String[] array3 = {"9147309", "9147239", "9147343", "9147346","9147268","9147274","9147280","9147301","9147304"};
@@ -97,7 +74,7 @@ public class PurchaseProductsTool extends BaseTest {
     }
 
 
-    //生产环境的账号编号、token、json文件、地址id配置
+    //商品下单参数：账号编号、token、地址id配置
     @DataProvider(name = "tokenDataProvider-Prod")
     public Object[][] tokenDataProvider1() {
         return new Object[][]{
@@ -110,7 +87,7 @@ public class PurchaseProductsTool extends BaseTest {
         };
     }
 
-    //自建供应商token
+    //自建供应商token参数
     @DataProvider(name = "supplierTokenDataProvider-Prod")
     public Object[][] tokenDataProvider2() {
         return new Object[][]{

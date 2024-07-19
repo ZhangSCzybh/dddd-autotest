@@ -1,22 +1,17 @@
 package Dingtalk;
 
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpRequest;
 import com.alibaba.fastjson.JSON;
-import com.dddd.qa.zybh.Constant.Common;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.codec.binary.Base64;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.*;
 import java.net.URLEncoder;
-
 import java.text.SimpleDateFormat;
 import java.util.*;
 

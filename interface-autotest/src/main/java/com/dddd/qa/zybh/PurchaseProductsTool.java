@@ -174,7 +174,7 @@ public class PurchaseProductsTool extends BaseTest {
         String status3 = jsonresult3.getStr("msg");
 
         Assert.assertNotNull(orderNumber);
-        caveat("第" + num + "个Token账号: " + Tokendata + "\n"
+        caveat("第" + num + "个账号: " + Tokendata + "\n"
                 +"创建订单：" + status + "\n"
                 +"订单编号：" + orderNumber + "\n"
                 + "确认下单："+ status3);

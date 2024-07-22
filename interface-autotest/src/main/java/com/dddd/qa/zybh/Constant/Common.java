@@ -39,6 +39,7 @@ public class Common {
     public static String FuliUrl = STATIC_PROPERTIES.getProperty("fuli.url");
     public static String SupplierUrl = STATIC_PROPERTIES.getProperty("supplier.url");
 
+
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
     public static String submitOrderUri = STATIC_PROPERTIES.getProperty("submit.order.uri");
     public static String comfirmOrderUri = STATIC_PROPERTIES.getProperty("confirm.order.uri");
@@ -48,6 +49,8 @@ public class Common {
 
 
 
+    //
+    public static String jenkinsUrl = STATIC_PROPERTIES.getProperty("jenkins.url");
     //dingding
     public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private.dingtalk.alert.url");
     public static String dingTalkUrlSecret = STATIC_PROPERTIES.getProperty("dingding,url.secret");

@@ -60,7 +60,7 @@ public class GetCaseUtil {
         JSONObject result = new JSONObject();
         try {
             File file = new File("");
-            String filePath = "/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/src/main/resources/" + fileName + ".json";
+            String filePath = Common.jenkinsUrl+"/src/main/resources/" + fileName + ".json";
             InputStream inputStream = new FileInputStream(filePath);
             String caseTags = IOUtils.toString(inputStream, "utf8");
             result = JSONObject.parseObject(caseTags);

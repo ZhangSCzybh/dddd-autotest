@@ -13,6 +13,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.DayOfWeek;
@@ -91,8 +92,10 @@ public class Testweeks {
         } else {
             System.out.println("No data available for today.");
         }
+        File file = new File("");
+        //String filePath = file.getAbsolutePath() + "/src/main/resources/" + fileName + ".json";
 
-
+        System.out.println(file.getAbsolutePath());
 
     }
 

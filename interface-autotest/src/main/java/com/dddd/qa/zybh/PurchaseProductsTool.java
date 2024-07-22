@@ -80,7 +80,7 @@ public class PurchaseProductsTool extends BaseTest {
     @DataProvider(name = "staffFuliTokenProvider")
     public Object[][] staffFuliTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/src/main/resources/dddd/staffFuliToken.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(Common.jenkinsUrl+"/src/main/resources/dddd/staffFuliToken.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("num")) { // 跳过标题行
@@ -98,7 +98,7 @@ public class PurchaseProductsTool extends BaseTest {
     @DataProvider(name = "supplierTokenProvider")
     public Object[][] supplierTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/src/main/resources/dddd/supplierToken.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(Common.jenkinsUrl+"/src/main/resources/dddd/supplierToken.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("num")) { // 跳过标题行

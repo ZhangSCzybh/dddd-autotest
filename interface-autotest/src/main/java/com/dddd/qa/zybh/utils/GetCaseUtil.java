@@ -17,6 +17,8 @@ import org.json.JSONArray;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author zhangsc
@@ -104,4 +106,7 @@ public class GetCaseUtil {
             httpClient.close();
         }
     }
+
+
 }
+

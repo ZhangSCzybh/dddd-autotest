@@ -10,28 +10,179 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/155e63f2-1a98-4167-a760-2f02f49b4913-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1bc3d80e-c2ff-43f8-9768-3c537b9da764-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/392830d0-a5a6-4db4-8827-c1b3f71bea57-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5375ff18-84d5-4155-b11d-0cf78c280dee-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/542b7776-9661-4384-9412-da48cf5ae542-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5738caf8-47fc-40b2-b672-70e48b6fd837-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6ce7c23d-beeb-448c-8b50-8efacd6da050-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/70054e65-89d2-4853-987e-675d264ac768-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9542969a-397c-4a0a-af24-81f0210c744c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/968b51f1-e0d6-40fb-8c37-339783c7d6db-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bedbe8fc-22a3-4eb5-ac94-603515d62e53-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c989ed7e-7d86-4e6e-a8c0-28c72a35d386-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cc2be8b5-efb7-480c-ba8e-98995c5f0483-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ecbf27d0-95f7-491d-bd10-df3bfa666b63-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fac06689-ee5b-49ef-8831-c993aa7819ce-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/007de988-3f54-4f04-805b-aea20c06aca4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/00e77d8f-f452-43c3-9076-ade84c16fcc5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/05a88025-82ac-4ebe-959a-be992e5f3cd0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/08feb014-e954-4f61-9227-5829cdc8fcdd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0956cd64-28ea-4050-8046-c41e5ec6a3ce-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0a55bf5b-f28f-417a-8ef7-5b61ece61700-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0ba8064b-e598-4010-b001-47cdd058c504-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1766a15f-ac46-4dbd-88a4-6347712fb831-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1be70c29-0f4c-45d8-9d0b-04ca88bd4e52-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1becc76b-34ba-404f-88b8-85b0fbb1d19e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1f6a8d77-75f8-4302-8350-33462ce903fa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/22aa15c2-c188-4441-9c29-7812a8374473-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/240af77e-abfc-468e-950b-0867d9859846-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/267dc498-7680-4021-a366-5d528ddb0075-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/27bccca9-e571-477a-a917-182dab67d56f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/308e4498-b278-42b2-b5db-6c73ebae2132-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3129b3ba-aa2f-484d-abce-0b4f9fead8c2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/31bbcdfd-4d7d-420f-a32b-38af974ea1e6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/335573f7-c5d1-4559-9f26-08b0dc01ac64-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/342abd21-3cca-43ca-9325-769a2f330ed8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3494c4c1-4d74-4603-b9b9-4440ddc54112-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3c858d91-eebb-4dff-b2e1-fcbf2fdd1a9c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3ca78743-fe2c-4b0b-88fb-69cbdcec2f43-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3ee0682c-08db-4986-8bd2-14b998f2b452-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/40189e78-a845-4502-9e04-7af97272d6ba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/44434fd0-f3bb-49c3-9395-839baa0cffaa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/44fbfe31-9c63-4ef5-af6d-d664c2b36a73-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4563c05b-40c7-4863-8b07-8b731eaf057d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4657b2ef-c672-446b-b042-a9fbda23d707-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/48638976-d386-4bd6-bc1f-919fb5379b5a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/525b37ea-b8d4-4cff-8fe6-56925b371ed1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/54b48208-1c40-422d-86ee-0cd181bf31e5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/55cb1a3e-3dc1-4d68-9fea-fcb4128114e5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/578a3e30-3959-4acc-8195-e842fc75d5a7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/58e78478-b95a-4518-ba75-6a7c3de1596b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5902d3f2-0fb9-4dc0-b26d-a7d65064d8fc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/593125fa-85ab-4c65-b17f-aabb5fb25178-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/59976177-b3eb-47a9-8927-2815499b4df7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5a9818de-887f-42c0-bd18-5a747ab53182-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5b9ebc19-15e2-4461-b637-676cafe80b16-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5bf1d433-85d1-47cc-b8b8-0d7d91a4cc42-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5e0ec5a8-4b8a-4e00-8fcc-97e19f7f0fb5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5e62f622-75f9-4e5e-8ef7-a2651e8c8d52-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5ea093a3-792d-4e3b-9cb1-ae6718406add-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/62ecf7f7-a1dc-41fd-ab52-9f4ac4217f4f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/63f47b70-c640-4ef9-bfd9-3e5b01fa7624-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/65fc8b8b-9450-48c4-af0e-68a682b0c358-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/673736a4-7d46-4691-abeb-34d2284304d6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/68b2f637-bf75-498c-9a69-c23adc932192-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/68bd5263-6ace-45ee-bce4-49a696a77e5b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6c3c1c30-134c-4f6b-96b7-de8e0c5b59cf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6ca2230c-10e5-447e-908c-e244ac6b2086-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6cab52c6-61b5-4001-854e-0ccee9e288f8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/710de25d-ea37-4fb1-886b-360573ccb7af-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7143268c-db59-4823-9d9d-096f6a6cf28a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/71b4523e-cb21-4116-81fe-550ac0436a10-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/71c1d2cb-e60e-47b7-ab33-d0dbb257d710-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/721335a8-8556-45df-9665-18edb5f1e487-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/732028fc-584a-4fda-b2b3-b02c3ce37910-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/73f951c1-878a-49dd-a3db-c30dce48db5f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/74338b48-233a-4ff9-82ef-d473a8f89d84-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/76f08797-fd4b-4f6c-a505-540e22035aee-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/78f115e9-f9ca-49a6-873f-a334bbea79b3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/79a08626-9eab-4586-ba72-e64983894e4b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7c8dc1a3-7892-42d8-b5df-18b5ec6cd073-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7d08bcdd-7c60-42b0-83a9-e0ad791c1bf0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7e708a40-4a5f-4536-bf9d-ed65273f22d8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/85a7f4b7-1819-45bb-9437-916becae8770-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/870163c2-df80-436f-9c6d-a7677f20cba9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/88c35eb7-10f6-4d20-9b5d-b3b07e78067c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8b1f2282-65ec-40d4-b2af-ac0ac48aeeb7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8bd004fb-0fef-4aab-98bb-14944987714c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8bf302b9-ddcd-4b10-85c9-89d3d5b38d58-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8c98aec5-e8dc-4d54-b653-d74486ac28c3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/914771f5-bad4-4ae0-abd1-ed933c4b3ca3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/91511658-cf27-4a32-a95c-57c83fadd2e8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/93921029-20ac-4222-8e7c-80824c54e803-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/951ace0f-e8c1-468d-98bc-e57e68bd124d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9550196d-3094-49b8-a7b4-913fda7d9623-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9747635b-d806-4c0c-9bd6-0bf8b78cddda-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9b2c1122-6592-46b4-bf70-2a06a128148f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9e174861-0286-4bf1-b001-ca0339159713-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9ed1e779-eeb9-40d9-8a0f-e4344cfd7697-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a140f265-8d1e-4c17-84da-14c2be8d908e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a177861b-1b70-462a-bc30-337f1bd5da58-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a6160ec2-4e21-4738-b616-aaac9a23336a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a65f3074-d0e4-4868-ba9d-dab519f1615d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a6675ceb-9f4f-492c-8127-1b9af11593de-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a749cb91-8374-46aa-8d83-2f74243ddee9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a857479b-b57a-440c-97d6-d1de1fa4abdc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a8db8877-3249-42b4-bc34-d18a2334f216-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/aa37e2a7-2f42-4ff1-9712-6909b59744dd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ad0145c8-d1d0-41e0-9b99-8a1de5c17e8f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ad8c9150-755f-42e7-b75a-afcb7b7959c5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/adefe4fd-6c96-40af-8044-eae22154b99e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ae4977dd-2569-4b0e-8b07-765337b7a5ff-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b22b562e-c673-4a9f-82bf-19bc9a1b15c7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b2d23036-ce1e-4239-8080-7cab054a87e1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b2d9966c-a672-44a6-af24-ec3b6df32cd0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b3922acd-eb7b-40bc-af80-9e3446146c2f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b39550d5-5602-4217-a53c-6f82089e01e0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b3f44d6f-efb1-4da9-9460-6d59cf7e831a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b5af2572-743e-4dfe-a360-12308fec5296-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b72f7241-5dfc-4d55-ae81-0cc549a10c33-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bc0f6db0-2633-4d74-9891-a22069d1ef3f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bc889bff-c84f-4fc6-ac01-2215b9f5bd4e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c0634af6-8ad9-4842-95a6-2e2517755002-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c1066df8-be81-48a8-87a7-7876f1037473-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c3f17fd9-de1d-44b1-b7e1-5799c7b39ac4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c90a1e7c-4c38-439b-b6d3-a134e8ce7d20-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c94130ea-2fd5-4b9b-8bb1-b669de5dd274-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c99b9c63-926c-409f-85b8-633b786819c8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c9baaf7a-0b9e-49cc-8841-506df2f709a1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cb4716d4-65d8-4ee0-95dd-e1de9a6b08cc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cbd9e442-f694-4908-90c2-c646ee40525e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ccd06efc-f53c-494c-ae23-ad7dd216c171-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d384bcd8-d85c-455d-a29f-25d58c55b452-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d3f77003-7e36-4469-9006-89f099b493c5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d4356943-899f-4b82-8f2a-70b50f8f4c59-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d4aaf325-f456-4d3e-a283-2705fa678745-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d5d2227f-124c-4d6f-b248-38b88ae413a5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d5de4de8-935a-46e2-9623-f5b0c39b6420-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d73bdb55-a393-4f76-a448-825d515d8db8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d7737725-0326-484e-ab67-a096bc4129cf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d7a9260f-0040-466d-b021-e6c9c9bbd1d9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dac87204-7327-4351-993e-6b1956e579cb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/db01df0a-d9a4-40e1-93d0-79fdefe4747e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dbc86b4f-e4e8-4d18-8e0c-7ca44eaa22f2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dbec5d62-06ee-4050-a704-1bfe2e7baee6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dc2e62ef-06d1-476a-a9dd-5a5ad17e17f6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ddbb084c-cd60-4633-a2b5-469f87e1b5f7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e015e44a-7c81-4cb5-8fe6-845861c8264a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e3759c48-9636-4bec-a766-f513eb20ca9b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e3b0a4ff-44d7-41bd-bd16-1f89a2fd740e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e68baab8-dc11-4ffe-8eac-44b954d8375f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e6e6c315-e5be-4553-b547-6addcd869d6e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e7dcee84-8226-48e2-a8c9-42d24825182f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e8214c8f-6d58-4940-9bd2-6c5cb886a6f7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e8dbfc76-2167-4272-81a3-bc54b04769c5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ec58ad8b-62c2-4f5d-8d25-62a02184837b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ef949373-2dc1-4fec-b069-51d8bbdd3f23-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f30962b6-a757-44b3-9175-a29149bf97b2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f32f1a4c-e387-4f46-8482-b97775b981bb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f3ab8e4c-599a-4b2e-abb1-61f470f34f46-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f3db948d-4749-4b43-a7de-81c61ce2b0f6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f5213f79-3434-45cf-9a13-e90af360a559-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f54563f5-6c7d-41f0-979c-2c6e0a22ff14-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f5b1ff38-4180-40b3-9305-b5d1e63ad542-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f5b3a0a0-fffd-4433-8ae4-1638339ccbd9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f5e1fda7-c3e3-4655-87bd-672d9db0aa5d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f8739e08-93c2-45eb-8e81-ac5d3ff6ee83-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f91855ab-6d2d-4e97-a93f-e52d1eff6f94-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fb3eae01-7a1b-4797-84c5-62937b495a06-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ffa63079-266d-4e39-8031-c93fdab4658b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/111.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/staffFuliToken.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/supplierToken.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/PurchaseProductsTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/PurchaseProductsTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createGoods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createTestOrder01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createTestOrder02.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/PurchaseProductsTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/dddd/createGoods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/dddd/createTestOrder01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/dddd/createTestOrder02.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,76 +221,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.LoginUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PurchaseProductsTool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SendResultToDingtalk.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Testweeks.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.interface-autotest [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.interface-autotest [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.interface-autotest [test].executor&quot;: &quot;Run&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ActivityTest.createEvent.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ActivityTest.getScheduleEventsList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest.loginDDingDDangHR.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LogoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LogoutTest.loginDDingDDangHR (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LogoutTest.loginDDingDDangHR.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.addShoppingCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.purchaseGoods.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testDataProvider.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testMethod (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.loginTest.loginYolocast (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.loginTest.loginYolocast.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28275862&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LoginUtil.executor": "Run",
+    "Application.PurchaseProductsTool.executor": "Run",
+    "Application.SendResultToDingtalk.executor": "Run",
+    "Application.Testweeks.executor": "Run",
+    "Maven.interface-autotest [clean].executor": "Run",
+    "Maven.interface-autotest [install].executor": "Run",
+    "Maven.interface-autotest [test].executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor": "Run",
+    "TestNG.ActivityTest.createEvent.executor": "Run",
+    "TestNG.ActivityTest.getScheduleEventsList.executor": "Run",
+    "TestNG.LoginZCTest.executor": "Run",
+    "TestNG.LoginZCTest.loginDDingDDangHR.executor": "Run",
+    "TestNG.LoginZCTest.test.executor": "Run",
+    "TestNG.LogoutTest.executor": "Run",
+    "TestNG.LogoutTest.loginDDingDDangHR (1).executor": "Run",
+    "TestNG.LogoutTest.loginDDingDDangHR.executor": "Run",
+    "TestNG.PurchaseProductsTool (1).executor": "Run",
+    "TestNG.PurchaseProductsTool (2).executor": "Run",
+    "TestNG.PurchaseProductsTool (3).executor": "Run",
+    "TestNG.PurchaseProductsTool (4).executor": "Run",
+    "TestNG.PurchaseProductsTool (5).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (2).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (3).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (4).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (5).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery.executor": "Run",
+    "TestNG.PurchaseProductsTool.addShoppingCart.executor": "Run",
+    "TestNG.PurchaseProductsTool.executor": "Run",
+    "TestNG.PurchaseProductsTool.purchaseGoods (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.purchaseGoods.executor": "Run",
+    "TestNG.PurchaseProductsTool.supplierOrderDelivery.executor": "Run",
+    "TestNG.PurchaseProductsTool.test (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.test.executor": "Run",
+    "TestNG.PurchaseProductsTool.testDataProvider.executor": "Run",
+    "TestNG.PurchaseProductsTool.testMethod (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.testMethod.executor": "Run",
+    "TestNG.PurchaseProductsTool.testUserData (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.testUserData.executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart (1).executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart (2).executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart (3).executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart.executor": "Run",
+    "TestNG.Testweeks.test.executor": "Run",
+    "TestNG.Testweeks.testUserData (1).executor": "Run",
+    "TestNG.Testweeks.testUserData (2).executor": "Run",
+    "TestNG.Testweeks.testUserData (3).executor": "Run",
+    "TestNG.Testweeks.testUserData.executor": "Run",
+    "TestNG.loginTest.loginYolocast (1).executor": "Run",
+    "TestNG.loginTest.loginYolocast.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28275862",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml">
-    <configuration name="SendResultToDingtalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dingtalk.SendResultToDingtalk" />
-      <module name="SendMessageTools" />
+  <component name="RunManager" selected="TestNG.PurchaseProductsTool.supplierOrderDelivery">
+    <configuration name="Testweeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.Testweeks" />
+      <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dingtalk.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,7 +307,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseProductsTool.SupplierOrderDelivery (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProductsTool.purchaseGoods (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -157,25 +317,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh" />
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.PurchaseProductsTool" />
-      <option name="METHOD_NAME" value="SupplierOrderDelivery" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PurchaseProductsTool.SupplierOrderDelivery" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.PurchaseProductsTool" />
-      <option name="METHOD_NAME" value="SupplierOrderDelivery" />
+      <option name="METHOD_NAME" value="purchaseGoods" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,10 +343,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProductsTool.supplierOrderDelivery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.PurchaseProductsTool" />
+      <option name="METHOD_NAME" value="supplierOrderDelivery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testweeks.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.Testweeks" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -213,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml" />
-        <item itemvalue="Application.SendResultToDingtalk" />
-        <item itemvalue="TestNG.PurchaseProductsTool.SupplierOrderDelivery" />
+        <item itemvalue="TestNG.PurchaseProductsTool.supplierOrderDelivery" />
+        <item itemvalue="TestNG.PurchaseProductsTool.purchaseGoods (1)" />
         <item itemvalue="TestNG.PurchaseProductsTool.purchaseGoods" />
-        <item itemvalue="TestNG.PurchaseProductsTool.SupplierOrderDelivery (1)" />
+        <item itemvalue="TestNG.Testweeks.test" />
+        <item itemvalue="Application.Testweeks" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +426,8 @@
       <workItem from="1718768952483" duration="10458000" />
       <workItem from="1721099588650" duration="55216000" />
       <workItem from="1721210021683" duration="12283000" />
-      <workItem from="1721352193952" duration="11373000" />
+      <workItem from="1721352193952" duration="11667000" />
+      <workItem from="1721612141100" duration="14106000" />
     </task>
     <servers />
   </component>

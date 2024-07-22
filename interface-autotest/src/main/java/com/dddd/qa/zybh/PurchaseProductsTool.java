@@ -5,15 +5,23 @@ import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
+import com.dddd.qa.zybh.utils.ErrorEnum;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 
 /**
@@ -39,7 +47,8 @@ public class PurchaseProductsTool extends BaseTest {
 
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
-
+    private static String scene1 = "商品下单";
+    private static String scene2 = "商品发货";
     //根据星期选择不同的sku和json文件
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
         switch (dayOfWeek) {
@@ -67,38 +76,45 @@ public class PurchaseProductsTool extends BaseTest {
         }
     }
 
-
     //商品下单参数：账号编号、token、地址id配置
-    @DataProvider(name = "tokenDataProvider-Prod")
-    public Object[][] tokenDataProvider1() {
-        return new Object[][]{
-                {1, Common.staffFuliToken01, 11951},//ceshi 测试
-                {2, Common.staffFuliToken02, 11946},//karen 吴女士
-                {3, Common.staffFuliToken03, 11967}, //蒋美娣 13858653282
-                {4, Common.staffFuliToken04, 11965},//赵秀、WXY13666605555
-                {5, Common.staffFuliToken05, 11969}//仙齐、18767176714
-
-        };
+    @DataProvider(name = "staffFuliTokenProvider")
+    public Object[][] staffFuliTokenFromCSV() {
+        List<Object[]> data = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/src/main/resources/dddd/staffFuliToken.csv"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (!line.startsWith("num")) { // 跳过标题行
+                    String[] values = line.split(",");
+                    data.add(values);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return data.toArray(new Object[0][]);
     }
 
     //自建供应商token参数
-    @DataProvider(name = "supplierTokenDataProvider-Prod")
-    public Object[][] tokenDataProvider2() {
-        return new Object[][]{
-                //信达办公用品经营部
-                {1, Common.supplierToken01},
-                //万客隆商贸有限公司
-                {2, Common.supplierToken02},
-                //宇轩图文设计中心
-                {3, Common.supplierToken03},
-                //智惠恒数码有限公司
-                {4, Common.supplierToken04}
-        };
+    @DataProvider(name = "supplierTokenProvider")
+    public Object[][] supplierTokenFromCSV() {
+        List<Object[]> data = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/src/main/resources/dddd/supplierToken.csv"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (!line.startsWith("num")) { // 跳过标题行
+                    String[] values = line.split(",");
+                    data.add(values);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return data.toArray(new Object[0][]);
     }
 
     //,description = "商品下单"
-    @Test(dataProvider = "tokenDataProvider-Prod")
-    public void purchaseGoods(int num, String Tokendata,int addressId ) throws InterruptedException {
+    @Test(dataProvider = "staffFuliTokenProvider")
+    public void purchaseGoods(String num, String tokendata,String addressId ) throws InterruptedException {
         // 获取当前日期
         LocalDate now = LocalDate.now();
         // 获取当前是星期几
@@ -113,7 +129,7 @@ public class PurchaseProductsTool extends BaseTest {
             String body = param.toString();
             String createUrl = Common.FuliUrl+Common.addCartUri;
             //存放请求头，可以存放多个请求头
-            headers.put("Yian-Cache", Tokendata);
+            headers.put("Yian-Cache", tokendata);
             String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
             logger.info("加入购物车：" + result);
         }
@@ -123,7 +139,7 @@ public class PurchaseProductsTool extends BaseTest {
         param2.put("userReceiveAddrId", addressId);
         String body2 = param2.toString();
         String createUrl2 = Common.FuliUrl+Common.submitOrderUri;
-        headers.put("Yian-Cache", Tokendata);
+        headers.put("Yian-Cache", tokendata);
         String result2 = HttpUtil.createPost(createUrl2).addHeaders(headers).body(body2).execute().body();
         logger.info("创建订单：" + result2);
 
@@ -136,15 +152,15 @@ public class PurchaseProductsTool extends BaseTest {
 
         //确认下单
         String createUrl3 = Common.FuliUrl+Common.comfirmOrderUri + "?orderNumber=" + orderNumber;
-        headers.put("Yian-Cache", Tokendata);
+        headers.put("Yian-Cache", tokendata);
         String result3 = HttpUtil.createPost(createUrl3).addHeaders(headers).execute().body();
         logger.info("确认下单："+result3);
         cn.hutool.json.JSONObject jsonresult3 = new JSONObject();
         jsonresult3 = new cn.hutool.json.JSONObject(result3);
         String status3 = jsonresult3.getStr("msg");
 
-        Assert.assertNotNull(orderNumber);
-        caveat("第" + num + "个账号: " + Tokendata + "\n"
+        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.FuliPro, "商品下单", ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
+        caveat("第" + num + "个账号: " + tokendata + "\n"
                 +"创建订单：" + status + "\n"
                 +"订单编号：" + orderNumber + "\n"
                 + "确认下单："+ status3);
@@ -153,8 +169,8 @@ public class PurchaseProductsTool extends BaseTest {
 
 
     //description = "自建供应商订单发货"
-    @Test(dataProvider = "supplierTokenDataProvider-Prod",dependsOnMethods = {"purchaseGoods"})
-    public  void supplierOrderDelivery(int num, String supplierTokenData) throws Exception {
+    @Test(dataProvider = "supplierTokenProvider",dependsOnMethods = {"purchaseGoods"})
+    public  void supplierOrderDelivery(String num, String supplierTokenData) throws Exception {
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(supplierOrderList);
         String body = param.toString();
         String createUrl = Common.SupplierUrl+Common.supplierOrderUri;
@@ -184,6 +200,7 @@ public class PurchaseProductsTool extends BaseTest {
                 break; // 可选择退出循环或继续处理
             }
         }
+
         caveat("发货情况：第" + num + "个供应商--商品发货完成！！！");
 
     }

@@ -49,7 +49,7 @@ public class Common {
 
 
 
-    //
+    //jenkins绝对路径
     public static String jenkinsUrl = STATIC_PROPERTIES.getProperty("jenkins.url");
     //dingding
     public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private.dingtalk.alert.url");

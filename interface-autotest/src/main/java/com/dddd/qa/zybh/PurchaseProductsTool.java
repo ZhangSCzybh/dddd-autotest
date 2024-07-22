@@ -27,12 +27,10 @@ import java.util.List;
 /**
  * @author zhangsc
  * @date 2024年07月16日 14:59:26
- * @packageName com.dddd.qa.zybh
  * @className PurchaseProductsTool
- * @describe
- * todo 本地运行 需要修改getAllCases1 -->getAllCases
- * tokenDataProvider1 下单账号
- * tokenDataProvider2 供应商账号
+ *
+ * staffFuliTokenFromCSV 下单账号
+ * supplierTokenFromCSV 供应商账号
  * orderProdDetails 订单参数配置
  * array 每日sku列表
  */
@@ -76,7 +74,7 @@ public class PurchaseProductsTool extends BaseTest {
         }
     }
 
-    //商品下单参数：账号编号、token、地址id配置
+    //商品下单：账号编号、token、地址id配置
     @DataProvider(name = "staffFuliTokenProvider")
     public Object[][] staffFuliTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
@@ -94,7 +92,7 @@ public class PurchaseProductsTool extends BaseTest {
         return data.toArray(new Object[0][]);
     }
 
-    //自建供应商token参数
+    //自建供应商发货：token参数
     @DataProvider(name = "supplierTokenProvider")
     public Object[][] supplierTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
@@ -159,7 +157,7 @@ public class PurchaseProductsTool extends BaseTest {
         jsonresult3 = new cn.hutool.json.JSONObject(result3);
         String status3 = jsonresult3.getStr("msg");
 
-        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.FuliPro, "商品下单", ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
+        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.FuliPro, scene1, ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
         caveat("第" + num + "个账号: " + tokendata + "\n"
                 +"创建订单：" + status + "\n"
                 +"订单编号：" + orderNumber + "\n"

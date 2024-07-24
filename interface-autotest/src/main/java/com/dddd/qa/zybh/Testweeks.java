@@ -32,29 +32,28 @@ import java.util.List;
 public class Testweeks {
     private static String orderProdDetails;
     private static final String[] array1 = {"9147280", "9147301", "9147304", "9147239"};
-    private static final String[] array2 = {"9147167", "9147172", "9147194", "9147221","9147420","9147423","9147173","9147205","9147224","9147232","9147251","9147254","9147211","9147346","9147354","9147268","9147283","9147300"};
-    private static final String[] array3 = {"9147309", "9147239", "9147343", "9147346","9147268","9147274","9147280","9147301","9147304"};
-    private static final String[] array4 = {"9147325", "9147417", "9147418", "9147422","9147424","9147253","9147254","9147255","9147257","9147262","9147357","9147292","9147295","9147298","9147302"};
-    private static final String[] array5 = {"9147305", "9147309", "9147419", "9147215","9147240","9147248","9147347","9147357","9147269","9147277","9147297"};
-
+    private static final String[] array2 = {"9147167", "9147172", "9147194", "9147221", "9147420", "9147423", "9147173", "9147205", "9147224", "9147232", "9147251", "9147254", "9147211", "9147346", "9147354", "9147268", "9147283", "9147300"};
+    private static final String[] array3 = {"9147309", "9147239", "9147343", "9147346", "9147268", "9147274", "9147280", "9147301", "9147304"};
+    private static final String[] array4 = {"9147325", "9147417", "9147418", "9147422", "9147424", "9147253", "9147254", "9147255", "9147257", "9147262", "9147357", "9147292", "9147295", "9147298", "9147302"};
+    private static final String[] array5 = {"9147305", "9147309", "9147419", "9147215", "9147240", "9147248", "9147347", "9147357", "9147269", "9147277", "9147297"};
 
 
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
         switch (dayOfWeek) {
             case MONDAY:
-                orderProdDetails="dddd/createProdOrder11";
+                orderProdDetails = "dddd/createProdOrder11";
                 return array1;
             case TUESDAY:
-                orderProdDetails="dddd/createProdOrder12";
+                orderProdDetails = "dddd/createProdOrder12";
                 return array2;
             case WEDNESDAY:
-                orderProdDetails="dddd/createProdOrder13";
+                orderProdDetails = "dddd/createProdOrder13";
                 return array3;
             case THURSDAY:
-                orderProdDetails="dddd/createProdOrder14";
+                orderProdDetails = "dddd/createProdOrder14";
                 return array4;
             case FRIDAY:
-                orderProdDetails="dddd/createProdOrder15";
+                orderProdDetails = "dddd/createProdOrder15";
                 return array5;
             // 如果是周六或周日，你可以选择默认数组或抛出异常
             case SATURDAY:
@@ -66,17 +65,7 @@ public class Testweeks {
     }
 
     public static void main(String[] args) throws Exception {
-        // 获取当前日期
-        //LocalDate now = LocalDate.now();
-        // 获取当前是星期几
-        //DayOfWeek dayOfWeek = now.getDayOfWeek();
-        // 根据星期几选择对应的数组
-        //String[] selectedArray = selectArrayByDay(dayOfWeek);
 
-        // 输出数组内容
-        //for (String skuid : selectedArray) {
-        //    System.out.println(skuid);
-        //}
 
         String csvFilePath = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd/111.csv"; // 替换为你的CSV文件路径
         List<String> dataRows = readCSV(csvFilePath);
@@ -99,32 +88,6 @@ public class Testweeks {
 
     }
 
-    @DataProvider(name = "supplierTokenDataProvider-Prod")
-    public Object[][] tokenDataProvider2() {
-        return new Object[][]{
-                //信达办公用品经营部
-                {1, Common.supplierToken01},
-                //万客隆商贸有限公司
-                {2, Common.supplierToken02},
-                //宇轩图文设计中心
-                {3, Common.supplierToken03},
-                //智惠恒数码有限公司
-                {4, Common.supplierToken04}
-        };
-    }
-
-    @DataProvider(name = "tokenDataProvider-Prod")
-    public Object[][] tokenDataProvider1() {
-        return new Object[][]{
-                {1, Common.staffFuliToken01, 11951},//ceshi 测试
-                {2, Common.staffFuliToken02, 11946},//karen 吴女士
-                {3, Common.staffFuliToken03, 11967}, //蒋美娣 13858653282
-                {4, Common.staffFuliToken04, 11965},//赵秀、WXY13666605555
-                {5, Common.staffFuliToken05, 11969}//仙齐、18767176714
-
-        };
-    }
-
     @DataProvider(name = "supplierTokenProvider")
     public Object[][] supplierTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
@@ -144,12 +107,11 @@ public class Testweeks {
 
     @Test(dataProvider = "supplierTokenProvider")
     public void testUserData(String num, String token) {
-        System.out.println("Testing num: " + num + ", token: " + token );
+        System.out.println("Testing num: " + num + ", token: " + token);
         //System.out.println("Testing num: " + num + ", token: " + token );
         // 在这里进行你的测试逻辑
 
     }
-
 
     //获取csv文件数据
     public static List<String> readCSV(String path) {
@@ -165,16 +127,4 @@ public class Testweeks {
         return rows;
     }
 
-
-    @Test
-    public void test(){
-        String number = null;
-        String result = null;
-        cn.hutool.json.JSONObject jsonresult = new JSONObject();
-        jsonresult = new cn.hutool.json.JSONObject(result);
-        Assert.assertNotNull(number,String.format(Config.result_message, Config.FuliPro, "商品下单", ErrorEnum.ISEMPTY.getMsg(), 666, 777, jsonresult));
-
-        //CommonUtil.assertAvailable(jsonresult, "22", "33", "44");
-
-    }
 }

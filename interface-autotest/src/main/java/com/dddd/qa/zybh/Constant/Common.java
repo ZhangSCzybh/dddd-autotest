@@ -29,31 +29,26 @@ public class Common {
     //不同环境切换**** 修改15行的配置文件
     public static String profiesEnv = STATIC_PROPERTIES.getProperty("profiles.active");
 
+    //钉钉机器人
+    public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private.dingtalk.alert.url");
+
+    //jenkins绝对路径
+    public static String jenkinsUrl = STATIC_PROPERTIES.getProperty("jenkins.url");
+
     //叮叮当当
     public static String DDingDDdangUrl = STATIC_PROPERTIES.getProperty("ddingddang.url");
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
 
-
     //福粒
     public static String FuliUrl = STATIC_PROPERTIES.getProperty("fuli.url");
     public static String SupplierUrl = STATIC_PROPERTIES.getProperty("supplier.url");
-
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
     public static String submitOrderUri = STATIC_PROPERTIES.getProperty("submit.order.uri");
     public static String comfirmOrderUri = STATIC_PROPERTIES.getProperty("confirm.order.uri");
     public static String supplierOrderUri = STATIC_PROPERTIES.getProperty("supplier.order.uri");
     public static String supplierOrderShipUri = STATIC_PROPERTIES.getProperty("supplier.order.ship.uri");
-
-
-
-
-    //jenkins绝对路径
-    public static String jenkinsUrl = STATIC_PROPERTIES.getProperty("jenkins.url");
-    //dingding
-    public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private.dingtalk.alert.url");
-    public static String dingTalkUrlSecret = STATIC_PROPERTIES.getProperty("dingding,url.secret");
 
     //用来存储cookies的变量
     public static String Cookies;
@@ -65,18 +60,6 @@ public class Common {
     public static String[] array3 = {"9147309", "9147239", "9147343", "9147346","9147268","9147274","9147280","9147301","9147304"};
     public static String[] array4 = {"9147325", "9147417", "9147418", "9147422","9147424","9147253","9147254","9147255","9147257","9147262","9147357","9147292","9147295","9147298","9147302"};
     public static String[] array5 = {"9147305", "9147309", "9147419", "9147215","9147240","9147248","9147347","9147357","9147269","9147277","9147297"};
-    //下单--员工账号
-    public static String staffFuliToken01 = "fe84dd3442044fb4bc691d6c839f8722";
-    public static String staffFuliToken02 = "a06a29079c1541989b5db3ebe8b38d6c";
-    public static String staffFuliToken03 = "0f621cc6b3de4f0ebd5b9735020e8aa6";
-    public static String staffFuliToken04 = "2b1c7c89596844e4901a8d4d5bb0fe11";
-    public static String staffFuliToken05 = "53d8c099e12c460a812e6f3b940cdb52";
-
-    //发货--供应商账号
-    public static String supplierToken01 = "Y2pmZDBdbi2adN0T7h7ZcaDD3R0jeMCm6t2adMAG3pFX9Y7WbU9zbR3n0BA42W8FfQF48aVdBMUdRMVRnQU5KNmtOTFU4QTFKL2g5VjNkVGhweE5jeUN6TXo3WmtFUTZlWno5czNTMzdaaVc0Uy9TL0xDdUEzUjdReW9YdXpyRUVxY21CNVlWdjIrVHozVy8yOEp1dXhVY3dtWHJoNjl1aXBwOHpjT0pKVmJlMDdhR3hVa1lzeE1XME5ubUpJb2VMWVBVPQ";
-    public static String supplierToken02 = "cUxGbW194l7U0EDh1VCT4DCI236d4T7lfZER41DB0j9Ra17pf39M3l4Yc0CSfj1h72AY7lRFSkpmSE5RT3lwRDdQWW5YMG5xbEl3M0pzZThiaUEFla3NTeUpkcUVLeFliabFBSNDdSZTZYdkQ1aDN3UHZPcGtCMXUrdDhsNzQ0STc3c1RXQWFDQldoL1lQV0x6WGN4VklFaVlFcmFiaQ0lENW9ycEQ2d09renp5ZzF3ZENZa2h0RzlaVEQ2Q0gzdGpmSFlFPQ";
-    public static String supplierToken03 = "L1lPZUEJ2BDNcmBF9iFa8a1G1d82cZFHeh614QFW1ZFu0d2E0xEY8VBS59E6ec7DbU82aOEsycWhzaHlOclg2YTRWSXc1Vm4vTEZFbGxtWjNVeHJsVW5KNFNLQ0I0Wia9jRmlYVFdFdEpKemt6T284blYxdW1rc3d1SUc0WnBiaWnZxT0RIc20xK2RjRCs3aEYrbW5RVnZuWDNoVTZ4aEpQMmdRS3llNUZ6d2tiaMzJRPT0";
-    public static String supplierToken04 = "ZStXRT5l2R3cfHFNemFY0nEAf35R5275dyFW0n0hcjAZ3TAF3HBU6W6V5nEUdm0J6a1T8kttdCsrdFJycERLREhXY21vQlZ0UVpTWk51bkFRU21PNFBxMmpLRmprWnd0bEExanNUc3pZMmVGS0phNjArUU9uOHhaL2JUWHpsOEw4U0oxUjZKbDdsQ0FuaFcrNjRIM3Rhc1JFYjdURkFZUWVYemdjbTkveStSbURGVWdSUDRlRXU0dy9TOERjclRpUmNRPQ";
 
 
 
@@ -85,15 +68,7 @@ public class Common {
 
 
 
-
-
-
-
-
-
-
-
-
+    /**********************************************************作废***********************************************************/
 
     //yolocast
     public static String yolocastUrl = STATIC_PROPERTIES.getProperty("yolocast.url");

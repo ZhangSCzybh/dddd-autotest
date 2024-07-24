@@ -30,6 +30,7 @@ import java.util.List;
  * @describe TODO
  */
 public class Testweeks {
+    private static String skuListfile = "dddd/skuList";
     private static String orderProdDetails;
     private static final String[] array1 = {"9147280", "9147301", "9147304", "9147239"};
     private static final String[] array2 = {"9147167", "9147172", "9147194", "9147221", "9147420", "9147423", "9147173", "9147205", "9147224", "9147232", "9147251", "9147254", "9147211", "9147346", "9147354", "9147268", "9147283", "9147300"};
@@ -81,10 +82,12 @@ public class Testweeks {
         } else {
             System.out.println("No data available for today.");
         }
-        File file = new File("");
-        //String filePath = file.getAbsolutePath() + "/src/main/resources/" + fileName + ".json";
 
+        File file = new File("interface-autotest/1.text");
         System.out.println(file.getAbsolutePath());
+        //GetCaseUtil.getAllCases(skuListfile);
+        //System.out.println(GetCaseUtil.getAllCases(skuListfile));
+        ///Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd/skuList.json
 
     }
 

@@ -1,1 +1,0 @@
-{"uuid":"a80b50ec-78d7-4605-a351-a006c8a12d1f","name":"com.dddd.qa.zybh.ApiTest.SettingTest.LogoutTest","start":1718377190295,"stop":1718377190831,"children":["bdce4ad9-95b5-4a86-afcc-c14dd5ddd6ad"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1718377190302,"stop":1718377190362}]}

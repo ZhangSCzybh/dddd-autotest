@@ -1,1 +1,0 @@
-{"uuid":"d525bbaa-3b35-4a22-9864-0396db4d6c15","name":"dddd-autotest","start":1721203142802,"stop":1721203145001,"children":["9e12802f-7dbd-498a-beb1-cffe3643919e"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","start":1721203142809,"stop":1721203143201}]}

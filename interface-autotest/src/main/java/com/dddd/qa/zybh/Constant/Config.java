@@ -35,11 +35,12 @@ public class Config {
     public static String year = DateUtil.getPreviousDate(0).getYear() + "年";//该年
     public static String date = DateUtil.LocalDateFormatStr(DateUtil.getPreviousDate(0), format);//当天
     public static String NowYmd = DateUtil.getYMD(0);//当天/yyyymmdd
+
+    public static long getTimestamp = DateUtil.getTodayCurrent();//获取十分钟后的时间戳
     public static long getTimestampAfterTenMinutes = DateUtil.getTodayCurrent()+600000;//获取十分钟后的时间戳
     public static long getTimestampAfterFortyMinutes = DateUtil.getTodayCurrent()+2400000;//获取十分钟后的时间戳
 
     public static String getSysdateStr = DateUtil.getSysdateStr();//时间格式：2022-04-24 21:29:20
-
     public static String PreviousDateNow = DateUtil.LocalDateFormatStr(DateUtil.getPreviousDate(0), formatDay);//
 
 

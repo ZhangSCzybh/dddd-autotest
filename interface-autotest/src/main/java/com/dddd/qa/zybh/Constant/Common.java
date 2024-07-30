@@ -50,9 +50,19 @@ public class Common {
     public static String supplierOrderUri = STATIC_PROPERTIES.getProperty("supplier.order.uri");
     public static String supplierOrderShipUri = STATIC_PROPERTIES.getProperty("supplier.order.ship.uri");
 
+    //福粒运营平台
+    public static String fuliOperationPlatformUrl = STATIC_PROPERTIES.getProperty("fuli.operationplatform.url");
+    public static String fuliOperationPlatformAddProductUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.addproduct.uri");
+    public static String fuliOperationPlatformSkuListUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.skulist.uri");
+    public static String fuliOperationPlatformUpdateSpuStateUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.updateSpuState.uri");
+    public static String fuliOperationPlatformUpdateSkuStateUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.updateSkuState.uri");
+
+
+
     //用来存储cookies的变量
     public static String Cookies;
     public static String DDingDDangToken;
+    public static String fuliOperationPlatformToken = "Tk9CRjEQ551WdU0N6rBU9HBV0p3U2FDN4JBWfn7V9p6Vd3FUd54ceUCtfU6T4H0N2Z9OfVAyMEtUUUtpM0hEcnhQR2pmMktJTXVJKzZ5NlhHSHgzb3ZZKzNYdko3YnI3bDZQU093TFFhSUpuNWc9PQ";
 
     //下单--sku列表
     //public static String[] array1 = {"9147280", "9147301", "9147304", "9147239"};

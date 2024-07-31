@@ -39,14 +39,14 @@ public class PurchaseProductsTool extends BaseTest {
 
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
-    private static String skuListfile = "dddd/skuList";
-    private static String supplierOrderList = "dddd/supplierOrderList";
-    private static HashMap<String, String> headers =new HashMap<>();
+    private static final String skuListfile = "dddd/skuList";
+    private static final String supplierOrderList = "dddd/supplierOrderList";
+    private static final HashMap<String, String> headers =new HashMap<>();
 
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
-    private static String scene1 = "商品下单";
-    private static String scene2 = "商品发货";
+    private static final String scene1 = "商品下单";
+    private static final String scene2 = "商品发货";
     //根据星期选择不同的sku和json文件
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
         switch (dayOfWeek) {

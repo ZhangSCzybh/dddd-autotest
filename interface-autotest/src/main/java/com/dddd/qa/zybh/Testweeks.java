@@ -1,10 +1,21 @@
 package com.dddd.qa.zybh;
 
+import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
+import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
+import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
+import com.dddd.qa.zybh.utils.DateUtil;
+import com.dddd.qa.zybh.utils.GetCaseUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -12,10 +23,6 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author zhangsc
@@ -28,6 +35,9 @@ public class Testweeks {
     private static String skuListfile = "dddd/skuList";
     private static String orderProdDetails;
 
+    private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
+    private static HashMap<String, String> headers =new HashMap<>();
+    private static String productDetailsParameters = "dddd/productDetailsParameters";;
     //ceshi 测试
     //karen 吴女士
     //蒋美娣 13858653282
@@ -58,7 +68,6 @@ public class Testweeks {
         }
 
 
-
         //输入快递单号查询快递
         Scanner scan = new Scanner(System.in);
         System.out.println("请输入快递单号：");
@@ -68,17 +77,13 @@ public class Testweeks {
         }
         scan.close();
 
-
-
     }
 
     //数据驱动
     @DataProvider(name = "testData")
     public Object[][] testData() {
         return new Object[][] {
-                { "username1", "password1" }, // 数据集1
-                { "username2", "password2" }, // 数据集2
-                { "username3", "password3" }  // 数据集3
+                {2} // 数据集1
         };
     }
 
@@ -176,4 +181,7 @@ public class Testweeks {
         }
         return rows;
     }
+
+
+
 }

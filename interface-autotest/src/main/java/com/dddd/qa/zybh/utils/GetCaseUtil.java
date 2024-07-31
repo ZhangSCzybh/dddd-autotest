@@ -4,6 +4,7 @@ import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.parser.Feature;
+import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -13,18 +14,26 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author zhangsc
  * @date 2022-05-03 下午5:37
  */
 public class GetCaseUtil {
+
+    private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
+    private static HashMap<String, String> headers =new HashMap<>();
+
     //读取json格式案例
     public static JSONObject getCase(String caseName, String fileName) {
         try {
@@ -42,6 +51,7 @@ public class GetCaseUtil {
     }
 
 
+    //读取json格式案例
     public static JSONObject getAllCases(String fileName) {
         JSONObject result = new JSONObject();
         try {
@@ -56,6 +66,7 @@ public class GetCaseUtil {
         }
         return result;
     }
+
     public static JSONObject getAllCases1(String fileName) {
         JSONObject result = new JSONObject();
         try {
@@ -107,6 +118,31 @@ public class GetCaseUtil {
         }
     }
 
+    //福粒运营平台--上架spu
+    public static void updateSpuState(String spuCode){
+        cn.hutool.json.JSONObject param = JSONUtil.createObj();//存放参数
+        param.put("goodsState", 1);
+        param.put("spuCode", spuCode);
+        headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
+        String body = param.toString();
+        String updateSpuStateUrl = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformUpdateSpuStateUri;
+        String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        logger.info( "spu:" + spuCode +";上架状态:" + jsonresult.get("msg").toString());
+
+    }
+
+    //福粒运营平台--开启销售sku
+    public static void updateSkuState(String skuCode ){
+        cn.hutool.json.JSONObject param = JSONUtil.createObj();
+        param.put("status", 1);
+        headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
+        String body = param.toString();
+        String updateSpuStateUrl = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformUpdateSkuStateUri+skuCode+"/updateState";
+        String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        logger.info( "sku:" + skuCode +";销售状态:" + jsonresult.get("msg").toString());
+    }
 
 }
 

@@ -28,7 +28,7 @@ public class LoginZCTest extends BaseTest {
 
     @BeforeClass
     public static void setUp() {
-        Common.DDingDDangToken = LoginUtil.loginToken(Common.DDingDDdangUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo);
+        Common.DDingDDangToken = LoginUtil.loginToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo);
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
     }
 
@@ -36,7 +36,7 @@ public class LoginZCTest extends BaseTest {
     @Test
     public void loginDDingDDangHR(){
         try {
-            String loginUrl = Common.DDingDDdangUrl + Common.loginDDingDDangUri;
+            String loginUrl = Common.zhicaiHrUrl + Common.loginDDingDDangUri;
             // 1. 创建 URL 对象
             URL url = new URL(loginUrl);
             // 2. 打开 HttpURLConnection 连接

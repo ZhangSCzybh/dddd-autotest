@@ -3,13 +3,13 @@
 <suite name="runAll">
     <test name ="source">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LogoutTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
         </classes>
     </test>
 
     <test name ="purchase">
         <classes>
-             <class name="com.dddd.qa.zybh.PurchaseProductsTool"/>
+            <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
         </classes>
     </test>
 

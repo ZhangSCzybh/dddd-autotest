@@ -15,7 +15,7 @@ public class DestinationTest {
 
     @BeforeClass
     public static void setUp(){
-        Common.DDingDDangToken = LoginUtil.loginToken(Common.DDingDDdangUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo);
+        Common.DDingDDangToken = LoginUtil.loginToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo);
         logger.info("执行登录获取智采企业平台的token" + Common.DDingDDangToken);
     }
 

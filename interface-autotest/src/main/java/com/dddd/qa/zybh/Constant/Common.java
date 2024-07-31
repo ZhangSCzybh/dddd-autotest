@@ -12,7 +12,7 @@ public class Common {
 
     static {
         try {
-            InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
+            InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
             //字节流是无法读取中文的，否则会乱码。所以采取reader把inputStream转换成reader用字符流来读取中文
             BufferedReader bf = new BufferedReader(new InputStreamReader(in));
             if (null != bf) {
@@ -35,14 +35,17 @@ public class Common {
     //jenkins绝对路径
     public static String jenkinsUrl = STATIC_PROPERTIES.getProperty("jenkins.url");
 
-    //叮叮当当
-    public static String DDingDDdangUrl = STATIC_PROPERTIES.getProperty("ddingddang.url");
+    //智采企业hr
+    public static String zhicaiHrUrl = STATIC_PROPERTIES.getProperty("zhicai.hr.url");
+    //商城 MallUrl
+    public static String MallUrl = STATIC_PROPERTIES.getProperty("mall.url");
+    //供应商平台
+    public static String SupplierUrl = STATIC_PROPERTIES.getProperty("supplier.url");
+    //福粒运营平台 OpUrl
+    public static String OpUrl = STATIC_PROPERTIES.getProperty("op.url");
+
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
-
-    //福粒
-    public static String FuliUrl = STATIC_PROPERTIES.getProperty("fuli.url");
-    public static String SupplierUrl = STATIC_PROPERTIES.getProperty("supplier.url");
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
     public static String submitOrderUri = STATIC_PROPERTIES.getProperty("submit.order.uri");
@@ -50,19 +53,17 @@ public class Common {
     public static String supplierOrderUri = STATIC_PROPERTIES.getProperty("supplier.order.uri");
     public static String supplierOrderShipUri = STATIC_PROPERTIES.getProperty("supplier.order.ship.uri");
 
-    //福粒运营平台
-    public static String fuliOperationPlatformUrl = STATIC_PROPERTIES.getProperty("fuli.operationplatform.url");
-    public static String fuliOperationPlatformAddProductUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.addproduct.uri");
-    public static String fuliOperationPlatformSkuListUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.skulist.uri");
-    public static String fuliOperationPlatformUpdateSpuStateUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.updateSpuState.uri");
-    public static String fuliOperationPlatformUpdateSkuStateUri = STATIC_PROPERTIES.getProperty("fuli.operationplatform.updateSkuState.uri");
-
+    public static String fuliOpAddProductUri = STATIC_PROPERTIES.getProperty("fuli.op.addproduct.uri");
+    public static String fuliOpSkuListUri = STATIC_PROPERTIES.getProperty("fuli.op.skulist.uri");
+    public static String fuliOpUpdateSpuStateUri = STATIC_PROPERTIES.getProperty("fuli.op.updateSpuState.uri");
+    public static String fuliOpUpdateSkuStateUri = STATIC_PROPERTIES.getProperty("fuli.op.updateSkuState.uri");
 
 
     //用来存储cookies的变量
     public static String Cookies;
     public static String DDingDDangToken;
-    public static String fuliOperationPlatformToken = "Tk9CRjEQ551WdU0N6rBU9HBV0p3U2FDN4JBWfn7V9p6Vd3FUd54ceUCtfU6T4H0N2Z9OfVAyMEtUUUtpM0hEcnhQR2pmMktJTXVJKzZ5NlhHSHgzb3ZZKzNYdko3YnI3bDZQU093TFFhSUpuNWc9PQ";
+    public static String fuliOperationPlatformToken  = STATIC_PROPERTIES.getProperty("op.token");
+
 
     //下单--sku列表
     //public static String[] array1 = {"9147280", "9147301", "9147304", "9147239"};

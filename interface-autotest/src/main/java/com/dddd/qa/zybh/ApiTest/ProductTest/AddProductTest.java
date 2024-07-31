@@ -29,7 +29,7 @@ public class AddProductTest {
     private static final HashMap<String, String> headers =new HashMap<>();
 
     private static final String productDetailsParameters = "dddd/productDetailsParameters";;
-    private static final int createNumber = 8;
+    private static final int createNumber = 2;
     private static String spuCode;
     private static String skuCode;
 
@@ -50,7 +50,7 @@ public class AddProductTest {
             param1.put("supplierName",supplierName);
             param1.put("goodsName", "再也不会" + System.currentTimeMillis() + "商品" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")) );
             String body1 = param1.toString();
-            String createUrl1 = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformAddProductUri;
+            String createUrl1 = Common.OpUrl+Common.fuliOpAddProductUri;
             headers.put("Fuli-Cache",Common.fuliOperationPlatformToken);
             String result1 = HttpUtil.createPost(createUrl1).addHeaders(headers).body(body1).execute().body();
             cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result1);
@@ -77,7 +77,7 @@ public class AddProductTest {
         map.put("page", 1);
         map.put("pageSize", createNumber);
         headers.put("Fuli-Cache",Common.fuliOperationPlatformToken);
-        String getSkuListUrl = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformSkuListUri;
+        String getSkuListUrl = Common.OpUrl+Common.fuliOpSkuListUri;
         String result= HttpUtil.createGet(getSkuListUrl).addHeaders(headers).form(map).execute().body();
 
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
@@ -110,7 +110,7 @@ public class AddProductTest {
         map.put("page", 1);
         map.put("pageSize", 10);
         headers.put("Fuli-Cache",Common.fuliOperationPlatformToken);
-        String getSkuListUrl = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformSkuListUri;
+        String getSkuListUrl = Common.OpUrl+Common.fuliOpSkuListUri;
         String result= HttpUtil.createGet(getSkuListUrl).addHeaders(headers).form(map).execute().body();
 
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);

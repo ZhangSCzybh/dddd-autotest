@@ -66,7 +66,7 @@ public class GetCaseUtil {
         }
         return result;
     }
-
+    //读取jenkins路径下的json格式案例
     public static JSONObject getAllCases1(String fileName) {
         JSONObject result = new JSONObject();
         try {
@@ -118,6 +118,20 @@ public class GetCaseUtil {
         }
     }
 
+    //添加库存
+    public static void updateSkuStock(String skuCode){
+        cn.hutool.json.JSONObject param = JSONUtil.createObj();
+        param.put("goodsStorge", 1);
+        headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
+        String body = param.toString();
+        String updateSpuStateUrl = Common.SupplierUrl+Common.fuliOpUpdateSkuStateUri+skuCode+"/updatestock";
+        String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        logger.info( "sku:" + skuCode +";库存状态:" + jsonresult.get("msg").toString());
+
+    }
+
+
     //福粒运营平台--上架spu
     public static void updateSpuState(String spuCode){
         cn.hutool.json.JSONObject param = JSONUtil.createObj();//存放参数
@@ -125,7 +139,7 @@ public class GetCaseUtil {
         param.put("spuCode", spuCode);
         headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
         String body = param.toString();
-        String updateSpuStateUrl = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformUpdateSpuStateUri;
+        String updateSpuStateUrl = Common.OpUrl+Common.fuliOpUpdateSpuStateUri;
         String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         logger.info( "spu:" + spuCode +";上架状态:" + jsonresult.get("msg").toString());
@@ -138,11 +152,13 @@ public class GetCaseUtil {
         param.put("status", 1);
         headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
         String body = param.toString();
-        String updateSpuStateUrl = Common.fuliOperationPlatformUrl+Common.fuliOperationPlatformUpdateSkuStateUri+skuCode+"/updateState";
+        String updateSpuStateUrl = Common.OpUrl+Common.fuliOpUpdateSkuStateUri+skuCode+"/updateState";
         String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         logger.info( "sku:" + skuCode +";销售状态:" + jsonresult.get("msg").toString());
     }
+
+
 
 }
 

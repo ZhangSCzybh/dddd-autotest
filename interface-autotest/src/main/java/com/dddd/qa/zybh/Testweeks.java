@@ -1,28 +1,19 @@
 package com.dddd.qa.zybh;
 
-import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
-import com.dddd.qa.zybh.Constant.Common;
-import com.dddd.qa.zybh.Constant.Config;
-import com.dddd.qa.zybh.utils.DateUtil;
-import com.dddd.qa.zybh.utils.GetCaseUtil;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.UnknownHostException;
-import java.time.DayOfWeek;
-import java.time.LocalDate;
 
 /**
  * @author zhangsc
@@ -32,12 +23,9 @@ import java.time.LocalDate;
  * @describe TODO
  */
 public class Testweeks {
-    private static String skuListfile = "dddd/skuList";
-    private static String orderProdDetails;
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
-    private static HashMap<String, String> headers =new HashMap<>();
-    private static String productDetailsParameters = "dddd/productDetailsParameters";;
+    private static final HashMap<String, String> headers =new HashMap<>();
     //ceshi 测试
     //karen 吴女士
     //蒋美娣 13858653282
@@ -52,22 +40,6 @@ public class Testweeks {
 
 
     public static void main(String[] args) throws Exception {
-
-        //根据星期，获取不同行的数据
-        String csvFilePath = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd/111.csv"; // 替换为你的CSV文件路径
-        List<String> dataRows = readCSV(csvFilePath);
-        // 获取当前的星期几
-        DayOfWeek dayOfWeek = LocalDate.now().getDayOfWeek();
-        int index = dayOfWeek.getValue() - 1; // DayOfWeek的值从1（星期一）开始，而List的索引从0开始
-        // 根据星期几的索引选择数据
-        if (index >= 0 && index < dataRows.size()) {
-            String selectedRow = dataRows.get(index);
-            System.out.println("Selected row for today: " + selectedRow);
-        } else {
-            System.out.println("No data available for today.");
-        }
-
-
         //输入快递单号查询快递
         Scanner scan = new Scanner(System.in);
         System.out.println("请输入快递单号：");

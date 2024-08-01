@@ -92,7 +92,7 @@ public class GetCaseUtil {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("logisticsChannel", "百福东方");
         jsonObject.put("logisticsNumber", DateUtil.getTodayCurrent());
-        jsonObject.put("remark", "");
+        jsonObject.put("remark", "发货成功:"+DateUtil.getTodayCurrent());
         jsonArray.put(jsonObject);
 
         // 将JSON数组转换为字符串，并设置为请求体

@@ -64,9 +64,16 @@ public class Common {
     public static String DDingDDangToken;
     public static String fuliOperationPlatformToken  = STATIC_PROPERTIES.getProperty("op.token");
 
+    //创建商品
+    public static String brandId = STATIC_PROPERTIES.getProperty("goods.brandid");
+    public static String brandName = STATIC_PROPERTIES.getProperty("goods.brandname");
+    public static String categoryId = STATIC_PROPERTIES.getProperty("goods.categoryid");
+    public static String categoryId2 = STATIC_PROPERTIES.getProperty("goods.categoryid2");
+    public static String categoryId3 = STATIC_PROPERTIES.getProperty("goods.categoryid3");
 
-    //下单--sku列表
-    //public static String[] array1 = {"9147280", "9147301", "9147304", "9147239"};
+
+
+    //下单--生产环境sku列表
     public static String[] array1 = {"9147169", "9147305", "9147417", "9147178","9147190","9147226","9147249","9147260","9147176","9147339","9147175","9147276","9147285","9147289","9147293"};
     public static String[] array2 = {"9147167", "9147172", "9147194", "9147221","9147420","9147423","9147173","9147205","9147224","9147232","9147251","9147254","9147211","9147346","9147354","9147268","9147283","9147300"};
     public static String[] array3 = {"9147309", "9147239", "9147343", "9147346","9147268","9147274","9147280","9147301","9147304"};

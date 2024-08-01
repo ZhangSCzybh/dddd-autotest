@@ -61,15 +61,6 @@ public class SendResultToDingtalk {
     }
 
 
-    /**
-     * 组装请求报文 content,isAtAll,mobileList
-     * @author zhangsc
-     * @date 2022/7/13 下午7:36
-     * @param content
-     * @param isAtAll
-     * @param mobileList
-     * @return java.lang.String
-     */
     public static String buildReqStr(String content, boolean isAtAll, List<String> mobileList) {
         //消息内容
         Map<String, String> contentMap = Maps.newHashMap();

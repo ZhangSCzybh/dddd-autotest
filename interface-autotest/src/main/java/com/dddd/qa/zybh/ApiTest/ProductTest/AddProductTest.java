@@ -3,7 +3,6 @@ package com.dddd.qa.zybh.ApiTest.ProductTest;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
@@ -35,9 +34,10 @@ public class AddProductTest {
 
 
     @DataProvider(name = "supplierInformation")
-    public Object[][] testData() {
+    public Object[][] supplierData() {
         return new Object[][] {
-                { createNumber ,"889605", "测试平台供应商"} // 创建商品数量，供应商id，供应商名称
+                { createNumber ,"889605", "测试平台供应商"} // pre、pro-huika创建商品数量，供应商id，供应商名称
+                //{ createNumber ,"889227", "再也不会供应商"} // test环境
         };
     }
 
@@ -49,6 +49,11 @@ public class AddProductTest {
             param1.put("supplierId",supplierId);
             param1.put("supplierName",supplierName);
             param1.put("goodsName", "再也不会" + System.currentTimeMillis() + "商品" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")) );
+            param1.put("brandId",Common.brandId);
+            param1.put("brandName",Common.brandName);
+            param1.put("categoryId",Common.categoryId);
+            param1.put("categoryId2",Common.categoryId2);
+            param1.put("categoryId3",Common.categoryId3);
             String body1 = param1.toString();
             String createUrl1 = Common.OpUrl+Common.fuliOpAddProductUri;
             headers.put("Fuli-Cache",Common.fuliOperationPlatformToken);

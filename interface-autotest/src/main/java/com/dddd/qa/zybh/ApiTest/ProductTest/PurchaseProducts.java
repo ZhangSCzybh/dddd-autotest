@@ -3,6 +3,7 @@ package com.dddd.qa.zybh.ApiTest.ProductTest;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
+import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.BaseTest;
 import com.dddd.qa.zybh.Constant.Common;
@@ -42,8 +43,6 @@ public class PurchaseProducts extends BaseTest {
 
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
-    private static final String skuListfile = "dddd/skuList";
-    private static final String supplierOrderList = "dddd/supplierOrderList";
     private static final String scene1 = "商品下单";
 
     //根据星期选择不同的sku和json文件
@@ -122,8 +121,10 @@ public class PurchaseProducts extends BaseTest {
         String[] selectedArray = selectArrayByDay(dayOfWeek);
 
         //存放参数
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(skuListfile);
+        JSONObject param = JSONUtil.createObj();
         for (String skuId : selectedArray) {
+            param.put("checked", "0");
+            param.put("count", "1");
             GetCaseUtil.updateSkuStock(skuId);
             param.put("skuId", skuId);
             String body = param.toString();
@@ -170,7 +171,10 @@ public class PurchaseProducts extends BaseTest {
     //description = "自建供应商订单发货"
     @Test(dataProvider = "supplierTokenProvider",dependsOnMethods = {"purchaseGoods"})
     public  void supplierOrderDelivery(String num, String supplierTokenData) throws Exception {
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(supplierOrderList);
+        JSONObject param = JSONUtil.createObj();
+        param.put("status", 2);
+        param.put("page", 1);
+        param.put("pageSize", 200);
         String body = param.toString();
         String createUrl = Common.SupplierUrl+Common.supplierOrderUri;
         headers.put("Supplier-Cache", supplierTokenData);

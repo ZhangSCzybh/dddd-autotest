@@ -11,16 +11,21 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
  * @author zhangsc
  * @date 2024年07月30日 15:47:35
  * @className AddProductTest
- * @describe 创建商品，上架spu，开启销售sku
+ * @describe //todo 修改供应商id和名称
  */
 public class AddProductTest {
 
@@ -36,11 +41,14 @@ public class AddProductTest {
     @DataProvider(name = "supplierInformation")
     public Object[][] supplierData() {
         return new Object[][] {
-                { createNumber ,"889605", "测试平台供应商"} // pre、pro-huika创建商品数量，供应商id，供应商名称
-                //{ createNumber ,"889227", "再也不会供应商"} // test环境
+            //商品数量，供应商id，供应商名称
+            { createNumber ,"889227", "再也不会供应商"}//test
+            //{ createNumber ,"889605", "测试平台供应商"}, //pre
+            //{ createNumber ,"889605", "测试平台供应商"}, //pro-fuli
+            //{ createNumber ,"889605", "测试平台供应商"}//pro-huika
         };
-    }
 
+    }
     //创建商品
     @Test(dataProvider = "supplierInformation")
     public void addProduct(int number, String supplierId,String supplierName){

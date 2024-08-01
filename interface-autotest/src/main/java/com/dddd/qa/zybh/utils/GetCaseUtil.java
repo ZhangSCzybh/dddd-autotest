@@ -20,10 +20,7 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author zhangsc
@@ -157,8 +154,6 @@ public class GetCaseUtil {
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         logger.info( "sku:" + skuCode +";销售状态:" + jsonresult.get("msg").toString());
     }
-
-
 
 }
 

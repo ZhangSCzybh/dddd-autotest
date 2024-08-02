@@ -219,7 +219,7 @@ public class PurchaseProducts extends BaseTest {
     //description = "智采员工发放积分"
     @Test(dataProvider = "EmployeeData")
     public void sendEmployeePoints(Integer[] list,String amount){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(employeePointsParameters);
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParameters);
         param.put("list", list);
         param.put("amount", amount);
         String body = param.toString();
@@ -229,6 +229,6 @@ public class PurchaseProducts extends BaseTest {
         JSONObject jsonresult = new JSONObject(result);
         String data = jsonresult.get("result").toString();
         logger.info( data + ":员工积分发放成功！");
-        caveat( "===========智采员工积分===========" + "\n"+ "发放结果:" + data + "\n" + "积分额度:" + amount + "积分");
+        caveat( "===========智采员工积分===========" + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
     }
 }

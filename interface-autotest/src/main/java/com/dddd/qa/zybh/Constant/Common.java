@@ -46,6 +46,7 @@ public class Common {
 
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
+    public static String sendEmployeePointsUri = STATIC_PROPERTIES.getProperty("send.employee.points.uri");
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
     public static String submitOrderUri = STATIC_PROPERTIES.getProperty("submit.order.uri");
@@ -63,6 +64,7 @@ public class Common {
     public static String Cookies;
     public static String DDingDDangToken;
     public static String fuliOperationPlatformToken  = STATIC_PROPERTIES.getProperty("op.token");
+    public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token");
 
     //创建商品
     public static String brandId = STATIC_PROPERTIES.getProperty("goods.brandid");

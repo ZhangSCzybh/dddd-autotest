@@ -10,13 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ffccc0f0-4237-4217-b1b3-af296ebebbfa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/employeePointsParameters.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/ff11d279-0fb4-4e7f-a733-59f629f1088f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/ffccc0f0-4237-4217-b1b3-af296ebebbfa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/EventDetailTest/EventDetailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/MaterialTest/MaterialTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/AddProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/AddProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/EventDetailTest/EventDetailTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/MaterialTest/MaterialTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/AddProductTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/AddProductTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/LoginUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/LoginUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/dddd/qwer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +114,11 @@
     "TestNG.PurchaseProducts (1).executor": "Run",
     "TestNG.PurchaseProducts.executor": "Run",
     "TestNG.PurchaseProducts.purchaseGoods.executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (1).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (2).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (3).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (4).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints.executor": "Run",
     "TestNG.PurchaseProducts.supplierOrderDelivery.executor": "Run",
     "TestNG.PurchaseProductsTool (1).executor": "Run",
     "TestNG.PurchaseProductsTool (2).executor": "Run",
@@ -128,6 +152,7 @@
     "TestNG.Testweeks.addProduct.executor": "Run",
     "TestNG.Testweeks.test.executor": "Run",
     "TestNG.Testweeks.testAddProduct.executor": "Run",
+    "TestNG.Testweeks.testMethod.executor": "Run",
     "TestNG.Testweeks.testUserData (1).executor": "Run",
     "TestNG.Testweeks.testUserData (2).executor": "Run",
     "TestNG.Testweeks.testUserData (3).executor": "Run",
@@ -156,25 +181,26 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddProductTest (1)">
-    <configuration name="AddProductTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PurchaseProducts.sendEmployeePoints (1)">
+    <configuration name="LoginZCTest.loginDDingDDangHR" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.SettingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.AddProductTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.SettingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest" />
+      <option name="METHOD_NAME" value="loginDDingDDangHR" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProducts.sendEmployeePoints (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -183,15 +209,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.AddProductTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="sendEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProducts.sendEmployeePoints (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -200,15 +227,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.AddProductTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="sendEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductTest (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProducts.sendEmployeePoints (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -217,15 +245,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.AddProductTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="sendEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseProducts.sendEmployeePoints" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -234,8 +263,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.AddProductTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="sendEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -244,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddProductTest (1)" />
-        <item itemvalue="TestNG.AddProductTest" />
-        <item itemvalue="TestNG.AddProductTest (5)" />
-        <item itemvalue="TestNG.AddProductTest (4)" />
-        <item itemvalue="TestNG.AddProductTest (3)" />
+        <item itemvalue="TestNG.PurchaseProducts.sendEmployeePoints (1)" />
+        <item itemvalue="TestNG.PurchaseProducts.sendEmployeePoints (4)" />
+        <item itemvalue="TestNG.LoginZCTest.loginDDingDDangHR" />
+        <item itemvalue="TestNG.PurchaseProducts.sendEmployeePoints (3)" />
+        <item itemvalue="TestNG.PurchaseProducts.sendEmployeePoints" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +320,7 @@
       <workItem from="1721099588650" duration="55216000" />
       <workItem from="1721210021683" duration="12283000" />
       <workItem from="1721352193952" duration="11667000" />
-      <workItem from="1721612141100" duration="92856000" />
+      <workItem from="1721612141100" duration="103139000" />
     </task>
     <servers />
   </component>

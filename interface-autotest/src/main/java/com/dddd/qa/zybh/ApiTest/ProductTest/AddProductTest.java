@@ -10,15 +10,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -33,7 +27,7 @@ public class AddProductTest {
     private static final HashMap<String, String> headers =new HashMap<>();
 
     private static final String productDetailsParameters = "dddd/productDetailsParameters";;
-    private static final int createNumber = 2;
+    private static final int createNumber = 12;
     private static String spuCode;
     private static String skuCode;
 
@@ -42,8 +36,8 @@ public class AddProductTest {
     public Object[][] supplierData() {
         return new Object[][] {
             //商品数量，供应商id，供应商名称
-            { createNumber ,"889227", "再也不会供应商"}//test
-            //{ createNumber ,"889605", "测试平台供应商"}, //pre
+            //{ createNumber ,"889227", "再也不会供应商"}//test
+            { createNumber ,"889605", "测试平台供应商"}, //pre
             //{ createNumber ,"889605", "测试平台供应商"}, //pro-fuli
             //{ createNumber ,"889605", "测试平台供应商"}//pro-huika
         };

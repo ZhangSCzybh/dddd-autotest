@@ -73,11 +73,6 @@ public class LoginUtil {
         return null;
     }
 
-
-/**
- * @author Zhangsc
- * @date 2024/6/7 21:43
- */
     //获取账号中心登录cookie
     public static String loginCookie(String url, String eamil, String password){
         //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
@@ -98,19 +93,8 @@ public class LoginUtil {
     }
 
 
-    /**
-     * @Description: TODO methods
-     * @param
-     * @param loginUrl
-     * @param userinfo
-     * @return java.lang.String
-     * @author Zhangsc
-     * @date 2024/6/14 21:32
-     */
-
+    //叮叮当当-获取token接口
     public  static String loginToken(String loginUrl, String userinfo){
-
-
         try {
             // 1. 创建 URL 对象
             URL url = new URL(loginUrl);
@@ -168,16 +152,6 @@ public class LoginUtil {
         return null;
     }
 
-
-
-
-
-    public static void main(String[] args){
-        List<String> list = Arrays.asList("a", "b", "c", "d");
-        for (String skuId : list) {
-            System.out.println(skuId);
-        }
-    }
 }
 
 

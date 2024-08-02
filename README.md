@@ -18,11 +18,7 @@
 #### 3.2 staffFuliTokenFromCSV：商品下单：账号编号、token、地址id配置
 #### 3.3 supplierTokenFromCSV：自建供应商发货：token参数
 #### 3.4 purchaseGoods：商品下单
-#### 3.4 supplierOrderDelivery：自建供应商订单发货
-
-### 4、resources-dddd：接口传参
+#### 3.5 supplierOrderDelivery：自建供应商订单发货
 
 ## 二、ui-autotest：ui自动化测试项目   //todo
-
 ## 三、SendMessageTools：发送测试结果到钉钉群的工具
-### 1、readSummaryJsonSendDingTalk

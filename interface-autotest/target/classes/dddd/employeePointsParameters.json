@@ -1,0 +1,35 @@
+{
+  "giveWay": "1",
+  "type": 100101,
+  "productList": [],
+  "endTime": "",
+  "templateSnapshotSaveVo": {
+    "mainTitle": "迎风奔跑",
+    "subTitle": "您有一张贺卡待您领取",
+    "content": "这个世界的乐趣就在于：无论你是谁，你都有无限种可能，或好或坏，都取决于你自己。",
+    "inscribe": "叮叮当当",
+    "id": 10060,
+    "name": "迎风奔跑",
+    "types": ",100101,",
+    "typeList": [
+      "100101"
+    ],
+    "typeNameList": null,
+    "simpleImg": "https://item.qn.ddingddang.com/dd1654855774111.png",
+    "surfaceImg": "https://item.qn.ddingddang.com/dd1654855776556.gif",
+    "mainImg": "https://item.qn.ddingddang.com/dd1654855779552.png",
+    "colour": "2E616D",
+    "remark": "",
+    "templateId": 10060
+  },
+  "messageType": [
+    1
+  ],
+  "istiming": 0,
+  "timingTime": "",
+  "timeValue": "",
+  "ccIds": [],
+  "payEnterpriseId": "",
+  "remark": "这个世界的乐趣就在于：无论你是谁，你都有无限种可能，或好或坏，都取决于你自己。",
+  "templateId": 10060
+}

@@ -13,8 +13,7 @@ import com.dddd.qa.zybh.utils.GetCaseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -34,7 +33,8 @@ import java.util.List;
  * staffFuliTokenFromCSV 下单账号
  * supplierTokenFromCSV 供应商账号
  * orderProdDetails 订单参数配置
- * array 每日sku列表
+ * selectArrayByDay 每日sku列表
+ * listEmployeeData 智采积分发放人员
  */
 public class PurchaseProducts extends BaseTest {
 
@@ -44,6 +44,7 @@ public class PurchaseProducts extends BaseTest {
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
     private static final String scene1 = "商品下单";
+    private static final String employeePointsParameters = "dddd/employeePointsParameters";
 
     //根据星期选择不同的sku和json文件
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
@@ -109,6 +110,13 @@ public class PurchaseProducts extends BaseTest {
         return data.toArray(new Object[0][]);
     }
 
+    @DataProvider(name = "EmployeeData")
+    public Object[][] listEmployeeData() {
+        return new Object[][] {
+                { new Integer[] {128638, 112714, 124236, 112716, 113546}, "1800"} // 发放积分账号，积分额度
+                //{ new Integer[] {123456, 789012} } // 数据集2
+        };
+    }
 
     //description = "商品下单"
     @Test(dataProvider = "staffFuliTokenProvider")
@@ -208,4 +216,19 @@ public class PurchaseProducts extends BaseTest {
 
     }
 
+    //description = "智采员工发放积分"
+    @Test(dataProvider = "EmployeeData")
+    public void sendEmployeePoints(Integer[] list,String amount){
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(employeePointsParameters);
+        param.put("list", list);
+        param.put("amount", amount);
+        String body = param.toString();
+        String createUrl = Common.zhicaiHrUrl+Common.sendEmployeePointsUri;
+        headers.put("Session-Token", Common.zhicaiHrToken);
+        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        JSONObject jsonresult = new JSONObject(result);
+        String data = jsonresult.get("result").toString();
+        logger.info( data + ":员工积分发放成功！");
+        caveat( "===========智采员工积分===========" + "\n"+ "发放结果:" + data + "\n" + "积分额度:" + amount + "积分");
+    }
 }

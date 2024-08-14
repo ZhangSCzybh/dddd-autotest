@@ -43,6 +43,9 @@ public class Common {
     public static String SupplierUrl = STATIC_PROPERTIES.getProperty("supplier.url");
     //福粒运营平台 OpUrl
     public static String OpUrl = STATIC_PROPERTIES.getProperty("op.url");
+    //智采员工平台
+    public static String zhicaiYgUrl = STATIC_PROPERTIES.getProperty("zhicai.yg.url");
+
 
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
@@ -58,6 +61,9 @@ public class Common {
     public static String fuliOpSkuListUri = STATIC_PROPERTIES.getProperty("fuli.op.skulist.uri");
     public static String fuliOpUpdateSpuStateUri = STATIC_PROPERTIES.getProperty("fuli.op.updateSpuState.uri");
     public static String fuliOpUpdateSkuStateUri = STATIC_PROPERTIES.getProperty("fuli.op.updateSkuState.uri");
+
+    public static String checkMallEmployeePointsUri = STATIC_PROPERTIES.getProperty("check.mall.employee.points.uri");
+    public static String checkZcEmployeePointsUri = STATIC_PROPERTIES.getProperty("check.zc.employee.points.uri");
 
 
     //用来存储cookies的变量

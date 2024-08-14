@@ -23,6 +23,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -43,6 +44,11 @@ public class PurchaseProducts extends BaseTest {
 
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
+    private static String credit;
+    private static String creditName;
+    private static String mallEmployeeId;
+
+    private static final Integer[] pointsList = {128638};
     private static final String scene1 = "商品下单";
     private static final String employeePointsParameters = "dddd/employeePointsParameters";
 
@@ -110,10 +116,24 @@ public class PurchaseProducts extends BaseTest {
         return data.toArray(new Object[0][]);
     }
 
+    //智采员工id和发放积分数量
     @DataProvider(name = "EmployeeData")
     public Object[][] listEmployeeData() {
         return new Object[][] {
-                { new Integer[] {128638, 112714, 124236, 112716, 113546}, "1800"} // 发放积分账号，积分额度
+                {new Integer[] {128638, 112714, 124236, 112716, 113546}, "18"} // 发放积分账号，积分额度
+                //{ new Integer[] {123456, 789012} } // 数据集2
+        };
+    }
+
+    //智采企业平台员工id
+    @DataProvider(name = "EmployeeIdData")
+    public Object[][] listEmployeeIdData() {
+        return new Object[][] {
+                {"128638",1}, // 发放积分账号
+                {"112714",2},// 发放积分账号
+                {"124236",3}, // 发放积分账号
+                {"112716",4},// 发放积分账号
+                {"113546",5}// 发放积分账号
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }
@@ -216,9 +236,35 @@ public class PurchaseProducts extends BaseTest {
 
     }
 
+
+    //description = "查询智采企业平台员工积分"
+    @Test(dataProvider = "EmployeeIdData")
+    public void checkZhicaiEmployeePoints(String employeeId,int num){
+        JSONObject param = JSONUtil.createObj();
+        //Map<String, Object> param = new HashMap<>();//存放参数
+        headers.put("session-token", Common.zhicaiHrToken);
+        param.put("employeeId", employeeId);
+        param.put("enterpriseId", 289);
+        String createUrl = Common.zhicaiHrUrl+Common.checkZcEmployeePointsUri;
+        String response= HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
+        String balance = new JSONObject(new JSONArray(new JSONObject(response).get("result")).get(0)).get("balance").toString();
+
+        if ((int) Double.parseDouble(balance) <= 50000){
+            //int margin = 50000-(int) Double.parseDouble(balance);
+            caveat( "===========智采员工积分详情===========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
+            GetCaseUtil.giveEmployeePoints(new Integer[] {Integer.valueOf(employeeId)},"1000");
+        }else{
+            caveat( "===========智采员工积分详情===========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
+
+        }
+
+    }
+
+
+    //暂时不需要执行
     //description = "智采员工发放积分"
-    @Test(dataProvider = "EmployeeData")
-    public void sendEmployeePoints(Integer[] list,String amount){
+    //@Test(dataProvider = "EmployeeData")
+    public void giveEmployeePoints(Integer[] list,String amount){
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParameters);
         param.put("list", list);
         param.put("amount", amount);
@@ -230,5 +276,28 @@ public class PurchaseProducts extends BaseTest {
         String data = jsonresult.get("result").toString();
         logger.info( data + ":员工积分发放成功！");
         caveat( "===========智采员工积分===========" + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
+    }
+
+    //description = "查询商城员工积分"
+    //@Test(dataProvider = "staffFuliTokenProvider")
+    public void checkMallEmployeePoints(String num ,String tokendata,String addressId){
+        headers.put("yian-cache", tokendata);
+        String pointsUrl = Common.MallUrl+Common.checkMallEmployeePointsUri;
+        String response= HttpUtil.createGet(pointsUrl).addHeaders(headers).execute().body();
+
+        JSONObject jsonresult  = new JSONObject(response);
+        //获取数组长度
+        String result = jsonresult.get("result").toString();
+        JSONObject datajson = new JSONObject(result);
+        JSONArray jsonArray =new JSONArray(datajson.get("employeeCreditDtoList"));
+        int length = jsonArray.toArray().length;
+
+        for(int i = 0; i < length; i++){
+            mallEmployeeId = new JSONObject(result).get("employeeId").toString();
+            credit = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("employeeCreditDtoList"))).get(i))).get("credit").toString();
+            creditName = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("employeeCreditDtoList"))).get(i))).get("creditName").toString();
+            logger.info("员工编号:" + mallEmployeeId +"\n"+creditName+ ":" + credit);
+        }
+        caveat("===========智采员工积分===========" + "\n"+"第"+num +"个员工：" + mallEmployeeId +"\n"+creditName+ "：" + credit);
     }
 }

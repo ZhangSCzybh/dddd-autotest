@@ -36,7 +36,7 @@ public class AddProductTest {
     public Object[][] supplierData() {
         return new Object[][] {
             //商品数量，供应商id，供应商名称
-            { createNumber ,"889227", "再也不会供应商"}//test
+            { createNumber ,"889227", "再也不会供应商"}//test 889234 扑克自建供应 889227 再也不会供应商
             //{ createNumber ,"889605", "测试平台供应商"}, //pre
             //{ createNumber ,"889605", "测试平台供应商"}, //pro-fuli
             //{ createNumber ,"889605", "测试平台供应商"}//pro-huika

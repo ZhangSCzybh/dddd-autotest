@@ -170,7 +170,7 @@ public class GetCaseUtil {
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         String data = jsonresult.get("result").toString();
         logger.info( data + ":员工积分发放成功！");
-        caveat( "===========智采员工积分补发===========" + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
+        caveat( "===========智采员工积分补发===========" + "\n"+ "员工编号:" + Arrays.toString(list) + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
     }
 }
 

@@ -20,10 +20,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 /**
@@ -47,8 +44,6 @@ public class PurchaseProducts extends BaseTest {
     private static String credit;
     private static String creditName;
     private static String mallEmployeeId;
-
-    private static final Integer[] pointsList = {128638};
     private static final String scene1 = "商品下单";
     private static final String employeePointsParameters = "dddd/employeePointsParameters";
 
@@ -116,15 +111,6 @@ public class PurchaseProducts extends BaseTest {
         return data.toArray(new Object[0][]);
     }
 
-    //智采员工id和发放积分数量
-    @DataProvider(name = "EmployeeData")
-    public Object[][] listEmployeeData() {
-        return new Object[][] {
-                {new Integer[] {128638, 112714, 124236, 112716, 113546}, "18"} // 发放积分账号，积分额度
-                //{ new Integer[] {123456, 789012} } // 数据集2
-        };
-    }
-
     //智采企业平台员工id
     @DataProvider(name = "EmployeeIdData")
     public Object[][] listEmployeeIdData() {
@@ -137,6 +123,7 @@ public class PurchaseProducts extends BaseTest {
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }
+
 
     //description = "商品下单"
     @Test(dataProvider = "staffFuliTokenProvider")
@@ -236,8 +223,7 @@ public class PurchaseProducts extends BaseTest {
 
     }
 
-
-    //description = "查询智采企业平台员工积分"
+    //description = "查询智采企业平台员工积分，少于5w的员工补发积分"
     @Test(dataProvider = "EmployeeIdData")
     public void checkZhicaiEmployeePoints(String employeeId,int num){
         JSONObject param = JSONUtil.createObj();
@@ -250,18 +236,31 @@ public class PurchaseProducts extends BaseTest {
         String balance = new JSONObject(new JSONArray(new JSONObject(response).get("result")).get(0)).get("balance").toString();
 
         if ((int) Double.parseDouble(balance) <= 50000){
-            //int margin = 50000-(int) Double.parseDouble(balance);
-            caveat( "===========智采员工积分详情===========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
-            GetCaseUtil.giveEmployeePoints(new Integer[] {Integer.valueOf(employeeId)},"1000");
+            int margin = 50000-(int) Double.parseDouble(balance);
+            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
+            GetCaseUtil.giveEmployeePoints(new Integer[] {Integer.valueOf(employeeId)}, String.valueOf(margin));
+            logger.info("第" + num +"个账号积分少于50000，已补发积分" + margin );
         }else{
-            caveat( "===========智采员工积分详情===========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
+            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
+            logger.info("第" + num +"个账号积分充足，请放心购买！！！");
+            System.out.println(Arrays.toString(new Integer[]{Integer.valueOf(employeeId)}));
 
         }
 
     }
 
 
-    //暂时不需要执行
+
+    //暂时不需要执行//1
+    //智采员工id和发放积分数量
+    @DataProvider(name = "EmployeeData")
+    public Object[][] listEmployeeData() {
+        return new Object[][] {
+                {new Integer[] {128638, 112714, 124236, 112716, 113546}, "18"} // 发放积分账号，积分额度
+                //{ new Integer[] {123456, 789012} } // 数据集2
+        };
+    }
+
     //description = "智采员工发放积分"
     //@Test(dataProvider = "EmployeeData")
     public void giveEmployeePoints(Integer[] list,String amount){
@@ -279,7 +278,7 @@ public class PurchaseProducts extends BaseTest {
     }
 
     //description = "查询商城员工积分"
-    //@Test(dataProvider = "staffFuliTokenProvider")
+    //@Test(dataProvider = "staffFuliTokenProvider" )
     public void checkMallEmployeePoints(String num ,String tokendata,String addressId){
         headers.put("yian-cache", tokendata);
         String pointsUrl = Common.MallUrl+Common.checkMallEmployeePointsUri;
@@ -298,6 +297,6 @@ public class PurchaseProducts extends BaseTest {
             creditName = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("employeeCreditDtoList"))).get(i))).get("creditName").toString();
             logger.info("员工编号:" + mallEmployeeId +"\n"+creditName+ ":" + credit);
         }
-        caveat("===========智采员工积分===========" + "\n"+"第"+num +"个员工：" + mallEmployeeId +"\n"+creditName+ "：" + credit);
+        caveat("===========商城员工积分===========" + "\n"+"第"+num +"个员工：" + mallEmployeeId +"\n"+creditName+ "：" + credit);
     }
 }

@@ -10,111 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/013ecbf7-b9a1-425e-8797-4eacb82366e9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/023fa86f-ab3e-453a-8f55-1da07b4e2187-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/04344487-3334-4d3d-8e3a-b47eee9efb79-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/04df371f-7b35-45b6-b27e-9806c39b8088-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0e0fb9dd-514a-4129-921a-b1b6e3d988a4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0ff921c1-9522-4ed7-8e12-55f103ae62fd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/158bc9f1-7375-43d9-96d9-8a9594830662-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/178292ca-7907-458c-a7cd-77d70a318ca2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1af83ed6-8457-4294-a653-f660ba3adf3e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/259ebe9d-4d7b-487d-adfe-c70c7036c75b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/28dcfc78-0658-4b6e-af86-a83b0e68c623-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2c588312-5863-4f22-a69d-44e623d4d410-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2dbc7dac-103a-4851-8943-b6e23eb149ab-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3100d001-5901-4668-88f0-79be5b66608c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/33aba1b2-b8ee-4bcf-b986-ccf38de924d7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/351b64a2-009a-4072-9fc7-bcd4772e4348-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3e6dd462-bc2f-419f-a6c3-ea2d2e6b6cc0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4339adb1-19e5-499d-90ca-da1340d3c259-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4f3dbac2-49da-4263-a43e-a3ba12d0078a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4fe20f83-fef9-4484-8736-2970ae7d1fb5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5041d142-2222-4806-8f84-44d53328c728-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/51f87f16-a2a3-41bf-8b78-4bc5c5b08531-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5356ed4c-cdab-4037-89c2-788dd43df28e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/53a1b1b3-874d-46f8-8949-87a5b169728b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/57653731-6590-4773-90c3-144c66b57237-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5d18fd37-d40e-42af-9069-48df49a74a6a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5d1f4c9b-e89d-4921-8deb-3cc1a214f2cd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5db2b0b3-2463-4fcd-8289-62acb347e4ce-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/61c7cdb4-efb3-49df-a921-f48756b09b82-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/64bc4391-12e4-422e-8be0-3fbc1d48ae7c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/69d92895-fdea-49a1-a025-d79616dea8e5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6b0e9b80-047f-4050-9c16-1482b33db8ab-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6c9fc168-8e7d-42a2-a03e-7cfb05c27db3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6ddf23e0-4a62-4b15-b48d-75718f491089-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6ef210fa-3a9b-489d-a677-4692878a1ced-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7010862a-57d5-4311-96d9-23b0e075a16d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/73a4c65e-1c8a-4205-9cfc-ab7e62000c9d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7466866c-4add-45de-a02f-5a8fc9ad7833-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/75f7380a-5228-4cc6-9f63-18f14e18de8d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/77f31a75-89d7-4255-ab57-906717fb852b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7cdd88ab-a398-4602-a8ce-044e6684eed3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7f7724ec-c2fc-4585-a8a5-33df1c0ced65-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/836b1de7-1ad4-494e-8b80-3aeccee93b7a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8d711832-3ab8-40bb-8831-84a294ea4a1f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8e3c5fb9-e300-4265-aaf9-7888eca85e95-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8e71424d-54b8-4efc-9229-13502cba7f7b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8fb2c82a-d433-445e-8f86-d0e9333b3918-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9359f47e-b658-4ae6-b711-17cb71afb85b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/94b14c2d-b821-4b79-9b97-4d5ee9a4ed76-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/95e0d279-5dcc-46a0-a69e-3bf86f36bc0e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/960e1ba8-7ebe-4af7-8d9e-da4a040dddbb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/97de7f38-7e32-4f74-9785-d38e1e846413-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/982d242c-a9f1-498b-a1eb-13173950c409-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/99aed98e-ec7e-49ec-8546-f053b23f4a87-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9b1b1f11-a4b0-4cf2-b30d-bfa52769fe47-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9bcdca06-5839-414b-bc83-fdc47bf623ff-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9dd0c16e-76b1-4a2a-a56b-75a40dc3264d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9e691c73-082c-4070-b681-32eb91b7318a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a2d1a1a1-7167-427d-bc3d-4bf2e743fbe0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a6c822de-0811-4052-958e-b9190a1a9794-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/abfe18eb-2189-4930-b334-cdd040e9c4d5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/abfec2e2-0446-4c4e-ae1b-035e69fe1dea-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ac89fd42-6683-47bc-b7ea-ab9d5e0588a0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/afd34193-67f3-40ae-8e4e-4a7627df8d43-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b1c40804-dbdc-451f-a56e-0319240d9c07-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b3232bc5-f291-45f6-8744-08267c0ebb24-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b9f33744-e039-4f70-9db5-9b99c4ea6125-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bb337b7a-553c-4776-bad1-5dd2fb21a230-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c6db18e3-b75f-4798-ab61-b00f057e50f9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c8f94d08-a55e-405c-906d-257d794a0bcd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ca9d5349-9d09-4c15-8adb-0e49b5629f62-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cb96f7f0-908c-463e-a68d-e1001b80577c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ccc6cd2c-3a3d-45ad-b7e6-6c9afbbc2204-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cd52a6f5-6df1-46f7-b021-6124eef28d3b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cd9ceb9e-6355-46b1-9353-279697f57c9a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d230d13f-60e7-4a08-aa7d-9abd01175c9d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d6ef1522-323b-4fd8-b811-0d5b84704aa4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d715eaca-b99f-4e37-a1b1-ad0b1f13824d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d7f95a29-620f-4553-bf67-23437fd09cac-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/da0f3470-5a4f-4d19-aa1a-455ab9027eb0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/db0c34a6-bd2c-4695-a149-c43e4422b858-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/db8d1226-c56e-4e92-a1d1-28454f2de1e8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dceddd2f-285b-405e-834e-b171c79b05d1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/df748c0a-de1c-4b46-9ac3-b37d05edcb4d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e0f441ea-32a6-4146-ae84-6ab8509d9383-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e42e9f62-15aa-4c1d-8cad-634d3be7f59b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e88e630b-a332-45e2-b5df-5f7dd31ca514-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/eae40040-a69c-4525-b66c-3c2de4e9b51f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f1232960-6cc1-4ea9-b736-05586e775810-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f379cf50-3080-4bee-a1a9-f62fd6983f33-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f5c489ee-a3bb-4e6c-aecc-5539da193ff8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f6206192-101a-4d1c-b492-3c418de630c7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fb94b5d0-af6c-4a1e-a189-a73332d3043b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fe1ecacf-cdca-42ba-b636-3b02b5704cc1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ffc59e1d-19f8-4dd4-93a8-3268554c9881-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/downloaded_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ImageDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/imageType.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/DailyRecipeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/QueryExpressTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/RandomRecipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/recipes.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/1111.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/TestDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/TestDemo$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/TestDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +63,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DailyRecipeGenerator.executor": "Run",
     "Application.DingTalkRobotUtil.executor": "Run",
     "Application.ImageDownloader.executor": "Run",
     "Application.ImageSizeCheckerAndRenamer.executor": "Run",
     "Application.LoginUtil.executor": "Run",
     "Application.PurchaseProductsTool.executor": "Run",
+    "Application.QueryExpressTrack.executor": "Run",
+    "Application.RandomRecipes.executor": "Run",
     "Application.SendResultToDingtalk.executor": "Run",
     "Application.Testweeks.executor": "Run",
     "Maven.interface-autotest [clean].executor": "Run",
@@ -286,7 +197,20 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImageSizeCheckerAndRenamer">
+  <component name="RunManager" selected="Application.QueryExpressTrack">
+    <configuration name="DailyRecipeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.DailyRecipeGenerator" />
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageSizeCheckerAndRenamer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.ImageSizeCheckerAndRenamer" />
       <module name="interface-autotest" />
@@ -300,7 +224,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageDownloader" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryExpressTrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.QueryExpressTrack" />
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -308,16 +233,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.others" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.ImageDownloader" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageDownloader.imageDownloadeTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomRecipes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.RandomRecipes" />
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -325,59 +246,30 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.others" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.ImageDownloader" />
-      <option name="METHOD_NAME" value="imageDownloadeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageDownloader.imageDownloadeTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Testweeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.Testweeks" />
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.others" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.ImageDownloader" />
-      <option name="METHOD_NAME" value="imageDownloadeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageDownloader.imageDownloadeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.others" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.ImageDownloader" />
-      <option name="METHOD_NAME" value="imageDownloadeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueryExpressTrack" />
+        <item itemvalue="Application.RandomRecipes" />
+        <item itemvalue="Application.DailyRecipeGenerator" />
+        <item itemvalue="Application.Testweeks" />
         <item itemvalue="Application.ImageSizeCheckerAndRenamer" />
-        <item itemvalue="TestNG.ImageDownloader.imageDownloadeTest" />
-        <item itemvalue="TestNG.ImageDownloader" />
-        <item itemvalue="TestNG.ImageDownloader.imageDownloadeTest (2)" />
-        <item itemvalue="TestNG.ImageDownloader.imageDownloadeTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +314,9 @@
       <workItem from="1721612141100" duration="113022000" />
       <workItem from="1723108493900" duration="25102000" />
       <workItem from="1723710621038" duration="7462000" />
-      <workItem from="1724985913424" duration="10719000" />
+      <workItem from="1724985913424" duration="10881000" />
+      <workItem from="1724999496254" duration="707000" />
+      <workItem from="1725269353694" duration="17989000" />
     </task>
     <servers />
   </component>

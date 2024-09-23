@@ -1,26 +1,13 @@
 package com.dddd.qa.zybh;
 
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.digest.DigestUtil;
-import cn.hutool.http.HttpUtil;
-import cn.hutool.json.JSONArray;
-import cn.hutool.json.JSONObject;
 
-import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
-
-
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.UnknownHostException;
+
 
 /**
  * @author zhangsc

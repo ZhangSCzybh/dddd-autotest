@@ -10,19 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/DailyRecipeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/QueryExpressTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/RandomRecipes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/recipes.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/1111.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ImageDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ImageDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/QueryExpressTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/QueryExpressTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/TestDemo$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/TestDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,8 +259,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.QueryExpressTrack" />
-        <item itemvalue="Application.RandomRecipes" />
         <item itemvalue="Application.DailyRecipeGenerator" />
+        <item itemvalue="Application.RandomRecipes" />
         <item itemvalue="Application.Testweeks" />
         <item itemvalue="Application.ImageSizeCheckerAndRenamer" />
       </list>
@@ -316,7 +309,7 @@
       <workItem from="1723710621038" duration="7462000" />
       <workItem from="1724985913424" duration="10881000" />
       <workItem from="1724999496254" duration="707000" />
-      <workItem from="1725269353694" duration="17989000" />
+      <workItem from="1725269353694" duration="29136000" />
     </task>
     <servers />
   </component>

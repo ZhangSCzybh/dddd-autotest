@@ -34,7 +34,7 @@ public class QueryExpressTrack {
         scan.close();
 
     }
-    //快递查询
+    //快递查询 S20603535914
     private static String expressInquiry(String num){
         String host = "https://wdexpress.market.alicloudapi.com"; // 【1】请求地址 支持http 和 https 及 WEBSOCKET
         String path = "/gxali"; // 【2】后缀

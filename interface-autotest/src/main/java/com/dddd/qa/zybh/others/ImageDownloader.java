@@ -75,6 +75,8 @@ public class ImageDownloader {
 
 
     }
+
+
     //下载图片输入输出地址
     public static void downloadImage(String imageUrl, Path outputPath) throws IOException {
         try (InputStream in = new URL(imageUrl).openStream()) {

@@ -10,12 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/employeePointsParametersYGPC.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Testweeks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ImageDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/ImageDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/QueryExpressTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/QueryExpressTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-fuli.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-fuli.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-fuli.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-fuli.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +107,7 @@
     "TestNG.ImageDownloader.imageDownloadeTest.executor": "Run",
     "TestNG.ImageDownloader.test (1).executor": "Run",
     "TestNG.ImageDownloader.test.executor": "Run",
+    "TestNG.LoginZCTest (1).executor": "Run",
     "TestNG.LoginZCTest.executor": "Run",
     "TestNG.LoginZCTest.loginDDingDDangHR.executor": "Run",
     "TestNG.LoginZCTest.test.executor": "Run",
@@ -116,6 +128,12 @@
     "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (4).executor": "Run",
     "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (5).executor": "Run",
     "TestNG.PurchaseProducts.checkZhicaiEmployeePoints.executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (1).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (2).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (3).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (4).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints.executor": "Run",
     "TestNG.PurchaseProducts.executor": "Run",
     "TestNG.PurchaseProducts.purchaseGoods.executor": "Run",
     "TestNG.PurchaseProducts.sendEmployeePoints (1).executor": "Run",
@@ -161,6 +179,11 @@
     "TestNG.Testweeks.test (5).executor": "Run",
     "TestNG.Testweeks.test.executor": "Run",
     "TestNG.Testweeks.testAddProduct.executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (1).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (2).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (3).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (4).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken.executor": "Run",
     "TestNG.Testweeks.testMethod.executor": "Run",
     "TestNG.Testweeks.testUserData (1).executor": "Run",
     "TestNG.Testweeks.testUserData (2).executor": "Run",
@@ -190,79 +213,104 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueryExpressTrack">
-    <configuration name="DailyRecipeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.DailyRecipeGenerator" />
+  <component name="RunManager" selected="TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5)">
+    <configuration name="PurchaseProducts.checkZhicaiPCEmployeePoints (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="checkZhicaiPCEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageSizeCheckerAndRenamer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.ImageSizeCheckerAndRenamer" />
+    <configuration name="PurchaseProducts.checkZhicaiPCEmployeePoints (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="checkZhicaiPCEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryExpressTrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.QueryExpressTrack" />
+    <configuration name="PurchaseProducts.checkZhicaiPCEmployeePoints (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="checkZhicaiPCEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomRecipes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.RandomRecipes" />
+    <configuration name="PurchaseProducts.checkZhicaiPCEmployeePoints (5)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="checkZhicaiPCEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testweeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.Testweeks" />
+    <configuration name="PurchaseProducts.checkZhicaiPCEmployeePoints" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
+      <option name="METHOD_NAME" value="checkZhicaiPCEmployeePoints" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueryExpressTrack" />
-        <item itemvalue="Application.DailyRecipeGenerator" />
-        <item itemvalue="Application.RandomRecipes" />
-        <item itemvalue="Application.Testweeks" />
-        <item itemvalue="Application.ImageSizeCheckerAndRenamer" />
+        <item itemvalue="TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5)" />
+        <item itemvalue="TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints" />
+        <item itemvalue="TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (4)" />
+        <item itemvalue="TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (3)" />
+        <item itemvalue="TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +358,9 @@
       <workItem from="1724985913424" duration="10881000" />
       <workItem from="1724999496254" duration="707000" />
       <workItem from="1725269353694" duration="29136000" />
+      <workItem from="1727053784302" duration="777000" />
+      <workItem from="1728364664410" duration="15632000" />
+      <workItem from="1731633374778" duration="7781000" />
     </task>
     <servers />
   </component>
@@ -329,5 +380,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

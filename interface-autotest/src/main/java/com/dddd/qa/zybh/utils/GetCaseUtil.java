@@ -33,6 +33,7 @@ public class GetCaseUtil {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static HashMap<String, String> headers =new HashMap<>();
     private static final String employeePointsParameters = "dddd/employeePointsParameters";
+    private static final String employeePointsParametersYGPC = "dddd/employeePointsParametersYGPC";
 
     //读取json格式案例
     public static JSONObject getCase(String caseName, String fileName) {
@@ -166,6 +167,21 @@ public class GetCaseUtil {
         String body = param.toString();
         String createUrl = Common.zhicaiHrUrl+Common.sendEmployeePointsUri;
         headers.put("Session-Token", Common.zhicaiHrToken);
+        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        String data = jsonresult.get("result").toString();
+        logger.info( data + ":员工积分发放成功！");
+        caveat( "===========智采员工积分补发===========" + "\n"+ "员工编号:" + Arrays.toString(list) + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
+    }
+
+    //智采员工pc平台--发放员工积分
+    public static void giveEmployeePointsPC(Integer[] list, String amount){
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParametersYGPC);
+        param.put("list", list);
+        param.put("amount", amount);
+        String body = param.toString();
+        String createUrl = Common.zhicaiYgUrl+Common.sendEmployeePointsUri;
+        headers.put("Session-Token", Common.DDingDDangPCToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         String data = jsonresult.get("result").toString();

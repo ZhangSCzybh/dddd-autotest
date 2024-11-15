@@ -48,7 +48,9 @@ public class Common {
 
 
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
+    public static String loginDDingDDangYGPCUri = STATIC_PROPERTIES.getProperty("login.ddingddang.ygpc.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
+    public static String loginDDingDDangYGPCInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info");
     public static String sendEmployeePointsUri = STATIC_PROPERTIES.getProperty("send.employee.points.uri");
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
@@ -64,11 +66,13 @@ public class Common {
 
     public static String checkMallEmployeePointsUri = STATIC_PROPERTIES.getProperty("check.mall.employee.points.uri");
     public static String checkZcEmployeePointsUri = STATIC_PROPERTIES.getProperty("check.zc.employee.points.uri");
+    public static String checkZcPCEmployeePointsUri = STATIC_PROPERTIES.getProperty("check.zc.ygpc.employee.points.uri");
 
 
     //用来存储cookies的变量
     public static String Cookies;
     public static String DDingDDangToken;
+    public static String DDingDDangPCToken;
     public static String fuliOperationPlatformToken  = STATIC_PROPERTIES.getProperty("op.token");
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token");
 

@@ -10,6 +10,7 @@ import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.ErrorEnum;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
+import com.dddd.qa.zybh.utils.LoginUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -47,6 +48,15 @@ public class PurchaseProducts extends BaseTest {
     private static final String scene1 = "商品下单";
     private static final String employeePointsParameters = "dddd/employeePointsParameters";
 
+    @BeforeClass
+    public static void setUp() {
+        Common.DDingDDangPCToken = LoginUtil.loginToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangPCToken);
+        String firstTenChars = Common.DDingDDangPCToken.substring(0,8);
+        caveat("===========测试开始==========="+ "\n" + "登录账号:" + firstTenChars + "*******************");
+    }
+
+
     //根据星期选择不同的sku和json文件
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
         switch (dayOfWeek) {
@@ -73,7 +83,6 @@ public class PurchaseProducts extends BaseTest {
                 throw new IllegalStateException("Unexpected value: " + dayOfWeek);
         }
     }
-
 
     //商品下单：账号编号、token、地址id配置
     @DataProvider(name = "staffFuliTokenProvider")
@@ -223,32 +232,26 @@ public class PurchaseProducts extends BaseTest {
 
     }
 
-    //description = "查询智采企业平台员工积分，少于5w的员工补发积分"
+    //description = "查询智采员工pc平台-员工积分，少于5w的员工补发积分"
     @Test(dataProvider = "EmployeeIdData")
-    public void checkZhicaiEmployeePoints(String employeeId,int num){
+    public void checkZhicaiPCEmployeePoints(String id, int num){
         JSONObject param = JSONUtil.createObj();
-        //Map<String, Object> param = new HashMap<>();//存放参数
-        headers.put("session-token", Common.zhicaiHrToken);
-        param.put("employeeId", employeeId);
-        param.put("enterpriseId", 289);
-        String createUrl = Common.zhicaiHrUrl+Common.checkZcEmployeePointsUri;
+        headers.put("session-token", Common.DDingDDangPCToken);
+        param.put("id", id);
+        String createUrl = Common.zhicaiYgUrl+Common.checkZcPCEmployeePointsUri;
         String response= HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
-        String balance = new JSONObject(new JSONArray(new JSONObject(response).get("result")).get(0)).get("balance").toString();
-
+        String balance = new JSONObject(new JSONArray(new JSONObject(new JSONObject(response).get("result")).get("integralList")).get(0)).get("balance").toString();
+        String name = new JSONObject(new JSONObject(response).get("result")).get("name").toString();
         if ((int) Double.parseDouble(balance) <= 50000){
             int margin = 50000-(int) Double.parseDouble(balance);
-            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
-            GetCaseUtil.giveEmployeePoints(new Integer[] {Integer.valueOf(employeeId)}, String.valueOf(margin));
-            logger.info("第" + num +"个账号积分少于50000，已补发积分" + margin );
+            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + id + (name) + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
+            GetCaseUtil.giveEmployeePointsPC(new Integer[] {Integer.valueOf(id)},String.valueOf(margin));
+            logger.info("第" + num +"个账号已补发积分" + margin );
         }else{
-            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
+            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + id + (name) + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
             logger.info("第" + num +"个账号积分充足，请放心购买！！！");
-            System.out.println(Arrays.toString(new Integer[]{Integer.valueOf(employeeId)}));
-
         }
-
     }
-
 
 
     //暂时不需要执行//1
@@ -299,4 +302,33 @@ public class PurchaseProducts extends BaseTest {
         }
         caveat("===========商城员工积分===========" + "\n"+"第"+num +"个员工：" + mallEmployeeId +"\n"+creditName+ "：" + credit);
     }
+
+
+    //description = "查询智采企业平台员工积分，少于5w的员工补发积分"
+    //@Test(dataProvider = "EmployeeIdData")
+    public void checkZhicaiEmployeePoints(String employeeId,int num){
+        JSONObject param = JSONUtil.createObj();
+        //Map<String, Object> param = new HashMap<>();//存放参数
+        headers.put("session-token", Common.zhicaiHrToken);
+        //headers.put("session-token", Common.DDingDDangPCToken);
+        param.put("employeeId", employeeId);
+        param.put("enterpriseId", 289);
+        String createUrl = Common.zhicaiHrUrl+Common.checkZcEmployeePointsUri;
+        String response= HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
+        String balance = new JSONObject(new JSONArray(new JSONObject(response).get("result")).get(0)).get("balance").toString();
+
+        if ((int) Double.parseDouble(balance) <= 50000){
+            int margin = 50000-(int) Double.parseDouble(balance);
+            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
+            GetCaseUtil.giveEmployeePoints(new Integer[] {Integer.valueOf(employeeId)}, String.valueOf(margin));
+            logger.info("第" + num +"个账号积分少于50000，已补发积分" + margin );
+        }else{
+            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
+            logger.info("第" + num +"个账号积分充足，请放心购买！！！");
+            System.out.println(Arrays.toString(new Integer[]{Integer.valueOf(employeeId)}));
+
+        }
+
+    }
+
 }

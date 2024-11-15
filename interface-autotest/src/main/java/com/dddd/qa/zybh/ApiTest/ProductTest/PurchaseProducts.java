@@ -52,8 +52,6 @@ public class PurchaseProducts extends BaseTest {
     public static void setUp() {
         Common.DDingDDangPCToken = LoginUtil.loginToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangPCToken);
-        String firstTenChars = Common.DDingDDangPCToken.substring(0,8);
-        caveat("===========测试开始==========="+ "\n" + "登录账号:" + firstTenChars + "*******************");
     }
 
 

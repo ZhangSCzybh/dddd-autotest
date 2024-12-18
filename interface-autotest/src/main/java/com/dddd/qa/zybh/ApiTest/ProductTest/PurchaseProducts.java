@@ -52,6 +52,10 @@ public class PurchaseProducts extends BaseTest {
     public static void setUp() {
         Common.DDingDDangPCToken = LoginUtil.loginToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangPCToken);
+
+        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(Common.OpUrl + Common.loginOPUri , Common.loginOPInfo);
+        logger.info("执行登录获取慧卡运营平台的token：" + Common.fuliOperationPlatformToken);
+
     }
 
 
@@ -252,7 +256,7 @@ public class PurchaseProducts extends BaseTest {
     }
 
 
-    //暂时不需要执行//1
+    //****************************************暂时用不到s***********************************************************
     //智采员工id和发放积分数量
     @DataProvider(name = "EmployeeData")
     public Object[][] listEmployeeData() {
@@ -262,7 +266,7 @@ public class PurchaseProducts extends BaseTest {
         };
     }
 
-    //description = "智采员工发放积分"
+    //description = "智采员工发放积分 弃用"
     //@Test(dataProvider = "EmployeeData")
     public void giveEmployeePoints(Integer[] list,String amount){
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParameters);
@@ -278,7 +282,7 @@ public class PurchaseProducts extends BaseTest {
         caveat( "===========智采员工积分===========" + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
     }
 
-    //description = "查询商城员工积分"
+    //description = "查询商城员工积分 弃用"
     //@Test(dataProvider = "staffFuliTokenProvider" )
     public void checkMallEmployeePoints(String num ,String tokendata,String addressId){
         headers.put("yian-cache", tokendata);
@@ -302,7 +306,7 @@ public class PurchaseProducts extends BaseTest {
     }
 
 
-    //description = "查询智采企业平台员工积分，少于5w的员工补发积分"
+    //description = "查询智采企业平台员工积分，少于5w的员工补发积分  弃用"
     //@Test(dataProvider = "EmployeeIdData")
     public void checkZhicaiEmployeePoints(String employeeId,int num){
         JSONObject param = JSONUtil.createObj();

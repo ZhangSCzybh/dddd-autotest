@@ -67,7 +67,7 @@ public class Testweeks {
 
 
     public static void main(String[] args) throws IOException {
-        URL url = new URL("https://cx.ddingddang.com/api/enterprise/employee/account/login");
+        URL url = new URL("https://cardback.ddingddang.com/admin/account/login");
         //URL url = new URL("https://cx.ddingddang.com/api/enterprise/employee/account/login");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         // 3. 设置请求方法为 POST
@@ -81,11 +81,11 @@ public class Testweeks {
             // 将请求体数据写入输出流
             //byte[] input= userinfo.getBytes("UTF-8");
             //byte[] input = ("{ \"loginAccount\": \"15757807860\" , \"loginType\": \"1\" , \"password\": \"888888\" , \"enterpriseId\": \"1169\"}").getBytes("utf-8");
-            byte[] input = ("{ \"enterpriseId\": \"289\" ,\"password\": \"888888\",\"loginAccount\": \"17858803001\",\"loginType\": \"1\"}").getBytes("utf-8");
+            byte[] input = ("{ \"loginName\": \"zhangshichao\" ,\"password\": \"zhangshichao2024~\"}").getBytes("utf-8");
             os.write(input, 0, input.length);
         }
 
-        System.out.println(connection.getHeaderField("Session-Token"));
+        System.out.println(connection.getHeaderField("fuli-cache"));
         //System.out.println(LoginUtil.loginToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo));
 
 
@@ -99,16 +99,16 @@ public class Testweeks {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         try {
             // 创建HttpPost对象
-            HttpPost httpPost = new HttpPost("https://cx.ddingddang.com/api/enterprise/employee/account/login");
+            HttpPost httpPost = new HttpPost("https://cardback.ddingddang.com/admin/account/login");
             //HttpPost httpPost = new HttpPost("https://hr.ddingddang.com/api/enterprise/account/login");
-            StringEntity entity = new StringEntity("{ \"enterpriseId\": \"289\" ,\"password\": \"888888\",\"loginAccount\": \"17858803001\",\"loginType\": \"1\"}");
+            StringEntity entity = new StringEntity("{ \"loginName\": \"zhangshichao\" ,\"password\": \"zhangshichao2024~\"}");
             httpPost.setEntity(entity);
             httpPost.setHeader("Content-type", "application/json");
             CloseableHttpResponse response = httpClient.execute(httpPost);
             try {
                 int statusCode = response.getStatusLine().getStatusCode();
                 Assert.assertEquals(statusCode, 200, "Expected response code 200");
-                String sessionToken = response.getFirstHeader("Session-Token").getValue();
+                String sessionToken = response.getFirstHeader("Fuli-Cache").getValue();
                 System.out.println("Session Token: " + sessionToken);
                 Assert.assertNotNull(sessionToken, "Session Token should not be null");
             } finally {
@@ -118,6 +118,5 @@ public class Testweeks {
             httpClient.close();
         }
     }
-
 
 }

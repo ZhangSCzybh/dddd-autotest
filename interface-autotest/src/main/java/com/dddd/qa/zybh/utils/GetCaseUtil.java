@@ -133,7 +133,24 @@ public class GetCaseUtil {
     }
 
 
-    //福粒运营平台--上架spu
+    //智采员工pc平台--发放员工积分
+    public static void giveEmployeePointsPC(Integer[] list, String amount){
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParametersYGPC);
+        param.put("list", list);
+        param.put("amount", amount);
+        String body = param.toString();
+        String createUrl = Common.zhicaiYgUrl+Common.sendEmployeePointsUri;
+        headers.put("Session-Token", Common.DDingDDangPCToken);
+        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        String data = jsonresult.get("result").toString();
+        logger.info( data + ":员工积分发放成功！");
+        caveat( "===========智采员工积分补发===========" + "\n"+ "员工编号:" + Arrays.toString(list) + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
+    }
+
+
+    //**********************************************不用***************************************************
+    //福粒运营平台--上架spu 不用
     public static void updateSpuState(String spuCode){
         cn.hutool.json.JSONObject param = JSONUtil.createObj();//存放参数
         param.put("goodsState", 1);
@@ -147,7 +164,7 @@ public class GetCaseUtil {
 
     }
 
-    //福粒运营平台--开启销售sku
+    //福粒运营平台--开启销售sku 不用
     public static void updateSkuState(String skuCode ){
         cn.hutool.json.JSONObject param = JSONUtil.createObj();
         param.put("status", 1);
@@ -159,7 +176,7 @@ public class GetCaseUtil {
         logger.info( "sku:" + skuCode +";销售状态:" + jsonresult.get("msg").toString());
     }
 
-    //智采hr平台--发放员工积分
+    //智采hr平台--发放员工积分 不用
     public static void giveEmployeePoints(Integer[] list, String amount){
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParameters);
         param.put("list", list);
@@ -167,21 +184,6 @@ public class GetCaseUtil {
         String body = param.toString();
         String createUrl = Common.zhicaiHrUrl+Common.sendEmployeePointsUri;
         headers.put("Session-Token", Common.zhicaiHrToken);
-        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
-        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
-        String data = jsonresult.get("result").toString();
-        logger.info( data + ":员工积分发放成功！");
-        caveat( "===========智采员工积分补发===========" + "\n"+ "员工编号:" + Arrays.toString(list) + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
-    }
-
-    //智采员工pc平台--发放员工积分
-    public static void giveEmployeePointsPC(Integer[] list, String amount){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParametersYGPC);
-        param.put("list", list);
-        param.put("amount", amount);
-        String body = param.toString();
-        String createUrl = Common.zhicaiYgUrl+Common.sendEmployeePointsUri;
-        headers.put("Session-Token", Common.DDingDDangPCToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         String data = jsonresult.get("result").toString();

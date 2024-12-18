@@ -9,7 +9,7 @@ public class ImageSizeCheckerAndRenamer {
 
     //大于3MB的图片重命名
     public static void main(String[] args) {
-        String folderPath = "/Users/zhangshichao/Documents/Pictures/";
+        String folderPath = "/Users/zhangshichao/Downloads/1/";
         checkAndRenameLargeImages(folderPath);
         
         System.out.println("Image checking and renaming completed.");
@@ -29,7 +29,7 @@ public class ImageSizeCheckerAndRenamer {
                  .filter(ImageSizeCheckerAndRenamer::isImageFile)
                  .forEach(file -> {
                      long fileSize = getFileSize(file);
-                     if (fileSize > 3 * 1024 * 1024) { // 3 MB
+                     if (fileSize < 3 * 1024 * 1024) { // 3 MB
                          renameLargeImage(file);
                      }
                  });
@@ -47,7 +47,7 @@ public class ImageSizeCheckerAndRenamer {
     private static boolean isImageFile(Path file) {
         String fileName = file.getFileName().toString();
         String extension = fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase();
-        return extension.equals("jpg") || extension.equals("jpeg") || extension.equals("png") || extension.equals("gif");
+        return extension.equals("svg");
     }
 
     /**
@@ -73,7 +73,7 @@ public class ImageSizeCheckerAndRenamer {
     private static void renameLargeImage(Path file) {
         Path parent = file.getParent();
         String fileName = file.getFileName().toString();
-        String newName = fileName.substring(0, fileName.length() - 4) + "_greaterThan3MB" +".jpg";
+        String newName = fileName.substring(0, fileName.length() - 4) + ".png";
         Path newFilePath = parent.resolve(newName);
 
         try {

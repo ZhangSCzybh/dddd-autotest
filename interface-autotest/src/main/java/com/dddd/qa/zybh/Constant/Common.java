@@ -47,10 +47,13 @@ public class Common {
     public static String zhicaiYgUrl = STATIC_PROPERTIES.getProperty("zhicai.yg.url");
 
 
+    public static String loginOPUri = STATIC_PROPERTIES.getProperty("login.op.uri");
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
     public static String loginDDingDDangYGPCUri = STATIC_PROPERTIES.getProperty("login.ddingddang.ygpc.uri");
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
     public static String loginDDingDDangYGPCInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info");
+    public static String loginOPInfo = STATIC_PROPERTIES.getProperty("login.op.info");
+
     public static String sendEmployeePointsUri = STATIC_PROPERTIES.getProperty("send.employee.points.uri");
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
@@ -73,8 +76,8 @@ public class Common {
     public static String Cookies;
     public static String DDingDDangToken;
     public static String DDingDDangPCToken;
-    public static String fuliOperationPlatformToken  = STATIC_PROPERTIES.getProperty("op.token");
-    public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token");
+    public static String fuliOperationPlatformToken;
+    public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
 
     //创建商品
     public static String brandId = STATIC_PROPERTIES.getProperty("goods.brandid");

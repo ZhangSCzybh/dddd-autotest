@@ -118,35 +118,32 @@ public class LoginUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 
-    //TODO  获取账号中心登录cookie
-    public static String loginCookie2(String url, String eamil, String password){
-        //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
-        //String body = String.format("{\"eamil\":\"%s\",\"password\":\"%s\"}", eamil, password);
+    //福粒/慧卡运营平台token
+    public  static String loginOperationPlatformToken(String loginUrl, String userinfo){
         try {
-            cn.hutool.json.JSONObject param = JSONUtil.createObj();
-            param.put("email", eamil);
-            param.put("password", password);
-            String body = param.toString();
-            String result = HttpUtil.post(url, body);
-            //System.out.println(result);
-            HttpRequest request = HttpUtil.createPost(url);
-            request.form("identityType", "3")
-                    .form("password", "zybh123456")
-                    .form("username", "17858805099");
-            HttpResponse response = request.execute();
-            // 获取响应状态码
-            int statusCode = response.getStatus();
-            System.out.println(statusCode);
-            Map<String, List<String>> headers = response.headers();
-            String Token = response.header("Session-Token");
-            System.out.println(Token);
-
-
-        }catch(Exception e){
+            // 1. 创建 URL 对象
+            URL url = new URL(loginUrl);
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                byte[] input= userinfo.getBytes("UTF-8");
+                //byte[] input = ("{ \"identityType\": \"3\" ,\"password\": \"zybh123456\",\"username\": \"17858805009\"}").getBytes("utf-8");
+                os.write(input, 0, input.length);
+            }
+            return connection.getHeaderField("fuli-cache");
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return null;

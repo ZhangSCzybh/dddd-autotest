@@ -10,6 +10,7 @@
     <test name ="purchase">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
+            <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>
     </test>
 

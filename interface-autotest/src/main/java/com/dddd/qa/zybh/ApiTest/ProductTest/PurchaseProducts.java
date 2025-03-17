@@ -256,9 +256,12 @@ public class PurchaseProducts extends BaseTest {
     }
 
 
+
+
+
     //****************************************暂时用不到s***********************************************************
     //智采员工id和发放积分数量
-    @DataProvider(name = "EmployeeData")
+    //@DataProvider(name = "EmployeeData")
     public Object[][] listEmployeeData() {
         return new Object[][] {
                 {new Integer[] {128638, 112714, 124236, 112716, 113546}, "18"} // 发放积分账号，积分额度
@@ -332,5 +335,9 @@ public class PurchaseProducts extends BaseTest {
         }
 
     }
+
+
+
+
 
 }

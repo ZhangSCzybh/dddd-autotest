@@ -120,7 +120,7 @@ public class CursorTest {
         String message = responseJson.getStr("msg");
         logger.info("错误密码登录响应: code=" + responseCode + ", message=" + message);
 
-        Assert.assertNotEquals(responseCode, 200, "使用错误密码应该无法登录成功");
+        Assert.assertNotEquals(responseCode, 1001, "使用错误密码应该无法登录成功");
 
         connection.disconnect();
     }
@@ -152,7 +152,7 @@ public class CursorTest {
         String message = responseJson.getStr("msg");
         logger.info("空参数登录响应: code=" + responseCode + ", message=" + message);
 
-        Assert.assertNotEquals(responseCode, 200, "空用户名应该无法登录成功");
+        Assert.assertNotEquals(responseCode, 1001, "空用户名应该无法登录成功");
 
         connection.disconnect();
     }
@@ -183,7 +183,7 @@ public class CursorTest {
         String message = responseJson.getStr("msg");
         logger.info("特殊字符登录响应: code=" + responseCode + ", message=" + message);
 
-        Assert.assertNotEquals(responseCode, 200, "特殊字符参数应该无法登录成功");
+        Assert.assertNotEquals(responseCode, 1001, "特殊字符参数应该无法登录成功");
 
         connection.disconnect();
     }
@@ -214,7 +214,7 @@ public class CursorTest {
         String message = responseJson.getStr("msg");
         logger.info("缺少参数登录响应: code=" + responseCode + ", message=" + message);
 
-        Assert.assertNotEquals(responseCode, 200, "缺少必要参数应该无法登录成功");
+        Assert.assertNotEquals(responseCode, 1001, "缺少必要参数应该无法登录成功");
 
         connection.disconnect();
     }

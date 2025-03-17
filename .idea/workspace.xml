@@ -10,73 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/037ad3c1-a093-410e-b048-916724dcbded-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/11c171cb-ef3d-431f-9e97-9677c97ff12f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1491e0ea-21cc-420b-955d-c54d86f32fcd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1e37d139-abb6-4da3-bed3-8a85a5f7cebf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2cd04ff3-1569-43ec-aa4f-129a947152cd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/30714700-6d1c-4d1a-a874-341a37426e7b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3d673717-3b53-4e2c-a64a-12eb6d0f629a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/47fbae6a-44b5-4f17-9db8-840a18363d2a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/49cbbc5a-7abc-417c-b164-8fb42923f683-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4c5e61bb-2875-4167-8e44-b329b75951ee-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/51b9b8b1-c852-43e5-b9d5-dfd8810c050a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/59ced715-655a-4c70-8618-26175353daa8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5b684b0a-f130-4024-87e9-7081a44caeda-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6d596dc2-eb9b-4865-bef7-1e67cd0afd12-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6f6cfdb4-cf4c-4a38-a069-20d8bd267c15-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7dd226b9-c81a-4e51-8a22-02b23c5bd72e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8e5fbcf2-a7f3-4b98-aa2e-8eb6e577cc5c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/99db30e5-57d0-44ec-8f6e-b060a5ba41de-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9f3c1644-84b9-441b-9bde-08f147f7e99f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a8233304-e022-44f1-b7b6-8461ac0363b4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b4af51b0-69e2-42fb-ba63-224535110e29-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b6b759ef-3a28-4b53-a8e6-ebd705e7ce9f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b88267a4-25a5-4633-a3af-03b56c0f6506-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bc2023d2-b0bf-4d29-a34a-fef43f3f8baf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ddfbe6fa-ae7f-40c6-9776-67c0c0b7dd04-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ea847132-7066-4441-ab71-fe5eeebbe271-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ef469a92-da3e-4a21-aab0-6c990f46bd49-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f01b4091-827a-4d3e-8db3-f8ed05f12ac7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f7ff2350-f5a2-4ca7-a6b3-786373e9a243-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f8ceed5a-79e9-48db-b8a8-69376eb7c727-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f92dcb48-0cfa-4c8a-b5cc-19e8299f8e39-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fa5e5f25-fe03-4e4f-a9c8-372a6515247b-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/DestinationTest/DestinationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/EmployeeIntegral.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/EmployeeIntegral.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/AddProductTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/AddProductTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/LoginZCTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/SettingAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/SettingAccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/JDBCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/JDBCTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Testweeks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/DailyRecipeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/DailyRecipeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ExtractFieldValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ExtractFieldValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageDownloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/ImageSizeCheckerAndRenamer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/QueryExpressTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/QueryExpressTrack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/RandomRecipes.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/RandomRecipes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/DingTalkRobotUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/DingTalkRobotUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ErrorEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ErrorEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/GetCaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/JdbcUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/LoginUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/LoginUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/OrderData.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/OrderData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ResponseData$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ResponseData$Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ResponseData.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ResponseData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,7 +372,7 @@
       <workItem from="1737445610789" duration="2560000" />
       <workItem from="1740473357118" duration="7201000" />
       <workItem from="1741587127893" duration="1532000" />
-      <workItem from="1741756735915" duration="9097000" />
+      <workItem from="1741756735915" duration="11699000" />
     </task>
     <servers />
   </component>

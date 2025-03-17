@@ -24,3 +24,11 @@
 
 ## 二、ui-autotest：ui自动化测试项目   //todo
 ## 三、SendMessageTools：发送测试结果到钉钉群的工具
+
+## 四、AI编译器：cursor编译器，集成claude-3.7-sonnet模型
+### 1、CursorTest：AI生成接口测试用例。智采运营平台pre环境-登录接口
+#### 1.1 testAdminLogin：系统用户登录测试
+#### 1.2 testWrongPassword：错误密码登录测试
+#### 1.3 testEmptyParams：空参数登录测试
+#### 1.4 testSpecialCharParams：特殊字符参数登录测试
+#### 1.5 testMissingParams：缺少必要参数登录测试

@@ -10,10 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/LoginResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ActivityListTest/ActivityTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/loginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SourceTest/SourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +104,9 @@
     "TestNG.CursorTest.executor": "Run",
     "TestNG.CursorTest.testAdminLogin.executor": "Run",
     "TestNG.CursorTest.testEmptyParams.executor": "Run",
+    "TestNG.CursorTest.testGetSupplierList (1).executor": "Run",
+    "TestNG.CursorTest.testGetSupplierList (2).executor": "Run",
+    "TestNG.CursorTest.testGetSupplierList.executor": "Run",
     "TestNG.EmployeeIntegral.recycleIntegral (1).executor": "Run",
     "TestNG.EmployeeIntegral.recycleIntegral (2).executor": "Run",
     "TestNG.EmployeeIntegral.recycleIntegral.executor": "Run",
@@ -219,24 +234,7 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CursorTest">
-    <configuration name="CursorTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.AiTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml">
     <configuration name="CursorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -254,7 +252,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CursorTest.testAdminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CursorTest.testGetSupplierList (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -264,7 +262,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest" />
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest" />
-      <option name="METHOD_NAME" value="testAdminLogin" />
+      <option name="METHOD_NAME" value="testGetSupplierList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -272,7 +270,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CursorTest.testEmptyParams" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CursorTest.testGetSupplierList (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -282,7 +280,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest" />
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest" />
-      <option name="METHOD_NAME" value="testEmptyParams" />
+      <option name="METHOD_NAME" value="testGetSupplierList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -290,18 +288,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseProducts.purchaseGoods" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CursorTest.testGetSupplierList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.ProductTest.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.AiTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts" />
-      <option name="METHOD_NAME" value="purchaseGoods" />
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest" />
+      <option name="METHOD_NAME" value="testGetSupplierList" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -310,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.CursorTest.testGetSupplierList" />
+        <item itemvalue="TestNG.CursorTest.testGetSupplierList (2)" />
+        <item itemvalue="TestNG.CursorTest.testGetSupplierList (1)" />
         <item itemvalue="TestNG.CursorTest" />
-        <item itemvalue="TestNG.CursorTest (1)" />
-        <item itemvalue="TestNG.CursorTest.testEmptyParams" />
-        <item itemvalue="TestNG.CursorTest.testAdminLogin" />
-        <item itemvalue="TestNG.PurchaseProducts.purchaseGoods" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +380,7 @@
       <workItem from="1737445610789" duration="2560000" />
       <workItem from="1740473357118" duration="7201000" />
       <workItem from="1741587127893" duration="1532000" />
-      <workItem from="1741756735915" duration="11699000" />
+      <workItem from="1741756735915" duration="21508000" />
     </task>
     <servers />
   </component>

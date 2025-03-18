@@ -24,27 +24,32 @@ public class CommonUtil {
      * @param url       接口
      * @param scene     业务场景
      */
-    public static void assertAvailable(JSONObject result, String params, String url, String scene){
+    public static void assertAvailable(JSONObject result, String params, String url,String business, String scene){
         //状态码异常判断
         try {
             if (result.isEmpty() || result == null) {
-                String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), url, params, result);
+                String wrong = String.format(Config.availableInfo, business, scene, ErrorEnum.ISFAILED.getMsg(), url, params, result);
                 BaseTest.caveat(wrong);
                 Assert.fail(wrong);
             }
             int code = (int) result.get("code");
-            if (code != 200) {
-                String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISCODE.getMsg(), url, params, result);
+            if (code != 1001) {
+                String wrong = String.format(Config.availableInfo, business, scene, ErrorEnum.ISCODE.getMsg(), url, params, result);
                 BaseTest.caveat(wrong);
                 Assert.fail(wrong);
             }
-            if (!result.get("success").toString().equals(true)) {
-                String wrong = String.format(Config.availableInfo, Config.DDingDDangPro, scene, ErrorEnum.ISNOSUCCESS.getMsg(), url, params, result);
+            //if (!result.get("success").toString().equals(true)) {
+            //    String wrong = String.format(Config.availableInfo, Config.DDingDDangPro, scene, ErrorEnum.ISNOSUCCESS.getMsg(), url, params, result);
+            //    BaseTest.caveat(wrong);
+            //    Assert.fail(wrong);
+            //}
+            if (!result.get("msg").toString().equals("succ")){
+                String wrong = String.format(Config.availableInfo, business, scene, ErrorEnum.ISNOSUCCESS.getMsg(), url, params, result);
                 BaseTest.caveat(wrong);
                 Assert.fail(wrong);
             }
         } catch (Exception e) {
-            Assert.fail(String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), url, params, result + "\n" + e.getMessage()));
+            Assert.fail(String.format(Config.availableInfo, business, scene, ErrorEnum.ISFAILED.getMsg(), url, params, result + "\n" + e.getMessage()));
         }
 
 

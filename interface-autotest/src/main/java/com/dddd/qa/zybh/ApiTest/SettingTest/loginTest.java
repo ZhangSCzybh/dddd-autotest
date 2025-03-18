@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 public class loginTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static String scene = "登录模块";
+    private static String business = "登录";
     //private ResourceBundle bundle;
 
 
@@ -46,7 +47,7 @@ public class loginTest extends BaseTest {
         try {
             result = HttpUtil.post(loginUrl, body);
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, loginUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, loginUrl, business, scene);
         }catch(NullPointerException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), loginUrl, body, "NullPointerException");
             Assert.fail(wrong);

@@ -27,6 +27,7 @@ public class ActivityTest extends BaseTest {
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private String fileName = "dddd/createActivity";
+    private static String business = "福粒运营";
     private static String scene = "活动列表";
     private static HashMap<String, String> headers =new HashMap<>();
 
@@ -74,7 +75,7 @@ public class ActivityTest extends BaseTest {
             //发送get请求并接收响应数据
             result= HttpUtil.createGet(scheduleEventsListUrl).addHeaders(headers).form(map).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, scheduleEventsListUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, scheduleEventsListUrl, business,scene);
         }catch (NoSuchElementException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), scheduleEventsListUrl, body, "NullPointerException");
             Assert.fail(wrong);
@@ -131,7 +132,7 @@ public class ActivityTest extends BaseTest {
         try {
             result= HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, createUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, createUrl,business, scene);
 
 
         }catch (NoSuchElementException e){
@@ -170,7 +171,7 @@ public class ActivityTest extends BaseTest {
             //发送get请求并接收响应数据
             result= HttpUtil.createGet(checkEventUrl).addHeaders(headers).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, checkEventUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, checkEventUrl, business, scene);
         }catch (NoSuchElementException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), checkEventUrl, body, "NullPointerException");
             Assert.fail(wrong);

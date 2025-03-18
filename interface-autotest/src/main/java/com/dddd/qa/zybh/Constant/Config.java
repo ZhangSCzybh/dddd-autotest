@@ -20,9 +20,14 @@ public class Config {
 
 
     /**********************************业务**********************************************/
-    public static String Pro = "cast";
+    public static String Pro = "叮叮当当";
+    public static String DDingDDangYunYingPro = "智采运营平台";
     public static String DDingDDangPro = "智采企业平台";
+    public static String FuliYunYingPro = "福粒运营平台";
     public static String FuliPro = "福粒企业平台";
+    public static String MallPro = "商城端";
+
+
 
     public static String zsc = "17858803001";
 

@@ -186,7 +186,7 @@ public class PurchaseProducts extends BaseTest {
         jsonresult3 = new JSONObject(result3);
         String status3 = jsonresult3.getStr("msg");
 
-        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.FuliPro, scene1, ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
+        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.MallPro, scene1, ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
         caveat("第" + num + "个账号: " + tokendata + "\n"
                 +"创建订单：" + status + "\n"
                 +"订单编号：" + orderNumber + "\n"

@@ -28,6 +28,7 @@ public class SourceTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static JSONObject param;
     private static String scene = "source页面";
+    private static String business = "source";
     private static String deletesourceId;
     private static String updatesourceId;
 
@@ -77,7 +78,7 @@ public class SourceTest extends BaseTest {
             //发送post请求并接收响应数据
             //String result= HttpUtil.createPost(url).addHeaders(headers).form(map).execute().body();
             //logger.info("获取Source列表接口返回信息：" + result);
-            CommonUtil.assertAvailable(Jsonresult, null, soureListUrl, scene);
+            CommonUtil.assertAvailable(Jsonresult, null, soureListUrl, business, scene);
         }catch(NullPointerException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), soureListUrl, null, "NullPointerException");
             Assert.fail(wrong);
@@ -149,7 +150,7 @@ public class SourceTest extends BaseTest {
             //发送delete请求并接收响应数据
             result= HttpUtil.createRequest(Method.DELETE, deleteUrl).addHeaders(headers).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, deleteUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, deleteUrl, business,scene);
 
         }catch(NullPointerException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), deleteUrl, body, "NullPointerException");
@@ -197,7 +198,7 @@ public class SourceTest extends BaseTest {
             //发送PUT请求并接收响应数据
             result= HttpUtil.createRequest(Method.PUT, Common.yolocastUrl+Common.sourceListuri).addHeaders(headers).body(param).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, Common.yolocastUrl+Common.sourceListuri, scene);
+            CommonUtil.assertAvailable(jsonresult, body, Common.yolocastUrl+Common.sourceListuri, business, scene);
 
         }catch (NoSuchElementException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), Common.yolocastUrl+Common.sourceListuri, body, "NullPointerException");
@@ -242,7 +243,7 @@ public class SourceTest extends BaseTest {
             //发送PUT请求并接收响应数据
             result= HttpUtil.createRequest(Method.PUT, updateStreamKeyUrl).addHeaders(headers).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, updateStreamKeyUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, updateStreamKeyUrl,business, scene);
         }catch (NoSuchElementException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), updateStreamKeyUrl, body, "NullPointerException");
             Assert.fail(wrong);

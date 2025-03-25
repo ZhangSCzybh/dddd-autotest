@@ -36,18 +36,25 @@ public class Config {
 
     /********************************日期************************************************/
     public static String format = "MM月dd";//x月x日
+    public static LocalDate nowDay = DateUtil.getPreviousDate(0);//当天
+    public static String NowYmd = DateUtil.getYMD(0);//当天/yyyymmdd
     public static String formatYear = DateUtil.DATE_TIME_FORMAT_YYYY年MM月DD日;//x年x月x日
     public static String formatDay = DateUtil.DATE_FORMAT_YYYY_MM_DD;//yyyy-mm-dd
-    public static LocalDate nowDay = DateUtil.getPreviousDate(0);//当天
+    public static String formatDay02 = DateUtil.DATE_FORMAT_YYYYMMDD; //20250325
+    public static String formatYYYYMMDD = DateUtil.DateFormatYYYYMMDD(); //时间格式20250325
     public static String year = DateUtil.getPreviousDate(0).getYear() + "年";//该年
     public static String date = DateUtil.LocalDateFormatStr(DateUtil.getPreviousDate(0), format);//当天
-    public static String NowYmd = DateUtil.getYMD(0);//当天/yyyymmdd
+
 
     public static long getTimestampAfterTenMinutes = DateUtil.getTodayCurrent()+600000;//获取十分钟后的时间戳
     public static long getTimestampAfterFortyMinutes = DateUtil.getTodayCurrent()+2400000;//获取十分钟后的时间戳
-
     public static String getSysdateStr = DateUtil.getSysdateStr();//时间格式：2022-04-24 21:29:20
     public static long getTimestamp = DateUtil.getTodayCurrent();//获取当前的时间戳
+
+
+
+
+
 
 
 

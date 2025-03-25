@@ -1372,7 +1372,13 @@ public class DateUtil {
         }
         return retStr;
     }
-
+    public static String DateFormatYYYYMMDD(){ // 时间格式：20250325
+        Date now = new Date();
+        // 使用 DateUtil 中的常量格式化日期
+        SimpleDateFormat sdf = new SimpleDateFormat(DateUtil.DATE_FORMAT_YYYYMMDD);
+        String formattedDate = sdf.format(now);
+        return formattedDate;
+    }
     public static void main(String[] args) {
         try {
             Date date = DateUtil.getSubDaysTime(1.5);

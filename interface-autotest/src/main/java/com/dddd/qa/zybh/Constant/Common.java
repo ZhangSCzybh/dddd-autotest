@@ -13,6 +13,7 @@ public class Common {
     static {
         try {
             InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
+            //InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
             //字节流是无法读取中文的，否则会乱码。所以采取reader把inputStream转换成reader用字符流来读取中文
             BufferedReader bf = new BufferedReader(new InputStreamReader(in));
             if (null != bf) {
@@ -94,6 +95,11 @@ public class Common {
     public static String[] array3 = {"9147309", "9147239", "9147343", "9147346","9147268","9147274","9147280","9147301","9147304"};
     public static String[] array4 = {"9147325", "9147417", "9147418", "9147422","9147424","9147253","9147254","9147255","9147257","9147262","9147357","9147292","9147295","9147298","9147302"};
     public static String[] array5 = {"9147305", "9147309", "9147419", "9147215","9147240","9147248","9147347","9147357","9147269","9147277","9147297"};
+
+
+
+    //运营平台提货券模块
+    public static String addVoucherUri = STATIC_PROPERTIES.getProperty("add.voucher.uri");
 
 
 

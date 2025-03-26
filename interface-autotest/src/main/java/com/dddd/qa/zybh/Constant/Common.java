@@ -12,8 +12,8 @@ public class Common {
 
     static {
         try {
-            //InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
-            InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
+            InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
+            //InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
             //字节流是无法读取中文的，否则会乱码。所以采取reader把inputStream转换成reader用字符流来读取中文
             BufferedReader bf = new BufferedReader(new InputStreamReader(in));
             if (null != bf) {

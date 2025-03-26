@@ -12,8 +12,8 @@ public class Common {
 
     static {
         try {
-            InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
-            //InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
+            //InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
+            InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
             //字节流是无法读取中文的，否则会乱码。所以采取reader把inputStream转换成reader用字符流来读取中文
             BufferedReader bf = new BufferedReader(new InputStreamReader(in));
             if (null != bf) {
@@ -100,7 +100,14 @@ public class Common {
 
     //运营平台提货券模块
     public static String addVoucherUri = STATIC_PROPERTIES.getProperty("add.voucher.uri");
+    public static String voucherlistUri = STATIC_PROPERTIES.getProperty("add.voucher.uri");
+    public static String salesVoucherUri = STATIC_PROPERTIES.getProperty("sales.voucher.uri");
+    public static String grantVoucherUri = STATIC_PROPERTIES.getProperty("grant.voucher.uri");
 
+
+    //商城端提货券模块
+    public static String vouchersCardListUri = STATIC_PROPERTIES.getProperty("vouchers.cardList.uri");
+    public static String vouchersOrdersubmitUri = STATIC_PROPERTIES.getProperty("vouchers.ordersubmit.uri");
 
 
 

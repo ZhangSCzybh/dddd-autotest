@@ -10,15 +10,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/073a80ea-9b54-4c50-bbc3-4fd0187ada16-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/07e2f347-8f95-4f90-aa8b-faa3ec2415cf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/08b36704-9f04-49bf-bb12-92c6b2c9cdf7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0a7ce78e-c801-4e7d-9647-11316a569c07-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0b34f52e-9318-4b7a-8b7e-652de32bb210-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0d2c3300-d1db-41f6-bdd2-618da3a82a09-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/21b2487d-dd60-40c3-a527-93ac85c600e5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/237df5c2-27a9-4cf1-bed6-6d23f313b4da-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2579c7c9-908e-4cfc-8520-6774104ec507-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/275e3a45-ccbb-4a62-a8bd-dd84fbf43e7c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2760c6e1-b928-40c9-afc5-e29564ed3352-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2ab78d8e-9ef9-4d59-bc7a-998abaaa61c8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/37be3328-579c-46e4-9398-9aa4e2bb3097-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3df99189-f78e-4f70-8d50-6151b666cdd6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3fde4707-b57d-4577-9d91-c9f8cd83c54c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/413f206d-1de8-4b54-82c0-de40d86dcdd6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4bb017ad-eb98-4e7a-ac8d-07892f6a15df-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4cd7ca49-b7b2-46c6-b875-0632f490e069-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4d1f84e3-3fc8-4927-9f8d-9eb667a9befd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/53c9bca8-5533-4f4a-8376-8839de9236aa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5a2daa63-7326-4130-9a6f-9f182f4168ad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5fd76480-8c7a-4bca-b271-d1774b8f74f6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/61e3832e-1fec-4f34-8846-133e89ecb5ea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/78e5eda5-8831-4eb2-8386-7bd8e479091d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/81a967e4-1f2f-493a-807e-57b57a210c29-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/84f1aaa7-630c-4e94-a178-452977691cac-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/86dc340b-3809-4eda-b91b-2baa26c9dfcf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/90972b75-833f-436f-8589-351df31ae3bd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/913f5181-6447-40d2-a141-5613659658e8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9c1dee24-7b99-4100-88ad-084b5f817d69-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9fedef41-a145-462b-87f0-ab4fc835d70c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bd1b39e9-447f-4e67-83f6-ce440c4c945b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/be796aaa-5d13-4bd5-9823-aaa83ecc8ace-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cab7a822-0225-4ab0-81ad-8840b11989a9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cd66c824-a875-467f-847a-c5b7f3a0723b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d5ec7545-ce61-4894-8ad7-7ccb9d0bec62-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e4f03f21-53cd-42db-8b84-7e763e742f0b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/EmployeeVoucherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/exchangeVoucherCardInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/VoucherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/VoucherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createVoucherInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd/createVoucherInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliOpTest/VoucherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliOpTest/VoucherTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/CommonUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/dddd/createVoucherInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/dddd/createVoucherInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +146,9 @@
     "TestNG.EmployeeIntegral.recycleIntegral (1).executor": "Run",
     "TestNG.EmployeeIntegral.recycleIntegral (2).executor": "Run",
     "TestNG.EmployeeIntegral.recycleIntegral.executor": "Run",
+    "TestNG.EmployeeVoucherTest.executor": "Run",
+    "TestNG.EmployeeVoucherTest.voucherCardList (1).executor": "Run",
+    "TestNG.EmployeeVoucherTest.voucherCardList.executor": "Run",
     "TestNG.ImageDownloader.executor": "Run",
     "TestNG.ImageDownloader.imageDownloadeTest (1).executor": "Run",
     "TestNG.ImageDownloader.imageDownloadeTest (2).executor": "Run",
@@ -208,6 +253,11 @@
     "TestNG.VoucherTest.executor": "Run",
     "TestNG.VoucherTest.test.executor": "Run",
     "TestNG.VoucherTest.test01.executor": "Run",
+    "TestNG.VoucherTest.tets.executor": "Run",
+    "TestNG.VoucherTest.voucherSales.executor": "Run",
+    "TestNG.VoucherTest.voucherSalesList.executor": "Run",
+    "TestNG.VoucherTest.vouchersList.executor": "Run",
+    "TestNG.VoucherTest.vouchersSaleItemsId.executor": "Run",
     "TestNG.loginTest.loginYolocast (1).executor": "Run",
     "TestNG.loginTest.loginYolocast.executor": "Run",
     "kotlin-language-version-configured": "true",
@@ -232,7 +282,60 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VoucherTest">
+  <component name="RunManager" selected="TestNG.EmployeeVoucherTest">
+    <configuration name="EmployeeVoucherTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.EmployeeVoucherTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeVoucherTest.voucherCardList (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.EmployeeVoucherTest" />
+      <option name="METHOD_NAME" value="voucherCardList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeVoucherTest.voucherCardList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.EmployeeVoucherTest" />
+      <option name="METHOD_NAME" value="voucherCardList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VoucherTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -250,7 +353,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VoucherTest.addVoucher" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VoucherTest.tets" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
@@ -260,54 +363,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliOpTest" />
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest" />
-      <option name="METHOD_NAME" value="addVoucher" />
+      <option name="METHOD_NAME" value="tets" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoucherTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliOpTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliOpTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoucherTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliOpTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliOpTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -316,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EmployeeVoucherTest" />
+        <item itemvalue="TestNG.EmployeeVoucherTest.voucherCardList" />
+        <item itemvalue="TestNG.EmployeeVoucherTest.voucherCardList (1)" />
         <item itemvalue="TestNG.VoucherTest" />
-        <item itemvalue="TestNG.VoucherTest.test" />
-        <item itemvalue="TestNG.VoucherTest.addVoucher" />
-        <item itemvalue="TestNG.VoucherTest.test01" />
-        <item itemvalue="TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.VoucherTest.tets" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +436,7 @@
       <workItem from="1740473357118" duration="7201000" />
       <workItem from="1741587127893" duration="1532000" />
       <workItem from="1741756735915" duration="36495000" />
-      <workItem from="1742880501631" duration="3990000" />
+      <workItem from="1742880501631" duration="18882000" />
     </task>
     <servers />
   </component>

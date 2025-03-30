@@ -46,7 +46,8 @@ public class Common {
     public static String OpUrl = STATIC_PROPERTIES.getProperty("op.url");
     //智采员工平台
     public static String zhicaiYgUrl = STATIC_PROPERTIES.getProperty("zhicai.yg.url");
-
+    //自建供应商平台
+    public static String SelfsupplierUrl = STATIC_PROPERTIES.getProperty("selfsupplier.url");
 
     public static String loginOPUri = STATIC_PROPERTIES.getProperty("login.op.uri");
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
@@ -76,9 +77,11 @@ public class Common {
     //用来存储cookies的变量
     public static String Cookies;
     public static String DDingDDangToken;
-    public static String DDingDDangPCToken;
-    public static String fuliOperationPlatformToken;
+    public static String DDingDDangPCToken;//智采员工pc
+    public static String fuliOperationPlatformToken; //福利运营
+    public static String SelfsupplierToken;//自建供应商平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
+
 
     //创建商品
     public static String brandId = STATIC_PROPERTIES.getProperty("goods.brandid");
@@ -109,6 +112,10 @@ public class Common {
     public static String vouchersCardListUri = STATIC_PROPERTIES.getProperty("vouchers.cardList.uri");
     public static String vouchersOrdersubmitUri = STATIC_PROPERTIES.getProperty("vouchers.ordersubmit.uri");
 
+
+    //自建供应商平台
+    public static String enterpriseSelfsupplierCodeuri = STATIC_PROPERTIES.getProperty("enterprise.selfsupplier.code.uri");
+    public static String enterpriseSelfsupplierLoginuri = STATIC_PROPERTIES.getProperty("enterprise.selfsupplier.login.uri");
 
 
 

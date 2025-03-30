@@ -22,5 +22,6 @@ public class DestinationTest {
     @Test
     public void test(){
 
+        System.out.println( Common.DDingDDangToken);
     }
 }

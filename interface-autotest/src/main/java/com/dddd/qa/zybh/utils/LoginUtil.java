@@ -7,6 +7,7 @@ import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.dddd.qa.zybh.Constant.Common;
+import okhttp3.*;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.config.CookieSpecs;
 import org.apache.http.client.config.RequestConfig;
@@ -19,11 +20,11 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
-import javax.xml.ws.Response;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -34,7 +35,8 @@ import java.util.Map;
  */
 public class LoginUtil {
 
-    private static  String skuListfile = "dddd/skuList";
+    private static String skuListfile = "dddd/skuList";
+
     //获取账号中心登录cookie
     public static String loginCookie1(String url, String eamil, String password) {
         // 全局请求设置
@@ -74,7 +76,7 @@ public class LoginUtil {
     }
 
     //获取账号中心登录cookie
-    public static String loginCookie(String url, String eamil, String password){
+    public static String loginCookie(String url, String eamil, String password) {
         //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
         //String body = String.format("{\"eamil\":\"%s\",\"password\":\"%s\"}", eamil, password);
         try {
@@ -86,15 +88,15 @@ public class LoginUtil {
             //System.out.println(result);
             cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
             return (String) (new cn.hutool.json.JSONObject(jsonresult.get("data"))).get("token");
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
 
 
-    //叮叮当当-获取token接口
-    public  static String loginToken(String loginUrl, String userinfo){
+    //叮叮当当员工pc-获取token接口
+    public static String loginToken(String loginUrl, String userinfo) {
         try {
             // 1. 创建 URL 对象
             URL url = new URL(loginUrl);
@@ -110,7 +112,7 @@ public class LoginUtil {
             // 6. 写出请求体
             try (OutputStream os = connection.getOutputStream()) {
                 // 将请求体数据写入输出流
-                byte[] input= userinfo.getBytes("UTF-8");
+                byte[] input = userinfo.getBytes("UTF-8");
                 //byte[] input = ("{ \"identityType\": \"3\" ,\"password\": \"zybh123456\",\"username\": \"17858805009\"}").getBytes("utf-8");
                 os.write(input, 0, input.length);
             }
@@ -121,8 +123,8 @@ public class LoginUtil {
         return null;
     }
 
-    //福粒/慧卡运营平台token
-    public  static String loginOperationPlatformToken(String loginUrl, String userinfo){
+    //福粒/慧卡运营平台token ：fuli-cache
+    public static String loginOperationPlatformToken(String loginUrl, String userinfo) {
         try {
             // 1. 创建 URL 对象
             URL url = new URL(loginUrl);
@@ -138,11 +140,68 @@ public class LoginUtil {
             // 6. 写出请求体
             try (OutputStream os = connection.getOutputStream()) {
                 // 将请求体数据写入输出流
-                byte[] input= userinfo.getBytes("UTF-8");
+                byte[] input = userinfo.getBytes("UTF-8");
                 //byte[] input = ("{ \"identityType\": \"3\" ,\"password\": \"zybh123456\",\"username\": \"17858805009\"}").getBytes("utf-8");
                 os.write(input, 0, input.length);
             }
             return connection.getHeaderField("fuli-cache");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    //自建供应商平台token ：enterprise-cache
+    public static String loginSelfsupplierToken(String loginUrl, String userinfo) {
+        try {
+            // 1. 创建 URL 对象
+            URL url = new URL(loginUrl);
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                // 使用变量拼接 JSON 字符串
+                // 将字符串转换为字节数组
+                byte[] input = userinfo.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+            return connection.getHeaderField("enterprise-cache");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    //智采企业平台token：session-token
+    public static String loginDingdangZCToken(String loginUrl, String userinfo) {
+        OkHttpClient client = new OkHttpClient();
+        // 构造请求体
+        RequestBody body = RequestBody.create(MediaType.get("application/json; charset=utf-8"), userinfo);
+
+        // 构造请求
+        Request request = new Request.Builder()
+                .url(loginUrl)
+                .post(body)
+                .build();
+
+        // 发送请求并处理响应
+        try (Response response = client.newCall(request).execute()) {
+            if (response.isSuccessful()) {
+                // 获取响应头中的 session-token
+                String sessionToken = response.header("session-token");
+                return sessionToken;
+            } else {
+                System.out.println("HTTP 请求失败，响应码: " + response.code());
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

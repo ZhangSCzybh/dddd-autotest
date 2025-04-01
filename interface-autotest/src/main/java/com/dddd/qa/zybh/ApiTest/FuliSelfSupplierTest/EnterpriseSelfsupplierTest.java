@@ -28,7 +28,6 @@ import java.util.Map;
  * @date 2025年03月30日 10:50:49
  * @packageName com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest
  * @className EnterpriseSelfsupplierTest
- * @describe TODO
  */
 public class EnterpriseSelfsupplierTest {
 
@@ -37,7 +36,7 @@ public class EnterpriseSelfsupplierTest {
 
     @BeforeClass
     public static void setUp() {
-        Common.DDingDDangPCToken = LoginUtil.loginToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
         logger.info("执行登录获取智采员工pc的token：" + Common.DDingDDangPCToken);
 
         Common.DDingDDangToken = LoginUtil.loginDingdangZCToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri , Common.loginDDingDDangInfo );

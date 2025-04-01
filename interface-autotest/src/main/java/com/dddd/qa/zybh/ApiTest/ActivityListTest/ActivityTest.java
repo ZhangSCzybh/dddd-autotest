@@ -194,7 +194,6 @@ public class ActivityTest extends BaseTest {
 
 
     }
-    //TODO
     @Test
     public void getToken() throws IOException {
         String phone =  "17858805009";

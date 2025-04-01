@@ -19,7 +19,6 @@ import java.util.Scanner;
  * @date 2024年09月03日 15:28:55
  * @packageName com.dddd.qa.zybh.others
  * @className QueryExpressTrack
- * @describe TODO
  */
 public class QueryExpressTrack {
 

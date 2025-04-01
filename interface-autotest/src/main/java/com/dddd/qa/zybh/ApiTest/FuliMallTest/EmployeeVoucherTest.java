@@ -22,20 +22,20 @@ import java.util.HashMap;
  * @date 2025年03月26日 17:45:17
  * @packageName com.dddd.qa.zybh.ApiTest.FuliMallTest
  * @className EmployeeVoucherTest
- * @describe TODO
+ * @describe
  */
 public class EmployeeVoucherTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
     private static final String scene = "提货券兑换";
-    private static final String exchangeVoucherCard = "dddd/exchangeVoucherCardInfo";
+    private static final String exchangeVoucherCard = "test-dddd/exchangeVoucherCardInfo";
     private static String verifyNumberFristId;
 
 
     @Test(description = "获取未兑换提货券列表，第一个卡密")
     public void voucherCardList(){
         String createUrl = Common.MallUrl+Common.vouchersCardListUri + "?type=0";
-        headers.put("employee-cache", Config.employeeCache);
+        headers.put("employee-cache", Common.mallToken);
         String result =HttpUtil.createGet(createUrl).addHeaders(headers).execute().body();
 
         JSONObject jsonresult = new JSONObject(result);
@@ -54,7 +54,7 @@ public class EmployeeVoucherTest {
         param.put("verifyNumber", verifyNumberFristId);
         String body = param.toString();
         String createUrl = Common.MallUrl+Common.vouchersOrdersubmitUri;
-        headers.put("employee-cache", Config.employeeCache);
+        headers.put("employee-cache", Common.mallToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
 
         //校验接口可行性

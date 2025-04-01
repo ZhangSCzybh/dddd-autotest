@@ -18,7 +18,6 @@ import java.util.List;
  * @date 2024年12月20日 16:46:49
  * @packageName com.dddd.qa.zybh.ApiTest
  * @className EmployeeIntegral
- * @describe TODO
  */
 public class EmployeeIntegral {
     private static final HashMap<String, String> headers =new HashMap<>();
@@ -29,7 +28,7 @@ public class EmployeeIntegral {
     public Object[][] ygIdFromCSV() {
         List<Object[]> data = new ArrayList<>();
         //Common.jenkinsUrl+"/src/main/resources/dddd/supplierToken.csv"
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/dddd/recycleIntegralEmployeeId.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/test-dddd/recycleIntegralEmployeeId.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("num")) { // 跳过标题行

@@ -25,13 +25,13 @@ import java.util.*;
  * @date 2025年03月23日 15:47:38
  * @packageName com.dddd.qa.zybh.ApiTest.FuliOpTest
  * @className VoucherTest
- * @describe TODO
+ * @describe
  */
 public class VoucherTest {
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
-    private static final String createVoucherInfo = "dddd/createVoucherInfo";
+    private static final String createVoucherInfo = "test-dddd/createVoucherInfo";
     private static final String vouchersName="再也不会提货券" + Config.getSysdateStr;
     private static final String scene = "提货券列表";
     private static String vouchersListFirstId;

@@ -81,6 +81,7 @@ public class Common {
     public static String fuliOperationPlatformToken; //福利运营
     public static String SelfsupplierToken;//自建供应商平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
+    public static String mallToken  = STATIC_PROPERTIES.getProperty("mall.token"); //商城员工token
 
 
     //创建商品
@@ -122,6 +123,32 @@ public class Common {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**********************************************************作废***********************************************************/
 
     //yolocast
@@ -141,10 +168,6 @@ public class Common {
     public static String activityUrl = STATIC_PROPERTIES.getProperty("activity.url");
     public static String streamUrl = STATIC_PROPERTIES.getProperty("stream.url");
     public static String usercenterUrl = STATIC_PROPERTIES.getProperty("usercenter.url");
-    //yolocast-c端平台
-    //TODO c端 apitest
-    //yolocast-dashboard
-    //TODO dashboard apitest
 
 
 }

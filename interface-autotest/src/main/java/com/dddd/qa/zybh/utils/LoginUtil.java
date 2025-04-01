@@ -75,7 +75,7 @@ public class LoginUtil {
         return null;
     }
 
-    //获取账号中心登录cookie
+    //获取账号中心登录cookie-----废弃
     public static String loginCookie(String url, String eamil, String password) {
         //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
         //String body = String.format("{\"eamil\":\"%s\",\"password\":\"%s\"}", eamil, password);
@@ -96,7 +96,7 @@ public class LoginUtil {
 
 
     //叮叮当当员工pc-获取token接口
-    public static String loginToken(String loginUrl, String userinfo) {
+    public static String loginYGPCToken(String loginUrl, String userinfo) {
         try {
             // 1. 创建 URL 对象
             URL url = new URL(loginUrl);

@@ -29,7 +29,7 @@ public class LoginZCTest extends BaseTest {
 
     @BeforeClass
     public static void setUp() {
-        Common.DDingDDangPCToken = LoginUtil.loginToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
         logger.info("执行登录获取智采员工pc平台的token：" + Common.DDingDDangPCToken);
 
         Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(Common.OpUrl + Common.loginOPUri , Common.loginOPInfo);
@@ -46,7 +46,7 @@ public class LoginZCTest extends BaseTest {
         String firstTenChars1 = Common.DDingDDangPCToken.substring(0,8);
         String firstTenChars2 = Common.fuliOperationPlatformToken.substring(0,8);
         String firstTenChars3 = Common.fuliOperationPlatformToken.substring(0,8);
-        caveat("===========测试开始==========="+ "\n" + "智采员工PC登录账号:" + firstTenChars1 + "*******************" + "\n" + "慧卡运营账号:" + firstTenChars2 + "*******************" + "智采企业平台:" + firstTenChars3);
+        caveat("===========测试开始==========="+ "\n" + "智采员工PC登录账号:" + firstTenChars1 + "*******************" + "\n" + "慧卡运营账号:" + firstTenChars2 + "*******************" + "\n" + "智采企业平台:" + firstTenChars3 + "*******************");
 
     }
 

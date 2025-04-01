@@ -33,7 +33,7 @@ public class ImageDownloader {
     @DataProvider(name = "imageTypeprovider")
     public Object[][] imageTypeFromCSV() {
         List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd/imageType.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test-dddd/imageType.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("imageType")) { // 跳过标题行

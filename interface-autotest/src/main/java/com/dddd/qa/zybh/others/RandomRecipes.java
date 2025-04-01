@@ -12,11 +12,10 @@ import java.util.List;
  * @date 2024年09月02日 18:18:45
  * @packageName com.dddd.qa.zybh.others
  * @className RandomRecipes
- * @describe TODO
  */
 public class RandomRecipes {
     //Common.jenkinsUrl+"/src/main/resources/dddd/
-    private static final String CSV_FILE_PATH = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd/recipes.csv"; // CSV 文件路径
+    private static final String CSV_FILE_PATH = "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test-dddd/recipes.csv"; // CSV 文件路径
 
     public static void main(String[] args) {
         List<String> recipes = loadRecipesFromCSV(CSV_FILE_PATH);

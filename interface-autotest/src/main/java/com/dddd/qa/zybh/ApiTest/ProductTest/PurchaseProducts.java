@@ -50,7 +50,7 @@ public class PurchaseProducts extends BaseTest {
 
     @BeforeClass
     public static void setUp() {
-        Common.DDingDDangPCToken = LoginUtil.loginToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
         logger.info("执行登录获取智采员工pc平台的token：" + Common.DDingDDangPCToken);
 
         Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(Common.OpUrl + Common.loginOPUri , Common.loginOPInfo);

@@ -28,7 +28,6 @@ public class EmployeeVoucherTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
     private static final String scene = "提货券兑换";
-    private static final String exchangeVoucherCard = "test-dddd/exchangeVoucherCardInfo";
     private static String verifyNumberFristId;
 
 
@@ -50,7 +49,7 @@ public class EmployeeVoucherTest {
 
     @Test(dependsOnMethods = {"voucherCardList"},description = "兑换提货券")
     public void Test(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(exchangeVoucherCard);//getAllCases需要换成生产环境的参数
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(Common.exchangeVoucherCard);//getAllCases需要换成生产环境的参数
         param.put("verifyNumber", verifyNumberFristId);
         String body = param.toString();
         String createUrl = Common.MallUrl+Common.vouchersOrdersubmitUri;

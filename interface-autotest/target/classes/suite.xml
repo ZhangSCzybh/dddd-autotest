@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="runAll">
-    <test name ="source">
+    <listeners>
+        <listener class-name="com.dddd.qa.zybh.Constant.DelayListener"/>
+    </listeners>
+    <test name="SelfsupplierApproval">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalTest"/>
+        </classes>
+    </test>
+    <test name ="login">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
         </classes>
     </test>
-
-    <test name ="purchase">
+    <test name ="Cursor">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
             <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>
     </test>
-
 
 </suite>

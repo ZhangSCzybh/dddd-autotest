@@ -84,6 +84,7 @@ public class Common {
     public static String mallToken  = STATIC_PROPERTIES.getProperty("mall.token"); //商城员工token
 
 
+
     //创建商品
     public static String brandId = STATIC_PROPERTIES.getProperty("goods.brandid");
     public static String brandName = STATIC_PROPERTIES.getProperty("goods.brandname");
@@ -107,16 +108,31 @@ public class Common {
     public static String voucherlistUri = STATIC_PROPERTIES.getProperty("add.voucher.uri");
     public static String salesVoucherUri = STATIC_PROPERTIES.getProperty("sales.voucher.uri");
     public static String grantVoucherUri = STATIC_PROPERTIES.getProperty("grant.voucher.uri");
+    public static String createVoucherInfo = STATIC_PROPERTIES.getProperty("create.voucher.info");
+    public static String agentId = STATIC_PROPERTIES.getProperty("agent.id");
+    public static String enterprId = STATIC_PROPERTIES.getProperty("enterpr.id");
+    public static String relatedEnterprId = STATIC_PROPERTIES.getProperty("relatedEnterpr.id");
+    public static Integer employeeId = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id"));
+
 
 
     //商城端提货券模块
     public static String vouchersCardListUri = STATIC_PROPERTIES.getProperty("vouchers.cardList.uri");
     public static String vouchersOrdersubmitUri = STATIC_PROPERTIES.getProperty("vouchers.ordersubmit.uri");
+    public static String exchangeVoucherCard = STATIC_PROPERTIES.getProperty("exchange.voucher.card");
 
 
     //自建供应商平台
     public static String enterpriseSelfsupplierCodeuri = STATIC_PROPERTIES.getProperty("enterprise.selfsupplier.code.uri");
     public static String enterpriseSelfsupplierLoginuri = STATIC_PROPERTIES.getProperty("enterprise.selfsupplier.login.uri");
+    public static String applySelfSupplierUri = STATIC_PROPERTIES.getProperty("apply.selfsupplier.uri");
+    public static String applySelfSupplierInfo = STATIC_PROPERTIES.getProperty("apply.selfsupplier.info");
+    public static String supplierRegisterApplyUri = STATIC_PROPERTIES.getProperty("supplier.register.apply.uri");
+    public static String supplierRegisterSelectlistUri = STATIC_PROPERTIES.getProperty("supplier.register.selectlist.uri");
+
+    //员工pc--我的审批--列表
+    public static String approvalPendingUri = STATIC_PROPERTIES.getProperty("approval.pending.uri");
+    public static String approvalProcessHandleUri = STATIC_PROPERTIES.getProperty("approval.processhandle.uri");
 
 
 

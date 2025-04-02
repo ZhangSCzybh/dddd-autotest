@@ -31,8 +31,7 @@ public class VoucherTest {
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
-    private static final String createVoucherInfo = "test-dddd/createVoucherInfo";
-    private static final String vouchersName="再也不会提货券" + Config.getSysdateStr;
+    private static final String vouchersName="验收提货券" + Config.getSysdateStr;
     private static final String scene = "提货券列表";
     private static String vouchersListFirstId;
     private static String vouchersSalesListFirstId;
@@ -47,7 +46,7 @@ public class VoucherTest {
 
     @Test(description = "创建提货券")
     public void addVoucher(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(createVoucherInfo);//getAllCases需要换成生产环境的参数
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(Common.createVoucherInfo);//getAllCases需要换成生产环境的参数
         param.put("name", vouchersName);
         String body = param.toString();
         String createUrl = Common.OpUrl+Common.addVoucherUri;
@@ -85,15 +84,15 @@ public class VoucherTest {
     @Test(dependsOnMethods = {"vouchersList"}, description = "销售第一个提货券")
     public void voucherSales(){
         JSONObject param = JSONUtil.createObj();//需要换成生产环境的参数
-        param.put("agentId",1);
-        param.put("enterprId",995);
-        param.put("relatedEnterprId",995);
+        param.put("agentId",Common.agentId);
+        param.put("enterprId",Common.enterprId);
+        param.put("relatedEnterprId",Common.relatedEnterprId);
         param.put("remark","名称:" + vouchersName);
         Map<String, Object> saleItem = new HashMap<>();
         saleItem.put("voucherId", vouchersListFirstId);
-        saleItem.put("buyNum", 5);
-        saleItem.put("salePrice", 99);
-        saleItem.put("settlementPrice", 99);
+        saleItem.put("buyNum", 1);
+        saleItem.put("salePrice", 1);
+        saleItem.put("settlementPrice", 1);
         param.put("saleItems", new Object[]{saleItem});
 
         String body = param.toString();
@@ -151,7 +150,7 @@ public class VoucherTest {
         appointGrant.put("blessing", "");
 
         List<Integer> employeeIds = new ArrayList<>();
-        employeeIds.add(10052723);//17858800052
+        employeeIds.add(Common.employeeId);
         appointGrant.put("employeeIds", employeeIds);
 
         appointGrantList.add(appointGrant);

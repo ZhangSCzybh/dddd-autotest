@@ -1379,6 +1379,27 @@ public class DateUtil {
         String formattedDate = sdf.format(now);
         return formattedDate;
     }
+
+    public static String RandomSixDigit(){
+        Random random = new Random();
+        // 生成两个随机字母（大写或小写）
+        char firstLetter = getRandomLetter(random);
+        char secondLetter = getRandomLetter(random);
+
+        // 生成四个随机数字（0-9）
+        int numbers = random.nextInt(10000); // 生成 [0, 9999]
+
+        // 格式化数字为四位数（如 0001）
+        String formattedNumbers = String.format("%04d", numbers);
+        // 拼接字母和数字
+        String result = "" + firstLetter + secondLetter + formattedNumbers;
+        return result;
+    }
+    // 获取随机字母（大写或小写）
+    private static char getRandomLetter(Random random) {
+        boolean isUpperCase = random.nextBoolean(); // 随机决定是否大写
+        return (char) (isUpperCase ? 'A' + random.nextInt(26) : 'a' + random.nextInt(26));
+    }
     public static void main(String[] args) {
         try {
             Date date = DateUtil.getSubDaysTime(1.5);
@@ -1388,6 +1409,7 @@ public class DateUtil {
             System.out.println(getPreviousDateTime(0));
             LocalDateTime time = SetLocalDateTime(LocalDate.now(), 16, 59, 40);
             System.out.println(time);
+            System.out.println(RandomSixDigit());
         } catch (Exception e) {
             // TODO: handle exception
         }

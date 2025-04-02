@@ -6,6 +6,10 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.CommonUtil;
+import com.dddd.qa.zybh.Constant.Config;
+import com.dddd.qa.zybh.utils.DateUtil;
+import com.dddd.qa.zybh.utils.GetCaseUtil;
 import com.dddd.qa.zybh.utils.LoginUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.*;
@@ -33,21 +37,23 @@ public class EnterpriseSelfsupplierTest {
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
+    private static final String scene2 = "邀请供应商模块";
+    private static String applyId;
+
 
     @BeforeClass
     public static void setUp() {
         Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
-        logger.info("执行登录获取智采员工pc的token：" + Common.DDingDDangPCToken);
+        logger.info("执行登录获取智采员工pc平台的token：" + Common.DDingDDangPCToken);
 
         Common.DDingDDangToken = LoginUtil.loginDingdangZCToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri , Common.loginDDingDDangInfo );
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
 
     }
 
-
-    @Test(description = "获取自建供应商平台跳转code登录自建供应商平台")
-    public void EnterpriseSelfsupplierLoginTest(){
-        String createUrl = Common.zhicaiHrUrl+Common.enterpriseSelfsupplierCodeuri + "?payEnterpriseId=8";//不同企业的payEnterpriseId需要修改 福粒10 慧卡8
+    @Test(description = "登录自建供应商平台，新增供应商")
+    public void selfSupplierLogin(){
+        String createUrl = Common.zhicaiHrUrl+Common.enterpriseSelfsupplierCodeuri;
         headers.put("session-token", Common.DDingDDangToken);
         String result = HttpUtil.createGet(createUrl).addHeaders(headers).execute().body();
         System.out.println(result);
@@ -59,7 +65,69 @@ public class EnterpriseSelfsupplierTest {
         //登录自建供应商平台
         Common.SelfsupplierToken = LoginUtil.loginSelfsupplierToken(Common.SelfsupplierUrl + Common.enterpriseSelfsupplierLoginuri, jsonUserInfo);
         System.out.println("自建供应商平台token:" + Common.SelfsupplierToken);
+
     }
+
+    @Test(description = "生成邀请供应商")
+    public void selfSupplierApply(){
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(Common.applySelfSupplierInfo);//getAllCases需要换成生产环境的参数
+        param.put("name", "自动邀请供应商"+ DateUtil.RandomSixDigit());
+        param.put("alias", DateUtil.RandomSixDigit());
+        param.put("loginName", "zdyqgys"+DateUtil.RandomSixDigit());
+        param.put("password", "zdyqgys"+DateUtil.RandomSixDigit());
+        param.put("enterprId", Common.enterprId);
+        String body = param.toString();
+        String createUrl = Common.SelfsupplierUrl+ Common.applySelfSupplierUri;
+        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        System.out.println(result);
+        JSONObject jsonresult = new JSONObject(result);
+        applyId = (new JSONObject(jsonresult.get("result"))).get("id").toString();
+        System.out.println("填写邀请供应商信息时返回的applyId"+applyId);
+    }
+    @Test(dependsOnMethods ={"selfSupplierLogin","selfSupplierApply"},description = "邀请的供应商提交审批")
+    public void submitApproval() throws InterruptedException {
+        JSONObject param = JSONUtil.createObj();//需要换成生产环境的参数
+        param.put("appendUrl","/" + applyId + "/2");
+        String body = param.toString();
+        //String createUrl = Common.SelfsupplierUrl+ Common.supplierRegisterApplyUri;
+        String createUrl = Common.SelfsupplierUrl + Common.supplierRegisterApplyUri +"/" + applyId + "/2";
+        headers.put("enterprise-cache", Common.SelfsupplierToken);
+        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        System.out.println(result);
+        JSONObject jsonresult = new JSONObject(result);
+        //接口可行性
+        CommonUtil.assertAvailable(jsonresult, null, createUrl, Config.SelfSupplierPro, scene2);
+        Thread.sleep(2000);
+    }
+    @Test(dependsOnMethods ={"submitApproval"},description = "获取审批中的列表数据")
+    public void approvalList(){
+        JSONObject param = JSONUtil.createObj();
+        param.put("type", 1);
+        param.put("timeType", 0);
+        param.put("page", 1);
+        param.put("pageSize", 100);
+        String createUrl = Common.SelfsupplierUrl + Common.supplierRegisterSelectlistUri;
+        headers.put("enterprise-cache", Common.SelfsupplierToken);
+        String result = HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
+        System.out.println(result);
+        JSONObject jsonresult = new JSONObject(result);
+        //接口可行性
+        CommonUtil.assertAvailable(jsonresult, null, createUrl, Config.SelfSupplierPro, scene2);
+
+        String data = jsonresult.get("result").toString();
+        JSONObject datajson = new JSONObject(data);
+        JSONArray jsonArray =new JSONArray(datajson.get("list"));
+        int length = jsonArray.toArray().length;
+        for(int i = 0; i < length; i++) {
+            String applyIdZuiXin = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(i))).get("applyId").toString();
+            if(applyId.equals(applyIdZuiXin)){
+                Config.approvalNo= (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(i))).get("approvalNo").toString();
+                logger.info("邀请供应商的编号和审批单据编号: applyId={}, approvalNo={}", applyIdZuiXin, Config.approvalNo);
+                break;
+            }
+        }
+    }
+
 
 
 }

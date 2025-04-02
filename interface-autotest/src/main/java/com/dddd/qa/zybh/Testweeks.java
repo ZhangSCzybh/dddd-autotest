@@ -1,6 +1,10 @@
 package com.dddd.qa.zybh;
 
 
+import cn.hutool.http.HttpUtil;
+import cn.hutool.json.JSONArray;
+import cn.hutool.json.JSONObject;
+import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.utils.LoginUtil;
@@ -25,7 +29,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.*;
 import java.io.*;
-
+import java.util.concurrent.ThreadLocalRandom;
 
 
 /**
@@ -72,30 +76,48 @@ public class Testweeks {
 
 
     public static void main(String[] args) throws IOException {
-        URL url = new URL("https://hr.ddingddang.com/api/enterprise/account/login");
-        //URL url = new URL("https://cx.ddingddang.com/api/enterprise/employee/account/login");
-        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        // 3. 设置请求方法为 POST
-        connection.setRequestMethod("POST");
-        // 4. 设置请求头
-        connection.setRequestProperty("Content-Type", "application/json");
-        // 5. 允许写出和输入
-        connection.setDoOutput(true);
-        connection.setDoInput(true);
-        try (OutputStream os = connection.getOutputStream()) {
-            // 将请求体数据写入输出流
-            //byte[] input= userinfo.getBytes("UTF-8");
-            //byte[] input = ("{ \"loginAccount\": \"15757807860\" , \"loginType\": \"1\" , \"password\": \"888888\" , \"enterpriseId\": \"1169\"}").getBytes("utf-8");
-            byte[] input = ("{ \"loginName\": \"ddyanshi\" ,\"password\": \"Aa123456.\" ,\"identityType\": \"3\"}").getBytes("utf-8");
-            os.write(input, 0, input.length);
-        }
-
-        System.out.println(connection.getHeaderField("session-token"));
-        //System.out.println(LoginUtil.loginToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri,Common.loginDDingDDangInfo));
+        int randomNumber = ThreadLocalRandom.current().nextInt(10, 10000);
 
 
 
     }
 
 
+
+    @Test
+    public void test(){
+        String aa = "GYS20250331009631";
+        JSONObject param = JSONUtil.createObj();
+        param.put("status", 2);
+        param.put("page", 1);
+        param.put("pageSize", 100);
+        String createUrl = "https://pctest.ddingddang.com/api/enterprise/approval/pending";
+        headers.put("session-token", "NTIraFEA1x0Na1DAc13c9l4N9BBUa05M9yAUb2BZen5N6DEc0w5a7nFl2Z0bf28F8a3TeGYvS2twZVR1aDBnYzY1bnRlejJ2YUQ2NEt3Z1hZTXVKSk1nNia9lNFp0dVk3ZEM1dmI3MjFrRVhYYno5blpHTlV6ZThtU2FHTFhwbE96ckNHYTBBYXd4MDRJclRKVGp3TWZaVVJKOEFXZ2tmVXAwODB1UHBLNjNNSWwyd3JmL01jUTFXcW9pWmNISVY1Nm5CMEoyLzB3SU5BOUpKQlQxNVFYVXJIZia9KOStyV1JURTlGZXplR3FTcCt2MFRKcUhqS04yNVA0VTd1N24rQTJIdFI0UnRXYmszdEFiaOVhWVmJJWTVuaUU4Q3ZGYm5ISU9HMllwOXE1TldndUdmMEFQcmpXL0ZJMjMxSnFublNnZjBKM2NUVVNlZnBjQmc5eFNaOWNkVGRBdmJZWUZ1czZSSHFtVmt5REs2NjBnPT0");
+        //String result = HttpUtil.createGet(createUrl).addHeaders(headers).body(body).execute().body();
+        String result = HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
+        System.out.println(result);
+        //获取第一个提货券
+        JSONObject jsonresult = new JSONObject(result);
+        //获取数组长度
+        String data = jsonresult.get("result").toString();
+        JSONObject datajson = new JSONObject(data);
+        JSONArray jsonArray =new JSONArray(datajson.get("list"));
+        int length = jsonArray.toArray().length;
+        System.out.println(length);
+
+        for(int i = 0; i < length; i++) {
+            String approvalNo = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(i))).get("approvalNo").toString();
+            if (approvalNo != null && aa.equals(approvalNo)) {
+                // 执行逻辑
+                System.out.println(approvalNo);
+                String id = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(i))).get("id").toString();
+                System.out.println(id);
+            }else {
+                System.out.println("无此approvalNo");
+            }
+
+        }
+
+
+    }
 }

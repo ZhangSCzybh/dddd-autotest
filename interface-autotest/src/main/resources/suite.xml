@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="runAll">
-    <listeners>
-        <listener class-name="com.dddd.qa.zybh.Constant.DelayListener"/>
-    </listeners>
     <test name="SelfsupplierApproval">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest"/>

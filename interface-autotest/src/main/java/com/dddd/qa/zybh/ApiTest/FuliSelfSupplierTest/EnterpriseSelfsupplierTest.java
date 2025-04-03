@@ -39,6 +39,7 @@ public class EnterpriseSelfsupplierTest {
     private static final HashMap<String, String> headers =new HashMap<>();
     private static final String scene2 = "邀请供应商模块";
     private static String applyId;
+    private static String supplierName;
 
 
     @BeforeClass
@@ -82,8 +83,10 @@ public class EnterpriseSelfsupplierTest {
         System.out.println(result);
         JSONObject jsonresult = new JSONObject(result);
         applyId = (new JSONObject(jsonresult.get("result"))).get("id").toString();
-        System.out.println("填写邀请供应商信息时返回的applyId"+applyId);
+        supplierName = (new JSONObject(jsonresult.get("result"))).get("id").toString();
+        logger.info("填写邀请供应商信息时返回的applyId和供应商名称: applyId={}, supplierName={}", applyId, supplierName);
     }
+
     @Test(dependsOnMethods ={"selfSupplierLogin","selfSupplierApply"},description = "邀请的供应商提交审批")
     public void submitApproval() throws InterruptedException {
         JSONObject param = JSONUtil.createObj();//需要换成生产环境的参数
@@ -128,6 +131,12 @@ public class EnterpriseSelfsupplierTest {
         }
     }
 
+    public void selfSupplierDelete(){
+        //todo
+        //https://cardback.ddingddang.com/enterpriseadmin/supplier/getList 根据name获取对应供应商的 id
+        //https://cardback.ddingddang.com/enterpriseadmin/supplier/delSupplierInfo/890481 get请求 删除对应的供应商
 
+
+    }
 
 }

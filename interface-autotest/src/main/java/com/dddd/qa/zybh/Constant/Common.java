@@ -113,6 +113,7 @@ public class Common {
     public static String enterprId = STATIC_PROPERTIES.getProperty("enterpr.id");
     public static String relatedEnterprId = STATIC_PROPERTIES.getProperty("relatedEnterpr.id");
     public static Integer employeeId = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id"));
+    public static Integer enterprId2 = Integer.valueOf(STATIC_PROPERTIES.getProperty("enterpr.id"));
 
 
 
@@ -129,6 +130,9 @@ public class Common {
     public static String applySelfSupplierInfo = STATIC_PROPERTIES.getProperty("apply.selfsupplier.info");
     public static String supplierRegisterApplyUri = STATIC_PROPERTIES.getProperty("supplier.register.apply.uri");
     public static String supplierRegisterSelectlistUri = STATIC_PROPERTIES.getProperty("supplier.register.selectlist.uri");
+    public static String supplierlistUri = STATIC_PROPERTIES.getProperty("supplier.list.uri");
+    public static String supplierdelSupplierInfoUri = STATIC_PROPERTIES.getProperty("supplier.delsupplierinfo.uri");
+
 
     //员工pc--我的审批--列表
     public static String approvalPendingUri = STATIC_PROPERTIES.getProperty("approval.pending.uri");

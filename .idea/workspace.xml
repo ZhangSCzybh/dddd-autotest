@@ -10,14 +10,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/05201440-b2ba-45d3-8e0a-1b1782221176-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/06b76eca-9bf8-452b-ac49-3029837fae45-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0afad5a5-efb8-4bba-8e07-145e98d9d761-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/10f50194-e066-4db0-a731-07a2e3f99d5b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1600b4e4-34b0-47d1-b0c3-615fb36019b0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1c3e0d3e-80b8-494e-a8c5-4d9c6d3309ea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1f2e6e97-f2a3-4aad-9b57-1d32effd2166-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1f331e79-0c0e-4e05-804a-990324047f56-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/280e91c1-5d73-482c-8fd5-430a1dd20b16-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/32714fa2-d222-4666-8311-a9ef6078554d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/340c3d92-1243-45d8-a029-4916e2281e72-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/348df2e6-aacb-4dcb-b343-f4f143297f4d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/38efec00-398c-4ea8-bb52-b9faea2bcc69-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4d01c543-1aaf-46a3-932e-22d5f7b6a377-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/52b30177-6b3e-44b7-88ab-21eec6720cdf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/53a7bb22-a6ea-4856-99c9-6018c855d64b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/549ddd93-5daa-4030-9253-b9761d9fb3c7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/58338ef0-5190-404c-8630-e6b8abebd6f9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/65c2fb86-79de-403a-9ef3-4040c1296386-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6ba338f5-8cde-4843-8db8-ef2d19789c98-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6c1c7665-3e69-4a50-bb4a-24d9358555b4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7ea63555-0df6-479e-b3f0-677417377856-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/820c1810-13fe-4cb9-83d6-b0aedecc6387-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/828f8fb2-cb04-4dce-a2ff-e502b3cc4371-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/898d287a-7025-4a8d-ae5f-37792ba7a734-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8aab18ba-5d6f-455f-b643-2c4150faf195-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/988c17d6-bd97-49c3-b5d5-9c18f3f829db-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9977461d-f4bc-4cfa-bafe-9966c0e9c8c5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a800086c-44fd-4b58-9083-b7a59c88a7f6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a8955ce0-6a55-4943-8eb0-80f3e3651ebe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b5a33e19-3db9-4856-97f1-d81bc8b0b6fd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b6ee7071-5523-457a-9223-6bed5bda31d4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/be6fbc1f-5c8c-41f2-aaa0-531fd1ba0cc0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c0cfc9bf-5b21-498c-8d72-bde6b98d5dfe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c44e3906-4114-4bd1-b7c6-ea530a8b976b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d2f2f172-0eb7-42bf-bb9d-e89cc0dc1673-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d3134db5-5594-4ae4-8b67-c6eea95cd36f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/db02ef1c-0f9c-4e67-9066-3cd875dc369d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dca81ffd-5551-4833-842a-7f81fb388424-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dd1a2e50-b0b6-4dd0-89b8-cf9a21126717-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ddc15498-c1c7-4061-afef-407c79b32fe9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e2099cd0-bd47-4c16-9b89-a52cc1b1ce49-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e91c7796-fe33-4834-8be8-6583d8af8adb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e968955d-7252-499e-8dd1-72cb1a3cc809-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f4bdb026-c377-4000-9fef-a9a8e30081e3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f56c7cea-0e38-41c9-ae8b-9e95593632e0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fa56f377-c0e0-4e5d-a4a3-4b8a6c03f475-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliSelfSupplierTest/EnterpriseSelfsupplierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliSelfSupplierTest/EnterpriseSelfsupplierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/YGPCTest/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/YGPCTest/ApprovalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliSelfSupplierTest/EnterpriseSelfsupplierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliSelfSupplierTest/EnterpriseSelfsupplierTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/YGPCTest/ApprovalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/YGPCTest/ApprovalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/DelayListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/DelayListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,199 +104,201 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.DailyRecipeGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DingTalkRobotUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImageDownloader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImageSizeCheckerAndRenamer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PurchaseProductsTool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueryExpressTrack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomRecipes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SendResultToDingtalk.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Testweeks.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.interface-autotest [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.interface-autotest [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.interface-autotest [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ActivityTest.createEvent.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ActivityTest.getScheduleEventsList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.addProduct (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.addProduct.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.getSkuList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.getSpuList (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.getSpuList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.testAddProduct.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.update.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.updateSkuState.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.updateSpuState (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.updateSpuState.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddProductTest.updateState.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.approvalList (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.approvalList (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.approvalList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.approvalPendingList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.processHandle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.selfSupplierAdd.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.selfSupplierApply.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.selfSupplierLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.submitApproval (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.submitApproval.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ApprovalTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest.testAdminLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest.testEmptyParams.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest.testGetSupplierList (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest.testGetSupplierList (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CursorTest.testGetSupplierList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EmployeeIntegral.recycleIntegral (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EmployeeIntegral.recycleIntegral (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EmployeeIntegral.recycleIntegral.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EmployeeVoucherTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EmployeeVoucherTest.voucherCardList (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EmployeeVoucherTest.voucherCardList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EnterpriseSelfsupplierTest.EnterpriseSelfsupplierLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EnterpriseSelfsupplierTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ImageDownloader.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ImageDownloader.imageDownloadeTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ImageDownloader.imageDownloadeTest (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ImageDownloader.imageDownloadeTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ImageDownloader.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ImageDownloader.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest.loginDDingDDangHR.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginZCTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LogoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LogoutTest.loginDDingDDangHR (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LogoutTest.loginDDingDDangHR.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkMallEmployeePoints.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkPoints (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkPoints (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkPoints (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkPoints (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkPoints (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkPoints.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.purchaseGoods.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.recycleRecord (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.recycleRecord (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.recycleRecord (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.recycleRecord (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.recycleRecord.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.PurchaseProducts.sendEmployeePoints (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.sendEmployeePoints (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.sendEmployeePoints (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.sendEmployeePoints (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.sendEmployeePoints.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.supplierOrderDelivery.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.test (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.test (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.test (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProducts.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.addShoppingCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.purchaseGoods (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.purchaseGoods (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.purchaseGoods.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.supplierOrderDelivery.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testDataProvider.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testMethod (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testUserData (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseProductsTool.testUserData.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PurchaseTest.addShoppingCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.addProduct (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.addProduct.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.test (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.test (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.test (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.test (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testAddProduct.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testLoginAndGetToken (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testLoginAndGetToken (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testLoginAndGetToken (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testLoginAndGetToken (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testLoginAndGetToken.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testUserData (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testUserData (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testUserData (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testweeks.testUserData.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.addVoucher.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.test01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.tets.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.voucherSales.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.voucherSalesList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.vouchersList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.VoucherTest.vouchersSaleItemsId.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.loginTest.loginYolocast (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.loginTest.loginYolocast.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28275862&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DailyRecipeGenerator.executor": "Run",
+    "Application.DateUtil.executor": "Run",
+    "Application.DingTalkRobotUtil.executor": "Run",
+    "Application.ImageDownloader.executor": "Run",
+    "Application.ImageSizeCheckerAndRenamer.executor": "Run",
+    "Application.LoginUtil.executor": "Run",
+    "Application.PurchaseProductsTool.executor": "Run",
+    "Application.QueryExpressTrack.executor": "Run",
+    "Application.RandomRecipes.executor": "Run",
+    "Application.SendResultToDingtalk.executor": "Run",
+    "Application.Testweeks.executor": "Run",
+    "Maven.interface-autotest [clean].executor": "Run",
+    "Maven.interface-autotest [install].executor": "Run",
+    "Maven.interface-autotest [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor": "Run",
+    "TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor": "Run",
+    "TestNG.ActivityTest.createEvent.executor": "Run",
+    "TestNG.ActivityTest.getScheduleEventsList.executor": "Run",
+    "TestNG.AddProductTest (1).executor": "Run",
+    "TestNG.AddProductTest (2).executor": "Run",
+    "TestNG.AddProductTest (3).executor": "Run",
+    "TestNG.AddProductTest (4).executor": "Run",
+    "TestNG.AddProductTest (5).executor": "Run",
+    "TestNG.AddProductTest.addProduct (1).executor": "Run",
+    "TestNG.AddProductTest.addProduct.executor": "Run",
+    "TestNG.AddProductTest.executor": "Run",
+    "TestNG.AddProductTest.getSkuList.executor": "Run",
+    "TestNG.AddProductTest.getSpuList (1).executor": "Run",
+    "TestNG.AddProductTest.getSpuList.executor": "Run",
+    "TestNG.AddProductTest.testAddProduct.executor": "Run",
+    "TestNG.AddProductTest.update.executor": "Run",
+    "TestNG.AddProductTest.updateSkuState.executor": "Run",
+    "TestNG.AddProductTest.updateSpuState (1).executor": "Run",
+    "TestNG.AddProductTest.updateSpuState.executor": "Run",
+    "TestNG.AddProductTest.updateState.executor": "Run",
+    "TestNG.ApprovalTest (1).executor": "Run",
+    "TestNG.ApprovalTest.approvalList (1).executor": "Run",
+    "TestNG.ApprovalTest.approvalList (2).executor": "Run",
+    "TestNG.ApprovalTest.approvalList.executor": "Run",
+    "TestNG.ApprovalTest.approvalPendingList.executor": "Run",
+    "TestNG.ApprovalTest.executor": "Run",
+    "TestNG.ApprovalTest.processHandle.executor": "Run",
+    "TestNG.ApprovalTest.selfSupplierAdd.executor": "Run",
+    "TestNG.ApprovalTest.selfSupplierApply.executor": "Run",
+    "TestNG.ApprovalTest.selfSupplierLogin.executor": "Run",
+    "TestNG.ApprovalTest.submitApproval (1).executor": "Run",
+    "TestNG.ApprovalTest.submitApproval.executor": "Run",
+    "TestNG.ApprovalTest.test.executor": "Run",
+    "TestNG.CursorTest (1).executor": "Run",
+    "TestNG.CursorTest.executor": "Run",
+    "TestNG.CursorTest.testAdminLogin.executor": "Run",
+    "TestNG.CursorTest.testEmptyParams.executor": "Run",
+    "TestNG.CursorTest.testGetSupplierList (1).executor": "Run",
+    "TestNG.CursorTest.testGetSupplierList (2).executor": "Run",
+    "TestNG.CursorTest.testGetSupplierList.executor": "Run",
+    "TestNG.EmployeeIntegral.recycleIntegral (1).executor": "Run",
+    "TestNG.EmployeeIntegral.recycleIntegral (2).executor": "Run",
+    "TestNG.EmployeeIntegral.recycleIntegral.executor": "Run",
+    "TestNG.EmployeeVoucherTest.executor": "Run",
+    "TestNG.EmployeeVoucherTest.voucherCardList (1).executor": "Run",
+    "TestNG.EmployeeVoucherTest.voucherCardList.executor": "Run",
+    "TestNG.EnterpriseSelfsupplierTest.EnterpriseSelfsupplierLoginTest.executor": "Run",
+    "TestNG.EnterpriseSelfsupplierTest.executor": "Run",
+    "TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete (1).executor": "Run",
+    "TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete.executor": "Run",
+    "TestNG.ImageDownloader.executor": "Run",
+    "TestNG.ImageDownloader.imageDownloadeTest (1).executor": "Run",
+    "TestNG.ImageDownloader.imageDownloadeTest (2).executor": "Run",
+    "TestNG.ImageDownloader.imageDownloadeTest.executor": "Run",
+    "TestNG.ImageDownloader.test (1).executor": "Run",
+    "TestNG.ImageDownloader.test.executor": "Run",
+    "TestNG.LoginZCTest (1).executor": "Run",
+    "TestNG.LoginZCTest (2).executor": "Run",
+    "TestNG.LoginZCTest.executor": "Run",
+    "TestNG.LoginZCTest.loginDDingDDangHR.executor": "Run",
+    "TestNG.LoginZCTest.test.executor": "Run",
+    "TestNG.LogoutTest.executor": "Run",
+    "TestNG.LogoutTest.loginDDingDDangHR (1).executor": "Run",
+    "TestNG.LogoutTest.loginDDingDDangHR.executor": "Run",
+    "TestNG.PurchaseProducts (1).executor": "Run",
+    "TestNG.PurchaseProducts.checkMallEmployeePoints.executor": "Run",
+    "TestNG.PurchaseProducts.checkPoints (1).executor": "Run",
+    "TestNG.PurchaseProducts.checkPoints (2).executor": "Run",
+    "TestNG.PurchaseProducts.checkPoints (3).executor": "Run",
+    "TestNG.PurchaseProducts.checkPoints (4).executor": "Run",
+    "TestNG.PurchaseProducts.checkPoints (5).executor": "Run",
+    "TestNG.PurchaseProducts.checkPoints.executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (1).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (2).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (3).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (4).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (5).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints.executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (1).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (2).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (3).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (4).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5).executor": "Run",
+    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints.executor": "Run",
+    "TestNG.PurchaseProducts.executor": "Run",
+    "TestNG.PurchaseProducts.purchaseGoods.executor": "Run",
+    "TestNG.PurchaseProducts.recycleRecord (1).executor": "Run",
+    "TestNG.PurchaseProducts.recycleRecord (2).executor": "Run",
+    "TestNG.PurchaseProducts.recycleRecord (3).executor": "Run",
+    "TestNG.PurchaseProducts.recycleRecord (4).executor": "Run",
+    "TestNG.PurchaseProducts.recycleRecord.executor": "Debug",
+    "TestNG.PurchaseProducts.sendEmployeePoints (1).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (2).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (3).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints (4).executor": "Run",
+    "TestNG.PurchaseProducts.sendEmployeePoints.executor": "Run",
+    "TestNG.PurchaseProducts.supplierOrderDelivery.executor": "Run",
+    "TestNG.PurchaseProducts.test (1).executor": "Run",
+    "TestNG.PurchaseProducts.test (2).executor": "Run",
+    "TestNG.PurchaseProducts.test (3).executor": "Run",
+    "TestNG.PurchaseProducts.test (4).executor": "Run",
+    "TestNG.PurchaseProducts.test.executor": "Run",
+    "TestNG.PurchaseProducts.test1.executor": "Run",
+    "TestNG.PurchaseProductsTool (1).executor": "Run",
+    "TestNG.PurchaseProductsTool (2).executor": "Run",
+    "TestNG.PurchaseProductsTool (3).executor": "Run",
+    "TestNG.PurchaseProductsTool (4).executor": "Run",
+    "TestNG.PurchaseProductsTool (5).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (2).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (3).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (4).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (5).executor": "Run",
+    "TestNG.PurchaseProductsTool.SupplierOrderDelivery.executor": "Run",
+    "TestNG.PurchaseProductsTool.addShoppingCart.executor": "Run",
+    "TestNG.PurchaseProductsTool.executor": "Run",
+    "TestNG.PurchaseProductsTool.purchaseGoods (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.purchaseGoods (2).executor": "Run",
+    "TestNG.PurchaseProductsTool.purchaseGoods.executor": "Run",
+    "TestNG.PurchaseProductsTool.supplierOrderDelivery.executor": "Run",
+    "TestNG.PurchaseProductsTool.test (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.test.executor": "Run",
+    "TestNG.PurchaseProductsTool.testDataProvider.executor": "Run",
+    "TestNG.PurchaseProductsTool.testMethod (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.testMethod.executor": "Run",
+    "TestNG.PurchaseProductsTool.testUserData (1).executor": "Run",
+    "TestNG.PurchaseProductsTool.testUserData.executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart (1).executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart (2).executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart (3).executor": "Run",
+    "TestNG.PurchaseTest.addShoppingCart.executor": "Run",
+    "TestNG.Testweeks.addProduct (1).executor": "Run",
+    "TestNG.Testweeks.addProduct.executor": "Run",
+    "TestNG.Testweeks.test (1).executor": "Run",
+    "TestNG.Testweeks.test (2).executor": "Run",
+    "TestNG.Testweeks.test (3).executor": "Run",
+    "TestNG.Testweeks.test (4).executor": "Run",
+    "TestNG.Testweeks.test (5).executor": "Run",
+    "TestNG.Testweeks.test.executor": "Run",
+    "TestNG.Testweeks.testAddProduct.executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (1).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (2).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (3).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken (4).executor": "Run",
+    "TestNG.Testweeks.testLoginAndGetToken.executor": "Run",
+    "TestNG.Testweeks.testMethod.executor": "Run",
+    "TestNG.Testweeks.testUserData (1).executor": "Run",
+    "TestNG.Testweeks.testUserData (2).executor": "Run",
+    "TestNG.Testweeks.testUserData (3).executor": "Run",
+    "TestNG.Testweeks.testUserData.executor": "Run",
+    "TestNG.VoucherTest (1).executor": "Run",
+    "TestNG.VoucherTest.addVoucher.executor": "Run",
+    "TestNG.VoucherTest.executor": "Run",
+    "TestNG.VoucherTest.test.executor": "Run",
+    "TestNG.VoucherTest.test01.executor": "Run",
+    "TestNG.VoucherTest.tets.executor": "Run",
+    "TestNG.VoucherTest.voucherSales.executor": "Run",
+    "TestNG.VoucherTest.voucherSalesList.executor": "Run",
+    "TestNG.VoucherTest.vouchersList.executor": "Run",
+    "TestNG.VoucherTest.vouchersSaleItemsId.executor": "Run",
+    "TestNG.loginTest.loginYolocast (1).executor": "Run",
+    "TestNG.loginTest.loginYolocast.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/dddd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28275862",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd" />
@@ -260,41 +310,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml">
-    <configuration name="ApprovalTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.YGPCTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.YGPCTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApprovalTest.approvalList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.YGPCTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.YGPCTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalTest" />
-      <option name="METHOD_NAME" value="approvalList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApprovalTest.approvalPendingList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -330,6 +345,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnterpriseSelfsupplierTest.selfSupplierDelete (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest" />
+      <option name="METHOD_NAME" value="selfSupplierDelete" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnterpriseSelfsupplierTest.selfSupplierDelete" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest" />
+      <option name="METHOD_NAME" value="selfSupplierDelete" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" />
@@ -343,10 +394,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete" />
+        <item itemvalue="TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete (1)" />
         <item itemvalue="TestNG.ApprovalTest.approvalPendingList" />
         <item itemvalue="TestNG.EnterpriseSelfsupplierTest" />
-        <item itemvalue="TestNG.ApprovalTest" />
-        <item itemvalue="TestNG.ApprovalTest.approvalList" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +460,8 @@
       <workItem from="1743491659843" duration="690000" />
       <workItem from="1743498581909" duration="30386000" />
       <workItem from="1743583352676" duration="5810000" />
-      <workItem from="1743643355692" duration="4822000" />
+      <workItem from="1743643355692" duration="5092000" />
+      <workItem from="1745290101867" duration="4823000" />
     </task>
     <servers />
   </component>

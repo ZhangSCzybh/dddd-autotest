@@ -24,7 +24,9 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -52,7 +54,7 @@ public class EnterpriseSelfsupplierTest {
 
     }
 
-    @Test(description = "登录自建供应商平台，新增供应商")
+    @Test(description = "登录自建供应商平台")
     public void selfSupplierLogin(){
         String createUrl = Common.zhicaiHrUrl+Common.enterpriseSelfsupplierCodeuri;
         headers.put("session-token", Common.DDingDDangToken);
@@ -83,7 +85,7 @@ public class EnterpriseSelfsupplierTest {
         System.out.println(result);
         JSONObject jsonresult = new JSONObject(result);
         applyId = (new JSONObject(jsonresult.get("result"))).get("id").toString();
-        supplierName = (new JSONObject(jsonresult.get("result"))).get("id").toString();
+        supplierName = (new JSONObject(jsonresult.get("result"))).get("supplierName").toString();
         logger.info("填写邀请供应商信息时返回的applyId和供应商名称: applyId={}, supplierName={}", applyId, supplierName);
     }
 
@@ -131,11 +133,43 @@ public class EnterpriseSelfsupplierTest {
         }
     }
 
+    @Test(dependsOnMethods = {"selfSupplierLogin","com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalTest.processHandle"})
     public void selfSupplierDelete(){
-        //todo
-        //https://cardback.ddingddang.com/enterpriseadmin/supplier/getList 根据name获取对应供应商的 id
-        //https://cardback.ddingddang.com/enterpriseadmin/supplier/delSupplierInfo/890481 get请求 删除对应的供应商
+        JSONObject param = JSONUtil.createObj();
+        param.put("page",1);
+        param.put("pageSize",100);
+        List<Integer> enterpriseIds = new ArrayList<>();
+        enterpriseIds.add(Integer.valueOf(Common.enterprId));
+        param.put("employeeIds", enterpriseIds);
+        String body = param.toString();
+        String createUrl = Common.SelfsupplierUrl+Common.supplierlistUri;
+        headers.put("enterprise-cache", Common.SelfsupplierToken);
+        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        System.out.println(result);
+        JSONObject jsonresult = new JSONObject(result);
+        //接口可行性
+        CommonUtil.assertAvailable(jsonresult, body, createUrl, Config.SelfSupplierPro, scene2);
 
+        //根据名字获取供应商id，删除对应供应商
+        String data = jsonresult.get("result").toString();
+        JSONObject datajson = new JSONObject(data);
+        JSONArray jsonArray =new JSONArray(datajson.get("list"));
+        int length = jsonArray.toArray().length;
+        for(int i = 0; i < length; i++) {
+            String Name = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(i))).get("name").toString();
+            if(supplierName.equals(Name)){
+                String Id = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(i))).get("id").toString();
+                logger.info("需要删除的供应商: Id={}, Name={}", Id, Name);
+                String createDelUrl = Common.SelfsupplierUrl+Common.supplierdelSupplierInfoUri + "/"+ Id ;
+                headers.put("enterprise-cache", Common.SelfsupplierToken);
+                String delResult =HttpUtil.createGet(createDelUrl).addHeaders(headers).execute().body();
+                JSONObject delJsonresult = new JSONObject(delResult);
+                //接口可行性
+                CommonUtil.assertAvailable(delJsonresult, body, createUrl, Config.SelfSupplierPro, scene2);
+                logger.info("供应商删除成功: Id={}, Name={}", Id, Name);
+                break;
+            }
+        }
 
     }
 

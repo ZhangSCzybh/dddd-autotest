@@ -146,6 +146,7 @@ public class SendResultToDingtalk {
             Number passed = (Number) jsonObject2.get("passed");
             Number failed = (Number) jsonObject2.get("failed");
             Number skipped = (Number) jsonObject2.get("skipped");
+            Number broken = (Number) jsonObject2.get("broken");
 
             JSONObject jsonObject3= (JSONObject) jsonObject1.get("time");//获取第二层time对象
             //获取总耗时 mm:ss
@@ -194,6 +195,7 @@ public class SendResultToDingtalk {
                     + "项目名称：" +buildName + "\n"
                     + "总用例数量：" + total + "\n"
                     + "成功用例数：" + passed + "\n"
+                    + "异常用例数：" + broken + "\n"
                     + "失败用例数：" + failed + "\n"
                     + "跳过用例数：" + skipped + "\n"
                     + "总耗时：" + totalDuration + "\n"

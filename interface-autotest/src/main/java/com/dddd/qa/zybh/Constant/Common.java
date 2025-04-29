@@ -132,6 +132,7 @@ public class Common {
     public static String supplierRegisterSelectlistUri = STATIC_PROPERTIES.getProperty("supplier.register.selectlist.uri");
     public static String supplierlistUri = STATIC_PROPERTIES.getProperty("supplier.list.uri");
     public static String supplierdelSupplierInfoUri = STATIC_PROPERTIES.getProperty("supplier.delsupplierinfo.uri");
+    public static String queryNoOrderSkuPagesUri = STATIC_PROPERTIES.getProperty("query.no.order.sku.pages.uri");
 
 
     //员工pc--我的审批--列表

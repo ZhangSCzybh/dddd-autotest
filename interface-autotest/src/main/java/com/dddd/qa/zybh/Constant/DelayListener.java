@@ -9,7 +9,6 @@ import org.testng.ITestResult;
  * @date 2025年04月02日 17:10:32
  * @packageName com.dddd.qa.zybh.Constant
  * @className DelayListener
- * @describe TODO
  */
 public class DelayListener implements ITestListener {
     private boolean isClassACompleted = false;

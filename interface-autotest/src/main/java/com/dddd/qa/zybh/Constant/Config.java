@@ -27,12 +27,13 @@ public class Config {
     public static String FuliPro = "福粒企业平台";
     public static String MallPro = "商城端";
     public static String YGPCPro = "员工pc";
-    public static String SelfSupplierPro = "员工pc";
+    public static String SelfSupplierPro = "自建供应商平台";
 
     public static String zsc = "17858803001";
 
     //存储一些常量
     public static String approvalNo;
+    public static String supplierName;
 
 
 

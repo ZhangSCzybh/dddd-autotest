@@ -26,6 +26,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -34,8 +35,6 @@ import java.util.Map;
  * @date 2022-05-01 上午11:38
  */
 public class LoginUtil {
-
-    private static String skuListfile = "dddd/skuList";
 
     //获取账号中心登录cookie
     public static String loginCookie1(String url, String eamil, String password) {
@@ -75,7 +74,7 @@ public class LoginUtil {
         return null;
     }
 
-    //获取账号中心登录cookie-----废弃
+    //获取账号中心登录cookie-----废弃废弃废弃废弃废弃废弃废弃废弃废弃废弃废弃废弃
     public static String loginCookie(String url, String eamil, String password) {
         //String param = "{\"email\":\"zhangsc@yunxi.tv\",\"password\":\"zsc123456\"}";
         //String body = String.format("{\"eamil\":\"%s\",\"password\":\"%s\"}", eamil, password);
@@ -94,6 +93,35 @@ public class LoginUtil {
         return null;
     }
 
+    //自建供应商平台token ：enterprise-cache
+    public static String loginSelfsupplierToken1(String loginUrl, String userinfo) {
+        try {
+            // 1. 创建 URL 对象
+            URL url = new URL(loginUrl);
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                // 使用变量拼接 JSON 字符串
+                // 将字符串转换为字节数组
+                byte[] input = userinfo.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+            return connection.getHeaderField("enterprise-cache");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+    //*****************************从这开始生效**************************
 
     //叮叮当当员工pc-获取token接口
     public static String loginYGPCToken(String loginUrl, String userinfo) {
@@ -151,36 +179,6 @@ public class LoginUtil {
         return null;
     }
 
-
-    //自建供应商平台token ：enterprise-cache
-    public static String loginSelfsupplierToken(String loginUrl, String userinfo) {
-        try {
-            // 1. 创建 URL 对象
-            URL url = new URL(loginUrl);
-            // 2. 打开 HttpURLConnection 连接
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            // 3. 设置请求方法为 POST
-            connection.setRequestMethod("POST");
-            // 4. 设置请求头
-            connection.setRequestProperty("Content-Type", "application/json");
-            // 5. 允许写出和输入
-            connection.setDoOutput(true);
-            connection.setDoInput(true);
-            // 6. 写出请求体
-            try (OutputStream os = connection.getOutputStream()) {
-                // 将请求体数据写入输出流
-                // 使用变量拼接 JSON 字符串
-                // 将字符串转换为字节数组
-                byte[] input = userinfo.getBytes(StandardCharsets.UTF_8);
-                os.write(input, 0, input.length);
-            }
-            return connection.getHeaderField("enterprise-cache");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
     //智采企业平台token：session-token
     public static String loginDingdangZCToken(String loginUrl, String userinfo) {
         OkHttpClient client = new OkHttpClient();
@@ -208,6 +206,50 @@ public class LoginUtil {
         return null;
     }
 
+    //自建供应商平台Token：enterprise-cache
+    public static String loginSelfSupplierToken(String loginUrl) {
+        String createUrl = Common.zhicaiHrUrl + Common.enterpriseSelfsupplierCodeuri;
+        Map<String, String> headers = new HashMap<>();
+        headers.put("session-token", Common.DDingDDangToken);
+        // 发起 GET 请求获取 entCode
+        String result = HttpUtil.createGet(createUrl).addHeaders(headers).execute().body();
+        System.out.println(result);
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        String enterpriseSelfsupplierCode = (new cn.hutool.json.JSONObject(jsonresult.get("result")).get("entCode").toString());//获取entCode
+        System.out.println("跳转自建供应商平台entCode:" + enterpriseSelfsupplierCode);
+
+        // 拼接 JSON 参数
+        String jsonUserInfo = "{ \"entCode\": \"" + enterpriseSelfsupplierCode + "\"}";
+        try {
+            // 1. 创建 URL 对象
+            URL url = new URL(loginUrl);
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                // 使用变量拼接 JSON 字符串
+                // 将字符串转换为字节数组
+                byte[] input = jsonUserInfo.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+            return connection.getHeaderField("enterprise-cache");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+
+
+
+
+    }
 }
 
 

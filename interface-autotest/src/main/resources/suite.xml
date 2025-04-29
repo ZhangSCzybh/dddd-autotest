@@ -5,17 +5,29 @@
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierDeleteTest"/>
+        </classes>
+    </test>
+    <test name="SelfsupplierApprovalRejection">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalRejectionTest"/>
+        </classes>
+    </test>
+    <test name="NoSkuOrder">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.NoTradingVolumeTest"/>
+        </classes>
+    </test>
+    <test name ="Cursor">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>
     </test>
     <test name ="PurchaseProducts">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
-        </classes>
-    </test>
-    <test name ="Cursor">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>
     </test>
     <test name ="Voucher">

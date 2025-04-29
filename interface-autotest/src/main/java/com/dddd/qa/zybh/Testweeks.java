@@ -7,6 +7,7 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.LoginUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -77,9 +78,6 @@ public class Testweeks {
 
     public static void main(String[] args) throws IOException {
         int randomNumber = ThreadLocalRandom.current().nextInt(10, 10000);
-
-
-
     }
 
 

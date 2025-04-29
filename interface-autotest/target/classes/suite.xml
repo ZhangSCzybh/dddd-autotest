@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="runAll">
-    <test name="SelfsupplierApproval">
+    <test name="SelfSupplierApproval">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierDeleteTest"/>
         </classes>
     </test>
-    <test name="SelfsupplierApprovalRejection">
+    <test name="SelfSupplierApprovalRejection">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalRejectionTest"/>
         </classes>
     </test>
-    <test name="NoSkuOrder">
+    <test name="SelfSupplierNoSkuOrder">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.NoTradingVolumeTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.NoOrderSkuTest"/>
+        </classes>
+    </test>
+    <test name="SelfSupplierSkuListOperate">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
         </classes>
     </test>
     <test name ="Cursor">

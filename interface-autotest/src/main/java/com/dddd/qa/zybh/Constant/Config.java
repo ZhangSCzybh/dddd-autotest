@@ -52,6 +52,8 @@ public class Config {
     public static long getTimestampAfterTenMinutes = DateUtil.getTodayCurrent()+600000;//获取十分钟后的时间戳
     public static long getTimestampAfterFortyMinutes = DateUtil.getTodayCurrent()+2400000;//获取十分钟后的时间戳
     public static String getSysdateStr = DateUtil.getSysdateStr();//时间格式：2022-04-24 21:29:20
+    public static String getSysdateStrAfterTenMinutes = DateUtil.getSysdateStrAfterTenMinutes();//当前时间10分钟后，时间格式：2022-04-24 21:29:20
+    public static String getSysdateStrAfterThirtyMinutes = DateUtil.getSysdateStrAfterThirtyMinutes();//当前时间半小时后，时间格式：2022-04-24 21:29:20
     public static long getTimestamp = DateUtil.getTodayCurrent();//获取当前的时间戳
 
 

@@ -132,6 +132,25 @@ public class DateUtil {
         return String.format("%tF %tT", sysdate, sysdate);
     }
 
+    public static String getSysdateStrAfterTenMinutes(){
+        // 获取当前时间
+        LocalDateTime now = LocalDateTime.now();
+        // 十分钟后
+        LocalDateTime afterTenMinutes = now.plusMinutes(10);
+        // 半小时后（30分钟）
+        LocalDateTime afterThirtyMinutes = now.plusMinutes(30);
+        return String.format("%tF %tT", afterTenMinutes, afterTenMinutes);
+    }
+    public static String getSysdateStrAfterThirtyMinutes(){
+        // 获取当前时间
+        LocalDateTime now = LocalDateTime.now();
+        // 十分钟后
+        LocalDateTime afterTenMinutes = now.plusMinutes(10);
+        // 半小时后（30分钟）
+        LocalDateTime afterThirtyMinutes = now.plusMinutes(30);
+        return String.format("%tF %tT", afterThirtyMinutes, afterThirtyMinutes);
+    }
+
 
     /**
      * 返回日期yyyymmdd样式

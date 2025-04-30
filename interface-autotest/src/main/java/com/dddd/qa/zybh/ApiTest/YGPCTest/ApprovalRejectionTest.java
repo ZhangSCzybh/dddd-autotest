@@ -19,6 +19,8 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 
+import static com.dddd.qa.zybh.BaseTest.caveat;
+
 /**
  * @author zhangsc
  * @date 2025年04月29日 15:54:32
@@ -98,6 +100,7 @@ public class ApprovalRejectionTest {
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         JSONObject jsonresult = new JSONObject(result);
         logger.info("供应商审核驳回" + result);
+        caveat("供应商审核驳回" + result);
         //接口可行性
         CommonUtil.assertAvailable(jsonresult, body, createUrl, Config.YGPCPro, scene);
     }

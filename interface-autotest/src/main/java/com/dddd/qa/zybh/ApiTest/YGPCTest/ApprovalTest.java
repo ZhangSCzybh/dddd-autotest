@@ -24,6 +24,8 @@ import java.time.Instant;
 import java.util.HashMap;
 import java.util.concurrent.ThreadLocalRandom;
 
+import static com.dddd.qa.zybh.BaseTest.caveat;
+
 /**
  * @author zhangsc
  * @date 2025年04月01日 17:46:12
@@ -105,6 +107,8 @@ public class ApprovalTest {
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         JSONObject jsonresult = new JSONObject(result);
         logger.info("供应商审核通过" + result);
+        caveat("供应商审核通过" + result);
+
         //接口可行性
         CommonUtil.assertAvailable(jsonresult, body, createUrl, Config.YGPCPro, scene);
     }

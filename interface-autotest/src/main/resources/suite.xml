@@ -23,6 +23,8 @@
     <test name="SelfSupplierSkuListOperate">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdateStateTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdateStockTest"/>
         </classes>
     </test>
     <test name ="Cursor">

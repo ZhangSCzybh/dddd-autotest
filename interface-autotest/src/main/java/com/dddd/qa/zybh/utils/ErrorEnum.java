@@ -12,7 +12,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public enum ErrorEnum {
-    ISCODE("code", "接口返回码非200"),
+    ISCODE("code", "接口返回码非1001"),
     ISFAILED("failed", "接口调用失败"),
     ISNOSUCCESS("noSuccess", "接口返回报错"),
 

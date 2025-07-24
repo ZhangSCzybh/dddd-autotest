@@ -9,9 +9,13 @@ import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.LoginUtil;
+import okhttp3.*;
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
+import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -27,6 +31,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.time.Duration;
 import java.util.*;
 import java.io.*;
@@ -76,10 +82,44 @@ public class Testweeks {
 
 
 
-    public static void main(String[] args) throws IOException {
-        int randomNumber = ThreadLocalRandom.current().nextInt(10, 10000);
-    }
+    public static void main(String[] args) throws IOException, NoSuchAlgorithmException, InvalidKeyException {
+        String appId = "uat-dingdingdangdang";
+        String appSecret = "it6ZXq5cc9BRI9VAsjsTbwaf9wtzoEJm";
+        HmacAuth hmac = new HmacAuth(appId, appSecret);
+        Map<String, String> map = hmac.genHmacAuthHeaders("get /ebus/vop/v1.0.0/product/detail?itemCode=100711003", "");
+        JSONObject jsonObject  = new JSONObject() ;
+        jsonObject.put("startTime","2025-06-10 09:50:00");
+        jsonObject.put("endTime","2025-06-18 09:50:00");
+        jsonObject.put("page",10);
+        jsonObject.put("pageSize",10);
+        String body = jsonObject.toString();
+        //Map<String, String> map = hmac.genHmacAuthHeaders("post /ebus/vop/v1.0.0/product/skuList", body);
 
+        CloseableHttpClient closeableHttpClient = HttpClients.createDefault();
+        HttpGet postMethod = new HttpGet("https://wag-uat.watsonsestore.com.cn/ebus/vop/v1.0.0/product/detail?itemCode=100711003");
+        //HttpPost postMethod = new HttpPost("https://wag-uat.watsonsestore.com.cn/ebus/vop/v1.0.0/product/skuList");
+
+        RequestConfig requestConfig = RequestConfig.custom()
+                .setConnectionRequestTimeout(60000)
+                .setSocketTimeout(60000)
+                .setRedirectsEnabled(false)
+                .build();
+
+        postMethod.setConfig(requestConfig);
+        postMethod.setHeader("Content-Type", "application/json");
+
+        for(Map.Entry<String,String> entry : map.entrySet()){
+            postMethod.setHeader(entry.getKey(),entry.getValue());
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+        }
+
+        CloseableHttpResponse httpResponse = closeableHttpClient.execute(postMethod);
+        HttpEntity entity1 = httpResponse.getEntity();
+        System.out.println(EntityUtils.toString(entity1, "utf-8"));
+
+
+    }
 
 
     @Test

@@ -47,7 +47,6 @@ public class LoginZCTest extends BaseTest {
         String firstTenChars2 = Common.fuliOperationPlatformToken.substring(0,8);
         String firstTenChars3 = Common.DDingDDangToken.substring(0,8);
         caveat("===========测试开始==========="+ "\n" + "智采员工PC:" + firstTenChars1 + "*******************" + "\n" + "慧卡运营平台:" + firstTenChars2 + "*******************" + "\n" + "智采企业平台:" + firstTenChars3 + "*******************");
-
     }
 }
 

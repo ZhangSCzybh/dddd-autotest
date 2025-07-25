@@ -3,6 +3,7 @@ package com.dddd.qa.zybh.utils;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
+import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -249,6 +250,36 @@ public class LoginUtil {
 
 
 
+    }
+
+    //员工PC跳转登录商城
+    public static String loginJumpMallToken(String loginUrl,String ygpcToken){
+        String createUrl = Common.zhicaiYgUrl + Common.openMallCodeUri + "?payEnterpriseId=8&source=1";
+        Map<String, String> headers = new HashMap<>();
+        headers.put("session-token", ygpcToken);
+        // 发起 GET 请求获取 entCode
+        String result = HttpUtil.createGet(createUrl).addHeaders(headers).execute().body();
+        System.out.println(result);
+        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
+        String empCode =(new cn.hutool.json.JSONObject(jsonresult.get("result")).get("empCode").toString());
+        System.out.println("跳转商城的empCode:" + empCode);
+        // 拼接 JSON 参数
+        //String jsonUserInfo = "{ \"entCode\": \"" + empCode + "\" , \"todd\": \"mall\"}";
+        try {
+            cn.hutool.json.JSONObject param = JSONUtil.createObj();
+            param.put("code", empCode);
+            param.put("todd", "mall");
+            param.put("token", "");
+            String body1 = param.toString();
+            String result1 = HttpUtil.post(loginUrl, body1);
+            //System.out.println(result);
+            cn.hutool.json.JSONObject jsonresult1 = new cn.hutool.json.JSONObject(result1);
+            String MallToken = (new cn.hutool.json.JSONObject((new cn.hutool.json.JSONObject(jsonresult1.get("result"))).get("data"))).get("token").toString();
+            return MallToken;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }
 

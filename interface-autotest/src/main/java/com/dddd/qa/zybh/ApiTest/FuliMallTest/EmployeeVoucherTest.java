@@ -13,6 +13,7 @@ import com.dddd.qa.zybh.utils.LoginUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -31,10 +32,17 @@ public class EmployeeVoucherTest {
     private static String verifyNumberFristId;
 
 
+    @BeforeClass
+    public static void setUp() {
+        String YGPCZybhToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        Common.mallToken = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCZybhToken);
+        logger.info("获取17858803001员工pc跳转商城的token：" + Common.mallToken);
+    }
+
     @Test(description = "获取未兑换提货券列表，第一个卡密")
     public void voucherCardList(){
         String createUrl = Common.MallUrl+Common.vouchersCardListUri + "?type=0";
-        headers.put("employee-cache", Common.mallToken);
+        headers.put("yian-cache", Common.mallToken);
         String result =HttpUtil.createGet(createUrl).addHeaders(headers).execute().body();
 
         JSONObject jsonresult = new JSONObject(result);
@@ -53,7 +61,7 @@ public class EmployeeVoucherTest {
         param.put("verifyNumber", verifyNumberFristId);
         String body = param.toString();
         String createUrl = Common.MallUrl+Common.vouchersOrdersubmitUri;
-        headers.put("employee-cache", Common.mallToken);
+        headers.put("yian-cache", Common.mallToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
 
         //校验接口可行性

@@ -59,6 +59,17 @@ public class PurchaseProducts extends BaseTest {
         Common.DDingDDangToken = LoginUtil.loginDingdangZCToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri , Common.loginDDingDDangInfo );
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
 
+        //5个商品下单的员工账号
+        String YGPCToken1 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo1);
+        String YGPCToken2 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo2);
+        String YGPCToken3 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo3);
+        String YGPCToken4 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo4);
+        String YGPCToken5 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo5);
+        Common.jumpMallToken1 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken1);
+        Common.jumpMallToken2 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken2);
+        Common.jumpMallToken3 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken3);
+        Common.jumpMallToken4 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken4);
+        Common.jumpMallToken5 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken5);
     }
 
 
@@ -92,19 +103,14 @@ public class PurchaseProducts extends BaseTest {
     //商品下单：账号编号、token、地址id配置
     @DataProvider(name = "staffFuliTokenProvider")
     public Object[][] staffFuliTokenFromCSV() {
-        List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(Common.jenkinsUrl+"/src/main/resources/dddd/staffFuliToken.csv"))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                if (!line.startsWith("num")) { // 跳过标题行
-                    String[] values = line.split(",");
-                    data.add(values);
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return data.toArray(new Object[0][]);
+        return new Object[][] {
+                {"1" ,Common.jumpMallToken1,"11951"}, // 发放积分账号 ceshi 888888 福粒id
+                {"2" ,Common.jumpMallToken2,"11967"},// 发放积分账号13858653282 888888 福粒id
+                {"3" ,Common.jumpMallToken3,"11946"}, // 发放积分账号karen 888888 福粒id
+                {"4" ,Common.jumpMallToken4,"11969"},// 发放积分账号18767176714 888888 福粒id
+                {"5" ,Common.jumpMallToken5,"11965"}// 发放积分账号WXY13666605555 test123456 福粒id
+                //{ new Integer[] {123456, 789012} } // 数据集2
+        };
     }
 
     //自建供应商发货：token参数
@@ -129,11 +135,11 @@ public class PurchaseProducts extends BaseTest {
     @DataProvider(name = "EmployeeIdData")
     public Object[][] listEmployeeIdData() {
         return new Object[][] {
-                {"128638",1}, // 发放积分账号
-                {"112714",2},// 发放积分账号
-                {"124236",3}, // 发放积分账号
-                {"112716",4},// 发放积分账号
-                {"113546",5}// 发放积分账号
+                {"128638",1}, // 发放积分账号 ceshi 888888 福粒id
+                {"112714",2},// 发放积分账号13858653282 888888 福粒id
+                {"124236",3}, // 发放积分账号karen 888888 福粒id
+                {"112716",4},// 发放积分账号18767176714 888888 福粒id
+                {"113546",5}// 发放积分账号WXY13666605555 test123456 福粒id
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }
@@ -339,8 +345,22 @@ public class PurchaseProducts extends BaseTest {
 
     }
 
-
-
+    //@DataProvider(name = "staffFuliTokenProvider")
+    public Object[][] staffFuliTokenFromCSV1() {
+        List<Object[]> data = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(Common.jenkinsUrl+"/src/main/resources/dddd/staffFuliToken.csv"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (!line.startsWith("num")) { // 跳过标题行
+                    String[] values = line.split(",");
+                    data.add(values);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return data.toArray(new Object[0][]);
+    }
 
 
 }

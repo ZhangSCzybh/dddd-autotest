@@ -1,5 +1,7 @@
 package com.dddd.qa.zybh.Constant;
 
+import org.checkerframework.checker.units.qual.C;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -56,6 +58,14 @@ public class Common {
     public static String loginDDingDDangYGPCInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info");
     public static String loginOPInfo = STATIC_PROPERTIES.getProperty("login.op.info");
 
+    //员工pc账号密码
+    public static String loginDDingDDangYGPCInfo1 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info1");
+    public static String loginDDingDDangYGPCInfo2 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info2");
+    public static String loginDDingDDangYGPCInfo3 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info3");
+    public static String loginDDingDDangYGPCInfo4 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info4");
+    public static String loginDDingDDangYGPCInfo5 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info5");
+
+
     public static String sendEmployeePointsUri = STATIC_PROPERTIES.getProperty("send.employee.points.uri");
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
@@ -81,8 +91,13 @@ public class Common {
     public static String fuliOperationPlatformToken; //福利运营
     public static String SelfsupplierToken;//自建供应商平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
-    public static String mallToken  = STATIC_PROPERTIES.getProperty("mall.token"); //商城员工token
-
+    //TODO
+    public static String mallToken; //商城再也不会17858803001员工token
+    public static String jumpMallToken1;//智采员工pc跳商城
+    public static String jumpMallToken2;//智采员工pc跳商城
+    public static String jumpMallToken3;//智采员工pc跳商城
+    public static String jumpMallToken4;//智采员工pc跳商城
+    public static String jumpMallToken5;//智采员工pc跳商城
 
 
     //创建商品
@@ -139,6 +154,10 @@ public class Common {
     //员工pc--我的审批--列表
     public static String approvalPendingUri = STATIC_PROPERTIES.getProperty("approval.pending.uri");
     public static String approvalProcessHandleUri = STATIC_PROPERTIES.getProperty("approval.processhandle.uri");
+
+    //员工pc--跳转登录
+    public static String openMallCodeUri = STATIC_PROPERTIES.getProperty("open.mall.code.uri");
+    public static String jumpMallLoginUri = STATIC_PROPERTIES.getProperty("jump.mall.login.uri");
 
 
 

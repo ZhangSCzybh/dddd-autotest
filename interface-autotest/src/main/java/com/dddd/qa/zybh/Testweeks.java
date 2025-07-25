@@ -158,4 +158,20 @@ public class Testweeks {
 
 
     }
+
+    @Test
+    public void  test02(){
+        String YGPCToken1 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo1);
+        String YGPCToken2 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo2);
+        String YGPCToken3 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo3);
+        String YGPCToken4 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo4);
+        String YGPCToken5 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo5);
+        String jumpMallToken1 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken1);
+        String jumpMallToken2 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken2);
+        String jumpMallToken3 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken3);
+        String jumpMallToken4 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken4);
+        String jumpMallToken5 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken5);
+        System.out.println(jumpMallToken1+"\n" + jumpMallToken2+"\n" + jumpMallToken3+"\n"+ jumpMallToken4+"\n"+ jumpMallToken5+"\n");
+
+    }
 }

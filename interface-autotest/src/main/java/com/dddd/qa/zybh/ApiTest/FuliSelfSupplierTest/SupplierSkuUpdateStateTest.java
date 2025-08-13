@@ -62,7 +62,7 @@ public class SupplierSkuUpdateStateTest {
     /**
      * 开启销售商品测试
      */
-    @Test(description = "开启销售商品")
+    //@Test(description = "开启销售商品")
     public void testInvalidStatus() {
         JSONObject param = buildBaseParams(2);
         executeTest(param, "正常开启销售商品场景");

@@ -25,7 +25,7 @@ public class SendResultToDingtalk {
 
     private static final int timeout =10000;
     //  /Users/zhangshichao/.jenkins/workspace/test02/interface-autotest/target
-    public static String pathname1 = "/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/target/allure-report/widgets/summary.json";
+    public static String pathname1 = "/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/target/allure-reports/widgets/summary.json";
     public static String pathname2 = "/Users/zhangshichao/.jenkins/workspace/dddd-Interface-Autotest/interface-autotest/target/allure-results/executor.json";
     //public static String pathname3 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json";
     public static String deteleAllureResult = "/var/lib/jenkins/workspace/Interface-Autotest/interface-autotest/target/allure-results";

@@ -38,6 +38,12 @@
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
         </classes>
     </test>
+    <test name="PendingRefund">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.RefundTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.RefundManagementTest"/>
+        </classes>
+    </test>
     <test name ="Voucher">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->

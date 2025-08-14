@@ -161,6 +161,11 @@ public class Common {
 
 
 
+    //商品下单--售后
+    public static String mallOrderListUri = STATIC_PROPERTIES.getProperty("mall.order.list.uri");
+    public static String mallOrderRefundApplyUri = STATIC_PROPERTIES.getProperty("mall.order.refund.apply.uri");
+    public static String opAdminRefundAuditUri = STATIC_PROPERTIES.getProperty("op.admin.refund.audit.uri");
+
 
 
 

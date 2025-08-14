@@ -34,6 +34,7 @@ public class Config {
     //存储一些常量
     public static String approvalNo;
     public static String supplierName;
+    public static String itemOrderNumber;
 
 
 

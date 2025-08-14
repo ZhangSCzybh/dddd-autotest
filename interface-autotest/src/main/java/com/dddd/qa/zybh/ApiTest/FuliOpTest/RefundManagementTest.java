@@ -45,7 +45,7 @@ public class RefundManagementTest {
         param.put("isRefund", true);
         param.put("page", 1);
         param.put("pageSize", 10);
-        String createUrl = "https://cardback.ddingddang.com/admin/refund/list?";
+        String createUrl = Common.OpUrl + Common.opAdminRefundListUri;
         headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(param).execute().body();
         JSONObject jsonresult = new JSONObject(result);

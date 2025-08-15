@@ -24,10 +24,11 @@
 - 福利运营平台接口测试
 - 自建供应商平台接口测试
 - 员工PC端接口测试
+- 智采企业平台接口测试
 - 登录认证接口测试
-- 产品相关接口测试
-- 活动列表接口测试
+- 数据相关接口测试
 - 提货券相关接口测试
+- 活动列表接口测试
 
 ## 如何使用
 
@@ -41,7 +42,7 @@
 项目使用不同的properties文件来配置不同环境的参数：
 - `test.properties`：测试环境配置
 - `pre.properties`：预发布环境配置
-- `prod-huika.properties`：会卡生产环境配置
+- `prod-huika.properties`：慧卡生产环境配置
 - `prod-fuli.properties`：福利生产环境配置
 
 要切换环境，需要修改`Common.java`中的配置文件路径：
@@ -106,6 +107,6 @@ public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private
 - 打包前请更新配置中的文件路径为实际路径
 
 ## 贡献者
-- 再也不会(zhangshichao)
+- 张时超(zaiyebuhui)
 
 

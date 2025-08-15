@@ -104,11 +104,11 @@ public class PurchaseProducts extends BaseTest {
     @DataProvider(name = "staffFuliTokenProvider")
     public Object[][] staffFuliTokenFromCSV() {
         return new Object[][] {
-                {"1" ,Common.jumpMallToken1,"11951"}, // 发放积分账号 ceshi 888888 福粒id
-                {"2" ,Common.jumpMallToken2,"11967"},// 发放积分账号13858653282 888888 福粒id
-                {"3" ,Common.jumpMallToken3,"11946"}, // 发放积分账号karen 888888 福粒id
-                {"4" ,Common.jumpMallToken4,"11969"},// 发放积分账号18767176714 888888 福粒id
-                {"5" ,Common.jumpMallToken5,"11965"}// 发放积分账号WXY13666605555 test123456 福粒id
+                {"1" ,Common.jumpMallToken1,"11951"},
+                {"2" ,Common.jumpMallToken2,"11967"},
+                {"3" ,Common.jumpMallToken3,"11946"},
+                {"4" ,Common.jumpMallToken4,"11969"},
+                {"5" ,Common.jumpMallToken5,"11965"}
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }

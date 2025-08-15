@@ -281,6 +281,34 @@ public class LoginUtil {
         }
         return null;
     }
+
+    //账号密码登录商城
+    public static String loginFuliHrToken(String loginUrl, String userinfo){
+        OkHttpClient client = new OkHttpClient();
+        // 构造请求体
+        RequestBody body = RequestBody.create(MediaType.get("application/json; charset=utf-8"), userinfo);
+
+        // 构造请求
+        Request request = new Request.Builder()
+                .url(loginUrl)
+                .post(body)
+                .build();
+
+        // 发送请求并处理响应
+        try (Response response = client.newCall(request).execute()) {
+            if (response.isSuccessful()) {
+                // 获取响应头中的 session-token
+                String sessionToken = response.header("enterprise-cache");
+                return sessionToken;
+            } else {
+                System.out.println("HTTP 请求失败，响应码: " + response.code());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }
 
 

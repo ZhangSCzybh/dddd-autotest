@@ -50,6 +50,9 @@ public class Common {
     public static String zhicaiYgUrl = STATIC_PROPERTIES.getProperty("zhicai.yg.url");
     //自建供应商平台
     public static String SelfsupplierUrl = STATIC_PROPERTIES.getProperty("selfsupplier.url");
+    //慧卡福粒Hr平台
+    public static String HrUrl = STATIC_PROPERTIES.getProperty("hr.url");
+
 
     public static String loginOPUri = STATIC_PROPERTIES.getProperty("login.op.uri");
     public static String loginDDingDDangUri = STATIC_PROPERTIES.getProperty("login.ddingddang.uri");
@@ -57,7 +60,6 @@ public class Common {
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
     public static String loginDDingDDangYGPCInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info");
     public static String loginOPInfo = STATIC_PROPERTIES.getProperty("login.op.info");
-    public static String loginFuliHrInfo = STATIC_PROPERTIES.getProperty("login.fuli.hr.info");
 
     //员工pc账号密码
     public static String loginDDingDDangYGPCInfo1 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info1");
@@ -91,7 +93,7 @@ public class Common {
     public static String DDingDDangPCToken;//智采员工pc
     public static String fuliOperationPlatformToken; //福利运营
     public static String SelfsupplierToken;//自建供应商平台
-    public static String FuliHrToekn;//福粒Hr平台
+    public static String FuliHrToken;//福粒Hr平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
     //TODO
     public static String mallToken; //商城再也不会17858803001员工token
@@ -168,9 +170,6 @@ public class Common {
     public static String mallOrderRefundApplyUri = STATIC_PROPERTIES.getProperty("mall.order.refund.apply.uri");
     public static String opAdminRefundListUri = STATIC_PROPERTIES.getProperty("op.admin.refund.list.uri");
     public static String opAdminRefundAuditUri = STATIC_PROPERTIES.getProperty("op.admin.refund.audit.uri");
-
-
-
 
 
 

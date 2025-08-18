@@ -1414,6 +1414,17 @@ public class DateUtil {
         String result = "" + firstLetter + secondLetter + formattedNumbers;
         return result;
     }
+    //随机生成11位数字
+    public static String RandomNumberGenerator(){
+
+        Random random = new Random();
+        // 生成四个随机数字（0-9）
+        int numbers = random.nextInt(999999999); // 生成 [0, 9999]
+
+        // 格式化数字为四位数（如 0001）
+        String formattedNumbers = String.format("%10d", numbers);
+        return formattedNumbers;
+    }
     // 获取随机字母（大写或小写）
     private static char getRandomLetter(Random random) {
         boolean isUpperCase = random.nextBoolean(); // 随机决定是否大写

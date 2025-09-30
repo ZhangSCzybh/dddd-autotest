@@ -41,13 +41,13 @@ public class BatchImportEmployeeJumpLogin {
     private static final HashMap<String, String> headers2 =new HashMap<>();
     private static final HashMap<String, String> headers3 =new HashMap<>();
 
-    private static final String HrUrl= "https://back.lixiangshop.com";
-    private static final String MallUrl= "https://server.lixiangshop.com";
+    private static final String HrUrl= "https://backdev.lixiangshop.com";
+    private static final String MallUrl= "https://serverdev.lixiangshop.com";
 
     private static final String addressInfo = "dddd/addressInfo";
     private static String employeeLoginName;
     private static final String password= "addzaiyebuhui";
-    private static final int Count= 5;//员工数量
+    private static final int Count= 50;//员工数量
 
 
 
@@ -56,8 +56,8 @@ public class BatchImportEmployeeJumpLogin {
     @BeforeClass
     public static void setUp() {
         JSONObject json = new JSONObject();
-        json.put("loginName", "673");
-        json.put("password", "9f396");
+        json.put("loginName", "1236");
+        json.put("password", "123456");
         String Info = json.toString();
         Common.FuliHrToken = LoginUtil.loginFuliHrToken( HrUrl +"/enterpriseadmin/account/login" , Info);
         logger.info("执行登录获取福粒HR平台的token：" + Common.FuliHrToken);
@@ -132,7 +132,7 @@ public class BatchImportEmployeeJumpLogin {
                 // 使用 try-with-resources 自动关闭资源，并启用追加模式
                 try (FileWriter writer = new FileWriter(filePath, true)) {
                     // 写入格式为 "employeeName,loginName" 的字符串，并换行
-                    writer.write(loginMallToken + "," + addressId + "\n");
+                    writer.write(loginMallToken + "\n");
                     System.out.println("数据已成功追加写入文件：" + filePath);
                 } catch (IOException e) {
                     // 捕获并处理写入文件时可能发生的异常

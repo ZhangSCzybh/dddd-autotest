@@ -11,14 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/PriceCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/sku.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/sku.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/token.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/PriceCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/PriceCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test-dddd/sku.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test-dddd/sku.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,7 +509,7 @@
       <workItem from="1759216078096" duration="225000" />
       <workItem from="1759999563129" duration="2692000" />
       <workItem from="1760087320713" duration="268000" />
-      <workItem from="1760089999210" duration="680000" />
+      <workItem from="1760089999210" duration="1394000" />
     </task>
     <servers />
   </component>

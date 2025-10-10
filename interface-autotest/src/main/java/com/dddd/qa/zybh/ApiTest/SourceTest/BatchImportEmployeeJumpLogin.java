@@ -47,7 +47,7 @@ public class BatchImportEmployeeJumpLogin {
     private static final String addressInfo = "dddd/addressInfo";
     private static String employeeLoginName;
     private static final String password= "addzaiyebuhui";
-    private static final int Count= 50;//员工数量
+    private static final int Count= 5;//员工数量
 
 
 

@@ -30,6 +30,7 @@ public class PriceCalculator {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
     //计算毛利率
+    /**
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -96,7 +97,7 @@ public class PriceCalculator {
         scanner.close();
     }
 
-
+    */
 
     //sgnet商品导入
     @DataProvider(name = "sgnetSKU")
@@ -118,11 +119,11 @@ public class PriceCalculator {
 
     @Test(dataProvider = "sgnetSKU")
     public void GoodsImport(String skuCode){
-        //对购物车里的商品进行提交订单
+        //对指定的sku进行批量同步
         JSONObject param2 = JSONUtil.createObj();
         param2.put("skuCode", skuCode);
         String createUrl2 = "https://backdev.lixiangshop.com/admin/jdManagement/goodsImport";
-        headers.put("fuli-cache", "RDBETW8h5FAcekANd59b8EFscv7Ka1Ch1I2YczFN611b9n7U3v2S6n9l6Z0R109Rb13d2nFKUzY2QUx5SmMyek45NjZNNVBWa0Z5MDl6K0pQNFpHM3pBNjRZVWJsOHZ1MXpZKyszbDJFZmFUT1E9PQ");
+        headers.put("fuli-cache", "a3diadCE5pEEee9neA7w9QAm2t0V8Q4W951w6N30dd7W7Q5k7hCG3TFGcV0Obc332FEo3QXBoQkhNTS9saFRzQ21uMS9sNUVOYm9razZocUtJendqdURXZDZwWkhTU1F6NWQyeFhtUmNoa2dkMnd2ZmFzSTJFZ2I4N0pkeGY4ZGFVajQ9");
         String result2= HttpUtil.createGet(createUrl2).addHeaders(headers).form(param2).execute().body();
         logger.info("商品导入：" + result2);
     }

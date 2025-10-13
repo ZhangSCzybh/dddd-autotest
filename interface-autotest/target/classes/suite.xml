@@ -48,6 +48,16 @@
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
         </classes>
     </test>
+    <test name = "JumpLoginMall">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
+        </classes>
+    </test>
+    <test name="PriceCal">
+        <classes>
+            <class name="com.dddd.qa.zybh.others.PriceCalculator"/>
+        </classes>
+    </test>
     <test name ="Voucher">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->

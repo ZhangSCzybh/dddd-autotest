@@ -63,7 +63,7 @@ public class BatchImportEmployeeJumpLogin {
         logger.info("执行登录获取福粒HR平台的token：" + Common.FuliHrToken);
     }
 
-    @Test(description = "福粒Hr平台新增员工")
+    //@Test(description = "福粒Hr平台新增员工")
     public void addEmployees() throws InterruptedException {
         for(int i = 0; i < Count; i++) {
             //存放参数

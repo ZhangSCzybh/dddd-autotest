@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0d19b7fb-566b-4bad-b910-53782c8fa31e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/15fb50f8-f48c-4f6c-a2c4-2d553a096e80-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cc92510c-5b36-4a84-98d0-eb0199e1be9c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d9d358f2-f310-4e66-819a-288146ae565d-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/token.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +329,7 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BatchImportEmployeeJumpLogin">
+  <component name="RunManager" selected="TestNG.BatchImportEmployeeJumpLogin.importEmployeesJumpAmall">
     <configuration name="PriceCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.PriceCalculator" />
       <module name="interface-autotest" />
@@ -355,17 +360,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculator.GoodsImport (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BatchImportEmployeeJumpLogin.importEmployeesJumpAmall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.SourceTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.others" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.PriceCalculator" />
-      <option name="METHOD_NAME" value="GoodsImport" />
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.SourceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin" />
+      <option name="METHOD_NAME" value="importEmployeesJumpAmall" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -411,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BatchImportEmployeeJumpLogin.importEmployeesJumpAmall" />
         <item itemvalue="TestNG.BatchImportEmployeeJumpLogin" />
         <item itemvalue="Application.PriceCalculator" />
         <item itemvalue="TestNG.PriceCalculator.GoodsImport" />
         <item itemvalue="TestNG.PriceCalculator.GoodsImport (2)" />
-        <item itemvalue="TestNG.PriceCalculator.GoodsImport (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +514,8 @@
       <workItem from="1759216078096" duration="225000" />
       <workItem from="1759999563129" duration="2692000" />
       <workItem from="1760087320713" duration="268000" />
-      <workItem from="1760089999210" duration="1394000" />
+      <workItem from="1760089999210" duration="1469000" />
+      <workItem from="1760317051410" duration="317000" />
     </task>
     <servers />
   </component>

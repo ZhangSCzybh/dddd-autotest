@@ -29,7 +29,6 @@ public class SupplierSkuUpdatePriceTest {
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "供应商商品价格更新模块";
     private static final String SKU_ID = "10142410";
-    private static final String DEFAULT_PRICE = "8.00";
 
     @BeforeClass
     public static void setUp() {
@@ -41,44 +40,97 @@ public class SupplierSkuUpdatePriceTest {
     }
 
     /**
-     * 正常更新价格测试
+     * 价格策略--正常更新价格测试
      */
     @Test(description = "正常更新商品价格")
     public void testNormalUpdatePrice() {
         JSONObject param = buildBaseParams();
+        param.put("gixedGoodsPriceType",2);
+        param.put("priceType",6);
+        param.put("priceValue","8");
+        param.put("appointPrice", "8");
         executeTest(param, "正常更新价格场景");
     }
 
     /**
-     * 价格格式测试 - 整数价格
+     * 价格策略--固定毛利率 testFixedGrossProfitMargin
      */
-    @Test(description = "整数价格测试")
-    public void testIntegerPrice() {
+    @Test(description = "固定毛利率测试")
+    public void testFixedGrossProfitMargin() {
         JSONObject param = buildBaseParams();
-        param.put("appointPrice", "10");
-        executeTest(param, "整数价格测试");
+        param.put("appointPrice",1.5 );
+        param.put("gixedGoodsPriceType","");
+        param.put("priceType",1);
+        param.put("priceValue",30);
+        executeTest(param, "固定毛利率测试");
     }
 
     /**
-     * 价格格式测试 - 两位小数价格
+     * 价格策略--毛利率折扣
      */
-    @Test(description = "两位小数价格测试")
-    public void testDecimalPrice() {
+    @Test(description = "毛利率折扣测试")
+    public void testGrossProfitMarginDiscount() {
         JSONObject param = buildBaseParams();
-        param.put("appointPrice", "9.99");
-        executeTest(param, "两位小数价格测试");
+        param.put("appointPrice",8.5 );
+        param.put("gixedGoodsPriceType","");
+        param.put("priceType",2);
+        param.put("priceValue",98);
+        executeTest(param, "毛利率折扣测试");
     }
 
     /**
-     * 生效类型测试 - 立即生效
+     * 价格策略--指导价折扣
      */
-    @Test(description = "立即生效测试")
+    @Test(description = "指导价折扣测试")
+    public void testGuidedPriceDiscount() {
+        JSONObject param = buildBaseParams();
+        param.put("appointPrice",9 );
+        param.put("gixedGoodsPriceType","");
+        param.put("priceType",3);
+        param.put("priceValue",90);
+        executeTest(param, "指导价折扣测试");
+    }
+
+    /**
+     * 价格策略--成本价加价
+     */
+    @Test(description = "成本价加价测试")
+    public void testCostPriceMarkup() {
+        JSONObject param = buildBaseParams();
+        param.put("appointPrice",11 );
+        param.put("gixedGoodsPriceType","");
+        param.put("priceType",4);
+        param.put("priceValue",10);
+        executeTest(param, "成本价加价测试");
+    }
+
+    /**
+     * 价格策略--指导价减价
+     */
+    @Test(description = "指导价减价测试")
+    public void testGuidedPriceReduction() {
+        JSONObject param = buildBaseParams();
+        param.put("appointPrice",6.5 );
+        param.put("gixedGoodsPriceType","");
+        param.put("priceType",5);
+        param.put("priceValue","3.5");
+        executeTest(param, "指导价减价测试");
+    }
+
+    /**
+     * 改价有效期测试 - 不是一直生效effectiveType=1
+     */
+    @Test(description = "改价有效期测试")
     public void testImmediateEffective() {
         JSONObject param = buildBaseParams();
         param.put("effectiveType", 1);
+        param.put("appointPrice","8" );
+        param.put("gixedGoodsPriceType",2);
+        param.put("priceType",6);
+        param.put("priceValue","8");
         param.put("startDate", Config.getSysdateStrAfterTenMinutes);
         param.put("endDate", Config.getSysdateStrAfterThirtyMinutes);
-        executeTest(param, "立即生效测试");
+        executeTest(param, "改价有效期测试");
     }
 
     /**
@@ -88,7 +140,6 @@ public class SupplierSkuUpdatePriceTest {
         JSONObject param = JSONUtil.createObj();
         param.put("skuIds", SKU_ID);
         param.put("effectiveType", 0);
-        param.put("appointPrice", DEFAULT_PRICE);
         return param;
     }
 

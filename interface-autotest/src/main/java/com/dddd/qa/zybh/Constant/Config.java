@@ -34,7 +34,10 @@ public class Config {
     //存储一些常量
     public static String approvalNo;
     public static String supplierName;
-    public static String itemOrderNumber;
+    public static String itemOrderNumber;//待发货退款使用的订单号字段
+    public static String itemOrderNumber1;//退货退款
+    public static String itemOrderNumber2;//漏发退款
+    public static String itemOrderNumber3;//换货
 
 
 

@@ -205,7 +205,7 @@ public class PurchaseProducts extends BaseTest {
 
     //description = "自建供应商订单发货"
     @Test(dataProvider = "supplierTokenProvider",dependsOnMethods = {"purchaseGoods"})
-    public  void supplierOrderDelivery(String num, String supplierTokenData) throws Exception {
+    public void supplierOrderDelivery(String num, String supplierTokenData) throws Exception {
         JSONObject param = JSONUtil.createObj();
         param.put("status", 2);
         param.put("page", 1);

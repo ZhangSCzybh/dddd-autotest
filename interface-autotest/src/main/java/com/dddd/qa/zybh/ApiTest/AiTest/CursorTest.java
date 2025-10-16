@@ -37,7 +37,7 @@ public class CursorTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final String LOGIN_URL = "https://backpre.lixiangshop.com/admin/account/login";
     private static final String SUPPLIER_LIST_URL = "https://backpre.lixiangshop.com/admin/supplier/getSupplierInfoList";
-    private static String scene = "福粒运用平台";
+    private static String scene = "福粒运营平台";
 
 
     /**

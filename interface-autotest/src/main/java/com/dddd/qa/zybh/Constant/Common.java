@@ -172,6 +172,8 @@ public class Common {
     public static String opAdminRefundAuditUri = STATIC_PROPERTIES.getProperty("op.admin.refund.audit.uri");
 
 
+    //运营平台--商品价格策略
+    public static String opSkuUpdatePriceUri = STATIC_PROPERTIES.getProperty("op.sku.updateprice.uri");
 
 
 

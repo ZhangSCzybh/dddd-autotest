@@ -36,7 +36,7 @@ public class RefundTest {
     private static final HashMap<String, String> headers = new HashMap<>();
 
     private static final String ORDER_PROD_DETAILS = "dddd/refundOrder";
-    private static final String FULI_PLATFORM_SKU = "10097718";
+    private static final String FULI_PLATFORM_SKU = "10840404";
     private static final String USER_RECEIVE_ADDR_ID = "13133";
     private static final String SCENE_ORDER = "商品下单";
     private static final String SCENE_REFUND = "售后退款";

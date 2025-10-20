@@ -151,7 +151,7 @@ public class RefundTest {
         JSONObject param = JSONUtil.createObj();
         param.put("itemOrderNumber", Config.itemOrderNumber);
         param.put("refundApplyProblemId", 40);
-        param.put("reason", "测试待发货退款test");
+        param.put("reason", "测试待发货退款");
         String body = param.toString();
         String createUrl = Common.MallUrl + Common.mallOrderRefundApplyUri;
         headers.put("Yian-Cache", Common.mallToken);

@@ -19,13 +19,13 @@
             <class name="com.dddd.qa.zybh.ApiTest.YGPCTest.ApprovalRejectionTest"/>
         </classes>
     </test>
-    <test name="PendingRefund">
+    <test name="PlatformSupplierSkuRefund">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.RefundTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.RefundManagementTest"/>
         </classes>
     </test>
-    <test name="SelfSupplierNoSkuOrder">
+    <test name="SelfSupplierNoTradingVolume">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.NoTradingVolumeTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.NoOrderSkuTest"/>
@@ -36,6 +36,13 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdateStateTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdateStockTest"/>
+        </classes>
+    </test>
+    <test name="ProductStrategyManualPriceChange">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.PlatformSupplierSkuUpdatePriceTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.SelfSupplierSkuUpdatePriceTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
         </classes>
     </test>
     <test name ="Cursor">
@@ -53,7 +60,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
         </classes>
     </test>
-    <test name="PriceCal">
+    <test name="SgnetProductSynchronization">
         <classes>
             <class name="com.dddd.qa.zybh.others.PriceCalculator"/>
         </classes>

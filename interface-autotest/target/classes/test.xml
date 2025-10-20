@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="runAll">
+    <test name ="Login">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
+        </classes>
+    </test>
+    <test name="PlatformSupplierSkuRefund">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.RefundTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.RefundManagementTest"/>
+        </classes>
+    </test>
+</suite>

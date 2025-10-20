@@ -45,8 +45,8 @@ public class PlatformSupplierSkuUpdatePriceTest {
         JSONObject param = buildBaseParams();
         param.put("gixedGoodsPriceType",2);
         param.put("priceType",6);
-        param.put("priceValue","8");
-        param.put("appointPrice", "8");
+        param.put("priceValue","2");
+        param.put("appointPrice", "2");
         executeTest(param, "正常更新价格场景");
     }
 

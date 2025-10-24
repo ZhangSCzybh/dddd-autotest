@@ -32,7 +32,7 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
  * @date 2025年08月16日 08:10:54
  * @packageName com.dddd.qa.zybh.ApiTest.SourceTest
  * @className BatchImportEmployeeJumpLogin
- * @describe TODO 不同环境福粒HR平台的账号密码 ,Count员工数量,MallUrl目前是福粒的，福粒employee-cache
+ * @describe TODO 不同环境福粒HR平台的账号密码 ,Count员工数量,MallUrl目前是福粒的，福粒employee-cache ,filePath需要替换
  */
 public class BatchImportEmployeeJumpLogin {
 
@@ -98,7 +98,8 @@ public class BatchImportEmployeeJumpLogin {
 
             // 定义目标文件路径
             File file = new File("");
-            String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";
+            //String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";
+            String filePath = Common.jenkinsUrl + "/src/main/resources/test-dddd/token.json";
 
             //循环获取
             for(int j = 0; j < Count; j++) {

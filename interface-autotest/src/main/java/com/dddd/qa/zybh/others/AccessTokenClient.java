@@ -21,7 +21,7 @@ import java.util.HashMap;
  * @date 2025年10月21日 17:22:04
  * @packageName com.dddd.qa.zybh.others
  * @className AccessTokenClient
- * @describe 线下收银三方平台获取accessToken
+ * @describe 线下收银三方平台获取accessToken--CLIENT_ID--CLIENT_SECRET
  */
 
 
@@ -47,13 +47,13 @@ public class AccessTokenClient {
         // 1. 生成当前时间戳 (格式: yyyy-MM-dd HH:mm:ss)
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String timestamp = sdf.format(new Date());
-        System.out.println(timestamp);
+        System.out.println("时间戳" + timestamp);
         // 2. 生成签名
         String sign = DigestUtils.md5Hex(
                 String.format("%s%s%s%s%s",
                         CLIENT_SECRET, timestamp,  CLIENT_ID,"access_token", CLIENT_SECRET)
         );
-        System.out.println(sign);
+        System.out.println("签名:" + sign);
 
         // 3. 构造请求体
         JSONObject requestBody = new JSONObject();
@@ -69,10 +69,7 @@ public class AccessTokenClient {
         String result = HttpUtil.createPost(API_URL).addHeaders(headers).body(body).execute().body();
         System.out.println("Response body: " + result);
         cn.hutool.json.JSONObject jsonResult = new cn.hutool.json.JSONObject(result);
-        System.out.println(jsonResult);
         String accessToken =  (new cn.hutool.json.JSONObject(jsonResult.get("result")).get("accessToken").toString());
-        System.out.println(accessToken);
-
 
         return accessToken;
     }

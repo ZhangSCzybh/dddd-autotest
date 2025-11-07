@@ -9,9 +9,9 @@ import lombok.Getter;
  * @Description
  * @Date 2022-04-25
  */
-@Getter // Lombok 自动生成 getDec()/getMsg()
-public enum ErrorEnum {
-
+@Getter
+@AllArgsConstructor
+public enum ErrorEnumCP {
     ISCODE("code", "接口返回码非1001"),
     ISFAILED("failed", "接口调用失败"),
     ISNOSUCCESS("noSuccess", "接口返回报错"),
@@ -21,28 +21,33 @@ public enum ErrorEnum {
     ISLACK("keyLack", "关键字段缺失"),
     ISWRONG("keyWrong", "关键字段数值错误"),
 
+
     ISDATEWRONG("DateWrong", "返回结果日期错误"),
     ISSORTWRONG("keySortWrong", "返回结果排序错误"),
     ISSIZEWRONG("SizeWrong", "返回结果数量有误"),
-    ISMissingQUANTITY("Missingquantity", "返回结果数量缺少");
+    ISMissingQUANTITY("Missingquantity","返回结果数量缺少"),
 
-    // 关键修正：私有构造函数（枚举必须用私有构造）
-    private final String dec;
-    private final String msg;
+    ;
 
-    // 枚举构造函数（必须私有）
-    private ErrorEnum(String dec, String msg) {
+
+    public void setDec(String dec) {
         this.dec = dec;
+    }
+
+
+    public void setMsg(String msg) {
         this.msg = msg;
     }
 
-    public static ErrorEnum getMsgByDec(String dec) {
-        if (dec == null || dec.isEmpty()) {
-            return null;
-        }
-        for (ErrorEnum error : values()) {
-            if (error.dec.equals(dec)) { // 直接访问私有字段（无需getter，但推荐用getter）
-                return error;
+    private String dec;
+    private String msg;
+
+    public static ErrorEnumCP getMsgByDec(String dec) {
+        if (null != dec && !"".equals(dec)) {
+            for (ErrorEnumCP errorEnum : values()) {
+                if (errorEnum.getDec().equals(dec)) {
+                    return errorEnum;
+                }
             }
         }
         return null;

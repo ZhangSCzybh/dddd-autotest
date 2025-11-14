@@ -10,13 +10,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/ErrorEnumCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/02ca4d28-e1d5-4b24-9148-fdb7f3a48f4e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0747fbd6-cf8e-4760-9c8d-e3a1a1eba95a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0a2dc64d-91da-48f8-9081-f66ce11429cb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0acb3d6b-1d34-47c0-b116-ab0974af6a6d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0bea275d-376e-4313-8879-89a34bdfe20d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/17f9a6db-bba8-488e-9f09-961a9c788e60-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1f5be973-23aa-4d9b-846f-1de04a9371e6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/21496bfb-a29b-405f-a57c-147c01e1d112-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/24fa5de5-da30-4fff-b78e-687dacbebcfd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2c32d47a-a084-4e26-8ec9-81afc3057beb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2c5fc4c3-62aa-44b9-bcba-4f2fb13990e5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2f07fe99-f652-4c27-ad41-ac4d924407aa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/30f428af-7f12-4095-a6b7-62dc19591a47-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/36d4ca5c-326a-47f8-809e-25e0bd4e144e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/36ec3691-684e-4138-8b1e-b758856f8fc1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/377e0696-8beb-4604-a2e4-8828e8abb3a2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3f6cc8e9-127f-4a89-8cf4-32ef00746cc6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/403c6469-8942-4888-b070-e97f79647eab-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/40c09c88-47b9-4c51-ae24-1091eeefb570-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/443d9ca5-4fb0-49f7-ba85-7d7d179e9c8d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/50770c95-39c5-46dd-93da-49160d9eff0e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/5290361f-a348-40d2-a27e-3a7d95f3efc2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/68aae108-f544-4551-975d-f33d5196f450-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/70809c44-0441-4d27-9f82-10cbbb2e16fa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/70921c6c-5da2-4183-9814-ef70019529e6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/74141bc4-f2d2-4bef-baad-4a18969cc3ae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7a9ab280-9b5e-4c2f-8200-01d93dad8a70-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7b4f0578-567a-4026-9235-0156d4e2bcac-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7bf32724-eb93-4816-ab15-af0a7a5eb5ad-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7d55a8c3-11d8-410b-907a-5e58e8fef48f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8483aa3e-989c-4060-9986-3218876f0bfa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/85b67d58-2bfc-445d-bd32-f7264cced4af-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8bd12232-400b-4252-8ca5-c316d40e031e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8e751b9b-9346-4679-8513-944bc7724181-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8eb7c00a-6bb0-40d6-a74f-6381286ec3c9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9eafe28b-2eef-4779-978e-14e1473e891a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9f84e2cc-948a-4bd5-b781-c14f9a34fc7e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/a5815869-1f34-478a-ac41-a73523ccd2ff-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ab1330a5-79a7-4e10-b52c-c979d0c7efe0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/af3ba044-317e-4194-ac5c-da92246a8c8e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b516eaa9-2b50-4307-8870-3f48d84c3e51-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b63cb39d-df5b-4c3e-977c-cf4c39975ffa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ba64718c-a947-47dc-b08f-a30ce720f0f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/bf212117-be52-4ec9-a98a-f4e0fdf5582c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c1a27f1c-b150-4e0e-a7fc-932ca2237976-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c4f132e6-5e3c-4433-ba28-f520cad8a0e1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c5a705b3-3b6d-4770-bf9a-fffd4d9c024d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/c77ccaa4-df6c-4c7c-877d-0c5601ab96fa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cea70d0e-f029-46b1-a5de-62cf788298b8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d4660f0a-54ad-4351-868c-23289ba36f76-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d5605dcf-05a1-4358-8c18-07462132ec0e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dfab6ae5-8ffd-4f30-bbc5-343f3e0f3783-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e3322b2e-31a5-4bc5-bf06-f75ff2520409-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e63cabcf-de02-4a71-a5ce-eefe8bfe3bec-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/efc49637-bdbd-4d9d-8fe8-7b06557cb241-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f816e467-fa42-4980-bbfe-221d59a6d541-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f8c0d2ea-a954-4136-971b-ed8c8456c394-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fc628c19-f129-447f-80c6-f0a2061992c1-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/PlatformSupplierSkuUpdatePriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/PlatformSupplierSkuUpdatePriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/AccessTokenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/AccessTokenClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/ErrorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/ErrorEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/pre.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/pre.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/AccessTokenClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/AccessTokenClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/Testweeks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ErrorEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/utils/ErrorEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/pre.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/pre.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +204,12 @@
     "TestNG.BatchImportEmployeeJumpLogin.setEmployeeLoginName (1).executor": "Run",
     "TestNG.BatchImportEmployeeJumpLogin.setEmployeeLoginName.executor": "Run",
     "TestNG.BatchImportEmployeeJumpLogin.setUp.executor": "Run",
+    "TestNG.CounterPaymentTest.createOrderTest.executor": "Run",
+    "TestNG.CounterPaymentTest.executor": "Run",
+    "TestNG.CounterPaymentTest.getCodeInfoTest.executor": "Run",
+    "TestNG.CounterPaymentTest.getCredit.executor": "Run",
+    "TestNG.CounterPaymentTest.test (1).executor": "Run",
+    "TestNG.CounterPaymentTest.test.executor": "Run",
     "TestNG.CursorTest (1).executor": "Run",
     "TestNG.CursorTest.executor": "Run",
     "TestNG.CursorTest.testAdminLogin.executor": "Run",
@@ -345,20 +417,7 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EnterpriseSelfsupplierTest.selfSupplierApply">
-    <configuration name="AccessToken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.AccessToken" />
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.AccessTokenClient">
     <configuration name="AccessTokenClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.AccessTokenClient" />
       <module name="interface-autotest" />
@@ -372,30 +431,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testweeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.others.Testweeks" />
+    <configuration name="CounterPaymentTest.createOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.others.*" />
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnterpriseSelfsupplierTest.selfSupplierApply" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.EnterpriseSelfsupplierTest" />
-      <option name="METHOD_NAME" value="selfSupplierApply" />
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest" />
+      <option name="METHOD_NAME" value="createOrderTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -403,10 +449,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CounterPaymentTest.getCodeInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest" />
+      <option name="METHOD_NAME" value="getCodeInfoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterPaymentTest.getCredit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest" />
+      <option name="METHOD_NAME" value="getCredit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterPaymentTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="interface-autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -415,11 +505,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EnterpriseSelfsupplierTest.selfSupplierApply" />
         <item itemvalue="Application.AccessTokenClient" />
-        <item itemvalue="Application.Testweeks" />
-        <item itemvalue="Application.AccessToken" />
-        <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" />
+        <item itemvalue="TestNG.CounterPaymentTest.createOrderTest" />
+        <item itemvalue="TestNG.CounterPaymentTest.getCodeInfoTest" />
+        <item itemvalue="TestNG.CounterPaymentTest.getCredit" />
+        <item itemvalue="TestNG.CounterPaymentTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +618,10 @@
       <workItem from="1761874205184" duration="5421000" />
       <workItem from="1762159446045" duration="1162000" />
       <workItem from="1762396717025" duration="2428000" />
-      <workItem from="1762486344869" duration="5213000" />
+      <workItem from="1762486344869" duration="5378000" />
+      <workItem from="1762822291784" duration="834000" />
+      <workItem from="1762913883876" duration="795000" />
+      <workItem from="1763021964634" duration="16300000" />
     </task>
     <servers />
   </component>

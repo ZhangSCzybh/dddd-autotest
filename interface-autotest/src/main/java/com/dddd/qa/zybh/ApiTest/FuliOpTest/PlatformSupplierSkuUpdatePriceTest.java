@@ -23,7 +23,7 @@ import java.util.HashMap;
  * @date 2025年10月17日 10:02:50
  * @packageName com.dddd.qa.zybh.ApiTest.FuliOpTest
  * @className PlatformSupplierSkuUpdatePriceTest
- * @describe TODO
+ * @describe 运营平台人工改价--不同改价策略用例
  */
 public class PlatformSupplierSkuUpdatePriceTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);

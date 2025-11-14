@@ -52,6 +52,8 @@ public class Common {
     public static String SelfsupplierUrl = STATIC_PROPERTIES.getProperty("selfsupplier.url");
     //慧卡福粒Hr平台
     public static String HrUrl = STATIC_PROPERTIES.getProperty("hr.url");
+    //openapi url
+    public static String OpenapiUrl = STATIC_PROPERTIES.getProperty("openapi.url");
 
 
     public static String loginOPUri = STATIC_PROPERTIES.getProperty("login.op.uri");
@@ -174,6 +176,16 @@ public class Common {
 
     //运营平台--商品价格策略
     public static String opSkuUpdatePriceUri = STATIC_PROPERTIES.getProperty("op.sku.updateprice.uri");
+
+    //商城--线下收银api
+    public static String mallGetCreditUri = STATIC_PROPERTIES.getProperty("mall.get.credit.uri");
+    public static String counterpaymentApiUrl = STATIC_PROPERTIES.getProperty("counterpayment.api.url");
+    public static String counterpaymentClientId = STATIC_PROPERTIES.getProperty("counterpayment.client_id");
+    public static String counterpaymentClientSecret = STATIC_PROPERTIES.getProperty("counterpayment.client_secret");
+    public static String getCodeInfoUri = STATIC_PROPERTIES.getProperty("get.code.info.uri");
+
+    //
+
 
 
 

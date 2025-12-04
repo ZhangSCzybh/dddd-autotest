@@ -155,9 +155,10 @@ public class GetCaseUtil {
         cn.hutool.json.JSONObject param = JSONUtil.createObj();//存放参数
         param.put("goodsState", 1);
         param.put("spuCode", spuCode);
-        headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
+        //headers.put("fuli-cache", "SDROdk4F2o9V6k4w8w5Rf2AteJCL92Edbp8d13BB7q3YaWAx8q6ZbUCl7uBYcX9l3X4edUFaWU9MbTNTWThXdWdEVWk0czNIempzWjNiaWExpbExxN045S1dxaiatKRFBNZ2JHS2VwU1dTV3ovZThaWElJNFNlcXhnYlAwZWNNbG9maDA9");
+        headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String body = param.toString();
-        String updateSpuStateUrl = Common.OpUrl+Common.fuliOpUpdateSpuStateUri;
+        String updateSpuStateUrl = "https://backdev.lixiangshop.com"+Common.fuliOpUpdateSpuStateUri;
         String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         logger.info( "spu:" + spuCode +";上架状态:" + jsonresult.get("msg").toString());
@@ -168,9 +169,10 @@ public class GetCaseUtil {
     public static void updateSkuState(String skuCode ){
         cn.hutool.json.JSONObject param = JSONUtil.createObj();
         param.put("status", 1);
-        headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
+        //headers.put("fuli-cache", "SDROdk4F2o9V6k4w8w5Rf2AteJCL92Edbp8d13BB7q3YaWAx8q6ZbUCl7uBYcX9l3X4edUFaWU9MbTNTWThXdWdEVWk0czNIempzWjNiaWExpbExxN045S1dxaiatKRFBNZ2JHS2VwU1dTV3ovZThaWElJNFNlcXhnYlAwZWNNbG9maDA9");
+        headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String body = param.toString();
-        String updateSpuStateUrl = Common.OpUrl+Common.fuliOpUpdateSkuStateUri+skuCode+"/updateState";
+        String updateSpuStateUrl = "https://backdev.lixiangshop.com"+Common.fuliOpUpdateSkuStateUri+skuCode+"/updateState";
         String result= HttpUtil.createPost(updateSpuStateUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         logger.info( "sku:" + skuCode +";销售状态:" + jsonresult.get("msg").toString());

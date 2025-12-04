@@ -1,9 +1,8 @@
-package com.dddd.qa.zybh.others;
+package com.dddd.qa.zybh.ApiTest.FuliMallTest;
 
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSONObject;
 import com.dddd.qa.zybh.Constant.Common;
-import com.dddd.qa.zybh.utils.DateUtil;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;

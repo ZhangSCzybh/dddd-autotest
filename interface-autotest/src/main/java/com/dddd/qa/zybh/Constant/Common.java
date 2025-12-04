@@ -184,10 +184,15 @@ public class Common {
     public static String counterpaymentClientSecret = STATIC_PROPERTIES.getProperty("counterpayment.client_secret");
     public static String getCodeInfoUri = STATIC_PROPERTIES.getProperty("get.code.info.uri");
 
-    //
+    //品牌管理
+    public static String supplierBrandAddUri = STATIC_PROPERTIES.getProperty("supplier.brandreview.add.uri");
+    public static String SupplierBrandreviewListUri = STATIC_PROPERTIES.getProperty("supplier.brandreview.list.uri");
+    public static String SupplierBrandreviewUpdateUri = STATIC_PROPERTIES.getProperty("supplier.brandreview.update.uri");
 
-
-
+    public static String opAdminBrandreviewListUri = STATIC_PROPERTIES.getProperty("op.admin.brandreview.list.uri");
+    public static String opAdminBrandreviewUpdateStatusUri = STATIC_PROPERTIES.getProperty("op.admin.brandreview.updatestatus.uri");
+    public static String opAdminBrandListUri = STATIC_PROPERTIES.getProperty("op.admin.brand.list.uri");
+    public static String opAdminBrandDelUri = STATIC_PROPERTIES.getProperty("op.admin.brand.del.uri");
 
 
 

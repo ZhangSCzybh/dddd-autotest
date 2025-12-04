@@ -1,0 +1,57 @@
+{
+  "spuCode": "",
+  "supplierId": 889148,
+  "supplierName": "再也不会供应商",
+  "categoryId": 10025,
+  "categoryId2": 20231,
+  "categoryId3": 32371,
+  "goodsType": 0,
+  "virtuallyAttribute": 0,
+  "brandAuthImgList": [],
+  "productReportImgList": [],
+  "goodsName": "联合总行商品01",
+  "goodsNameEn": "",
+  "brandId": 41767,
+  "brandName": "新增品牌pd0786",
+  "goodsImageList": [
+    "https://supplier.qn.seagoor.com/1763710081167.jpg"
+  ],
+  "placeOriginId": 23,
+  "placeOrigin": "波多黎各（美）",
+  "season": "",
+  "countrySize": "",
+  "sex": 3,
+  "introduction": "<p>111</p>",
+  "introductionEn": "",
+  "expressLogistics": 1,
+  "goodsFreight": "0",
+  "selfMention": 0,
+  "consumptionWriteOff": 0,
+  "taxPoint": 0.03,
+  "containsTax": "1111111111111111111",
+  "taxRemark": "",
+  "isWxCoupon": 0,
+  "stockId": "",
+  "specList": [
+    {
+      "specName": "颜色",
+      "specValues": [
+        {
+          "specValue": "白棕",
+          "specImage": "https://supplier.qn.seagoor.com/1763710081167.jpg"
+        }
+      ]
+    }
+  ],
+  "skuList": [
+    {
+      "extra": null,
+      "goodsMarkprice": "2",
+      "guidancePrice": "1",
+      "goodsCostprice": "1",
+      "itemNumber": "",
+      "goodsStorge": "11111",
+      "storgeSwitch": 1
+    }
+  ]
+}

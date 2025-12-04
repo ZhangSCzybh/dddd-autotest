@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.others;
+package com.dddd.qa.zybh.ApiTest.SourceTest;
 
 /**
  * @author zhangsc
@@ -12,9 +12,10 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
-import com.dddd.qa.zybh.utils.GetCaseUtil;
+import com.dddd.qa.zybh.utils.LoginUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -24,11 +25,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Scanner;
 
 public class PriceCalculator {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
+    private static final String OPUrl= "https://backdev.lixiangshop.com";
     //计算毛利率
     /**
     public static void main(String[] args) {
@@ -99,6 +100,15 @@ public class PriceCalculator {
 
     */
 
+    @BeforeClass
+    public static void setUp() {
+        JSONObject json = new JSONObject();
+        json.put("loginName", "admintest");//不同环境修改此处
+        json.put("password", "fortest");//不同环境修改此处
+        String Info = json.toString();
+        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken( OPUrl+"/admin/account/login" , Info);
+        logger.info("执行登录获取福粒HR平台的token：" + Common.fuliOperationPlatformToken);
+    }
     //sgnet商品导入
     @DataProvider(name = "sgnetSKU")
     public Object[][] supplierTokenFromCSV() {
@@ -122,8 +132,8 @@ public class PriceCalculator {
         //对指定的sku进行批量同步
         JSONObject param2 = JSONUtil.createObj();
         param2.put("skuCode", skuCode);
-        String createUrl2 = "https://backdev.lixiangshop.com/admin/jdManagement/goodsImport";
-        headers.put("fuli-cache", "a3diadCE5pEEee9neA7w9QAm2t0V8Q4W951w6N30dd7W7Q5k7hCG3TFGcV0Obc332FEo3QXBoQkhNTS9saFRzQ21uMS9sNUVOYm9razZocUtJendqdURXZDZwWkhTU1F6NWQyeFhtUmNoa2dkMnd2ZmFzSTJFZ2I4N0pkeGY4ZGFVajQ9");
+        String createUrl2 = OPUrl + "/admin/jdManagement/goodsImport";
+        headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String result2= HttpUtil.createGet(createUrl2).addHeaders(headers).form(param2).execute().body();
         logger.info("商品导入：" + result2);
     }

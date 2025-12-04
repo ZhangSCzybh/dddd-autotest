@@ -6,11 +6,9 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
-import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.DateUtil;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
 import com.dddd.qa.zybh.utils.LoginUtil;
-import org.jsoup.helper.DataUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeClass;
@@ -23,7 +21,6 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
-import java.util.Map;
 
 import static com.dddd.qa.zybh.BaseTest.caveat;
 
@@ -32,7 +29,7 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
  * @date 2025年08月16日 08:10:54
  * @packageName com.dddd.qa.zybh.ApiTest.SourceTest
  * @className BatchImportEmployeeJumpLogin
- * @describe TODO 不同环境福粒HR平台的账号密码 ,Count员工数量,MallUrl目前是福粒的，福粒employee-cache ,filePath需要替换
+ * @describe TODO 批量创建员工，获取商城token。不同环境福粒HR平台的账号密码 ,Count员工数量,MallUrl目前是福粒的，福粒employee-cache ,filePath需要替换
  */
 public class BatchImportEmployeeJumpLogin {
 
@@ -41,8 +38,8 @@ public class BatchImportEmployeeJumpLogin {
     private static final HashMap<String, String> headers2 =new HashMap<>();
     private static final HashMap<String, String> headers3 =new HashMap<>();
 
-    private static final String HrUrl= "https://backdev.lixiangshop.com";
-    private static final String MallUrl= "https://serverdev.lixiangshop.com";
+    private static final String HrUrl= "https://backdev.lixiangshop.com";//不同环境修改此处
+    private static final String MallUrl= "https://serverdev.lixiangshop.com";//不同环境修改此处
 
     private static final String addressInfo = "dddd/addressInfo";
     private static String employeeLoginName;
@@ -56,14 +53,14 @@ public class BatchImportEmployeeJumpLogin {
     @BeforeClass
     public static void setUp() {
         JSONObject json = new JSONObject();
-        json.put("loginName", "1236");
-        json.put("password", "123456");
+        json.put("loginName", "1236");//不同环境修改此处
+        json.put("password", "123456");//不同环境修改此处
         String Info = json.toString();
         Common.FuliHrToken = LoginUtil.loginFuliHrToken( HrUrl +"/enterpriseadmin/account/login" , Info);
         logger.info("执行登录获取福粒HR平台的token：" + Common.FuliHrToken);
     }
 
-    //@Test(description = "福粒Hr平台新增员工")
+    @Test(description = "福粒Hr平台新增员工")
     public void addEmployees() throws InterruptedException {
         for(int i = 0; i < Count; i++) {
             //存放参数
@@ -75,7 +72,7 @@ public class BatchImportEmployeeJumpLogin {
             param.put("mobile", DateUtil.RandomNumberGenerator());
             param.put("password", password);
             param.put("resPassword", password);
-            param.put("deptId", 809);
+            param.put("deptId", 1180);
             String body = param.toString();
             String createUrl = HrUrl+"/enterpriseadmin/employees";
             headers.put("enterprise-cache", Common.FuliHrToken);
@@ -86,7 +83,7 @@ public class BatchImportEmployeeJumpLogin {
 
         }
     }
-    @Test(description = "员工账号登录商城，获取登录token，新增地址")
+    @Test(dependsOnMethods = "addEmployees", description = "员工账号登录商城，获取登录token，新增地址")
     public void importEmployeesJumpAmall(){
             JSONObject param = JSONUtil.createObj();
             param.put("page", 1);
@@ -98,8 +95,8 @@ public class BatchImportEmployeeJumpLogin {
 
             // 定义目标文件路径
             File file = new File("");
-            //String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";
-            String filePath = Common.jenkinsUrl + "/src/main/resources/test-dddd/token.json";
+            //String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
+            String filePath = Common.jenkinsUrl + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
 
             //循环获取
             for(int j = 0; j < Count; j++) {

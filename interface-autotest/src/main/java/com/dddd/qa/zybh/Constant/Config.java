@@ -27,7 +27,8 @@ public class Config {
     public static String FuliPro = "福粒企业平台";
     public static String MallPro = "商城端";
     public static String YGPCPro = "员工pc";
-    public static String SelfSupplierPro = "自建供应商平台";
+    public static String SelfSupplierPro = "自建供应商";
+    public static String PlatformSupplierPro = "平台供应商";
 
     public static String zsc = "17858803001";
 
@@ -39,7 +40,8 @@ public class Config {
     public static String itemOrderNumber2;//漏发退款
     public static String itemOrderNumber3;//换货
 
-
+    public static String brandName;//品牌名称
+    public static String brandId;//品牌名称
 
     /********************************日期************************************************/
     public static String format = "MM月dd";//x月x日

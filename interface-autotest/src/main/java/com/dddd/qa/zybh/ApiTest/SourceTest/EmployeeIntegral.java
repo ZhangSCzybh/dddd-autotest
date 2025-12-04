@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.others;
+package com.dddd.qa.zybh.ApiTest.SourceTest;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;
@@ -18,6 +18,7 @@ import java.util.List;
  * @date 2024年12月20日 16:46:49
  * @packageName com.dddd.qa.zybh.ApiTest
  * @className EmployeeIntegral
+ * @describe 批量回收积分
  */
 public class EmployeeIntegral {
     private static final HashMap<String, String> headers =new HashMap<>();

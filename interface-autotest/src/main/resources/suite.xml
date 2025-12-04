@@ -62,7 +62,18 @@
     </test>
     <test name="SgnetProductSynchronization">
         <classes>
-            <class name="com.dddd.qa.zybh.others.PriceCalculator"/>
+            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
+        </classes>
+    </test>
+    <test name="CountPayment">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest"/>
+        </classes>
+    </test>
+    <test name="BrandApproval">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.BrandTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.BrandReviewTest"/>
         </classes>
     </test>
     <test name ="Voucher">

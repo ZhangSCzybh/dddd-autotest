@@ -310,7 +310,33 @@ public class LoginUtil {
         return null;
     }
 
-
+    //账号密码登录供应商平台
+    public static String loginSupplierToken(String loginUrl, String userinfo){
+        try {
+            // 1. 创建 URL 对象
+            URL url = new URL(loginUrl);
+            // 2. 打开 HttpURLConnection 连接
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // 3. 设置请求方法为 POST
+            connection.setRequestMethod("POST");
+            // 4. 设置请求头
+            connection.setRequestProperty("Content-Type", "application/json");
+            // 5. 允许写出和输入
+            connection.setDoOutput(true);
+            connection.setDoInput(true);
+            // 6. 写出请求体
+            try (OutputStream os = connection.getOutputStream()) {
+                // 将请求体数据写入输出流
+                byte[] input = userinfo.getBytes("UTF-8");
+                //byte[] input = ("{ \"identityType\": \"3\" ,\"password\": \"zybh123456\",\"username\": \"17858805009\"}").getBytes("utf-8");
+                os.write(input, 0, input.length);
+            }
+            return connection.getHeaderField("supplier-cache");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
 
 }

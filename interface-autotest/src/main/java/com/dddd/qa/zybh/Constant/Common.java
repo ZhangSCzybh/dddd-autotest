@@ -62,6 +62,7 @@ public class Common {
     public static String loginDDingDDangInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.info");
     public static String loginDDingDDangYGPCInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info");
     public static String loginOPInfo = STATIC_PROPERTIES.getProperty("login.op.info");
+    public static String loginSupplierInfo = STATIC_PROPERTIES.getProperty("login.supplier.info");
 
     //员工pc账号密码
     public static String loginDDingDDangYGPCInfo1 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info1");
@@ -95,6 +96,7 @@ public class Common {
     public static String DDingDDangPCToken;//智采员工pc
     public static String fuliOperationPlatformToken; //福利运营
     public static String SelfsupplierToken;//自建供应商平台
+    public static String supplierToken;//供应商平台
     public static String FuliHrToken;//福粒Hr平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
     //TODO
@@ -194,7 +196,8 @@ public class Common {
     public static String opAdminBrandListUri = STATIC_PROPERTIES.getProperty("op.admin.brand.list.uri");
     public static String opAdminBrandDelUri = STATIC_PROPERTIES.getProperty("op.admin.brand.del.uri");
 
-
+    //供应商平台
+    public static String supplierLoginUri = STATIC_PROPERTIES.getProperty("supplier.login.uri");
 
 
 

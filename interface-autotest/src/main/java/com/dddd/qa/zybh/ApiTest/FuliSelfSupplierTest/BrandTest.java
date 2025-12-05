@@ -45,8 +45,8 @@ public class BrandTest {
         Common.DDingDDangToken = LoginUtil.loginDingdangZCToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri , Common.loginDDingDDangInfo );
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
         // 登录获取token
-        Common.SelfsupplierToken = "Um9lRlAJdKDS40Ap9Z7W7WEdex9acE8Z5U1U7FEZfFAS0F2Z25FNcXBh2F9W6n6Z3kFd9UZXWUx1NC90VkZPMWh6dG1CU3F1cmpTenVJSUI1SHRjbjZtKzdiaV2gwZURXdHgxMUFHSkFkT2NvRWhxMlFpd2llV0IwNHZmV0ljaG1XUG5GMTZIWW56emdvUnlxaWdIeHlKcFEyc0hQenVNTEd0MWhWc1diaL3g0elpIOCs2L24vL0FlcEVLVk14V2VDSDFNU1g5U0xQMXhhYkI5NUVPczFQUUlvYjh3cW4xa0FTcXlGTlZDdWZTRjd2dz09";
-
+        Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
+        logger.info("执行登录获取供应商平台的token：" + Common.supplierToken);
     }
 
 
@@ -56,8 +56,8 @@ public class BrandTest {
         param.put("name","新增品牌"+ DateUtil.RandomSixDigit());
         param.put("nameEn","testAdd"+ DateUtil.RandomSixDigit());
         String body = param.toString();
-        String createUrl = Common.SelfsupplierUrl + Common.supplierBrandAddUri;
-        headers.put("supplier-cache", Common.SelfsupplierToken);
+        String createUrl = Common.SupplierUrl + Common.supplierBrandAddUri;
+        headers.put("supplier-cache", Common.supplierToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         System.out.println(result);
         JSONObject jsonresult = new JSONObject(result);
@@ -75,8 +75,8 @@ public class BrandTest {
         param.put("status","1");
         param.put("page","1");
         param.put("pageSize","10");
-        String createUrl = Common.SelfsupplierUrl + Common.SupplierBrandreviewListUri;
-        headers.put("supplier-cache", Common.SelfsupplierToken);
+        String createUrl = Common.SupplierUrl + Common.SupplierBrandreviewListUri;
+        headers.put("supplier-cache", Common.supplierToken);
         String result = HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
         System.out.println(result);
         JSONObject jsonresult = new JSONObject(result);
@@ -95,8 +95,8 @@ public class BrandTest {
         param.put("id",Config.brandId);
         param.put("name","修改新增品牌"+ DateUtil.RandomSixDigit());
         String body = param.toString();
-        String createUrl = Common.SelfsupplierUrl + Common.SupplierBrandreviewUpdateUri;
-        headers.put("supplier-cache", Common.SelfsupplierToken);
+        String createUrl = Common.SupplierUrl + Common.SupplierBrandreviewUpdateUri;
+        headers.put("supplier-cache", Common.supplierToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         System.out.println(result);
         JSONObject jsonresult = new JSONObject(result);
@@ -108,8 +108,8 @@ public class BrandTest {
         param1.put("status","1");
         param1.put("page","1");
         param1.put("pageSize","10");
-        String createUrl1 = Common.SelfsupplierUrl + Common.SupplierBrandreviewListUri;
-        headers.put("enterprise-cache", Common.SelfsupplierToken);
+        String createUrl1 = Common.SupplierUrl + Common.SupplierBrandreviewListUri;
+        headers.put("enterprise-cache", Common.supplierToken);
         String result1 = HttpUtil.createGet(createUrl1).addHeaders(headers).form(param1).execute().body();
         System.out.println(result1);
         JSONObject jsonresult1 = new JSONObject(result1);

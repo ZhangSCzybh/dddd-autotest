@@ -1,27 +1,19 @@
 package com.dddd.qa.zybh.others;
 
 
-import cn.hutool.http.HttpUtil;
-import cn.hutool.json.JSONArray;
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.utils.LoginUtil;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.*;
 
@@ -67,11 +59,10 @@ public class Testweeks {
         return rows;
     }
 
-    public static void main(String[] args) {
-    }
 
     @Test
     public void test(){
+
     }
 
 }

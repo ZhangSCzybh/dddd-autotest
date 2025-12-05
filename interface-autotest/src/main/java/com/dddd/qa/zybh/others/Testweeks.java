@@ -62,7 +62,9 @@ public class Testweeks {
 
     @Test
     public void test(){
-
+        // 登录获取token
+        Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
+        logger.info("执行登录获取供应商平台的token：" + Common.supplierToken);
     }
 
 }

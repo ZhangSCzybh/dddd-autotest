@@ -40,7 +40,6 @@ public class RefundTest {
     private static final String USER_RECEIVE_ADDR_ID = "13133";
     private static final String SCENE_ORDER = "商品下单";
     private static final String SCENE_REFUND = "售后退款";
-    private static final String SUPPLIER_TOKEN_DATA = "bzc4YU11as8T4k15948T205s11AN2DEJfpFWcUDte1CWbEFZ9O3ObH5lfG4Ke01x4EAcb0JFQ1ByOUJBTlN3a3Z2bCs5UVFSeWpHaTd6WXUrckNKVGpVMWY3RjJadFRYTmFyOFFwTWZXYjJZVlFjc0cwOWV6NW8rM1JiaR3kzOFVkaE5EYkY3dEkvQVFyUWZDcDRJNCt6L2Y4dWs0QWRrc0wrWWErQW1nd2hJWnI4N3ZjeTRYZXk4cTJHaHdCMW5KajZuZGVGUjZLQlc3Y2NXU013UG5zcWRp";
 
     @BeforeClass
     public static void setUp() {
@@ -48,6 +47,9 @@ public class RefundTest {
         logger.info("执行登录获取智采员工pc平台的token：{}", Common.DDingDDangPCToken);
         Common.mallToken = LoginUtil.loginJumpMallToken(Common.MallUrl + Common.jumpMallLoginUri, Common.DDingDDangPCToken);
         logger.info("获取17858803001员工pc跳转商城的token：{}", Common.mallToken);
+        // 登录获取token
+        Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
+        logger.info("执行登录‘再也不会平台供应商02’获取供应商平台的token：" + Common.supplierToken);
     }
 
     /**
@@ -111,7 +113,7 @@ public class RefundTest {
         param.put("pageSize", 4);
         String body = param.toString();
         String createUrl = Common.SupplierUrl + Common.supplierOrderUri;
-        headers.put("Supplier-Cache", SUPPLIER_TOKEN_DATA);
+        headers.put("Supplier-Cache", Common.supplierToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         logger.info("供应商订单列表：{}", result);
 
@@ -126,7 +128,7 @@ public class RefundTest {
         
         for (int i = 1; i < length; i++) {
             String number = (new JSONObject((new JSONArray((new JSONObject(jsonResult.get("data"))).get("rows"))).get(i))).get("number").toString();
-            GetCaseUtil.sendPostRequest(Common.SupplierUrl + Common.supplierOrderShipUri + number, SUPPLIER_TOKEN_DATA);
+            GetCaseUtil.sendPostRequest(Common.SupplierUrl + Common.supplierOrderShipUri + number, Common.supplierToken);
             logger.info("商品{}--发货完成：{}", i, number);
             
             try {

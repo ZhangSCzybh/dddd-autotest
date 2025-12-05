@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="runAll">
+    <test name="PlatformSupplierSkuRefund">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.RefundTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.RefundManagementTest"/>
+        </classes>
+    </test>
+    <test name ="Voucher">
+        <classes>
+            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->
+            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.EmployeeVoucherTest"/> -->
+        </classes>
+    </test>
+</suite>

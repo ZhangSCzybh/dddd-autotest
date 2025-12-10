@@ -76,6 +76,12 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.BrandReviewTest"/>
         </classes>
     </test>
+    <test name="Cards">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
+        </classes>
+    </test>
     <test name ="Voucher">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->

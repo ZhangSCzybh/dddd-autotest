@@ -43,6 +43,11 @@ public class Config {
     public static String brandName;//品牌名称
     public static String brandId;//品牌名称
 
+
+    public static String cardNumber;//品牌名称
+
+
+
     /********************************日期************************************************/
     public static String format = "MM月dd";//x月x日
     public static LocalDate nowDay = DateUtil.getPreviousDate(0);//当天

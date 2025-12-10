@@ -71,5 +71,14 @@
         </Options>
       </option>
     </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="test1" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
   </profile>
 </component>

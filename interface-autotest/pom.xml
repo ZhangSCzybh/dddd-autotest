@@ -29,6 +29,13 @@
             <version>0.3.12</version>
         </dependency>
 
+        <!-- Lept4j 图像处理（必须！） -->
+        <dependency>
+            <groupId>net.sourceforge.lept4j</groupId>
+            <artifactId>lept4j</artifactId>
+            <version>1.21.1</version>
+        </dependency>
+
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>

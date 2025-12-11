@@ -10,750 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/MembershipCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/Base64ImageDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/CaptchaRecognizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd/createCardInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.clang-format" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/ISSUE_TEMPLATE/issue-bug.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/ISSUE_TEMPLATE/issue-feature-request.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/autotools-macos.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/autotools-openmp.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/autotools.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/cifuzz.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/cmake-win64.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/cmake.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/codeql-analysis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/installer-for-windows.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/msys2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/sw.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/unittest-disablelegacy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/unittest-macos.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/unittest.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.github/workflows/vcpkg.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/.mailmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/CITATIONS.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/ChangeLog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/INSTALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/INSTALL.GIT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/autogen.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/cmake/BuildFunctions.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/cmake/CheckFunctions.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/cmake/Configure.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/cmake/SourceGroups.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/cmake/templates/TesseractConfig.cmake.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/cmake/templates/cmake_uninstall.cmake.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/configure.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/Doxyfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/ambiguous_words.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/classifier_tester.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/cntraining.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/combine_lang_model.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/combine_tessdata.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/dawg2wordlist.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/generate_manpages.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/lstmeval.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/lstmtraining.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/merge_unicharsets.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/mftraining.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/set_unicharset_properties.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/shapeclustering.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/tesseract.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/tesseract.natvis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/text2image.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/unicharambigs.5.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/unicharset.5.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/unicharset_extractor.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/doc/wordlist2dawg.1.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/baseapi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/capi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/export.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/ltrresultiterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/ocrclass.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/osdetect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/pageiterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/publictypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/renderer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/resultiterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/unichar.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/include/tesseract/version.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/Manifest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ScrollView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/events/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/events/SVEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/events/SVEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/events/SVEventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVAbstractMenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVCheckboxMenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVEmptyMenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVImageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVMenuBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVMenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVPopupMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVSubMenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/java/com/google/scrollview/ui/SVWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/nsis/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/nsis/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/nsis/find_deps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/nsis/include/EnvVarUpdate.nsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/nsis/tesseract.nsi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/nsis/winpath.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/snap/snapcraft.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/altorenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/baseapi.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/capi.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/hocrrenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/lstmboxrenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/pagerenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/pdf_ttf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/pdfrenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/renderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/api/wordstrboxrenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproduct.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproduct.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproductavx.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproductavx512.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproductfma.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproductneon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/dotproductsse.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/intsimdmatrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/intsimdmatrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/intsimdmatrixavx2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/intsimdmatrixneon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/intsimdmatrixrvv.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/intsimdmatrixsse.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/simddetect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/arch/simddetect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/adaptions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/applybox.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/control.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/control.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/docqual.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/docqual.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/equationdetect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/equationdetect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/fixspace.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/fixspace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/fixxht.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/linerec.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/ltrresultiterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/mutableiterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/mutableiterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/osdetect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/output.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/output.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/pageiterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/pagesegmain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/pagewalk.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/par_control.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/paragraphs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/paragraphs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/paragraphs_internal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/paramsd.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/paramsd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/pgedit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/pgedit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/recogtraining.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/reject.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/reject.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/resultiterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/superscript.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tessbox.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tessedit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tesseractclass.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tesseractclass.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tessvars.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tessvars.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/tfacepp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/thresholder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/thresholder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/werdit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccmain/werdit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blamer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blamer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blobbox.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blobbox.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blobs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blobs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blread.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/blread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/boxread.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/boxread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/boxword.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/boxword.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ccstruct.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ccstruct.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/coutln.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/coutln.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/crakedge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/debugpixa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/detlinefit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/detlinefit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/dppoint.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/dppoint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/fontinfo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/fontinfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/image.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/imagedata.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/imagedata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/linlsq.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/linlsq.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/mod128.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/mod128.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/normalis.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/normalis.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ocrblock.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ocrblock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ocrpara.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ocrpara.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ocrrow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ocrrow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/otsuthr.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/otsuthr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/pageres.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/pageres.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/params_training_featdef.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/params_training_featdef.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/pdblock.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/pdblock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/points.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/points.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/polyaprx.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/polyaprx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/polyblk.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/polyblk.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/quadlsq.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/quadlsq.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/quadratc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/quspline.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/quspline.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ratngs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/ratngs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/rect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/rect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/rejctmap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/rejctmap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/seam.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/seam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/split.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/split.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/statistc.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/statistc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/stepblob.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/stepblob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/werd.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccstruct/werd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/ambigs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/ambigs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/bitvector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/bitvector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/ccutil.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/ccutil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/clst.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/elst.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/elst2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/errcode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/errcode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/fileerr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/genericheap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/genericvector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/helpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/host.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/indexmapbidi.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/indexmapbidi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/kdpair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/lsterr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/object_cache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/params.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/params.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/qrsequence.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/scanutils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/scanutils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/serialis.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/serialis.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/sorthelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/tessdatamanager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/tessdatamanager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/tesserrstream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/tesstypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/tprintf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/tprintf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unichar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicharcompress.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicharcompress.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicharmap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicharmap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicharset.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicharset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/unicity_table.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/ccutil/universalambigs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/adaptive.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/adaptive.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/adaptmatch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/blobclass.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/classify.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/classify.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/cluster.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/cluster.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/clusttool.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/clusttool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/cutoffs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/featdefs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/featdefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/float2int.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/float2int.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/fpoint.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/fpoint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intfeaturespace.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intfeaturespace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intfx.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intfx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intmatcher.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intmatcher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intproto.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/intproto.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/kdtree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/kdtree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mfdefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mfoutline.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mfoutline.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mfx.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/mfx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/normfeat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/normfeat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/normmatch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/normmatch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/ocrfeatures.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/ocrfeatures.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/outfeat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/outfeat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/picofeat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/picofeat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/protos.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/protos.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/shapeclassifier.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/shapeclassifier.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/shapetable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/shapetable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/tessclassifier.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/tessclassifier.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/trainingsample.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/classify/trainingsample.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/cutil/bitvec.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/cutil/oldlist.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/cutil/oldlist.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/context.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/dawg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/dawg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/dawg_cache.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/dawg_cache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/dict.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/dict.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/hyphen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/matchdefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/permdawg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/stopper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/stopper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/trie.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/dict/trie.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/convolve.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/convolve.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/fullyconnected.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/fullyconnected.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/functions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/generate_lut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/input.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/input.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/lstm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/lstm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/lstmrecognizer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/lstmrecognizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/maxpool.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/maxpool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/network.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/networkio.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/networkio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/networkscratch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/parallel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/parallel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/plumbing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/plumbing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/recodebeam.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/recodebeam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/reconfig.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/reconfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/reversed.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/reversed.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/series.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/series.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/static_shape.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/stridemap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/stridemap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/weightmatrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/lstm/weightmatrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/svpaint.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/tesseract.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/alignedblob.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/alignedblob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/baselinedetect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/baselinedetect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/bbgrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/bbgrid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/blkocc.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/blkocc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/blobgrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/blobgrid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/ccnontextdetect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/ccnontextdetect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/cjkpitch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/cjkpitch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colfind.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colfind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colpartition.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colpartition.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colpartitiongrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colpartitiongrid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colpartitionset.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/colpartitionset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/devanagari_processing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/devanagari_processing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/drawtord.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/drawtord.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/edgblob.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/edgblob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/edgloop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/edgloop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/equationdetectbase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/equationdetectbase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/fpchop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/fpchop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/gap_map.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/gap_map.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/imagefind.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/imagefind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/linefind.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/linefind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/makerow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/makerow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/oldbasel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/oldbasel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/pithsync.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/pithsync.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/pitsync1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/pitsync1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/scanedg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/scanedg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/sortflts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/sortflts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/strokewidth.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/strokewidth.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tabfind.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tabfind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tablefind.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tablefind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tablerecog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tablerecog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tabvector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tabvector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/textlineprojection.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/textlineprojection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/textord.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/textord.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/topitch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/topitch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tordmain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tordmain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tospace.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tovars.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/tovars.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/underlin.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/underlin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/wordseg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/wordseg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/workingpartset.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/textord/workingpartset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/ambiguous_words.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/classifier_tester.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/cntraining.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/combine_lang_model.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/combine_tessdata.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/commandlineflags.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/commandlineflags.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/commontraining.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/commontraining.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/ctc.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/ctc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/errorcounter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/errorcounter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/export.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/intfeaturedist.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/intfeaturedist.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/intfeaturemap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/intfeaturemap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/mastertrainer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/mastertrainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/networkbuilder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/networkbuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/sampleiterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/sampleiterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/trainingsampleset.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/common/trainingsampleset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/dawg2wordlist.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/degradeimage.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/degradeimage.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/lstmeval.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/lstmtraining.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/merge_unicharsets.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/mergenf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/mergenf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/mftraining.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/boxchar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/boxchar.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/export.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/ligature_table.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/ligature_table.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/pango_font_info.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/pango_font_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/stringrenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/stringrenderer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/tlog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/pango/tlog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/set_unicharset_properties.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/shapeclustering.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/text2image.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/export.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/fileio.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/fileio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/icuerrorcode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/icuerrorcode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/lang_model_helpers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/lang_model_helpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/lstmtester.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/lstmtester.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/lstmtrainer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/lstmtrainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/normstrngs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/normstrngs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/unicharset_training_utils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/unicharset_training_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_grapheme.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_grapheme.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_indic.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_indic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_javanese.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_javanese.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_khmer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_khmer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_myanmar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validate_myanmar.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset/validator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/unicharset_extractor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/training/wordlist2dawg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/viewer/scrollview.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/viewer/scrollview.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/viewer/svmnode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/viewer/svmnode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/viewer/svutil.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/viewer/svutil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/associate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/associate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/chop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/chop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/chopper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/drawfx.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/drawfx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/findseam.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/findseam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/gradechop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/language_model.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/language_model.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/lm_consistency.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/lm_consistency.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/lm_pain_points.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/lm_pain_points.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/lm_state.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/lm_state.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/outlines.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/outlines.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/params_model.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/params_model.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/pieces.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/plotedges.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/plotedges.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/render.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/render.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/segsearch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/tface.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/wordclass.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/wordrec.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/src/wordrec/wordrec.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/sw.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/alto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/ambigs.train" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/api_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/bazaar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/bigram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/box.train" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/box.train.stderr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/digits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/get.images" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/hocr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/inter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/kannada" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/linebox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/logfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/lstm.train" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/lstmbox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/lstmdebug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/makebox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/quiet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/rebox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/strokewidth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/unlv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/configs/wordstrbox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/eng.user-patterns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/eng.user-words" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/pdf.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/batch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/batch.nochop" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/matdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/msdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/nobatch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tessdata/tessconfigs/segdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tesseract.pc.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/tesseract.pc.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/apiexample_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/applybox_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/baseapi_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/baseapi_thread_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/bitvector_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/capiexample_c_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/capiexample_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/cleanapi_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/colpartition_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/commandlineflags_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/cycletimer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/dawg_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/denorm_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/doubleptr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/equationdetect_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/fileio_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/fuzzers/fuzzer-api.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/fuzzers/oss-fuzz-build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/heap_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/imagedata_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/include_gunit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/indexmapbidi_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/intfeaturemap_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/intsimdmatrix_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/lang_model_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/layout_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/ligature_table_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/linlsq_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/list_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/loadlang_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/log.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/lstm_recode_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/lstm_squashed_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/lstm_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/lstm_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/lstmtrainer_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/mastertrainer_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/matrix_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/networkio_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/normstrngs_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/normstrngs_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/nthitem_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/osd_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/pagesegmode_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/pango_font_info_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/paragraphs_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/params_model_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/progress_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/qrsequence_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/recodebeam_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/rect_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/resultiterator_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/scanutils_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/shapetable_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/stats_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/stridemap_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/stringrenderer_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/syntaxnet/base.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/tablefind_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/tablerecog_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/tabvector_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/tatweel_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/tesseract_leaksanitizer.supp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/textlineprojection_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/tfile_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/third_party/utf/rune.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/third_party/utf/utf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/unichar_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/unicharcompress_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/unicharset_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/util/utf8/unicodetext.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/util/utf8/unicodetext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/util/utf8/unilib.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/util/utf8/unilib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/util/utf8/unilib_utf8_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/validate_grapheme_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/validate_indic_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/validate_khmer_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/validate_myanmar_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/tesseract-5.5.1/unittest/validator_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SettingTest/SettingAccountTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/Constant/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/Testweeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/others/Testweeks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/SettingTest/SettingAccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/Testweeks.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/others/Testweeks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -793,316 +52,316 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AccessToken.executor": "Run",
-    "Application.AccessTokenClient.executor": "Run",
-    "Application.Base64ImageDecoder.executor": "Run",
-    "Application.CaptchaRecognizer.executor": "Run",
-    "Application.DailyRecipeGenerator.executor": "Run",
-    "Application.DateUtil.executor": "Run",
-    "Application.DingTalkRobotUtil.executor": "Run",
-    "Application.ImageDownloader.executor": "Run",
-    "Application.ImageSizeCheckerAndRenamer.executor": "Run",
-    "Application.LoginUtil.executor": "Run",
-    "Application.PriceCalculator.executor": "Run",
-    "Application.PurchaseProductsTool.executor": "Run",
-    "Application.QueryExpressTrack.executor": "Run",
-    "Application.RandomRecipes.executor": "Run",
-    "Application.SendResultToDingtalk.executor": "Run",
-    "Application.Testweeks.executor": "Run",
-    "Maven.interface-autotest [clean].executor": "Run",
-    "Maven.interface-autotest [install].executor": "Run",
-    "Maven.interface-autotest [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor": "Run",
-    "TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml.executor": "Run",
-    "TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor": "Run",
-    "TestNG.ActivityTest.createEvent.executor": "Run",
-    "TestNG.ActivityTest.getScheduleEventsList.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.addAddress.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.addEmployees.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.addressLst.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.employeesList (1).executor": "Run",
-    "TestNG.AddEmployeesJumpMall.employeesList (2).executor": "Run",
-    "TestNG.AddEmployeesJumpMall.employeesList (3).executor": "Run",
-    "TestNG.AddEmployeesJumpMall.employeesList.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.jumpMall (1).executor": "Run",
-    "TestNG.AddEmployeesJumpMall.jumpMall (2).executor": "Run",
-    "TestNG.AddEmployeesJumpMall.jumpMall (3).executor": "Run",
-    "TestNG.AddEmployeesJumpMall.jumpMall.executor": "Run",
-    "TestNG.AddEmployeesJumpMall.loginMall.executor": "Run",
-    "TestNG.AddProductTest (1).executor": "Run",
-    "TestNG.AddProductTest (2).executor": "Run",
-    "TestNG.AddProductTest (3).executor": "Run",
-    "TestNG.AddProductTest (4).executor": "Run",
-    "TestNG.AddProductTest (5).executor": "Run",
-    "TestNG.AddProductTest.addProduct (1).executor": "Run",
-    "TestNG.AddProductTest.addProduct.executor": "Run",
-    "TestNG.AddProductTest.executor": "Run",
-    "TestNG.AddProductTest.getSkuList.executor": "Run",
-    "TestNG.AddProductTest.getSpuList (1).executor": "Run",
-    "TestNG.AddProductTest.getSpuList.executor": "Run",
-    "TestNG.AddProductTest.testAddProduct.executor": "Run",
-    "TestNG.AddProductTest.update.executor": "Run",
-    "TestNG.AddProductTest.updateSkuState.executor": "Run",
-    "TestNG.AddProductTest.updateSpuState (1).executor": "Run",
-    "TestNG.AddProductTest.updateSpuState.executor": "Run",
-    "TestNG.AddProductTest.updateState.executor": "Run",
-    "TestNG.ApprovalTest (1).executor": "Run",
-    "TestNG.ApprovalTest.approvalList (1).executor": "Run",
-    "TestNG.ApprovalTest.approvalList (2).executor": "Run",
-    "TestNG.ApprovalTest.approvalList.executor": "Run",
-    "TestNG.ApprovalTest.approvalPendingList.executor": "Run",
-    "TestNG.ApprovalTest.executor": "Run",
-    "TestNG.ApprovalTest.processHandle.executor": "Run",
-    "TestNG.ApprovalTest.selfSupplierAdd.executor": "Run",
-    "TestNG.ApprovalTest.selfSupplierApply.executor": "Run",
-    "TestNG.ApprovalTest.selfSupplierLogin.executor": "Run",
-    "TestNG.ApprovalTest.submitApproval (1).executor": "Run",
-    "TestNG.ApprovalTest.submitApproval.executor": "Run",
-    "TestNG.ApprovalTest.test.executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin (1).executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin (2).executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.addEmployees.executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.employeesList (1).executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.employeesList (2).executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.employeesList (3).executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.employeesList.executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.importEmployeesJumpAmall.executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.setEmployeeLoginName (1).executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.setEmployeeLoginName.executor": "Run",
-    "TestNG.BatchImportEmployeeJumpLogin.setUp.executor": "Run",
-    "TestNG.BrandTest.test (1).executor": "Run",
-    "TestNG.BrandTest.test.executor": "Run",
-    "TestNG.BrandTest.testAddProduct.executor": "Run",
-    "TestNG.CaptchaRecognitionTest.testCaptchaRecognition (1).executor": "Run",
-    "TestNG.CaptchaRecognitionTest.testCaptchaRecognition.executor": "Run",
-    "TestNG.CounterPaymentTest.createOrderTest.executor": "Run",
-    "TestNG.CounterPaymentTest.executor": "Run",
-    "TestNG.CounterPaymentTest.getCodeInfoTest.executor": "Run",
-    "TestNG.CounterPaymentTest.getCredit.executor": "Run",
-    "TestNG.CounterPaymentTest.test (1).executor": "Run",
-    "TestNG.CounterPaymentTest.test.executor": "Run",
-    "TestNG.CreateCardsTest.CardDeliverTest.executor": "Run",
-    "TestNG.CreateCardsTest.CreateCardTest.executor": "Run",
-    "TestNG.CreateCardsTest.test (1).executor": "Run",
-    "TestNG.CreateCardsTest.test.executor": "Run",
-    "TestNG.CursorTest (1).executor": "Run",
-    "TestNG.CursorTest.executor": "Run",
-    "TestNG.CursorTest.testAdminLogin.executor": "Run",
-    "TestNG.CursorTest.testEmptyParams.executor": "Run",
-    "TestNG.CursorTest.testGetSupplierList (1).executor": "Run",
-    "TestNG.CursorTest.testGetSupplierList (2).executor": "Run",
-    "TestNG.CursorTest.testGetSupplierList.executor": "Run",
-    "TestNG.EmployeeIntegral.recycleIntegral (1).executor": "Run",
-    "TestNG.EmployeeIntegral.recycleIntegral (2).executor": "Run",
-    "TestNG.EmployeeIntegral.recycleIntegral.executor": "Run",
-    "TestNG.EmployeeVoucherTest.executor": "Run",
-    "TestNG.EmployeeVoucherTest.voucherCardList (1).executor": "Run",
-    "TestNG.EmployeeVoucherTest.voucherCardList.executor": "Run",
-    "TestNG.EnterpriseSelfsupplierTest.EnterpriseSelfsupplierLoginTest.executor": "Run",
-    "TestNG.EnterpriseSelfsupplierTest.executor": "Run",
-    "TestNG.EnterpriseSelfsupplierTest.selfSupplierApply.executor": "Run",
-    "TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete (1).executor": "Run",
-    "TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete.executor": "Run",
-    "TestNG.ImageDownloader.executor": "Run",
-    "TestNG.ImageDownloader.imageDownloadeTest (1).executor": "Run",
-    "TestNG.ImageDownloader.imageDownloadeTest (2).executor": "Run",
-    "TestNG.ImageDownloader.imageDownloadeTest.executor": "Run",
-    "TestNG.ImageDownloader.test (1).executor": "Run",
-    "TestNG.ImageDownloader.test.executor": "Run",
-    "TestNG.LoginZCTest (1).executor": "Run",
-    "TestNG.LoginZCTest (2).executor": "Run",
-    "TestNG.LoginZCTest.executor": "Run",
-    "TestNG.LoginZCTest.loginDDingDDangHR.executor": "Run",
-    "TestNG.LoginZCTest.loginDDingDDangYGPC.executor": "Run",
-    "TestNG.LoginZCTest.test.executor": "Run",
-    "TestNG.LogoutTest.executor": "Run",
-    "TestNG.LogoutTest.loginDDingDDangHR (1).executor": "Run",
-    "TestNG.LogoutTest.loginDDingDDangHR.executor": "Run",
-    "TestNG.MembershipCardTest.executor": "Run",
-    "TestNG.MembershipCardTest.getImageCodeTest (1).executor": "Run",
-    "TestNG.MembershipCardTest.getImageCodeTest (2).executor": "Run",
-    "TestNG.MembershipCardTest.getImageCodeTest (3).executor": "Run",
-    "TestNG.MembershipCardTest.getImageCodeTest (4).executor": "Run",
-    "TestNG.MembershipCardTest.getImageCodeTest.executor": "Debug",
-    "TestNG.MembershipCardTest.getSmsCode (1).executor": "Run",
-    "TestNG.MembershipCardTest.getSmsCode (2).executor": "Run",
-    "TestNG.MembershipCardTest.getSmsCode (3).executor": "Run",
-    "TestNG.MembershipCardTest.getSmsCode (4).executor": "Run",
-    "TestNG.MembershipCardTest.getSmsCode.executor": "Run",
-    "TestNG.MembershipCardTest.queryCardVerifyNumber.executor": "Run",
-    "TestNG.MembershipCardTest.smsCodeCheckTest.executor": "Run",
-    "TestNG.MembershipCardTest.tes1t.executor": "Run",
-    "TestNG.MembershipCardTest.test (1).executor": "Run",
-    "TestNG.MembershipCardTest.test (2).executor": "Run",
-    "TestNG.MembershipCardTest.test.executor": "Run",
-    "TestNG.NoOrderSkuTest.executor": "Run",
-    "TestNG.NoTradingVolumeTest (1).executor": "Run",
-    "TestNG.NoTradingVolumeTest (2).executor": "Run",
-    "TestNG.NoTradingVolumeTest.executor": "Run",
-    "TestNG.NoTradingVolumeTest.queryNoOrderSku.executor": "Run",
-    "TestNG.PlatformSupplierSkuUpdatePriceTest.executor": "Run",
-    "TestNG.PlatformSupplierSkuUpdatePriceTest.testNormalUpdatePrice.executor": "Run",
-    "TestNG.PriceCalculator.GoodsImport (1).executor": "Run",
-    "TestNG.PriceCalculator.GoodsImport (2).executor": "Run",
-    "TestNG.PriceCalculator.GoodsImport.executor": "Run",
-    "TestNG.PriceCalculator.executor": "Run",
-    "TestNG.PurchaseProducts (1).executor": "Run",
-    "TestNG.PurchaseProducts.checkMallEmployeePoints.executor": "Run",
-    "TestNG.PurchaseProducts.checkPoints (1).executor": "Run",
-    "TestNG.PurchaseProducts.checkPoints (2).executor": "Run",
-    "TestNG.PurchaseProducts.checkPoints (3).executor": "Run",
-    "TestNG.PurchaseProducts.checkPoints (4).executor": "Run",
-    "TestNG.PurchaseProducts.checkPoints (5).executor": "Run",
-    "TestNG.PurchaseProducts.checkPoints.executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (1).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (2).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (3).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (4).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints (5).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiEmployeePoints.executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (1).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (2).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (3).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (4).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5).executor": "Run",
-    "TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints.executor": "Run",
-    "TestNG.PurchaseProducts.executor": "Run",
-    "TestNG.PurchaseProducts.purchaseGoods.executor": "Run",
-    "TestNG.PurchaseProducts.recycleRecord (1).executor": "Run",
-    "TestNG.PurchaseProducts.recycleRecord (2).executor": "Run",
-    "TestNG.PurchaseProducts.recycleRecord (3).executor": "Run",
-    "TestNG.PurchaseProducts.recycleRecord (4).executor": "Run",
-    "TestNG.PurchaseProducts.recycleRecord.executor": "Debug",
-    "TestNG.PurchaseProducts.sendEmployeePoints (1).executor": "Run",
-    "TestNG.PurchaseProducts.sendEmployeePoints (2).executor": "Run",
-    "TestNG.PurchaseProducts.sendEmployeePoints (3).executor": "Run",
-    "TestNG.PurchaseProducts.sendEmployeePoints (4).executor": "Run",
-    "TestNG.PurchaseProducts.sendEmployeePoints.executor": "Run",
-    "TestNG.PurchaseProducts.supplierOrderDelivery.executor": "Run",
-    "TestNG.PurchaseProducts.test (1).executor": "Run",
-    "TestNG.PurchaseProducts.test (2).executor": "Run",
-    "TestNG.PurchaseProducts.test (3).executor": "Run",
-    "TestNG.PurchaseProducts.test (4).executor": "Run",
-    "TestNG.PurchaseProducts.test.executor": "Run",
-    "TestNG.PurchaseProducts.test1.executor": "Run",
-    "TestNG.PurchaseProductsTool (1).executor": "Run",
-    "TestNG.PurchaseProductsTool (2).executor": "Run",
-    "TestNG.PurchaseProductsTool (3).executor": "Run",
-    "TestNG.PurchaseProductsTool (4).executor": "Run",
-    "TestNG.PurchaseProductsTool (5).executor": "Run",
-    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (1).executor": "Run",
-    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (2).executor": "Run",
-    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (3).executor": "Run",
-    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (4).executor": "Run",
-    "TestNG.PurchaseProductsTool.SupplierOrderDelivery (5).executor": "Run",
-    "TestNG.PurchaseProductsTool.SupplierOrderDelivery.executor": "Run",
-    "TestNG.PurchaseProductsTool.addShoppingCart.executor": "Run",
-    "TestNG.PurchaseProductsTool.executor": "Run",
-    "TestNG.PurchaseProductsTool.purchaseGoods (1).executor": "Run",
-    "TestNG.PurchaseProductsTool.purchaseGoods (2).executor": "Run",
-    "TestNG.PurchaseProductsTool.purchaseGoods.executor": "Run",
-    "TestNG.PurchaseProductsTool.supplierOrderDelivery.executor": "Run",
-    "TestNG.PurchaseProductsTool.test (1).executor": "Run",
-    "TestNG.PurchaseProductsTool.test.executor": "Run",
-    "TestNG.PurchaseProductsTool.testDataProvider.executor": "Run",
-    "TestNG.PurchaseProductsTool.testMethod (1).executor": "Run",
-    "TestNG.PurchaseProductsTool.testMethod.executor": "Run",
-    "TestNG.PurchaseProductsTool.testUserData (1).executor": "Run",
-    "TestNG.PurchaseProductsTool.testUserData.executor": "Run",
-    "TestNG.PurchaseTest.addShoppingCart (1).executor": "Run",
-    "TestNG.PurchaseTest.addShoppingCart (2).executor": "Run",
-    "TestNG.PurchaseTest.addShoppingCart (3).executor": "Run",
-    "TestNG.PurchaseTest.addShoppingCart.executor": "Run",
-    "TestNG.RefundManagementTest.aa.executor": "Run",
-    "TestNG.RefundManagementTest.opRefundList.executor": "Run",
-    "TestNG.RefundManagementTest.test.executor": "Run",
-    "TestNG.RefundManagementTest.test02 (1).executor": "Run",
-    "TestNG.RefundManagementTest.test02 (2).executor": "Run",
-    "TestNG.RefundManagementTest.test02.executor": "Run",
-    "TestNG.RefundTest.executor": "Run",
-    "TestNG.RefundTest.fuliPlatformSkuExchange.executor": "Run",
-    "TestNG.RefundTest.fuliPlatformSkuReturnRefund.executor": "Run",
-    "TestNG.RefundTest.fuliPlatformSupplierOrderDelivery.executor": "Run",
-    "TestNG.RefundTest.test (1).executor": "Run",
-    "TestNG.RefundTest.test.executor": "Run",
-    "TestNG.RefundTest.test02 (1).executor": "Run",
-    "TestNG.RefundTest.test02 (2).executor": "Run",
-    "TestNG.RefundTest.test02 (3).executor": "Run",
-    "TestNG.RefundTest.test02 (4).executor": "Run",
-    "TestNG.RefundTest.test02 (5).executor": "Run",
-    "TestNG.RefundTest.test02.executor": "Run",
-    "TestNG.SelfSupplierSkuUpdatePriceTest.executor": "Run",
-    "TestNG.StressTest.purchaseGoods (1).executor": "Run",
-    "TestNG.StressTest.purchaseGoods (2).executor": "Run",
-    "TestNG.StressTest.purchaseGoods.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testCostPriceMarkup.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testGrossProfitMarginDiscount.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testGuidedPriceDiscount.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testGuidedPriceReduction.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testImmediateEffective.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testIntegerPrice.executor": "Run",
-    "TestNG.SupplierSkuUpdatePriceTest.testNormalUpdatePrice.executor": "Run",
-    "TestNG.SupplierSkuUpdateStateTest.executor": "Run",
-    "TestNG.SupplierSkuUpdateStateTest.testNormalOffShelf.executor": "Run",
-    "TestNG.SupplierSkuUpdateStateTest.testNormalOnShelf.executor": "Run",
-    "TestNG.SupplierSkuUpdateStockTest.executor": "Run",
-    "TestNG.Testweeks.addProduct (1).executor": "Run",
-    "TestNG.Testweeks.addProduct.executor": "Run",
-    "TestNG.Testweeks.test (1).executor": "Run",
-    "TestNG.Testweeks.test (2).executor": "Run",
-    "TestNG.Testweeks.test (3).executor": "Run",
-    "TestNG.Testweeks.test (4).executor": "Run",
-    "TestNG.Testweeks.test (5).executor": "Run",
-    "TestNG.Testweeks.test.executor": "Run",
-    "TestNG.Testweeks.test02 (1).executor": "Run",
-    "TestNG.Testweeks.test02 (2).executor": "Run",
-    "TestNG.Testweeks.test02 (3).executor": "Run",
-    "TestNG.Testweeks.test02 (4).executor": "Run",
-    "TestNG.Testweeks.test02.executor": "Run",
-    "TestNG.Testweeks.testAddProduct.executor": "Run",
-    "TestNG.Testweeks.testLoginAndGetToken (1).executor": "Run",
-    "TestNG.Testweeks.testLoginAndGetToken (2).executor": "Run",
-    "TestNG.Testweeks.testLoginAndGetToken (3).executor": "Run",
-    "TestNG.Testweeks.testLoginAndGetToken (4).executor": "Run",
-    "TestNG.Testweeks.testLoginAndGetToken.executor": "Run",
-    "TestNG.Testweeks.testMethod.executor": "Run",
-    "TestNG.Testweeks.testUserData (1).executor": "Run",
-    "TestNG.Testweeks.testUserData (2).executor": "Run",
-    "TestNG.Testweeks.testUserData (3).executor": "Run",
-    "TestNG.Testweeks.testUserData.executor": "Run",
-    "TestNG.VoucherTest (1).executor": "Run",
-    "TestNG.VoucherTest.addVoucher.executor": "Run",
-    "TestNG.VoucherTest.executor": "Run",
-    "TestNG.VoucherTest.test.executor": "Run",
-    "TestNG.VoucherTest.test01.executor": "Run",
-    "TestNG.VoucherTest.tets.executor": "Run",
-    "TestNG.VoucherTest.voucherSales.executor": "Run",
-    "TestNG.VoucherTest.voucherSalesList.executor": "Run",
-    "TestNG.VoucherTest.vouchersList.executor": "Run",
-    "TestNG.VoucherTest.vouchersSaleItemsId.executor": "Run",
-    "TestNG.loginTest.loginYolocast (1).executor": "Run",
-    "TestNG.loginTest.loginYolocast.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28275862",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AccessToken.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccessTokenClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Base64ImageDecoder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaptchaRecognizer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DailyRecipeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DingTalkRobotUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImageDownloader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImageSizeCheckerAndRenamer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriceCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PurchaseProductsTool.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueryExpressTrack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomRecipes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SendResultToDingtalk.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testweeks.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.interface-autotest [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.interface-autotest [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.interface-autotest [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/zhangshichao/Downloads/dddd-autotest/interface-autotest/src/main/resources/suite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ActivityTest.createEvent.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ActivityTest.getScheduleEventsList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.addAddress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.addEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.addressLst.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.employeesList (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.employeesList (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.employeesList (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.employeesList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.jumpMall (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.jumpMall (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.jumpMall (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.jumpMall.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddEmployeesJumpMall.loginMall.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.addProduct (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.addProduct.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.getSkuList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.getSpuList (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.getSpuList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.testAddProduct.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.update.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.updateSkuState.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.updateSpuState (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.updateSpuState.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductTest.updateState.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.approvalList (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.approvalList (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.approvalList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.approvalPendingList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.processHandle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.selfSupplierAdd.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.selfSupplierApply.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.selfSupplierLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.submitApproval (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.submitApproval.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApprovalTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.addEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.employeesList (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.employeesList (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.employeesList (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.employeesList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.importEmployeesJumpAmall.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.setEmployeeLoginName (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.setEmployeeLoginName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BatchImportEmployeeJumpLogin.setUp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrandTest.testAddProduct.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CaptchaRecognitionTest.testCaptchaRecognition (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CaptchaRecognitionTest.testCaptchaRecognition.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CounterPaymentTest.createOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CounterPaymentTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CounterPaymentTest.getCodeInfoTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CounterPaymentTest.getCredit.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CounterPaymentTest.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CounterPaymentTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCardsTest.CardDeliverTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCardsTest.CreateCardTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCardsTest.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCardsTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest.testAdminLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest.testEmptyParams.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest.testGetSupplierList (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest.testGetSupplierList (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CursorTest.testGetSupplierList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EmployeeIntegral.recycleIntegral (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EmployeeIntegral.recycleIntegral (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EmployeeIntegral.recycleIntegral.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EmployeeVoucherTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EmployeeVoucherTest.voucherCardList (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EmployeeVoucherTest.voucherCardList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EnterpriseSelfsupplierTest.EnterpriseSelfsupplierLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EnterpriseSelfsupplierTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EnterpriseSelfsupplierTest.selfSupplierApply.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EnterpriseSelfsupplierTest.selfSupplierDelete.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ImageDownloader.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ImageDownloader.imageDownloadeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ImageDownloader.imageDownloadeTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ImageDownloader.imageDownloadeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ImageDownloader.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ImageDownloader.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginZCTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginZCTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginZCTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginZCTest.loginDDingDDangHR.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginZCTest.loginDDingDDangYGPC.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginZCTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogoutTest.loginDDingDDangHR (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogoutTest.loginDDingDDangHR.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getImageCodeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getImageCodeTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getImageCodeTest (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getImageCodeTest (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getImageCodeTest.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.MembershipCardTest.getSmsCode (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getSmsCode (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getSmsCode (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getSmsCode (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.getSmsCode.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.queryCardVerifyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.smsCodeCheckTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.tes1t.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MembershipCardTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoOrderSkuTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoTradingVolumeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoTradingVolumeTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoTradingVolumeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoTradingVolumeTest.queryNoOrderSku.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PlatformSupplierSkuUpdatePriceTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PlatformSupplierSkuUpdatePriceTest.testNormalUpdatePrice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriceCalculator.GoodsImport (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriceCalculator.GoodsImport (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriceCalculator.GoodsImport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriceCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkMallEmployeePoints.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkPoints (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkPoints (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkPoints (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkPoints (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkPoints (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkPoints.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiEmployeePoints.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.checkZhicaiPCEmployeePoints.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.purchaseGoods.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.recycleRecord (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.recycleRecord (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.recycleRecord (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.recycleRecord (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.recycleRecord.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.PurchaseProducts.sendEmployeePoints (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.sendEmployeePoints (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.sendEmployeePoints (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.sendEmployeePoints (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.sendEmployeePoints.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.supplierOrderDelivery.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.test (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.test (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProducts.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.SupplierOrderDelivery.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.addShoppingCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.purchaseGoods (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.purchaseGoods (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.purchaseGoods.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.supplierOrderDelivery.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.testDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.testMethod (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.testUserData (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseProductsTool.testUserData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseTest.addShoppingCart (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseTest.addShoppingCart (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseTest.addShoppingCart (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PurchaseTest.addShoppingCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundManagementTest.aa.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundManagementTest.opRefundList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundManagementTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundManagementTest.test02 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundManagementTest.test02 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundManagementTest.test02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.fuliPlatformSkuExchange.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.fuliPlatformSkuReturnRefund.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.fuliPlatformSupplierOrderDelivery.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test02 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test02 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test02 (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test02 (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test02 (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RefundTest.test02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelfSupplierSkuUpdatePriceTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StressTest.purchaseGoods (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StressTest.purchaseGoods (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StressTest.purchaseGoods.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testCostPriceMarkup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testGrossProfitMarginDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testGuidedPriceDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testGuidedPriceReduction.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testImmediateEffective.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testIntegerPrice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdatePriceTest.testNormalUpdatePrice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdateStateTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdateStateTest.testNormalOffShelf.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdateStateTest.testNormalOnShelf.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupplierSkuUpdateStockTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.addProduct (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.addProduct.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test02 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test02 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test02 (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test02 (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.test02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testAddProduct.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testLoginAndGetToken (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testLoginAndGetToken (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testLoginAndGetToken (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testLoginAndGetToken (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testLoginAndGetToken.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testUserData (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testUserData (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testUserData (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testweeks.testUserData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.addVoucher.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.test01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.tets.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.voucherSales.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.voucherSalesList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.vouchersList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VoucherTest.vouchersSaleItemsId.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.loginTest.loginYolocast (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.loginTest.loginYolocast.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28275862&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources" />
@@ -1341,7 +600,8 @@
       <workItem from="1765263660570" duration="350000" />
       <workItem from="1765264172177" duration="7308000" />
       <workItem from="1765273420384" duration="254000" />
-      <workItem from="1765273696411" duration="32815000" />
+      <workItem from="1765273696411" duration="32931000" />
+      <workItem from="1765415146703" duration="1225000" />
     </task>
     <servers />
   </component>

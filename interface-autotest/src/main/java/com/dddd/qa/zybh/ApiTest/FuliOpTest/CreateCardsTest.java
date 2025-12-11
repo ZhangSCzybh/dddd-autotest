@@ -76,7 +76,7 @@ public class CreateCardsTest {
         String createUrl1 = OpUrl + "/admin/cards/verify/orders/" + saleOrderId;
         headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String result1 = HttpUtil.createPost(createUrl1).addHeaders(headers).body(body1).execute().body();
-        System.out.println(result1);
+        System.out.println("审批通过" +result1);
     }
 
     @Test(dependsOnMethods = "CardApprovalTest", description = "会员卡制卡-入库-发放")
@@ -98,7 +98,7 @@ public class CreateCardsTest {
             String createUrl4 = OpUrl + "/admin/cards/batches/" + batchId + "/making";
             headers.put("fuli-cache", Common.fuliOperationPlatformToken);
             String result4 = HttpUtil.createGet(createUrl4).addHeaders(headers).form(body4).execute().body();
-            System.out.println(result4);
+            System.out.println("制卡结果:" + result4);
 
             //会员卡入库
             JSONObject param3 = JSONUtil.createObj();

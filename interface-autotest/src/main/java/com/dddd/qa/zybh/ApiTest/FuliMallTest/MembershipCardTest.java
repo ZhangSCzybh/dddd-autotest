@@ -30,7 +30,7 @@ import java.util.Map;
  * @date 2025年12月10日 11:22:45
  * @packageName com.dddd.qa.zybh.ApiTest.FuliMallTest
  * @className MembershipCardTest
- * @describe TODO 只需要传一个会员卡卡密
+ * @describe 只需要传一个会员卡卡密 pre环境测试
  */
 public class MembershipCardTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
@@ -39,7 +39,6 @@ public class MembershipCardTest {
 
     private static final String MallUrl="https://serverpre.lixiangshop.com";
     private static String imageCode;
-    private static String codeKey;
     private static String smsCode;
     private static final int TIMEOUT_MINUTES = 2;
 
@@ -54,7 +53,7 @@ public class MembershipCardTest {
                     .execute()
                     .body();
             JSONObject jsonResult = new JSONObject(result);
-            codeKey = (new JSONObject(jsonResult.get("result")).get("codeKey")).toString();
+            String codeKey = (new JSONObject(jsonResult.get("result")).get("codeKey")).toString();
             String base64Image = (new JSONObject(jsonResult.get("result")).get("base64Image")).toString();
             logger.info("获取到codeKey:{}", codeKey);
             logger.info("获取到base64Image:{}", base64Image);

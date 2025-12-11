@@ -26,7 +26,7 @@ import static com.dddd.qa.zybh.ApiTest.FuliMallTest.AccessTokenClient.fetchAcces
  * @date 2025年10月24日 16:11:07
  * @packageName com.dddd.qa.zybh.ApiTest.FuliMallTest
  * @className CounterPaymentTest
- * @describe TODO
+ * @describe
  */
 public class CounterPaymentTest {
 

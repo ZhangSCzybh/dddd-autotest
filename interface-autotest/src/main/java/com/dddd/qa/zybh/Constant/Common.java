@@ -99,7 +99,8 @@ public class Common {
     public static String supplierToken;//供应商平台
     public static String FuliHrToken;//福粒Hr平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
-    //TODO
+
+
     public static String mallToken; //商城再也不会17858803001员工token
     public static String jumpMallToken1;//智采员工pc跳商城
     public static String jumpMallToken2;//智采员工pc跳商城

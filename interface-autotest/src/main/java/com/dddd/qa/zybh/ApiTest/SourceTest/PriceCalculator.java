@@ -5,7 +5,7 @@ package com.dddd.qa.zybh.ApiTest.SourceTest;
  * @date 2025年09月22日 15:12:32
  * @packageName com.dddd.qa.zybh.others
  * @className PriceCalculator
- * @describe TODO
+ * @describe dev环境测试
  */
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;

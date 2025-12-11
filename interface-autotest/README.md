@@ -127,3 +127,4 @@ public static String privateDingtalkUrl = STATIC_PROPERTIES.getProperty("private
 - 在使用生产环境配置时请谨慎操作，避免影响线上业务
 - 运行测试前请确认配置文件中的参数是否正确
 - 使用敏感接口测试时，建议使用测试账号和测试数据 
+- BatchImportEmployeeJumpLogin、CursorTest、CreateCardsTest、MembershipCardTest使用test环境数据

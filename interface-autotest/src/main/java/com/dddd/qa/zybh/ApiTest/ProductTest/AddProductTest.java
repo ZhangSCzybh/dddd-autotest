@@ -19,7 +19,7 @@ import java.util.Map;
  * @author zhangsc
  * @date 2024年07月30日 15:47:35
  * @className AddProductTest
- * @describe //todo 修改供应商id和名称
+ * @describe 修改供应商id和名称
  */
 public class AddProductTest {
 

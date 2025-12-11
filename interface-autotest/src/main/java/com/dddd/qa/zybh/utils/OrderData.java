@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2024年07月17日 14:30:45
  * @packageName com.dddd.qa.zybh.utils
  * @className OrderData
- * @describe TODO
+ * @describe 好像没用了。。。
  */
 public class OrderData {
     private long number;

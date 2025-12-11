@@ -7,7 +7,7 @@ import java.util.List;
  * @date 2024年07月17日 14:31:15
  * @packageName com.dddd.qa.zybh.utils
  * @className ResponseData
- * @describe TODO
+ * @describe 这也好像没用到了。。。
  */
 public class ResponseData {
     private int code;

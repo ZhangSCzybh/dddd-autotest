@@ -1430,19 +1430,4 @@ public class DateUtil {
         boolean isUpperCase = random.nextBoolean(); // 随机决定是否大写
         return (char) (isUpperCase ? 'A' + random.nextInt(26) : 'a' + random.nextInt(26));
     }
-    public static void main(String[] args) {
-        try {
-            Date date = DateUtil.getSubDaysTime(1.5);
-            System.out.println(System.currentTimeMillis());
-            System.out.println(getPreviousWeekDate(-1));
-            System.out.println(date.getTime());
-            System.out.println(getPreviousDateTime(0));
-            LocalDateTime time = SetLocalDateTime(LocalDate.now(), 16, 59, 40);
-            System.out.println(time);
-            System.out.println(RandomSixDigit());
-        } catch (Exception e) {
-            // TODO: handle exception
-        }
-
-    }
 }

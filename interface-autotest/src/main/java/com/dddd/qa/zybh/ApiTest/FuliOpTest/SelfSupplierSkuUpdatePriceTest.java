@@ -23,7 +23,7 @@ import java.util.HashMap;
  * @date 2025年10月17日 10:02:01
  * @packageName com.dddd.qa.zybh.ApiTest.FuliOpTest
  * @className SelfSupplierSkuUpdatePriceTest
- * @describe TODO
+ * @describe
  */
 public class SelfSupplierSkuUpdatePriceTest {
 

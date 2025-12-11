@@ -22,7 +22,7 @@ import java.util.HashMap;
  * @date 2025年12月10日 16:21:50
  * @packageName com.dddd.qa.zybh.ApiTest.FuliOpTest
  * @className CreateCardsTest
- * @describe TODO  getAllCases需要换成生产环境的参数
+ * @describe getAllCases需要换成生产环境的参数
  */
 public class CreateCardsTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);

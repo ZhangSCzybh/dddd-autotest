@@ -12,7 +12,7 @@ import java.util.List;
  * @date 2025年08月15日 21:50:56
  * @packageName com.dddd.qa.zybh.Constant
  * @className RepeatTestInterceptor
- * @describe TODO
+ * @describe 重试机制，未使用
  */
 public class RepeatTestInterceptor implements IMethodInterceptor {
 

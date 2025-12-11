@@ -45,7 +45,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
         </classes>
     </test>
-    <test name ="Cursor">
+    <test name ="CursorPre">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>
@@ -55,7 +55,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
         </classes>
     </test>
-    <test name = "JumpLoginMall">
+    <test name = "JumpLoginMallPre">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
         </classes>
@@ -74,6 +74,12 @@
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.BrandTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.BrandReviewTest"/>
+        </classes>
+    </test>
+    <test name="CardsPre">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
         </classes>
     </test>
     <test name ="Voucher">

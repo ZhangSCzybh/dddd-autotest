@@ -55,7 +55,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
         </classes>
     </test>
-    <test name = "JumpLoginMallDev">
+    <test name = "JumpLoginMallPre">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
         </classes>

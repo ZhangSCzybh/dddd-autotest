@@ -37,6 +37,8 @@ public class Common {
 
     //jenkins绝对路径
     public static String jenkinsUrl = STATIC_PROPERTIES.getProperty("jenkins.url");
+    //数据库地址
+    public static String SqlUrl = STATIC_PROPERTIES.getProperty("url");
 
     //智采企业hr
     public static String zhicaiHrUrl = STATIC_PROPERTIES.getProperty("zhicai.hr.url");
@@ -63,6 +65,7 @@ public class Common {
     public static String loginDDingDDangYGPCInfo = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info");
     public static String loginOPInfo = STATIC_PROPERTIES.getProperty("login.op.info");
     public static String loginSupplierInfo = STATIC_PROPERTIES.getProperty("login.supplier.info");
+    public static String loginHrInfo = STATIC_PROPERTIES.getProperty("login.hr.info");
 
     //员工pc账号密码
     public static String loginDDingDDangYGPCInfo1 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info1");

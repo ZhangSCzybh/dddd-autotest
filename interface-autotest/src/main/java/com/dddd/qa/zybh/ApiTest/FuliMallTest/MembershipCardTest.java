@@ -4,10 +4,9 @@ import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
-import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.CommonUtil;
 import com.dddd.qa.zybh.Constant.Config;
-import com.dddd.qa.zybh.utils.JdbcUtil;
+import com.dddd.qa.zybh.utils.JDBCUtil;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.slf4j.Logger;
@@ -23,7 +22,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.Base64;
 import java.util.HashMap;
-import java.util.Map;
+
 
 /**
  * @author zhangsc
@@ -37,13 +36,13 @@ public class MembershipCardTest {
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "会员卡领取";
 
-    private static final String MallUrl="https://serverpre.lixiangshop.com";
+    private static final String MallUrl = "https://serverpre.lixiangshop.com";
     private static String imageCode;
     private static String smsCode;
     private static final int TIMEOUT_MINUTES = 2;
 
     @Test(dependsOnMethods = "com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest.CardDeliverTest", description = "识别图形验证码，获取imagecode和smscode")
-    public void ImageCodeTest() throws SQLException {
+    public void ImageCodeTest(){
         Instant startTime = Instant.now(); // 记录开始时间
         boolean found = false; // 标记是否找到目标值
         while (Duration.between(startTime, Instant.now()).toMinutes() < TIMEOUT_MINUTES) {
@@ -89,7 +88,7 @@ public class MembershipCardTest {
             JSONObject param1 = JSONUtil.createObj();
             param1.put("codeKey", codeKey);
             param1.put("imageCode", imageCode);
-            param1.put("verifyNumber",  getCardVerifyNumber(Config.cardNumber));
+            param1.put("verifyNumber", getCardVerifyNumber(Config.cardNumber));
             param1.put("mobile", "17858800001");
             String body1 = param1.toString();
             String createUrl1 = MallUrl + "/enterprise/cards/smscode";
@@ -122,14 +121,14 @@ public class MembershipCardTest {
     }
 
 
-    @Test(dependsOnMethods = "ImageCodeTest",description = "登录商城领取会员卡积分")
-    public void smsCodeCheckTest() throws SQLException {
+    @Test(dependsOnMethods = "ImageCodeTest", description = "登录商城领取会员卡积分")
+    public void smsCodeCheckTest(){
         JSONObject param2 = JSONUtil.createObj();
-        param2.put("verifyNumber",  getCardVerifyNumber(Config.cardNumber));
+        param2.put("verifyNumber", getCardVerifyNumber(Config.cardNumber));
         param2.put("mobile", "17858800001");
         param2.put("smsCode", smsCode);
-        String body2 =param2.toString();
-        String createUrl2 = MallUrl+"/enterprise/cards/smsCodeCheck";
+        String body2 = param2.toString();
+        String createUrl2 = MallUrl + "/enterprise/cards/smsCodeCheck";
         String result2 = HttpUtil.createPost(createUrl2).addHeaders(headers).body(body2).execute().body();
         JSONObject jsonresult2 = new JSONObject(result2);
         System.out.println(jsonresult2);
@@ -139,7 +138,7 @@ public class MembershipCardTest {
 
 
     //无干扰项的字母数字图片验证码识别
-    public static String baseVerCode(String dataPath,String picturePath){
+    public static String baseVerCode(String dataPath, String picturePath) {
         String result = null;
         Tesseract tesseract = new Tesseract();
         tesseract.setVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz");
@@ -153,34 +152,57 @@ public class MembershipCardTest {
         } catch (TesseractException e) {
             e.printStackTrace();
         }
-        return  result;
+        return result;
     }
 
     //JDBC连接数据库通过卡号获取卡密
-    public static Object getCardVerifyNumber(String cardNumber) throws SQLException {
-        Connection conn = JdbcUtil.getConn();
+    public static String getCardVerifyNumber(String cardNumber) { // 移除了不必要的 throws SQLException，因为内部处理了
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
         String verifyNumber = null;
         try {
-            // 不自动提交
-            conn.setAutoCommit(false);
-            String sql_selete = "SELECT fulitemp.card_storage.verify_number FROM fulitemp.card_storage WHERE fulitemp.card_storage.card_number = ?";
+            conn = JDBCUtil.getConn(); // 使用工具类获取连接
+            if (conn != null) {
+                conn.setAutoCommit(false); // 开启事务
 
-            // 1. 使用PreparedStatement而不是Statement
-            PreparedStatement pstmt = conn.prepareStatement(sql_selete);
-            // 2. 使用setString设置参数值，第一个参数是1（不是0）
-            pstmt.setString(1, cardNumber);
+                String sql_select = "SELECT verify_number FROM fulitemp.card_storage WHERE card_number = ?";
+                pstmt = conn.prepareStatement(sql_select);
+                pstmt.setString(1, cardNumber); // 设置参数
 
-            ResultSet rs = pstmt.executeQuery();
-            if (rs.next()) {
-                verifyNumber = rs.getString("verify_number");
-                System.out.println("查询结果卡密: " + verifyNumber);
+                rs = pstmt.executeQuery();
+
+                if (rs.next()) {
+                    verifyNumber = rs.getString("verify_number");
+                    System.out.println("查询结果卡密: " + verifyNumber);
+                }
+
+                conn.commit(); // 提交事务 (如果没有修改数据，这步可省略或放在最后)
+
+            } else {
+                System.err.println("未能获取到数据库连接");
             }
-        } catch (Exception e) {
+
+        } catch (SQLException e) {
             e.printStackTrace();
-            conn.rollback();
+            System.err.println("数据库操作出错: " + e.getMessage());
+            if (conn != null) {
+                try {
+                    conn.rollback(); // 回滚事务
+                    System.out.println("事务已回滚");
+                } catch (SQLException rollbackEx) {
+                    System.err.println("回滚事务时出错: " + rollbackEx.getMessage());
+                    rollbackEx.printStackTrace();
+                }
+            }
+        } finally {
+            // 使用工具类关闭所有资源
+            JDBCUtil.closeResource(rs, pstmt, conn);
         }
         return verifyNumber;
     }
+
 }
 
 

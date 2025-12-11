@@ -6,6 +6,7 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.DateUtil;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
 import com.dddd.qa.zybh.utils.LoginUtil;
@@ -29,7 +30,7 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
  * @date 2025年08月16日 08:10:54
  * @packageName com.dddd.qa.zybh.ApiTest.SourceTest
  * @className BatchImportEmployeeJumpLogin
- * @describe TODO 批量创建员工，获取商城token。不同环境福粒HR平台的账号密码 ,Count员工数量,MallUrl目前是福粒的，福粒employee-cache ,filePath需要替换
+ * @describe TODO 批量创建员工，获取商城token。不同环境福粒HR平台的账号密码 ,Count员工数量,HrUrl、MallUrl,loginName、password需要替换
  */
 public class BatchImportEmployeeJumpLogin {
 
@@ -38,22 +39,19 @@ public class BatchImportEmployeeJumpLogin {
     private static final HashMap<String, String> headers2 =new HashMap<>();
     private static final HashMap<String, String> headers3 =new HashMap<>();
 
-    private static final String HrUrl= "https://backdev.lixiangshop.com";//不同环境修改此处
-    private static final String MallUrl= "https://serverdev.lixiangshop.com";//不同环境修改此处
+    private static final String HrUrl= "https://backpre.lixiangshop.com";//不同环境修改此处
+    private static final String MallUrl= "https://serverpre.lixiangshop.com";//不同环境修改此处
 
     private static final String addressInfo = "dddd/addressInfo";
     private static String employeeLoginName;
-    private static final String password= "addzaiyebuhui";
+    private static final String password= "addzaiyebuhui"+ Config.NowYmd;
     private static final int Count= 5;//员工数量
-
-
-
 
 
     @BeforeClass
     public static void setUp() {
         JSONObject json = new JSONObject();
-        json.put("loginName", "1236");//不同环境修改此处
+        json.put("loginName", "1193");//不同环境修改此处
         json.put("password", "123456");//不同环境修改此处
         String Info = json.toString();
         Common.FuliHrToken = LoginUtil.loginFuliHrToken( HrUrl +"/enterpriseadmin/account/login" , Info);
@@ -130,7 +128,7 @@ public class BatchImportEmployeeJumpLogin {
                 // 使用 try-with-resources 自动关闭资源，并启用追加模式
                 try (FileWriter writer = new FileWriter(filePath, true)) {
                     // 写入格式为 "employeeName,loginName" 的字符串，并换行
-                    writer.write(loginMallToken + "\n");
+                    writer.write(loginMallToken + ","+ addressId + "\n");
                     System.out.println("数据已成功追加写入文件：" + filePath);
                 } catch (IOException e) {
                     // 捕获并处理写入文件时可能发生的异常
@@ -181,6 +179,5 @@ public class BatchImportEmployeeJumpLogin {
         }
         return null;
     }
-
 
 }

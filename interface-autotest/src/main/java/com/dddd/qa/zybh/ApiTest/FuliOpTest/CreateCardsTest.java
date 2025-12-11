@@ -49,9 +49,11 @@ public class CreateCardsTest {
         String createUrl = OpUrl+"/admin/cards/sale/orders";
         headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
+        System.out.println(result);
         JSONObject jsonresult = new JSONObject(result);
         //校验接口可行性
         CommonUtil.assertAvailable(jsonresult, body, createUrl, Config.FuliYunYingPro, scene);
+        logger.info("创建会员卡成功");
     }
 
     @Test(dependsOnMethods = "CreateCardTest",description = "会员卡审批")
@@ -67,7 +69,7 @@ public class CreateCardsTest {
         JSONObject jsonresult = new JSONObject(result);
         String saleOrderId = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(0))).get("saleOrderId").toString();
         customerId = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("list"))).get(0))).get("customerId").toString();
-        System.out.println("需要审批的会员卡编号" + saleOrderId);
+        logger.info("需要审批的会员卡编号saleOrderId:{}", saleOrderId);
 
         //审批通过
         JSONObject param1 = JSONUtil.createObj();
@@ -76,7 +78,7 @@ public class CreateCardsTest {
         String createUrl1 = OpUrl + "/admin/cards/verify/orders/" + saleOrderId;
         headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String result1 = HttpUtil.createPost(createUrl1).addHeaders(headers).body(body1).execute().body();
-        System.out.println("审批通过" +result1);
+        logger.info("审批通过:{}", result1);
     }
 
     @Test(dependsOnMethods = "CardApprovalTest", description = "会员卡制卡-入库-发放")
@@ -99,6 +101,7 @@ public class CreateCardsTest {
             headers.put("fuli-cache", Common.fuliOperationPlatformToken);
             String result4 = HttpUtil.createGet(createUrl4).addHeaders(headers).form(body4).execute().body();
             System.out.println("制卡结果:" + result4);
+            logger.info("制卡成功");
 
             //会员卡入库
             JSONObject param3 = JSONUtil.createObj();
@@ -106,7 +109,7 @@ public class CreateCardsTest {
             String createUrl3 = OpUrl + "/admin/cards/batches/" + batchId + "/store";
             headers.put("fuli-cache", Common.fuliOperationPlatformToken);
             String result3 = HttpUtil.createGet(createUrl3).addHeaders(headers).form(body3).execute().body();
-            System.out.println(result3);
+            logger.info("入库成功:{}", result3);
 
             //会员卡发放
             JSONObject param5 = JSONUtil.createObj();
@@ -114,10 +117,9 @@ public class CreateCardsTest {
             String createUrl5 = OpUrl + "/admin/cards/batches/" + batchId + "/deliver";
             headers.put("fuli-cache", Common.fuliOperationPlatformToken);
             String result5 = HttpUtil.createGet(createUrl5).addHeaders(headers).form(body5).execute().body();
-            System.out.println(result5);
+            logger.info("发放成功:{}", result5);
 
             //查看会员卡卡号
-            //会员卡发放
             JSONObject param6 = JSONUtil.createObj();
             param6.put("page", 1);
             param6.put("pageSize", 10);

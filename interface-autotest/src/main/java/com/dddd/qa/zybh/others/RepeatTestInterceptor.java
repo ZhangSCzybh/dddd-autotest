@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.Constant;
+package com.dddd.qa.zybh.others;
 
 
 import org.testng.IMethodInstance;

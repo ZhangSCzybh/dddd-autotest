@@ -21,6 +21,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.*;
 
+import static com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest.getCardVerifyNumber;
+
 
 /**
  * @author zhangsc
@@ -69,6 +71,8 @@ public class Testweeks {
         // 登录获取token
         Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
         logger.info("执行登录获取供应商平台的token：" + Common.supplierToken);
+
+        getCardVerifyNumber("10002070000101000005");
     }
 
 

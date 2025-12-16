@@ -29,7 +29,7 @@ import java.util.HashMap;
  * @date 2025年12月10日 11:22:45
  * @packageName com.dddd.qa.zybh.ApiTest.FuliMallTest
  * @className MembershipCardTest
- * @describe 只需要传一个会员卡卡密 pre环境测试
+ * @describe 只需要传一个会员卡卡密 pre环境测试 切库的话需要替换创建会员卡企业
  */
 public class MembershipCardTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
@@ -37,12 +37,15 @@ public class MembershipCardTest {
     private static final String scene = "会员卡领取";
 
     private static final String MallUrl = "https://serverpre.lixiangshop.com";
+    private static String verifyNumber;
     private static String imageCode;
     private static String smsCode;
     private static final int TIMEOUT_MINUTES = 2;
 
     @Test(dependsOnMethods = "com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest.CardDeliverTest", description = "识别图形验证码，获取imagecode和smscode")
     public void ImageCodeTest(){
+        verifyNumber = getCardVerifyNumber(Config.cardNumber);
+
         Instant startTime = Instant.now(); // 记录开始时间
         boolean found = false; // 标记是否找到目标值
         while (Duration.between(startTime, Instant.now()).toMinutes() < TIMEOUT_MINUTES) {
@@ -88,7 +91,7 @@ public class MembershipCardTest {
             JSONObject param1 = JSONUtil.createObj();
             param1.put("codeKey", codeKey);
             param1.put("imageCode", imageCode);
-            param1.put("verifyNumber", getCardVerifyNumber(Config.cardNumber));
+            param1.put("verifyNumber", verifyNumber);
             param1.put("mobile", "17858800001");
             String body1 = param1.toString();
             String createUrl1 = MallUrl + "/enterprise/cards/smscode";
@@ -124,7 +127,7 @@ public class MembershipCardTest {
     @Test(dependsOnMethods = "ImageCodeTest", description = "登录商城领取会员卡积分")
     public void smsCodeCheckTest(){
         JSONObject param2 = JSONUtil.createObj();
-        param2.put("verifyNumber", getCardVerifyNumber(Config.cardNumber));
+        param2.put("verifyNumber", verifyNumber);
         param2.put("mobile", "17858800001");
         param2.put("smsCode", smsCode);
         String body2 = param2.toString();

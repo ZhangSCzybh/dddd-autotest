@@ -1,24 +1,9 @@
 {
-  "customerId": 207,
+  "customerId": 993,
   "cards": [
     {
-      "amountId": 15,
-      "amount": 1,
-      "num": 1
-    },
-    {
-      "amountId": 12,
-      "amount": 600,
-      "num": 0
-    },
-    {
-      "amountId": 13,
-      "amount": 2000,
-      "num": 0
-    },
-    {
-      "amountId": 14,
-      "amount": 5000,
+      "amountId": 1,
+      "amount": 50,
       "num": 0
     },
     {
@@ -38,22 +23,12 @@
     },
     {
       "amountId": 9,
-      "amount": 350,
-      "num": 0
+      "amount": 1,
+      "num": 1
     },
     {
       "amountId": 5,
       "amount": 500,
-      "num": 0
-    },
-    {
-      "amountId": 10,
-      "amount": 550,
-      "num": 0
-    },
-    {
-      "amountId": 11,
-      "amount": 80,
       "num": 0
     },
     {
@@ -62,27 +37,17 @@
       "num": 0
     },
     {
-      "amountId": 1,
-      "amount": 50,
-      "num": 0
-    },
-    {
       "amountId": 7,
-      "amount": 30,
+      "amount": 5000,
       "num": 0
     },
     {
-      "amountId": 16,
-      "amount": 540,
-      "num": 0
-    },
-    {
-      "amountId": 17,
-      "amount": 6000,
+      "amountId": 8,
+      "amount": 10000,
       "num": 0
     }
   ],
-  "bindEnterprId": 207,
+  "bindEnterprId": 993,
   "relatedCampaignId": "",
   "isCustomCard": 0,
   "payType": 0,

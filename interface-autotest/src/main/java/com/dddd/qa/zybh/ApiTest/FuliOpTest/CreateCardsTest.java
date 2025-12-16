@@ -44,7 +44,7 @@ public class CreateCardsTest {
     }
     @Test(description = "创建会员卡")
     public void CreateCardTest(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(createCardInfo);//getAllCases需要换成生产环境的参数
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(createCardInfo);//杭州再也不会企业
         String body = param.toString();
         String createUrl = OpUrl+"/admin/cards/sale/orders";
         headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);

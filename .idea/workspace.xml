@@ -10,21 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/128313de-9561-443b-b569-1225c3477257-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1ec6147e-658a-44bc-9c54-edec1b2e3a30-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/4dc9732f-5d01-41c4-8d82-0a016923d04e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/57b5bc74-f21b-44cb-8a28-a13de67aa73a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/59556cc9-35ab-49c6-9025-4979c902a0a2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/598fd3cb-3382-4e83-bbaf-ee8f1b622ab1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/696fdf14-14be-4a77-8c4a-71cdbae53cf5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/cb3d179b-ef46-4adc-a14d-72257ed6b786-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e8fa9375-a8d7-44de-b8bb-71f4ee4867f1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fb40d66f-c779-4471-8368-690c4a6e8458-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/regression_tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/captcha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/captcha.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/AiTest/CursorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/Constant/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.AccessToken.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccessTokenClient.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AccessTokenClient.executor&quot;: &quot;Run&quot;,
     &quot;Application.Base64ImageDecoder.executor&quot;: &quot;Run&quot;,
     &quot;Application.CaptchaRecognizer.executor&quot;: &quot;Run&quot;,
     &quot;Application.DailyRecipeGenerator.executor&quot;: &quot;Run&quot;,
@@ -395,7 +393,7 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml">
+  <component name="RunManager" selected="Application.AccessTokenClient">
     <configuration name="AccessTokenClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.AccessTokenClient" />
       <module name="interface-autotest" />
@@ -479,8 +477,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" />
         <item itemvalue="Application.AccessTokenClient" />
+        <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" />
         <item itemvalue="TestNG.MembershipCardTest" />
         <item itemvalue="TestNG.CreateCardsTest (1)" />
         <item itemvalue="TestNG.CreateCardsTest" />
@@ -613,7 +611,8 @@
       <workItem from="1765508426535" duration="4819000" />
       <workItem from="1765760885840" duration="5932000" />
       <workItem from="1765847569095" duration="5058000" />
-      <workItem from="1765937761444" duration="315000" />
+      <workItem from="1765937761444" duration="4158000" />
+      <workItem from="1766021823752" duration="708000" />
     </task>
     <servers />
   </component>

@@ -83,8 +83,8 @@ public class CursorTest {
 
         // 6. 构建请求体
         JSONObject param = JSONUtil.createObj();
-        param.put("loginName", "admintest");
-        param.put("password", "fortest");
+        param.put("loginName", "zhangshichao");
+        param.put("password", "zhang2024");
         String requestBody = param.toString();
 
         // 7. 发送请求

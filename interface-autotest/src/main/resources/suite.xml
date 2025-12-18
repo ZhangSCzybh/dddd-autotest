@@ -60,7 +60,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
         </classes>
     </test>
-    <test name="SgnetProductSynchronization">
+    <test name="SgnetProductSynchronizationDev">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
         </classes>

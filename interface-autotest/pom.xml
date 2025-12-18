@@ -179,6 +179,7 @@
                     </argLine>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/main/resources/suite.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/regression_tests.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <properties>
                         <property>

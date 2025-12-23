@@ -41,10 +41,10 @@ public class Config {
     public static String itemOrderNumber3;//换货
 
     public static String brandName;//品牌名称
-    public static String brandId;//品牌名称
+    public static String brandId;//品牌id
 
+    public static String cardNumber;
 
-    public static String cardNumber;//品牌名称
 
 
 

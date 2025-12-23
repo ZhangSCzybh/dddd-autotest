@@ -91,7 +91,7 @@ public class MembershipCardTest {
             JSONObject param1 = JSONUtil.createObj();
             param1.put("codeKey", codeKey);
             param1.put("imageCode", imageCode);
-            param1.put("verifyNumber", verifyNumber);
+            param1.put("verifyNumber",verifyNumber);
             param1.put("mobile", "17858800001");
             String body1 = param1.toString();
             String createUrl1 = MallUrl + "/enterprise/cards/smscode";
@@ -170,7 +170,7 @@ public class MembershipCardTest {
             if (conn != null) {
                 conn.setAutoCommit(false); // 开启事务
 
-                String sql_select = "SELECT verify_number FROM fulitemp.card_storage WHERE card_number = ?";
+                String sql_select = "SELECT verify_number FROM fuliserver.card_storage WHERE card_number = ?";
                 pstmt = conn.prepareStatement(sql_select);
                 pstmt.setString(1, cardNumber); // 设置参数
 

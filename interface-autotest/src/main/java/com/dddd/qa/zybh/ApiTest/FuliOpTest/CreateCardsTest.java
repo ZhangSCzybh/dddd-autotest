@@ -128,7 +128,26 @@ public class CreateCardsTest {
             String result6 = HttpUtil.createGet(createUrl6).addHeaders(headers).form(param6).execute().body();
             System.out.println(result6);
             JSONObject jsonresult6 = new JSONObject(result6);
-            Config.cardNumber = (new JSONObject((new JSONArray((new JSONObject(jsonresult6.get("result"))).get("list"))).get(0))).get("cardNumber").toString();
+            //Config.cardNumber = (new JSONObject((new JSONArray((new JSONObject(jsonresult6.get("result"))).get("list"))).get(0))).get("cardNumber").toString();
+
+            // 1. 先把整个响应转成JSONObject（假设jsonresult6是JSON字符串）
+            JSONObject response = new JSONObject(jsonresult6);
+
+// 2. 获取"result"字段（它本身是个JSONObject）
+            JSONObject result = response.getJSONObject("result");
+
+// 3. 获取"list"数组（它是个JSONArray）
+            JSONArray list = result.getJSONArray("list");
+
+// 4. 取第一个元素（数组索引0）
+            JSONObject firstItem = list.getJSONObject(0);
+
+// 5. 直接取cardNumber（安全又简单！）
+            String cardNumber = firstItem.get("cardNumber").toString();
+
+// 赋值给Config
+            Config.cardNumber = cardNumber;
+
             logger.info("获取到cardNumber:{}", Config.cardNumber);
 
         }

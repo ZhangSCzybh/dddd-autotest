@@ -3,6 +3,7 @@ package com.dddd.qa.zybh.others;
 
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.LoginUtil;
 
 import net.sourceforge.tess4j.Tesseract;
@@ -72,7 +73,7 @@ public class Testweeks {
         Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
         logger.info("执行登录获取供应商平台的token：" + Common.supplierToken);
 
-        getCardVerifyNumber("10002070000101000005");
+        getCardVerifyNumber("10009930000114000001");
     }
 
 

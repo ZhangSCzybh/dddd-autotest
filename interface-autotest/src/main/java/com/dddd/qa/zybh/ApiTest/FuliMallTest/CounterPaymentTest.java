@@ -59,9 +59,7 @@ public class CounterPaymentTest {
     @Test(description = "获取付款码")
     public void getCredit(){
         JSONObject param = JSONUtil.createObj();
-        param.put("id", 0);
-        String body = param.toString();
-        String url = Common.MallUrl + Common.mallGetCreditUri;
+        String url = Common.MallUrl + Common.mallGetCreditUri + "?id=0";//id=0是普通积分
         headers.put("yian-cache",Common.mallToken);
         String result = HttpUtil.createGet(url)
                 .addHeaders(headers)
@@ -70,10 +68,10 @@ public class CounterPaymentTest {
         JSONObject jsonResult = new JSONObject(result);
 
         // 验证接口可用性
-        CommonUtil.assertAvailable(jsonResult, body, url, Config.MallPro, scene);
+        CommonUtil.assertAvailable(jsonResult, null, url, Config.MallPro, scene);
         // 验证返回结果不为空
         Assert.assertTrue(StrUtil.isNotEmpty(jsonResult.get("result").toString()),
-                String.format(Config.result_message, Config.MallPro, scene, ErrorEnum.ISEMPTY.getMsg(), url, body, jsonResult));
+                String.format(Config.result_message, Config.MallPro, scene, ErrorEnum.ISEMPTY.getMsg(), url, null, jsonResult));
         // 验证更新是否成功
         Assert.assertEquals(jsonResult.getStr("code"), "1001", "生成付款码失败");
         //获取付款码code

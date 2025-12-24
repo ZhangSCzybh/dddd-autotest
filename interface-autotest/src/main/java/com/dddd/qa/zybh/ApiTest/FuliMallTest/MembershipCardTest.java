@@ -36,7 +36,7 @@ public class MembershipCardTest {
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "会员卡领取";
 
-    private static final String MallUrl = "https://serverpre.lixiangshop.com";
+    private static final String MallUrl = "https://serverdev.lixiangshop.com";
     private static String verifyNumber;
     private static String imageCode;
     private static String smsCode;
@@ -170,7 +170,7 @@ public class MembershipCardTest {
             if (conn != null) {
                 conn.setAutoCommit(false); // 开启事务
 
-                String sql_select = "SELECT verify_number FROM fuliserver.card_storage WHERE card_number = ?";
+                String sql_select = "SELECT verify_number FROM fulidev.card_storage WHERE card_number = ?";
                 pstmt = conn.prepareStatement(sql_select);
                 pstmt.setString(1, cardNumber); // 设置参数
 

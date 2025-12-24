@@ -76,7 +76,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.BrandReviewTest"/>
         </classes>
     </test>
-    <test name="CardsPre">
+    <test name="CardsDev">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>

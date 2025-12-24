@@ -22,13 +22,13 @@ import java.util.HashMap;
  * @date 2025年12月10日 16:21:50
  * @packageName com.dddd.qa.zybh.ApiTest.FuliOpTest
  * @className CreateCardsTest
- * @describe getAllCases需要换成生产环境的参数
+ * @describe getAllCases需要换成生产环境的参数,会员卡企业：普润达科技公司
  */
 public class CreateCardsTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "创建会员卡";
-    private static final String OpUrl = "https://backpre.lixiangshop.com";
+    private static final String OpUrl = "https://backdev.lixiangshop.com";
     private static final String createCardInfo = "/test-dddd/createCardInfo";
     private static  String customerId;
 
@@ -36,15 +36,15 @@ public class CreateCardsTest {
     @BeforeClass
     public static void setUp() {
         JSONObject json = new JSONObject();
-        json.put("loginName", "zhangshichao");//不同环境修改此处
-        json.put("password", "zhang2024");//不同环境修改此处
+        json.put("loginName", "admintest");//不同环境修改此处
+        json.put("password", "fortest");//不同环境修改此处
         String userInfo = json.toString();
         Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(OpUrl + Common.loginOPUri ,userInfo);
         logger.info("执行登录获取慧卡运营平台的token：" + Common.fuliOperationPlatformToken);
     }
     @Test(description = "创建会员卡")
     public void CreateCardTest(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(createCardInfo);//杭州再也不会企业
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(createCardInfo);//普润达科技公司
         String body = param.toString();
         String createUrl = OpUrl+"/admin/cards/sale/orders";
         headers.put("Fuli-Cache", Common.fuliOperationPlatformToken);
@@ -128,26 +128,7 @@ public class CreateCardsTest {
             String result6 = HttpUtil.createGet(createUrl6).addHeaders(headers).form(param6).execute().body();
             System.out.println(result6);
             JSONObject jsonresult6 = new JSONObject(result6);
-            //Config.cardNumber = (new JSONObject((new JSONArray((new JSONObject(jsonresult6.get("result"))).get("list"))).get(0))).get("cardNumber").toString();
-
-            // 1. 先把整个响应转成JSONObject（假设jsonresult6是JSON字符串）
-            JSONObject response = new JSONObject(jsonresult6);
-
-// 2. 获取"result"字段（它本身是个JSONObject）
-            JSONObject result = response.getJSONObject("result");
-
-// 3. 获取"list"数组（它是个JSONArray）
-            JSONArray list = result.getJSONArray("list");
-
-// 4. 取第一个元素（数组索引0）
-            JSONObject firstItem = list.getJSONObject(0);
-
-// 5. 直接取cardNumber（安全又简单！）
-            String cardNumber = firstItem.get("cardNumber").toString();
-
-// 赋值给Config
-            Config.cardNumber = cardNumber;
-
+            Config.cardNumber = (new JSONObject((new JSONArray((new JSONObject(jsonresult6.get("result"))).get("list"))).get(0))).get("cardNumber").toString();
             logger.info("获取到cardNumber:{}", Config.cardNumber);
 
         }

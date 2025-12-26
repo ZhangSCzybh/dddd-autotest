@@ -45,7 +45,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
         </classes>
     </test>
-    <test name ="CursorPre">
+    <test name ="CursorDev">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>

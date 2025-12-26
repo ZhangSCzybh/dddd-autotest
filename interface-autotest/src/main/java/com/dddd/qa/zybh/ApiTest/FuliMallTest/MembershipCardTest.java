@@ -6,9 +6,11 @@ import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.CommonUtil;
 import com.dddd.qa.zybh.Constant.Config;
+import com.dddd.qa.zybh.utils.ErrorEnum;
 import com.dddd.qa.zybh.utils.JDBCUtil;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -20,8 +22,10 @@ import java.io.IOException;
 import java.sql.*;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.Base64;
-import java.util.HashMap;
+import java.util.*;
+
+import static com.dddd.qa.zybh.BaseTest.caveat;
+
 
 
 /**
@@ -46,85 +50,94 @@ public class MembershipCardTest {
     public void ImageCodeTest(){
         verifyNumber = getCardVerifyNumber(Config.cardNumber);
 
-        Instant startTime = Instant.now(); // 记录开始时间
-        boolean found = false; // 标记是否找到目标值
-        while (Duration.between(startTime, Instant.now()).toMinutes() < TIMEOUT_MINUTES) {
-            String url = MallUrl + "/common/imagecode/register?base64=true";
-            String result = HttpUtil.createGet(url)
-                    .addHeaders(headers)
-                    .execute()
-                    .body();
-            JSONObject jsonResult = new JSONObject(result);
-            String codeKey = (new JSONObject(jsonResult.get("result")).get("codeKey")).toString();
-            String base64Image = (new JSONObject(jsonResult.get("result")).get("base64Image")).toString();
-            logger.info("获取到codeKey:{}", codeKey);
-            logger.info("获取到base64Image:{}", base64Image);
+        if(verifyNumber!=null){
+            Instant startTime = Instant.now(); // 记录开始时间
+            boolean found = false; // 标记是否找到目标值
+            while (Duration.between(startTime, Instant.now()).toMinutes() < TIMEOUT_MINUTES) {
+                String url = MallUrl + "/common/imagecode/register?base64=true";
+                String result = HttpUtil.createGet(url)
+                        .addHeaders(headers)
+                        .execute()
+                        .body();
+                JSONObject jsonResult = new JSONObject(result);
+                String codeKey = (new JSONObject(jsonResult.get("result")).get("codeKey")).toString();
+                String base64Image = (new JSONObject(jsonResult.get("result")).get("base64Image")).toString();
+                logger.info("获取到codeKey:{}", codeKey);
+                logger.info("获取到base64Image:{}", base64Image);
 
-            try {
-                // 解码 Base64 字符串
-                byte[] imageBytes = Base64.getDecoder().decode(base64Image);
+                try {
+                    // 解码 Base64 字符串
+                    byte[] imageBytes = Base64.getDecoder().decode(base64Image);
 
-                // 保存为 JPEG 文件
-                try (FileOutputStream fos = new FileOutputStream("captcha.jpg")) {
-                    fos.write(imageBytes);
+                    // 保存为 JPEG 文件
+                    try (FileOutputStream fos = new FileOutputStream("captcha.jpg")) {
+                        fos.write(imageBytes);
+                    }
+
+                    System.out.println("验证码图像已保存为 captcha.jpg");
+                    System.out.println("请在当前目录下查看 captcha.jpg 文件");
+                } catch (IOException e) {
+                    System.err.println("解码或保存失败: " + e.getMessage());
+                    e.printStackTrace();
                 }
 
-                System.out.println("验证码图像已保存为 captcha.jpg");
-                System.out.println("请在当前目录下查看 captcha.jpg 文件");
-            } catch (IOException e) {
-                System.err.println("解码或保存失败: " + e.getMessage());
-                e.printStackTrace();
+                System.setProperty("jna.library.path", "/opt/homebrew/lib");
+                String dataPath = "/opt/homebrew/Cellar/tesseract/5.5.1_1/share/tessdata";
+                String picturePath = "captcha.jpg";
+                // 安全处理（如果字符串长度不足4位）
+                if (baseVerCode(dataPath, picturePath).length() >= 4) {
+                    imageCode = baseVerCode(dataPath, picturePath).substring(0, 4);
+                    logger.info("识别到图形验证码:{}", imageCode);
+                } else {
+                    System.out.println("字符串长度不足4位");
+                }
+
+                //获取手机验证码
+                JSONObject param1 = JSONUtil.createObj();
+                param1.put("codeKey", codeKey);
+                param1.put("imageCode", imageCode);
+                param1.put("verifyNumber",verifyNumber);
+                param1.put("mobile", "17858800001");
+                String body1 = param1.toString();
+                String createUrl1 = MallUrl + "/enterprise/cards/smscode";
+                String result1 = HttpUtil.createPost(createUrl1).addHeaders(headers).body(body1).execute().body();
+                JSONObject jsonresult1 = new JSONObject(result1);
+                System.out.println(jsonresult1);
+                //smsCode = (new JSONObject(jsonresult1.get("result")).get("smsCode")).toString();
+                //logger.info("获取到手机验证码:{}", smsCode);
+                int code = (int) jsonresult1.get("code");
+                if (code == 1001) {
+                    smsCode = (new JSONObject(jsonresult1.get("result")).get("smsCode")).toString();
+                    logger.info("获取到手机验证码:{}", smsCode);
+                    found = true;
+                }
+                if (found) {
+                    break;
+                }
+                // 等待一段时间后重试
+                try {
+                    Thread.sleep(1000); // 等待1秒
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    throw new RuntimeException("线程被中断", e);
+                }
             }
 
-            System.setProperty("jna.library.path", "/opt/homebrew/lib");
-            String dataPath = "/opt/homebrew/Cellar/tesseract/5.5.1_1/share/tessdata";
-            String picturePath = "captcha.jpg";
-            // 安全处理（如果字符串长度不足4位）
-            if (baseVerCode(dataPath, picturePath).length() >= 4) {
-                imageCode = baseVerCode(dataPath, picturePath).substring(0, 4);
-                logger.info("识别到图形验证码:{}", imageCode);
-            } else {
-                System.out.println("字符串长度不足4位");
+            // 如果超时仍未识别成功图形验证码，标记测试失败
+            if (!found) {
+                Assert.fail("在 " + TIMEOUT_MINUTES + " 分钟内未识别到图形验证和手机验证码: " + null);
             }
+        }else {
+            String wrong = String.format(Config.result_message, Config.MallPro, scene, ErrorEnum.ISEMPTY.getMsg(), MallUrl+ "/enterprise/cards/smscode", "getCardVerifyNumber(Config.cardNumber)", "\"数据库连接获取密码失败，verifyNumber为空\"");
+            caveat(wrong);
+            Assert.assertNotNull(verifyNumber, ErrorEnum.ISEMPTY.getMsg());
+        }
 
-            //获取手机验证码
-            JSONObject param1 = JSONUtil.createObj();
-            param1.put("codeKey", codeKey);
-            param1.put("imageCode", imageCode);
-            param1.put("verifyNumber",verifyNumber);
-            param1.put("mobile", "17858800001");
-            String body1 = param1.toString();
-            String createUrl1 = MallUrl + "/enterprise/cards/smscode";
-            String result1 = HttpUtil.createPost(createUrl1).addHeaders(headers).body(body1).execute().body();
-            JSONObject jsonresult1 = new JSONObject(result1);
-            System.out.println(jsonresult1);
-            //smsCode = (new JSONObject(jsonresult1.get("result")).get("smsCode")).toString();
-            //logger.info("获取到手机验证码:{}", smsCode);
-            int code = (int) jsonresult1.get("code");
-            if (code == 1001) {
-                smsCode = (new JSONObject(jsonresult1.get("result")).get("smsCode")).toString();
-                logger.info("获取到手机验证码:{}", smsCode);
-                found = true;
-            }
-            if (found) {
-                break;
-            }
-            // 等待一段时间后重试
-            try {
-                Thread.sleep(1000); // 等待1秒
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                throw new RuntimeException("线程被中断", e);
-            }
-        }
-        // 如果超时仍未识别成功图形验证码，标记测试失败
-        if (!found) {
-            Assert.fail("在 " + TIMEOUT_MINUTES + " 分钟内未识别到图形验证和手机验证码: " + null);
-        }
+
     }
 
 
-    @Test(dependsOnMethods = "ImageCodeTest", description = "登录商城领取会员卡积分")
+    @Test(dependsOnMethods = "ImageCodeTest",description = "登录商城领取会员卡积分")
     public void smsCodeCheckTest(){
         JSONObject param2 = JSONUtil.createObj();
         param2.put("verifyNumber", verifyNumber);
@@ -138,7 +151,6 @@ public class MembershipCardTest {
         //校验接口可行性
         CommonUtil.assertAvailable(jsonresult2, body2, createUrl2, Config.MallPro, scene);
     }
-
 
     //无干扰项的字母数字图片验证码识别
     public static String baseVerCode(String dataPath, String picturePath) {
@@ -205,6 +217,8 @@ public class MembershipCardTest {
         }
         return verifyNumber;
     }
+
+
 
 }
 

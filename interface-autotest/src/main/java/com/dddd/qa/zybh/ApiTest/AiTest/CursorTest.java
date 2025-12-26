@@ -35,8 +35,8 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
 public class CursorTest {
     
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
-    private static final String LOGIN_URL = "https://backpre.lixiangshop.com/admin/account/login";
-    private static final String SUPPLIER_LIST_URL = "https://backpre.lixiangshop.com/admin/supplier/getSupplierInfoList";
+    private static final String LOGIN_URL = "https://backdev.lixiangshop.com/admin/account/login";
+    private static final String SUPPLIER_LIST_URL = "https://backdev.lixiangshop.com/admin/supplier/getSupplierInfoList";
     private static String scene = "福粒运营平台";
 
 
@@ -83,8 +83,8 @@ public class CursorTest {
 
         // 6. 构建请求体
         JSONObject param = JSONUtil.createObj();
-        param.put("loginName", "zhangshichao");
-        param.put("password", "zhang2024");
+        param.put("loginName", "admintest");
+        param.put("password", "fortest");
         String requestBody = param.toString();
 
         // 7. 发送请求

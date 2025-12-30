@@ -32,6 +32,13 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <!-- 关键修复参数 -->
+                    <compilerArgs>
+                        <arg>--add-modules</arg>
+                        <arg>jdk.compiler</arg>
+                        <arg>--add-opens</arg>
+                        <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
 

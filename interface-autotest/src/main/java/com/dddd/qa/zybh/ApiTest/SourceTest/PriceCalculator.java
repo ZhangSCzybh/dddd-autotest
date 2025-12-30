@@ -113,7 +113,8 @@ public class PriceCalculator {
     @DataProvider(name = "sgnetSKU")
     public Object[][] supplierTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test-dddd/sku.csv"))) {
+        //try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test-dddd/sku.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/src/main/resources/test-dddd/sku.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("num")) { // 跳过标题行

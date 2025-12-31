@@ -17,6 +17,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.DayOfWeek;
@@ -42,11 +43,7 @@ public class PurchaseProducts extends BaseTest {
 
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
-    private static String credit;
-    private static String creditName;
-    private static String mallEmployeeId;
     private static final String scene1 = "商品下单";
-    private static final String employeePointsParameters = "dddd/employeePointsParameters";
 
     @BeforeClass
     public static void setUp() {
@@ -70,6 +67,12 @@ public class PurchaseProducts extends BaseTest {
         Common.jumpMallToken3 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken3);
         Common.jumpMallToken4 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken4);
         Common.jumpMallToken5 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken5);
+
+        //4个自建供应商供应商-发货 登录获取token
+        Common.SelfsupplierToken1 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo1);
+        Common.SelfsupplierToken2 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo2);
+        Common.SelfsupplierToken3 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo3);
+        Common.SelfsupplierToken4 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo4);
     }
 
 
@@ -116,19 +119,12 @@ public class PurchaseProducts extends BaseTest {
     //自建供应商发货：token参数
     @DataProvider(name = "supplierTokenProvider")
     public Object[][] supplierTokenFromCSV() {
-        List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(Common.jenkinsUrl+"/src/main/resources/dddd/supplierToken.csv"))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                if (!line.startsWith("num")) { // 跳过标题行
-                    String[] values = line.split(",");
-                    data.add(values);
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return data.toArray(new Object[0][]);
+        return new Object[][] {
+                {"1" ,Common.SelfsupplierToken1},
+                {"2" ,Common.SelfsupplierToken2},
+                {"3" ,Common.SelfsupplierToken3},
+                {"4" ,Common.SelfsupplierToken4},
+        };
     }
 
     //智采企业平台员工id
@@ -277,90 +273,5 @@ public class PurchaseProducts extends BaseTest {
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }
-
-    //description = "智采员工发放积分 弃用"
-    //@Test(dataProvider = "EmployeeData")
-    public void giveEmployeePoints(Integer[] list,String amount){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(employeePointsParameters);
-        param.put("list", list);
-        param.put("amount", amount);
-        String body = param.toString();
-        String createUrl = Common.zhicaiHrUrl+Common.sendEmployeePointsUri;
-        headers.put("Session-Token", Common.zhicaiHrToken);
-        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
-        JSONObject jsonresult = new JSONObject(result);
-        String data = jsonresult.get("result").toString();
-        logger.info( data + ":员工积分发放成功！");
-        caveat( "===========智采员工积分===========" + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
-    }
-
-    //description = "查询商城员工积分 弃用"
-    //@Test(dataProvider = "staffFuliTokenProvider" )
-    public void checkMallEmployeePoints(String num ,String tokendata,String addressId){
-        headers.put("yian-cache", tokendata);
-        String pointsUrl = Common.MallUrl+Common.checkMallEmployeePointsUri;
-        String response= HttpUtil.createGet(pointsUrl).addHeaders(headers).execute().body();
-
-        JSONObject jsonresult  = new JSONObject(response);
-        //获取数组长度
-        String result = jsonresult.get("result").toString();
-        JSONObject datajson = new JSONObject(result);
-        JSONArray jsonArray =new JSONArray(datajson.get("employeeCreditDtoList"));
-        int length = jsonArray.toArray().length;
-
-        for(int i = 0; i < length; i++){
-            mallEmployeeId = new JSONObject(result).get("employeeId").toString();
-            credit = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("employeeCreditDtoList"))).get(i))).get("credit").toString();
-            creditName = (new JSONObject((new JSONArray((new JSONObject(jsonresult.get("result"))).get("employeeCreditDtoList"))).get(i))).get("creditName").toString();
-            logger.info("员工编号:" + mallEmployeeId +"\n"+creditName+ ":" + credit);
-        }
-        caveat("===========商城员工积分===========" + "\n"+"第"+num +"个员工：" + mallEmployeeId +"\n"+creditName+ "：" + credit);
-    }
-
-
-    //description = "查询智采企业平台员工积分，少于5w的员工补发积分  弃用"
-    //@Test(dataProvider = "EmployeeIdData")
-    public void checkZhicaiEmployeePoints(String employeeId,int num){
-        JSONObject param = JSONUtil.createObj();
-        //Map<String, Object> param = new HashMap<>();//存放参数
-        headers.put("session-token", Common.zhicaiHrToken);
-        //headers.put("session-token", Common.DDingDDangPCToken);
-        param.put("employeeId", employeeId);
-        param.put("enterpriseId", 289);
-        String createUrl = Common.zhicaiHrUrl+Common.checkZcEmployeePointsUri;
-        String response= HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
-        String balance = new JSONObject(new JSONArray(new JSONObject(response).get("result")).get(0)).get("balance").toString();
-
-        if ((int) Double.parseDouble(balance) <= 50000){
-            int margin = 50000-(int) Double.parseDouble(balance);
-            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分少于50000，将自动补发积分！！！");
-            GetCaseUtil.giveEmployeePoints(new Integer[] {Integer.valueOf(employeeId)}, String.valueOf(margin));
-            logger.info("第" + num +"个账号积分少于50000，已补发积分" + margin );
-        }else{
-            caveat( "=========智采员工积分详情=========" + "\n"+ "员工编号:" + employeeId + "\n" + "通用积分:" + balance + "\n" + "当前员工通用积分充足，请放心购买！！！");
-            logger.info("第" + num +"个账号积分充足，请放心购买！！！");
-            System.out.println(Arrays.toString(new Integer[]{Integer.valueOf(employeeId)}));
-
-        }
-
-    }
-
-    //@DataProvider(name = "staffFuliTokenProvider")
-    public Object[][] staffFuliTokenFromCSV1() {
-        List<Object[]> data = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(Common.jenkinsUrl+"/src/main/resources/dddd/staffFuliToken.csv"))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                if (!line.startsWith("num")) { // 跳过标题行
-                    String[] values = line.split(",");
-                    data.add(values);
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return data.toArray(new Object[0][]);
-    }
-
 
 }

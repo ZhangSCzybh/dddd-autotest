@@ -178,19 +178,5 @@ public class GetCaseUtil {
         logger.info( "sku:" + skuCode +";销售状态:" + jsonresult.get("msg").toString());
     }
 
-    //智采hr平台--发放员工积分 不用
-    public static void giveEmployeePoints(Integer[] list, String amount){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParameters);
-        param.put("list", list);
-        param.put("amount", amount);
-        String body = param.toString();
-        String createUrl = Common.zhicaiHrUrl+Common.sendEmployeePointsUri;
-        headers.put("Session-Token", Common.zhicaiHrToken);
-        String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
-        cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
-        String data = jsonresult.get("result").toString();
-        logger.info( data + ":员工积分发放成功！");
-        caveat( "===========智采员工积分补发===========" + "\n"+ "员工编号:" + Arrays.toString(list) + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
-    }
 }
 

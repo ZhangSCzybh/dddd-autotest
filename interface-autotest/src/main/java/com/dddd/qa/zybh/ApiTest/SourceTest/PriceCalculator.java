@@ -20,6 +20,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -114,7 +115,7 @@ public class PriceCalculator {
     public Object[][] supplierTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
         //try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test-dddd/sku.csv"))) {
-        try (BufferedReader br = new BufferedReader(new FileReader("/var/jenkins_home/workspace/dddd-Interface-Autotest/interface-autotest/target/src/main/resources/test-dddd/sku.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File("").getAbsolutePath()+"/src/main/resources/test-dddd/sku.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("num")) { // 跳过标题行

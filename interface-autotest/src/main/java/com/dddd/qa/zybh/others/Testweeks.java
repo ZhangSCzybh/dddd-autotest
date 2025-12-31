@@ -4,6 +4,7 @@ package com.dddd.qa.zybh.others;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
+import com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest;
 import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.LoginUtil;
@@ -74,42 +75,8 @@ public class Testweeks {
 
     @Test
     public void test(){
-        // 登录获取tok
-
-        // 创建ErrorCollector
-        ErrorCollector collector = new ErrorCollector();
-
-        // 准备测试数据
-        String path = "https://backdev.lixiangshop.com/admin/account/login";
-        Object input = "{\"loginName\": admintest, \"password\": \"fortest\"}";
-
-        ArrayList<String> keys = new ArrayList<>();
-        keys.add("loginName");
-        keys.add("password"); // email字段不存在
-        keys.add("password22"); // email字段不存在
- // email字段不存在
-
-
-        // 创建JSON对象
-        JSONObject json = new JSONObject();
-        json.put("adminId", 53);
-        json.put("departmentId", 1);
-        json.put("loginName", "admintest");
-        json.put("password", "fortest");
-        json.put("roleId", 1);
-        String body2 = json.toString();
-        String createUrl2 = path;
-        String result2 = HttpUtil.createPost(createUrl2).addHeaders(headers).body(body2).execute().body();
-        JSONObject jsonresult2 = new JSONObject(result2);
-
-        // 调用方法，注意这里keyDataDet会使用collector.addError()
-        keyDataDet(collector, keys, input, path, input);
-        System.out.println("hah ");
-
-        // 验证结果
-        //List<String> errors = collector.getErrors();
-        //Assert.assertEquals(errors.size(), 1, "应该检测到1个错误");
-        //Assert.assertTrue(errors.get(0).contains("email"), "错误信息应该包含email字段");
+        System.out.println(new File("").getAbsolutePath());
+        //4个自建供应商供应商-发货 登录获取token
 
     }
 

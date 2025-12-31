@@ -93,8 +93,8 @@ public class BatchImportEmployeeJumpLogin {
 
             // 定义目标文件路径
             File file = new File("");
-            //String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
-            String filePath = Common.jenkinsUrl + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
+            String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
+            //String filePath = Common.jenkinsUrl + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
 
             //循环获取
             for(int j = 0; j < Count; j++) {

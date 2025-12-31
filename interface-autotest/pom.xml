@@ -184,8 +184,8 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/main/resources/suite.xml</suiteXmlFile>
-                        <suiteXmlFile>src/main/resources/regression_tests.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/prod_regression_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/dev_test_testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <properties>
                         <property>

@@ -75,6 +75,13 @@ public class Common {
     public static String loginDDingDDangYGPCInfo5 = STATIC_PROPERTIES.getProperty("login.DDingDDang.ygpc.info5");
 
 
+    //自建供应商平台账号密码
+    public static String loginSelfSupplierInfo1 = STATIC_PROPERTIES.getProperty("login.Selfsupplier.info1");
+    public static String loginSelfSupplierInfo2 = STATIC_PROPERTIES.getProperty("login.Selfsupplier.info2");
+    public static String loginSelfSupplierInfo3 = STATIC_PROPERTIES.getProperty("login.Selfsupplier.info3");
+    public static String loginSelfSupplierInfo4 = STATIC_PROPERTIES.getProperty("login.Selfsupplier.info4");
+
+
     public static String sendEmployeePointsUri = STATIC_PROPERTIES.getProperty("send.employee.points.uri");
 
     public static String addCartUri = STATIC_PROPERTIES.getProperty("addcart.uri");
@@ -103,7 +110,6 @@ public class Common {
     public static String FuliHrToken;//福粒Hr平台
     public static String zhicaiHrToken  = STATIC_PROPERTIES.getProperty("zhicai.hr.token"); //不需要，从员工pc获取了
 
-
     public static String mallToken; //商城再也不会17858803001员工token
     public static String jumpMallToken1;//智采员工pc跳商城
     public static String jumpMallToken2;//智采员工pc跳商城
@@ -111,6 +117,10 @@ public class Common {
     public static String jumpMallToken4;//智采员工pc跳商城
     public static String jumpMallToken5;//智采员工pc跳商城
 
+    public static String SelfsupplierToken1;//自建供应商平台
+    public static String SelfsupplierToken2;//自建供应商平台
+    public static String SelfsupplierToken3;//自建供应商平台
+    public static String SelfsupplierToken4;//自建供应商平台
 
     //创建商品
     public static String brandId = STATIC_PROPERTIES.getProperty("goods.brandid");

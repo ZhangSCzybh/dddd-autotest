@@ -1,0 +1,96 @@
+{
+  "productDeliveryType": "1",
+  "creditSource": 0,
+  "integralType": "",
+  "source": 0,
+  "userReceiveAddrId": 13133,
+  "campaginId": "",
+  "sellerOrderList": [
+    {
+      "sellerId": 890472,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 4522327,
+          "skuId": 10840404,
+          "spuCode": 4522327,
+          "title": "再也不会平台供应商02测试商品1020",
+          "titleEn": "",
+          "goodsImage": "https://item.qn.ddingddang.com/1760948952851.jpeg",
+          "goodsSpec": "白色",
+          "goodsPrice": 0.02,
+          "quantity": 1,
+          "totalGoodsPrice": 0.02,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 0,
+              "creditName": "积分",
+              "creditNameEn": "Credits",
+              "creditType": 1,
+              "isDefaultCredit": true,
+              "pointAmount": 137.9,
+              "canUsePointAmount": 0.02,
+              "checked": true,
+              "businessId": 0,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 0,
+              "isUpperOrganization": false,
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": false,
+                  "isWhitelist": false,
+                  "credits": []
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 0,
+          "businessId": 0,
+          "payEnterpriseId": 0,
+          "creditName": "积分",
+          "creditNameEn": "Credits",
+          "isShow": false,
+          "shouldUsePointAmount": 0.02,
+          "pointAmount": 137.9
+        }
+      ]
+    }
+  ],
+  "topicId": "",
+  "seckillId": "",
+  "voucherId": "",
+  "creditInfoList": [
+    {
+      "creditSource": 0,
+      "creditName": "积分",
+      "creditNameEn": "Credits",
+      "creditType": 1,
+      "isDefaultCredit": true,
+      "pointAmount": 137.9,
+      "canUsePointAmount": 0.02,
+      "checked": true,
+      "businessId": 0,
+      "isBudget": false,
+      "isPurchaseApproval": 1,
+      "payEnterpriseId": 0,
+      "isUpperOrganization": false,
+      "businessOpportunitiesVoList": [
+        {
+          "globalCredit": false,
+          "isWhitelist": false,
+          "credits": []
+        }
+      ],
+      "usePointAmount": 0.02
+    }
+  ],
+  "payPassword": "",
+  "creditJson": "[{\"creditSource\":0,\"creditName\":\"1219讲解积分01\",\"creditNameEn\":\"dsf\",\"creditType\":2,\"isDefaultCredit\":false,\"pointAmount\":50,\"checked\":false,\"businessId\":27,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":0,\"isUpperOrganization\":false,\"businessOpportunitiesVoList\":[{\"globalCredit\":false,\"topicIds\":[3724,3635],\"isWhitelist\":false}]},{\"creditSource\":0,\"creditName\":\"积分\",\"creditNameEn\":\"Credits\",\"creditType\":1,\"isDefaultCredit\":true,\"pointAmount\":137.9,\"canUsePointAmount\":0.02,\"checked\":true,\"businessId\":0,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":0,\"isUpperOrganization\":false,\"businessOpportunitiesVoList\":[{\"globalCredit\":false,\"isWhitelist\":false,\"credits\":[]}],\"usePointAmount\":0.02}]",
+  "isPurchaseApproval": 1,
+  "sceneStatus": 0,
+  "rechargeAccount": ""
+}

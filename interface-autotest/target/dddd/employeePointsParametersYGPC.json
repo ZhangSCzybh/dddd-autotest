@@ -1,0 +1,36 @@
+{
+  "giveWay": "1",
+  "type": 100101,
+  "productList": [],
+  "endTime": "",
+  "templateSnapshotSaveVo": {
+    "mainTitle": "美好不期而遇",
+    "subTitle": "您有一张贺卡待您领取",
+    "content": "向生活请个假，今天做个快乐的废物，自己掌控生活的美好，尽情装扮，尽情可爱”。",
+    "inscribe": "叮叮当当",
+    "id": 10205,
+    "name": "美好不期而遇",
+    "types": ",100101,",
+    "typeList": [
+      "100101"
+    ],
+    "typeNameList": null,
+    "simpleImg": "https://item.qn.ddingddang.com/dd17313108275079772.993756408201.jpg",
+    "surfaceImg": "https://item.qn.ddingddang.com/dd17313108302392021.3940253021203.gif",
+    "mainImg": "https://item.qn.ddingddang.com/dd17313108328435392.778313483748.jpg",
+    "colour": "FFF7DB",
+    "remark": "",
+    "templateId": 10205
+  },
+  "messageType": [
+    1
+  ],
+  "istiming": "0",
+  "timingTime": "",
+  "timeValue": "",
+  "ccIds": [],
+  "businessId": "",
+  "payEnterpriseId": "",
+  "remark": "向生活请个假，今天做个快乐的废物，自己掌控生活的美好，尽情装扮，尽情可爱”。",
+  "templateId": 10205
+}

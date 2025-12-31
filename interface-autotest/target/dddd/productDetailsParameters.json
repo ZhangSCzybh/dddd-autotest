@@ -1,0 +1,43 @@
+{
+  "spuCode": "",
+  "goodsType": 0,
+  "brandAuthImgList": [],
+  "productReportImgList": [],
+  "goodsNameEn": "",
+  "goodsImageList": [
+    "https://supplier.qn.seagoor.com/1723710937204.jpg"
+  ],
+  "placeOriginId": 23,
+  "placeOrigin": "波多黎各（美）",
+  "season": "",
+  "countrySize": "",
+  "sex": 3,
+  "introduction": "<p>头发恢复光滑</p>",
+  "introductionEn": "",
+  "expressLogistics": 1,
+  "goodsFreight": "0",
+  "selfMention": 0,
+  "consumptionWriteOff": 0,
+  "specList": [
+    {
+      "specName": "颜色",
+      "specValues": [
+        {
+          "specValue": "黑色",
+          "specImage": "https://supplier.qn.seagoor.com/1723710937204.jpg"
+        }
+      ]
+    }
+  ],
+  "skuList": [
+    {
+      "extra": null,
+      "goodsMarkprice": "8",
+      "guidancePrice": "8",
+      "goodsCostprice": "8",
+      "itemNumber": "",
+      "goodsStorge": "875887",
+      "storgeSwitch": 1
+    }
+  ]
+}

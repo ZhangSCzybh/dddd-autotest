@@ -1,0 +1,92 @@
+{
+  "productDeliveryType": "1",
+  "creditSource": 4,
+  "integralType": "",
+  "source": 0,
+  "campaginId": "",
+  "sellerOrderList": [
+    {
+      "sellerId": 889227,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 2391596,
+          "skuId": 4245769,
+          "spuCode": 2391596,
+          "title": "再也不会虚拟卡券商品02",
+          "titleEn": "",
+          "goodsImage": "https://supplier.qn.seagoor.com/1750299043346.jpeg",
+          "goodsSpec": "红色",
+          "goodsPrice": 9,
+          "quantity": 1,
+          "totalGoodsPrice": 9,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 4,
+              "creditName": "通用积分",
+              "creditType": 1,
+              "integralType": 100101,
+              "pointAmount": 5051.18,
+              "canUsePointAmount": 9,
+              "checked": true,
+              "businessId": 100101,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 1377,
+              "isUpperOrganization": false,
+              "payEnterpriseName": "浙江宾王扑克有限公司",
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": true,
+                  "isWhitelist": false
+                }
+              ]
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 4,
+          "businessId": 100101,
+          "payEnterpriseId": 1377,
+          "creditName": "通用积分",
+          "isShow": false,
+          "shouldUsePointAmount": 9,
+          "pointAmount": 5051.18
+        }
+      ]
+    }
+  ],
+  "topicId": "",
+  "seckillId": "",
+  "voucherId": "",
+  "creditInfoList": [
+    {
+      "creditSource": 4,
+      "creditName": "通用积分",
+      "creditType": 1,
+      "integralType": 100101,
+      "pointAmount": 5051.18,
+      "canUsePointAmount": 9,
+      "checked": true,
+      "businessId": 100101,
+      "isBudget": false,
+      "isPurchaseApproval": 1,
+      "payEnterpriseId": 1377,
+      "isUpperOrganization": false,
+      "payEnterpriseName": "浙江宾王扑克有限公司",
+      "businessOpportunitiesVoList": [
+        {
+          "globalCredit": true,
+          "isWhitelist": false
+        }
+      ],
+      "usePointAmount": 9
+    }
+  ],
+  "payPassword": "",
+  "creditJson": "[{\"creditSource\":4,\"creditName\":\"通用积分\",\"creditType\":1,\"integralType\":100101,\"pointAmount\":5051.18,\"canUsePointAmount\":9,\"checked\":true,\"businessId\":100101,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":1377,\"isUpperOrganization\":false,\"payEnterpriseName\":\"浙江宾王扑克有限公司\",\"businessOpportunitiesVoList\":[{\"globalCredit\":true,\"isWhitelist\":false}],\"usePointAmount\":9}]",
+  "isPurchaseApproval": 1,
+  "sceneStatus": 0,
+  "rechargeAccount": ""
+}

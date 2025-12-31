@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 import java.util.HashMap;
 
 import static com.dddd.qa.zybh.BaseTest.caveat;
-import static com.dddd.qa.zybh.ApiTest.FuliMallTest.AccessTokenClient.fetchAccessToken;
+import static com.dddd.qa.zybh.utils.AccessTokenClient.fetchAccessToken;
 
 /**
  * @author zhangsc

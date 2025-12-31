@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="runAll">
+<suite name="FullRegression_ProductionEnv">
     <test name ="Login">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
@@ -45,24 +45,9 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.SupplierSkuUpdatePriceTest"/>
         </classes>
     </test>
-    <test name ="CursorDev">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
-        </classes>
-    </test>
     <test name ="PurchaseProducts">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
-        </classes>
-    </test>
-    <test name = "JumpLoginMallPre">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
-        </classes>
-    </test>
-    <test name="SgnetProductSynchronizationDev">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
         </classes>
     </test>
     <test name="CountPayment">
@@ -74,12 +59,6 @@
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.BrandTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.BrandReviewTest"/>
-        </classes>
-    </test>
-    <test name="CardsDev">
-        <classes>
-            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/> -->
-            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/> -->
         </classes>
     </test>
     <test name ="Voucher">

@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.FuliMallTest;
+package com.dddd.qa.zybh.utils;
 
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -14,7 +14,6 @@ import org.apache.http.util.EntityUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 
 /**
@@ -46,8 +45,8 @@ public class AccessTokenClient {
         //String timestamp = sdf.format(new Date());
         // 获取当前时间
         Calendar calendar = Calendar.getInstance();
-        // 添加8小时
-        calendar.add(Calendar.HOUR_OF_DAY, 0);
+        // 服务器时间需要添加8小时
+        calendar.add(Calendar.HOUR_OF_DAY, 8);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String timestamp = sdf.format(calendar.getTime());
         System.out.println("时间戳" + timestamp);

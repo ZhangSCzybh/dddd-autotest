@@ -57,7 +57,7 @@ public class EmployeeVoucherTest {
 
     @Test(dependsOnMethods = {"voucherCardList"},description = "兑换提货券")
     public void Test(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(Common.exchangeVoucherCard);//getAllCases需要换成生产环境的参数
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(Common.exchangeVoucherCard);//getAllCases需要换成生产环境的参数
         param.put("verifyNumber", verifyNumberFristId);
         String body = param.toString();
         String createUrl = Common.MallUrl+Common.vouchersOrdersubmitUri;

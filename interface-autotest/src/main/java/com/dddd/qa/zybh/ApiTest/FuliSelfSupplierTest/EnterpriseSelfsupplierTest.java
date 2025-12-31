@@ -56,7 +56,7 @@ public class EnterpriseSelfsupplierTest {
 
     @Test(description = "生成邀请供应商")
     public void selfSupplierApply(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(Common.applySelfSupplierInfo);//getAllCases需要换成生产环境的参数
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(Common.applySelfSupplierInfo);//getAllCases需要换成生产环境的参数
         param.put("name", "自动邀请供应商"+ DateUtil.RandomSixDigit());
         param.put("alias", DateUtil.RandomSixDigit());
         param.put("loginName", "zdyqgys"+DateUtil.RandomSixDigit());

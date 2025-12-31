@@ -106,7 +106,7 @@ public class BatchImportEmployeeJumpLogin {
                 String loginMallToken=  loginFuliMallToken( MallUrl+"/enterprise/account/login");
 
                 //新增地址
-                com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases1(addressInfo);
+                com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(addressInfo);
                 String body2 = param2.toString();
                 String createUrl2 = MallUrl + "/enterprise/address/addAddress";
                 headers2.put("employee-cache", loginMallToken);

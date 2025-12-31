@@ -11,17 +11,7 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest"/>
         </classes>
     </test>
-    <test name="SgnetProductSynchronizationDev111111111111111">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
-        </classes>
-    </test>
-    <test name="CardsDev">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
-            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
-        </classes>
-    </test>
+
     <test name ="Voucher">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->

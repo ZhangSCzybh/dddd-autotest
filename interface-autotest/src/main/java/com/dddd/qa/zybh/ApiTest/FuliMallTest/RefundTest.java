@@ -71,7 +71,7 @@ public class RefundTest {
         logger.info("加入购物车：{}", result);
 
         // 对购物车里的商品进行提交订单
-        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases1(ORDER_PROD_DETAILS);
+        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(ORDER_PROD_DETAILS);
         param2.put("userReceiveAddrId", USER_RECEIVE_ADDR_ID);
         String body2 = param2.toString();
         String createUrl2 = Common.MallUrl + Common.submitOrderUri;

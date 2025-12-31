@@ -10,14 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/AccessTokenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/AccessTokenClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/EmployeeVoucherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/EmployeeVoucherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/RefundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/RefundTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/CreateCardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/VoucherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliOpTest/VoucherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliSelfSupplierTest/EnterpriseSelfsupplierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliSelfSupplierTest/EnterpriseSelfsupplierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/ProductTest/PurchaseProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/BatchImportEmployeeJumpLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/SourceTest/PriceCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/utils/GetCaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/prod-huika.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/regression_tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/regression_tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/regression_tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/regression_tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/addressInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/addressInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/applySelfSupplierInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/applySelfSupplierInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/createProdOrder11.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/createProdOrder11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/createProdOrder12.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/createProdOrder12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/createProdOrder13.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/createProdOrder13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/createProdOrder14.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/createProdOrder14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/createProdOrder15.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/createProdOrder15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/createVoucherInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/createVoucherInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/employeePointsParametersYGPC.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/employeePointsParametersYGPC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/exchangeVoucherCardInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/exchangeVoucherCardInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/productDetailsParameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/productDetailsParameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/refundOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/refundOrder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/staffFuliToken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/staffFuliToken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/dddd/supplierToken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/dddd/supplierToken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/addProduct.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/addProduct.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/applySelfSupplierInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/applySelfSupplierInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/createCardInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/createCardInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/createProdOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/createProdOrder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/createVoucherInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/createVoucherInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/employeePointsParameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/employeePointsParameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/exchangeVoucherCardInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/exchangeVoucherCardInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/imageType.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/imageType.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/recipes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/recipes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/recycleIntegralEmployeeId.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/recycleIntegralEmployeeId.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/sku.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/sku.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/test-dddd/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/src/main/resources/test-dddd/token.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,9 +416,10 @@
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/dddd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources" />
+      <recent name="$PROJECT_DIR$/interface-autotest/target/src/main/resources" />
       <recent name="$PROJECT_DIR$/interface-autotest/src/main" />
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/pic" />
-      <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources" />
       <recent name="$PROJECT_DIR$/interface-autotest/src/main/resources/test-dddd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -619,7 +652,7 @@
       <workItem from="1767079450848" duration="173000" />
       <workItem from="1767080327763" duration="1141000" />
       <workItem from="1767081491044" duration="4103000" />
-      <workItem from="1767089634654" duration="3051000" />
+      <workItem from="1767089634654" duration="5976000" />
     </task>
     <servers />
   </component>

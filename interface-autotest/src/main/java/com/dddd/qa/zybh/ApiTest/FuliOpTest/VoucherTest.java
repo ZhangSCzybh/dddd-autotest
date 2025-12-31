@@ -46,7 +46,7 @@ public class VoucherTest {
 
     @Test(description = "创建提货券")
     public void addVoucher(){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(Common.createVoucherInfo);//getAllCases需要换成生产环境的参数
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(Common.createVoucherInfo);//getAllCases需要换成生产环境的参数
         param.put("name", vouchersName);
         String body = param.toString();
         String createUrl = Common.OpUrl+Common.addVoucherUri;

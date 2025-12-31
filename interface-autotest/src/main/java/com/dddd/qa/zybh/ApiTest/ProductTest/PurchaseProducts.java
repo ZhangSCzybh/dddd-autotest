@@ -171,7 +171,7 @@ public class PurchaseProducts extends BaseTest {
         }
 
         //对购物车里的商品进行提交订单
-        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases1(orderProdDetails);
+        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(orderProdDetails);
         param2.put("userReceiveAddrId", addressId);
         String body2 = param2.toString();
         String createUrl2 = Common.MallUrl+Common.submitOrderUri;
@@ -281,7 +281,7 @@ public class PurchaseProducts extends BaseTest {
     //description = "智采员工发放积分 弃用"
     //@Test(dataProvider = "EmployeeData")
     public void giveEmployeePoints(Integer[] list,String amount){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases1(employeePointsParameters);
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(employeePointsParameters);
         param.put("list", list);
         param.put("amount", amount);
         String body = param.toString();

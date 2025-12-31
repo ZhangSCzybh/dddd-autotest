@@ -135,19 +135,19 @@ public class DateUtil {
     public static String getSysdateStrAfterTenMinutes(){
         // 获取当前时间
         LocalDateTime now = LocalDateTime.now();
-        // 十分钟后
-        LocalDateTime afterTenMinutes = now.plusMinutes(10);
+        // 二十分钟后，这是480+20是因为服务器时间
+        LocalDateTime afterTenMinutes = now.plusMinutes(500);
         // 半小时后（30分钟）
-        LocalDateTime afterThirtyMinutes = now.plusMinutes(30);
+        LocalDateTime afterThirtyMinutes = now.plusMinutes(510);
         return String.format("%tF %tT", afterTenMinutes, afterTenMinutes);
     }
     public static String getSysdateStrAfterThirtyMinutes(){
         // 获取当前时间
         LocalDateTime now = LocalDateTime.now();
         // 十分钟后
-        LocalDateTime afterTenMinutes = now.plusMinutes(10);
+        LocalDateTime afterTenMinutes = now.plusMinutes(500);
         // 半小时后（30分钟）
-        LocalDateTime afterThirtyMinutes = now.plusMinutes(30);
+        LocalDateTime afterThirtyMinutes = now.plusMinutes(510);
         return String.format("%tF %tT", afterThirtyMinutes, afterThirtyMinutes);
     }
 

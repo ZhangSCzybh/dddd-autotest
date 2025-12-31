@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="regression">
-    <test name ="LoginZCProd">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
-        </classes>
-    </test>
     <test name="CountPaymentProd">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentTest"/>
         </classes>
     </test>
-
     <test name ="Voucher">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->

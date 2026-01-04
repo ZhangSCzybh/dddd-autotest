@@ -200,6 +200,8 @@ public class Common {
     public static String counterpaymentClientSecret = STATIC_PROPERTIES.getProperty("counterpayment.client_secret");
     public static String getCodeInfoUri = STATIC_PROPERTIES.getProperty("get.code.info.uri");
 
+
+    public static String loginMallInfo1 = STATIC_PROPERTIES.getProperty("login.mall.info1");
     //品牌管理
     public static String supplierBrandAddUri = STATIC_PROPERTIES.getProperty("supplier.brandreview.add.uri");
     public static String SupplierBrandreviewListUri = STATIC_PROPERTIES.getProperty("supplier.brandreview.list.uri");

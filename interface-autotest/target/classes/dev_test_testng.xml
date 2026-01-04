@@ -16,6 +16,11 @@
             <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
         </classes>
     </test>
+    <test name="CounterPaymentDev">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentDevTest"/>
+        </classes>
+    </test>
     <test name="CardsDev">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/> -->

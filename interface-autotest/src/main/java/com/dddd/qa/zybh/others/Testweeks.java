@@ -77,6 +77,9 @@ public class Testweeks {
     public void test(){
         System.out.println(new File("").getAbsolutePath());
         //4个自建供应商供应商-发货 登录获取token
+        //获取员工employee-cache
+        Common.mallToken = LoginUtil.loginFuliMallToken("https://serverdev.lixiangshop.com/enterprise/account/login",Common.loginMallInfo1);
+        logger.info("获取虞信品员工商城的token：{}", Common.mallToken);
 
     }
 

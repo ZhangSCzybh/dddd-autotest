@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentDevTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentDevTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -651,7 +652,8 @@
       <workItem from="1767503331790" duration="8682000" />
       <workItem from="1767514494162" duration="1295000" />
       <workItem from="1767515851692" duration="23000" />
-      <workItem from="1767575907296" duration="813000" />
+      <workItem from="1767575907296" duration="2886000" />
+      <workItem from="1767580570223" duration="100000" />
     </task>
     <servers />
   </component>

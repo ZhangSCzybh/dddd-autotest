@@ -372,7 +372,7 @@ public class CounterPaymentDevTest {
         // 获取当前时间
         Calendar calendar = Calendar.getInstance();
         // 服务器时间需要添加8小时
-        calendar.add(Calendar.HOUR_OF_DAY, 0);
+        calendar.add(Calendar.HOUR_OF_DAY, 8);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String timestamp = sdf.format(calendar.getTime());
         System.out.println("时间戳" + timestamp);

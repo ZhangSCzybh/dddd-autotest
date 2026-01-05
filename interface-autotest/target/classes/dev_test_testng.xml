@@ -23,8 +23,8 @@
     </test>
     <test name="CardsDev">
         <classes>
-            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/> -->
-            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/> -->
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
         </classes>
     </test>
 

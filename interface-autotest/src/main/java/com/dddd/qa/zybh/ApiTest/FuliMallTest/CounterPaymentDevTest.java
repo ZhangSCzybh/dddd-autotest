@@ -163,6 +163,8 @@ public class CounterPaymentDevTest {
                 .body();
         JSONObject jsonResult = new JSONObject(result);
         System.out.println(jsonResult);
+        // 验证接口可用性
+        CommonUtil.assertAvailable(jsonResult, body, url, Config.MallPro, scene);
         number = new JSONObject(jsonResult.get("result")).get("number").toString();
         Number balance =  (Number) new JSONObject(jsonResult.get("result")).get("balance");
         System.out.println("子订单号:" + number + ";" + "付款码下单后的电子钱包余额:" + balance);
@@ -238,6 +240,8 @@ public class CounterPaymentDevTest {
                 .body();
         JSONObject jsonResult = new JSONObject(result);
         System.out.println(jsonResult);
+        // 验证接口可用性
+        CommonUtil.assertAvailable(jsonResult, body, url, Config.MallPro, scene);
         number = new JSONObject(jsonResult.get("result")).get("number").toString();
         Number balance =  (Number) new JSONObject(jsonResult.get("result")).get("balance");
         System.out.println("子订单号:" + number + ";" + "员工工号下单后的电子钱包余额:" + balance);
@@ -318,7 +322,7 @@ public class CounterPaymentDevTest {
         param.put("type", 2);
         param.put("code", Code);
         param.put("amount", "10000");
-        param.put("goodName", "线下收银商品-付款码自动下单");
+        param.put("goodName", "线下收银商品-付款码余额不足自动下单");
         param.put("canteenId", "01-01");
         param.put("canteenName", "测试食堂");
         param.put("stallId", "01-01-001");
@@ -335,7 +339,8 @@ public class CounterPaymentDevTest {
                 .body();
         JSONObject jsonResult = new JSONObject(result);
         System.out.println(jsonResult);
-        //number = new JSONObject(jsonResult.get("result")).get("number").toString();
+        // 验证接口可用性
+        CommonUtil.assertAvailable(jsonResult, body, url, Config.MallPro, scene);
         payOrderNumber = new JSONObject(jsonResult.get("result")).get("payOrderNumber").toString();
         Number balance =  (Number) new JSONObject(jsonResult.get("result")).get("balance");
         System.out.println("支付级订单号:" + payOrderNumber + ";" + "付款码下单后的电子钱包余额:" + balance);
@@ -365,7 +370,7 @@ public class CounterPaymentDevTest {
 
 
     //获取Authorization
-    public static String fetchDevAccessToken() throws Exception {
+    public static String fetchDevAccessToken(){
         // 1. 生成当前时间戳 (格式: yyyy-MM-dd HH:mm:ss)
         //SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         //String timestamp = sdf.format(new Date());

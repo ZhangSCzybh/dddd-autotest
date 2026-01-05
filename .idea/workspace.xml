@@ -10,9 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/captcha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/captcha.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentDevTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentDevTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/dev_test_testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dev_test_testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod-huika.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentDevTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/dddd/qa/zybh/ApiTest/FuliMallTest/CounterPaymentDevTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/dev_test_testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/dev_test_testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +406,7 @@
       <recent name="com.dddd.qa.zybh.ApiTest.ProductTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CounterPaymentDevTest">
+  <component name="RunManager" selected="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml">
     <configuration name="CounterPaymentDevTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
@@ -472,18 +478,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterPaymentDevTest.getEmployeeWallet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest" />
-      <option name="MAIN_CLASS_NAME" value="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentDevTest" />
-      <option name="METHOD_NAME" value="getEmployeeWallet" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -491,19 +489,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" />
       <item itemvalue="TestNG.CounterPaymentDevTest.cancelTest" />
       <item itemvalue="TestNG.CounterPaymentDevTest.createOrdInsufficientTest" />
       <item itemvalue="TestNG.CounterPaymentDevTest.getCreditTest" />
       <item itemvalue="TestNG.CounterPaymentDevTest" />
-      <item itemvalue="TestNG.CounterPaymentDevTest.getEmployeeWallet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test.xml" />
         <item itemvalue="TestNG.CounterPaymentDevTest" />
         <item itemvalue="TestNG.CounterPaymentDevTest.cancelTest" />
         <item itemvalue="TestNG.CounterPaymentDevTest.createOrdInsufficientTest" />
         <item itemvalue="TestNG.CounterPaymentDevTest.getCreditTest" />
-        <item itemvalue="TestNG.CounterPaymentDevTest.getEmployeeWallet" />
       </list>
     </recent_temporary>
   </component>
@@ -653,7 +651,7 @@
       <workItem from="1767514494162" duration="1295000" />
       <workItem from="1767515851692" duration="23000" />
       <workItem from="1767575907296" duration="2886000" />
-      <workItem from="1767580570223" duration="100000" />
+      <workItem from="1767580570223" duration="1398000" />
     </task>
     <servers />
   </component>

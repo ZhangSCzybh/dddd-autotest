@@ -30,8 +30,6 @@ public class NoOrderSkuTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "无交易量商品查询模块";
-    private static final String SUPPLIER_ID = "889595";
-    private static final String ENTERPRISE_ID = "225";
 
     @BeforeClass
     public static void setUp() {
@@ -89,17 +87,17 @@ public class NoOrderSkuTest {
         JSONObject param = JSONUtil.createObj();
         param.put("page", 1);
         param.put("pageSize", 10);
-        param.put("supplierId", SUPPLIER_ID);
+        param.put("supplierId", Common.supplierId);
         param.put("firstUpStatusTimeType", "0");
         param.put("saleStatus", 1);
         param.put("firstOpenSaleTime", "");
 
         List<Integer> supplierIds = new ArrayList<>();
-        supplierIds.add(Integer.valueOf(SUPPLIER_ID));
+        supplierIds.add(Common.supplierId);
         param.put("supplierIds", supplierIds);
 
         List<Integer> enterpriseIds = new ArrayList<>();
-        enterpriseIds.add(Integer.valueOf(ENTERPRISE_ID));
+        enterpriseIds.add(Integer.valueOf(Common.enterprId));
         param.put("enterpriseIds", enterpriseIds);
 
         return param;

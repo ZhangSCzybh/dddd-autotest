@@ -5,14 +5,10 @@ import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
-import com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest;
 import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.CommonUtil;
 import com.dddd.qa.zybh.Constant.Config;
-import com.dddd.qa.zybh.utils.DateUtil;
-import com.dddd.qa.zybh.utils.GetCaseUtil;
 import com.dddd.qa.zybh.utils.LoginUtil;
-import org.checkerframework.checker.units.qual.C;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -22,7 +18,6 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
-import java.util.concurrent.ThreadLocalRandom;
 
 import static com.dddd.qa.zybh.BaseTest.caveat;
 

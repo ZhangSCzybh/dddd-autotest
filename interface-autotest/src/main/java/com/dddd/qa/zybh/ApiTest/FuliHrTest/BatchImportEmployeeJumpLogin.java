@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.SourceTest;
+package com.dddd.qa.zybh.ApiTest.FuliHrTest;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
@@ -23,8 +23,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
 
-import static com.dddd.qa.zybh.BaseTest.caveat;
-
 /**
  * @author zhangsc
  * @date 2025年08月16日 08:10:54
@@ -39,24 +37,18 @@ public class BatchImportEmployeeJumpLogin {
     private static final HashMap<String, String> headers2 =new HashMap<>();
     private static final HashMap<String, String> headers3 =new HashMap<>();
 
-    private static final String HrUrl= "https://backpre.lixiangshop.com";//不同环境修改此处
-    private static final String MallUrl= "https://serverpre.lixiangshop.com";//不同环境修改此处
 
-    private static final String addressInfo = "dddd/addressInfo";
     private static String employeeLoginName;
     private static final String password= "addzaiyebuhui"+ Config.NowYmd;
-    private static final int Count= 5;//员工数量
+    private static final int Count= 2;//员工数量
 
 
     @BeforeClass
     public static void setUp() {
-        JSONObject json = new JSONObject();
-        json.put("loginName", "1193");//不同环境修改此处
-        json.put("password", "123456");//不同环境修改此处
-        String Info = json.toString();
-        Common.FuliHrToken = LoginUtil.loginFuliHrToken( HrUrl +"/enterpriseadmin/account/login" , Info);
+        Common.FuliHrToken = LoginUtil.loginFuliHrToken( Common.HrUrl + Common.loginHrUri , Common.loginHrInfo);
         logger.info("执行登录获取福粒HR平台的token：" + Common.FuliHrToken);
     }
+
 
     @Test(description = "福粒Hr平台新增员工")
     public void addEmployees() throws InterruptedException {
@@ -64,15 +56,16 @@ public class BatchImportEmployeeJumpLogin {
             //存放参数
             JSONObject param = JSONUtil.createObj();
             param.put("email", password + DateUtil.RandomSixDigit()+ "@163.com");
-            param.put("employeeName", password+ DateUtil.RandomSixDigit());
-            param.put("employeeNo", password+DateUtil.RandomSixDigit());
+            param.put("employeeName", DateUtil.RandomSixDigit() +Config.NowYmd);
+            param.put("employeeNo", DateUtil.RandomSixDigit() + Config.NowYmd);
             param.put("loginName", password+DateUtil.RandomSixDigit());
             param.put("mobile", DateUtil.RandomNumberGenerator());
             param.put("password", password);
             param.put("resPassword", password);
-            param.put("deptId", 1180);
+            param.put("deptId", 0);
+
             String body = param.toString();
-            String createUrl = HrUrl+"/enterpriseadmin/employees";
+            String createUrl = Common.HrUrl+ "/enterpriseadmin/employees";
             headers.put("enterprise-cache", Common.FuliHrToken);
             String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
             logger.info("新增员工：" + result);
@@ -86,14 +79,14 @@ public class BatchImportEmployeeJumpLogin {
             JSONObject param = JSONUtil.createObj();
             param.put("page", 1);
             param.put("pageSize", Count);
-            String createUrl = HrUrl + "/enterpriseadmin/employees";
+            String createUrl = Common.HrUrl + "/enterpriseadmin/employees";
             headers.put("enterprise-cache", Common.FuliHrToken);
             String result = HttpUtil.createGet(createUrl).addHeaders(headers).form(param).execute().body();
             JSONObject jsonresult = new JSONObject(result);
 
             // 定义目标文件路径
             File file = new File("");
-            String filePath = file.getAbsolutePath() + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
+            String filePath = file.getAbsolutePath() + Common.mallTokenInfo;//不同环境修改此处
             //String filePath = Common.jenkinsUrl + "/src/main/resources/test-dddd/token.json";//不同环境修改此处
 
             //循环获取
@@ -103,12 +96,12 @@ public class BatchImportEmployeeJumpLogin {
                 logger.info("员工信息: employeeName={},loginName={}", employeeName,employeeLoginName);
 
                 //登录商城，新增地址
-                String loginMallToken=  loginFuliMallToken( MallUrl+"/enterprise/account/login");
+                String loginMallToken=  loginFuliMallToken( Common.MallUrl+"/enterprise/account/login");
 
                 //新增地址
-                com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(addressInfo);
+                com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(Common.mallAddressInfo);
                 String body2 = param2.toString();
-                String createUrl2 = MallUrl + "/enterprise/address/addAddress";
+                String createUrl2 = Common.MallUrl + "/enterprise/address/addAddress";
                 headers2.put("employee-cache", loginMallToken);
                 String result2 = HttpUtil.createPost(createUrl2).addHeaders(headers2).body(body2).execute().body();
                 logger.info("新增地址：" + result2);
@@ -116,7 +109,7 @@ public class BatchImportEmployeeJumpLogin {
                 //获取地址id
                 JSONObject param3 = JSONUtil.createObj();
                 String body3 = param3.toString();
-                String createUrl3 = MallUrl + "/enterprise/address/getAddressList";
+                String createUrl3 = Common.MallUrl + "/enterprise/address/getAddressList";
                 headers3.put("employee-cache", loginMallToken);
                 String result3 = HttpUtil.createGet(createUrl3).addHeaders(headers3).form(body3).execute().body();
                 JSONObject jsonresult3 = new JSONObject(result3);

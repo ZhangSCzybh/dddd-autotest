@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestEnv">
-    <test name ="CursorDev">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
-        </classes>
-    </test>
-    <test name = "JumpLoginMallPre">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
-        </classes>
-    </test>
-    <test name="SgnetProductSynchronizationDev">
-        <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
-        </classes>
-    </test>
     <test name="CounterPaymentDev">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentDevTest"/>

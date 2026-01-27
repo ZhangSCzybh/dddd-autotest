@@ -5,6 +5,7 @@ import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
+import com.dddd.qa.zybh.Constant.Common;
 import com.dddd.qa.zybh.Constant.CommonUtil;
 import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.ErrorEnum;
@@ -30,15 +31,12 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
  * @date 2025年03月17日 15:48:43
  * @packageName com.dddd.qa.zybh.ApiTest.AiTest
  * @className CursorTest
- * @describe 系统用户登录测试
+ * @describe 系统用户登录运营平台测试
  */
 public class CursorTest {
     
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
-    private static final String LOGIN_URL = "https://backdev.lixiangshop.com/admin/account/login";
-    private static final String SUPPLIER_LIST_URL = "https://backdev.lixiangshop.com/admin/supplier/getSupplierInfoList";
-    private static String scene = "福粒运营平台";
-
+    private static final String LOGIN_URL = Common.OpUrl + Common.loginOPUri;
 
     /**
      * 读取响应内容
@@ -83,8 +81,8 @@ public class CursorTest {
 
         // 6. 构建请求体
         JSONObject param = JSONUtil.createObj();
-        param.put("loginName", "admintest");
-        param.put("password", "fortest");
+        param.put("loginName", Common.cursorTestLoginName);
+        param.put("password", Common.cursorTestPassword);
         String requestBody = param.toString();
 
         // 7. 发送请求
@@ -237,60 +235,4 @@ public class CursorTest {
         connection.disconnect();
     }
 
-    @Test(description = "获取供应商列表测试", dependsOnMethods = "testAdminLogin")
-    public void testGetSupplierList() throws IOException {
-        // 1. 先获取登录token
-        System.out.println(getLoginToken());
-
-        // 2. 调用供应商列表接口
-        URL url = new URL(SUPPLIER_LIST_URL);
-        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        connection.setRequestMethod("GET");
-        connection.setRequestProperty("Content-Type", "application/json");
-        connection.setRequestProperty("fuli-cache", getLoginToken());
-
-        // 读取响应内容
-        String responseContent = getResponseContent(connection);
-        logger.info("获取供应商列表响应: {}", responseContent);
-
-        // 解析响应内容
-        JSONObject responseJson = JSONUtil.parseObj(responseContent);
-        CommonUtil.assertAvailable(responseJson, null, SUPPLIER_LIST_URL,Config.FuliYunYingPro, scene);
-
-        // 断言验证
-        Assert.assertNotNull(responseJson.get("result"), "供应商列表不应为空");
-        // 获取result中的list数组
-        //cn.hutool.json.JSONArray supplierList = responseJson.getJSONArray("result");
-        String firstSupplierId = (new JSONObject((new JSONArray((new JSONObject(responseJson.get("result"))).get("list"))).get(0))).get("id").toString();
-        String firstSupplierName = (new JSONObject((new JSONArray((new JSONObject(responseJson.get("result"))).get("list"))).get(0))).get("name").toString();
-        logger.info("第一个供应商: {}", firstSupplierName + ",id:" + firstSupplierId);
-        //Assert.assertEquals(firstSupplierId,"889584");
-        connection.disconnect();
-    }
-
-    /**
-     * 获取登录token的工具方法
-     */
-    private String getLoginToken() throws IOException {
-        URL loginUrl = new URL(LOGIN_URL);
-        HttpURLConnection loginConnection = (HttpURLConnection) loginUrl.openConnection();
-        loginConnection.setRequestMethod("POST");
-        loginConnection.setRequestProperty("Content-Type", "application/json");
-        loginConnection.setDoOutput(true);
-        loginConnection.setDoInput(true);
-
-        JSONObject loginParam = JSONUtil.createObj();
-        loginParam.put("loginName", "admintest");
-        loginParam.put("password", "fortest");
-        String loginRequestBody = loginParam.toString();
-
-        try (OutputStream os = loginConnection.getOutputStream()) {
-            byte[] input = loginRequestBody.getBytes("UTF-8");
-            os.write(input, 0, input.length);
-        }
-
-        String fuliCache = loginConnection.getHeaderField("fuli-cache");
-        loginConnection.disconnect();
-        return fuliCache;
-    }
 }

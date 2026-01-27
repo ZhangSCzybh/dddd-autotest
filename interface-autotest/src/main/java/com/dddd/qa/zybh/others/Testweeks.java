@@ -1,34 +1,22 @@
 package com.dddd.qa.zybh.others;
 
 
-import cn.hutool.http.HttpUtil;
-import cn.hutool.json.JSONObject;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
-import com.dddd.qa.zybh.ApiTest.SourceTest.SourceTest;
 import com.dddd.qa.zybh.Constant.Common;
-import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.LoginUtil;
 
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
-import org.junit.rules.ErrorCollector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.*;
-
-import static com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest.getCardVerifyNumber;
-import static com.dddd.qa.zybh.Constant.CommonUtil.keyDataDet;
 
 
 /**
@@ -83,6 +71,14 @@ public class Testweeks {
 
     }
 
+    @Test
+    public void test1(){
+        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(Common.OpUrl + Common.loginOPUri , Common.loginOPInfo);
+        logger.info("执行登录获取慧卡运营平台的token：" + Common.fuliOperationPlatformToken);
+        // 登录获取token
+        Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
+        logger.info("执行登录获取供应商平台的token：" + Common.supplierToken);
+    }
 
 
     public static void main(String[] args) {

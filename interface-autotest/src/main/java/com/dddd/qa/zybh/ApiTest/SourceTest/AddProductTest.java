@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.ProductTest;
+package com.dddd.qa.zybh.ApiTest.SourceTest;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
@@ -26,7 +26,7 @@ public class AddProductTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
 
-    private static final String productDetailsParameters = "dddd/productDetailsParameters";;
+    private static final String productDetailsParameters = "source/productDetailsParameters";;
     private static final int createNumber = 10;
     private static String spuCode;
     private static String skuCode;

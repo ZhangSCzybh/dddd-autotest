@@ -31,7 +31,7 @@ public class CreateBrandAndProductTools {
     private static final HashMap<String, String> headers =new HashMap<>();
     private static final String scene2 = "品牌管理";
     private static  String brandIdTest;
-    private static final String addProduct = "test-dddd/addProduct";
+    private static final String addProduct = "source/addProduct";
     private static final String SupplierCache = "ZFVvaG3t7F9d9T7V7s8Za18Uaz6efj9Fc0AO9X7hf0EO9E3Z3E5VbT7dbECV0V5paG5c1HNYeHB0UWFQdUR4djhsWGEwV2NsR2RWSmh0dldMWlphdnJtR3BDSEVVTFR0RDZoZmNxWjE4ZUtuKzFPckVVS3V4ZHV2bURqSTVJbHYwUksva2M2MDNTR3ZXZFRsQ0oyYm9UVzFSNzdCNFVaSHAzYWNDakRMbVZLRFNRZGM1WE1qTUxkczRQMTN6dFgvMFB1WGZmNmFMZmQ0eHhiaby9OR0JOOWxW";
     private static final String FuliCache = "RjRmT10Nah6ReGAN2N7b4D8Eb22W5U6tfD9U7G31fU1beG5h1z8b1XAV4DDb7mBd7R2SeGtjWVNVR0JzZnZmcU5NL0NzYVpycGp5MG8xRmxEcnZLRGFRaDVJUW4wNzZXaTUreWVuMlE4dXh6Qy9mbzRHMEwrVkVBVDMrOFA5OER4RWM9";
 

@@ -28,7 +28,6 @@ public class SupplierSkuUpdatePriceTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "供应商商品价格更新模块";
-    private static final String SKU_ID = "10142410";
 
     @BeforeClass
     public static void setUp() {
@@ -138,7 +137,7 @@ public class SupplierSkuUpdatePriceTest {
      */
     private JSONObject buildBaseParams() {
         JSONObject param = JSONUtil.createObj();
-        param.put("skuIds", SKU_ID);
+        param.put("skuIds", Common.SKU_ID);
         param.put("effectiveType", 0);
         return param;
     }

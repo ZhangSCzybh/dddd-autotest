@@ -28,7 +28,6 @@ public class SupplierSkuUpdateStateTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "供应商商品状态更新模块";
-    private static final String SKU_ID = "10142410";
     private static final String BASE_URL = "/enterpriseadmin/product/sku/";
     private static final String UPDATE_STATE_URI = "/updateState";
 
@@ -82,7 +81,7 @@ public class SupplierSkuUpdateStateTest {
      */
     private void executeTest(JSONObject param, String testCase) {
         String body = param.toString();
-        String url = Common.SelfsupplierUrl + BASE_URL + SKU_ID + UPDATE_STATE_URI;
+        String url = Common.SelfsupplierUrl + BASE_URL + Common.SKU_ID + UPDATE_STATE_URI;
         headers.put("enterprise-cache", Common.SelfsupplierToken);
 
         logger.info("开始执行测试用例：{}", testCase);

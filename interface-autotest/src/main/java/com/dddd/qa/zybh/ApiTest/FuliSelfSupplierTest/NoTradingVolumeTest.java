@@ -48,12 +48,12 @@ public class NoTradingVolumeTest {
         param.put("page",1);
         param.put("pageSize",100);
         param.put("firstUpStatusTimeType",0);
-        param.put("supplierId",889595);
+        param.put("supplierId",Common.supplierId);
         List<Integer> enterpriseIds = new ArrayList<>();
         enterpriseIds.add(Integer.valueOf(Common.enterprId));
         param.put("enterpriseIds", enterpriseIds);
         List<Integer> supplierIds = new ArrayList<>();
-        supplierIds.add(889595);
+        supplierIds.add(Common.supplierId);
         param.put("supplierIds", supplierIds);
         String body = param.toString();
         String createUrl = Common.SelfsupplierUrl + Common.queryNoOrderSkuPagesUri;

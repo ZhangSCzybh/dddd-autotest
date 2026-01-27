@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.SourceTest;
+package com.dddd.qa.zybh.ApiTest.FuliOpTest;
 
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -36,7 +36,7 @@ public class CountpaymentAccessToken {
             // 1. 生成当前时间戳 (格式: yyyy-MM-dd HH:mm:ss)
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             String timestamp = sdf.format(new Date());
-            System.out.println("时间戳" + timestamp);
+            System.out.println("时间戳:" + timestamp);
             // 2. 生成签名
             String sign = DigestUtils.md5Hex(
                     String.format("%s%s%s%s%s",
@@ -56,10 +56,10 @@ public class CountpaymentAccessToken {
             String body = requestBody.toString();
             headers.put("Content-Type", "application/json");
             String result = HttpUtil.createPost(counterpaymentApiUrl).addHeaders(headers).body(body).execute().body();
-            System.out.println("Response body: " + result);
             cn.hutool.json.JSONObject jsonResult = new cn.hutool.json.JSONObject(result);
             String accessToken =  (new cn.hutool.json.JSONObject(jsonResult.get("result")).get("accessToken").toString());
-            System.out.println("获取到的accessToken: " + accessToken);
+            System.out.println("accessToken: " + accessToken);
+            System.out.println("Authorization: " +  "Bearer " + accessToken);
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.SourceTest;
+package com.dddd.qa.zybh.ApiTest.FuliOpTest;
 
 /**
  * @author zhangsc
@@ -30,7 +30,6 @@ import java.util.List;
 public class PriceCalculator {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
-    private static final String OPUrl= "https://backdev.lixiangshop.com";
     //计算毛利率
     /**
     public static void main(String[] args) {
@@ -103,11 +102,7 @@ public class PriceCalculator {
 
     @BeforeClass
     public static void setUp() {
-        JSONObject json = new JSONObject();
-        json.put("loginName", "admintest");//不同环境修改此处
-        json.put("password", "fortest");//不同环境修改此处
-        String Info = json.toString();
-        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken( OPUrl+"/admin/account/login" , Info);
+        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken( Common.OpUrl + Common.loginOPUri, Common.loginOPInfo);
         logger.info("执行登录获取福粒HR平台的token：" + Common.fuliOperationPlatformToken);
     }
     //sgnet商品导入
@@ -115,7 +110,7 @@ public class PriceCalculator {
     public Object[][] supplierTokenFromCSV() {
         List<Object[]> data = new ArrayList<>();
         //try (BufferedReader br = new BufferedReader(new FileReader("/Users/zhangshichao/Documents/Workspace/dddd-autotest/interface-autotest/src/main/resources/test-dddd/sku.csv"))) {
-        try (BufferedReader br = new BufferedReader(new FileReader(new File("").getAbsolutePath()+"/src/main/resources/test-dddd/sku.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File("").getAbsolutePath()+ Common.sgnetSyncSkuInfo))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.startsWith("num")) { // 跳过标题行
@@ -134,7 +129,7 @@ public class PriceCalculator {
         //对指定的sku进行批量同步
         JSONObject param2 = JSONUtil.createObj();
         param2.put("skuCode", skuCode);
-        String createUrl2 = OPUrl + "/admin/jdManagement/goodsImport";
+        String createUrl2 = Common.OpUrl + "/admin/jdManagement/goodsImport";
         headers.put("fuli-cache", Common.fuliOperationPlatformToken);
         String result2= HttpUtil.createGet(createUrl2).addHeaders(headers).form(param2).execute().body();
         logger.info("商品导入：" + result2);

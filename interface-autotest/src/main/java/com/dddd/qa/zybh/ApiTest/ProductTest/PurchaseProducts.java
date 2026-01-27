@@ -35,6 +35,7 @@ import java.util.*;
  * orderProdDetails 订单参数配置
  * selectArrayByDay 每日sku列表
  * listEmployeeData 智采积分发放人员
+ * 生产环境专属用例，配置测试环境 sku和供应商比较繁琐，如有需要最好复制一份修改
  */
 public class PurchaseProducts extends BaseTest {
 
@@ -43,7 +44,7 @@ public class PurchaseProducts extends BaseTest {
 
     /**********************************生产环境的benefits/order/ubmitNew接口参数配置***********************************/
     private static String orderProdDetails;
-    private static final String scene1 = "商品下单";
+    private static final String scene = "商品下单";
 
     @BeforeClass
     public static void setUp() {
@@ -80,19 +81,19 @@ public class PurchaseProducts extends BaseTest {
     private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
         switch (dayOfWeek) {
             case MONDAY:
-                orderProdDetails="dddd/createProdOrder11";
+                orderProdDetails=Common.MonOrderDetailInfo;
                 return Common.array1;
             case TUESDAY:
-                orderProdDetails="dddd/createProdOrder12";
+                orderProdDetails=Common.TueOrderDetailInfo;
                 return Common.array2;
             case WEDNESDAY:
-                orderProdDetails="dddd/createProdOrder13";
+                orderProdDetails=Common.WedOrderDetailInfo;
                 return Common.array3;
             case THURSDAY:
-                orderProdDetails="dddd/createProdOrder14";
+                orderProdDetails=Common.ThuOrderDetailInfo;
                 return Common.array4;
             case FRIDAY:
-                orderProdDetails="dddd/createProdOrder15";
+                orderProdDetails=Common.FriOrderDetailInfo;
                 return Common.array5;
             // 如果是周六或周日，你可以选择默认数组或抛出异常
             case SATURDAY:
@@ -107,11 +108,11 @@ public class PurchaseProducts extends BaseTest {
     @DataProvider(name = "staffFuliTokenProvider")
     public Object[][] staffFuliTokenFromCSV() {
         return new Object[][] {
-                {"1" ,Common.jumpMallToken1,"11951"},
-                {"2" ,Common.jumpMallToken2,"11967"},
-                {"3" ,Common.jumpMallToken3,"11946"},
-                {"4" ,Common.jumpMallToken4,"11969"},
-                {"5" ,Common.jumpMallToken5,"11965"}
+                {"1" ,Common.jumpMallToken1,Common.addressIdInfo1},
+                {"2" ,Common.jumpMallToken2,Common.addressIdInfo2},
+                {"3" ,Common.jumpMallToken3,Common.addressIdInfo3},
+                {"4" ,Common.jumpMallToken4,Common.addressIdInfo4},
+                {"5" ,Common.jumpMallToken5,Common.addressIdInfo5}
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }
@@ -131,11 +132,11 @@ public class PurchaseProducts extends BaseTest {
     @DataProvider(name = "EmployeeIdData")
     public Object[][] listEmployeeIdData() {
         return new Object[][] {
-                {"128638",1}, // 发放积分账号 ceshi 888888 福粒id
-                {"112714",2},// 发放积分账号13858653282 888888 福粒id
-                {"124236",3}, // 发放积分账号karen 888888 福粒id
-                {"112716",4},// 发放积分账号18767176714 888888 福粒id
-                {"113546",5}// 发放积分账号WXY13666605555 test123456 福粒id
+                {Common.employeeIdInfo1,1}, // 发放积分账号 ceshi 888888 福粒id
+                {Common.employeeIdInfo2,2},// 发放积分账号13858653282 888888 福粒id
+                {Common.employeeIdInfo3,3}, // 发放积分账号karen 888888 福粒id
+                {Common.employeeIdInfo4,4},// 发放积分账号18767176714 888888 福粒id
+                {Common.employeeIdInfo5,5}// 发放积分账号WXY13666605555 test123456 福粒id
                 //{ new Integer[] {123456, 789012} } // 数据集2
         };
     }
@@ -191,7 +192,7 @@ public class PurchaseProducts extends BaseTest {
         jsonresult3 = new JSONObject(result3);
         String status3 = jsonresult3.getStr("msg");
 
-        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.MallPro, scene1, ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
+        Assert.assertNotNull(orderNumber,String.format(Config.result_message, Config.MallPro, scene, ErrorEnum.ISEMPTY.getMsg(), Common.comfirmOrderUri, orderNumber, jsonresult3));
         caveat("第" + num + "个账号: " + tokendata + "\n"
                 +"创建订单：" + status + "\n"
                 +"订单编号：" + orderNumber + "\n"

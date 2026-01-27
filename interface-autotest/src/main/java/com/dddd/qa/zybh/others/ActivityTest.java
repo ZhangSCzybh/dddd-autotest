@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.ActivityListTest;
+package com.dddd.qa.zybh.others;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;

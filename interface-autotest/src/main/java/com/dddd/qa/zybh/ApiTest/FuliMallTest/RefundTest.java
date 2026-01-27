@@ -34,10 +34,6 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
 public class RefundTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers = new HashMap<>();
-
-    private static final String ORDER_PROD_DETAILS = "dddd/refundOrder";
-    private static final String FULI_PLATFORM_SKU = "10840404";
-    private static final String USER_RECEIVE_ADDR_ID = "13133";
     private static final String SCENE_ORDER = "商品下单";
     private static final String SCENE_REFUND = "售后退款";
 
@@ -61,7 +57,7 @@ public class RefundTest {
         JSONObject param = JSONUtil.createObj();
         param.put("checked", "0");
         param.put("count", "1");
-        param.put("skuId", FULI_PLATFORM_SKU);
+        param.put("skuId", Common.FULI_PLATFORM_SKU);
         String body = param.toString();
         String createUrl = Common.MallUrl + Common.addCartUri;
         
@@ -71,8 +67,8 @@ public class RefundTest {
         logger.info("加入购物车：{}", result);
 
         // 对购物车里的商品进行提交订单
-        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(ORDER_PROD_DETAILS);
-        param2.put("userReceiveAddrId", USER_RECEIVE_ADDR_ID);
+        com.alibaba.fastjson.JSONObject param2 = GetCaseUtil.getAllCases(Common.ORDER_PROD_DETAILS);
+        param2.put("userReceiveAddrId", Common.USER_RECEIVE_ADDR_ID);
         String body2 = param2.toString();
         String createUrl2 = Common.MallUrl + Common.submitOrderUri;
         headers.put("Yian-Cache", Common.mallToken);

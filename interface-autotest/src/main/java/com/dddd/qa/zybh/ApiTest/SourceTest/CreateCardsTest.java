@@ -1,4 +1,4 @@
-package com.dddd.qa.zybh.ApiTest.FuliOpTest;
+package com.dddd.qa.zybh.ApiTest.SourceTest;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
@@ -29,7 +29,7 @@ public class CreateCardsTest {
     private static final HashMap<String, String> headers = new HashMap<>();
     private static final String scene = "创建会员卡";
     private static final String OpUrl = "https://backdev.lixiangshop.com";
-    private static final String createCardInfo = "/test-dddd/createCardInfo";
+    private static final String createCardInfo = "/source/createCardInfo";
     private static  String customerId;
 
 

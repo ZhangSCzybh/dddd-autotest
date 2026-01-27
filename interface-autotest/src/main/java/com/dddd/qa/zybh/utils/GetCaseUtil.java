@@ -135,7 +135,7 @@ public class GetCaseUtil {
 
     //智采员工pc平台--发放员工积分
     public static void giveEmployeePointsPC(Integer[] list, String amount){
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(employeePointsParametersYGPC);
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(Common.ygpcEmployeePointsParameters);
         param.put("list", list);
         param.put("amount", amount);
         String body = param.toString();

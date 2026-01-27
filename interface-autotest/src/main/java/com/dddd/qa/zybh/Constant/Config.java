@@ -44,6 +44,7 @@ public class Config {
     public static String brandId;//品牌id
 
     public static String cardNumber;
+    public static String statementId;//供应商对账的id
 
 
 

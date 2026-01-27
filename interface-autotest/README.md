@@ -92,7 +92,7 @@ interface-autotest/
 ```java
 InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
 // 切换到测试环境
-// InputStream in = Common.class.getClassLoader().getResourceAsStream("test.properties");
+// InputStream in = Common.class.getClassLoader().getResourceAsStream("test-pre.properties");
 ```
 
 ### 运行测试

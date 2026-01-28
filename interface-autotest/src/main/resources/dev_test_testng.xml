@@ -8,7 +8,7 @@
     </test>
     <test name="CardsDev">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.CreateCardsTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
             <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
         </classes>
     </test>

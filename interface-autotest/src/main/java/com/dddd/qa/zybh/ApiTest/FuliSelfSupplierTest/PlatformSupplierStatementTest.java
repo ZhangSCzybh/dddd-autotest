@@ -26,7 +26,7 @@ import static com.dddd.qa.zybh.BaseTest.caveat;
  * @date 2026年01月23日 17:28:49
  * @packageName com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest
  * @className PlatformSupplierStatementTest
- * @describe TODO 每个接口都需要替换成生成环境的数据
+ * @describe 平台供应商发起对账，订单来源：RefundTest测试类的四个订单
  */
 public class PlatformSupplierStatementTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);

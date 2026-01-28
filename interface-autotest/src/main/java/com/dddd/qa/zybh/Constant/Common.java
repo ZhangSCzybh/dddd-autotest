@@ -14,8 +14,8 @@ public class Common {
 
     static {
         try {
+            //InputStream in = Common.class.getClassLoader().getResourceAsStream("pre-dev.properties");
             InputStream in = Common.class.getClassLoader().getResourceAsStream("prod-huika.properties");
-            //InputStream in = Common.class.getClassLoader().getResourceAsStream("test-pre.properties");
             //字节流是无法读取中文的，否则会乱码。所以采取reader把inputStream转换成reader用字符流来读取中文
             BufferedReader bf = new BufferedReader(new InputStreamReader(in));
             if (null != bf) {
@@ -151,6 +151,9 @@ public class Common {
 
     public static String cursorTestLoginName = STATIC_PROPERTIES.getProperty("cursor.loginname");
     public static String cursorTestPassword = STATIC_PROPERTIES.getProperty("cursor.password");
+
+    public static String picListInfo = STATIC_PROPERTIES.getProperty("pic.list.info");//福利dev虞信品的账号，电子钱包线下收银
+
 
     public static String loginMallInfo1 = STATIC_PROPERTIES.getProperty("login.mall.info1");//福利dev虞信品的账号，电子钱包线下收银
 

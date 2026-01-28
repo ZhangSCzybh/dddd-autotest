@@ -1,0 +1,12 @@
+{
+  "redemptionCardFaceId": 24,
+  "cashAmount": 888,
+  "remark": "1888",
+  "productDeliveryType": 1,
+  "type": 2,
+  "quantity": "2",
+  "vailableMonth": "1",
+  "useInstruction": "<p>测试</p>",
+  "notice": "<p>测试</p>",
+  "mobilePageInfoId": 1010
+}

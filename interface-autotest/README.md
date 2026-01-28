@@ -103,7 +103,7 @@ mvn clean test
 
 2. 使用TestNG配置文件运行特定测试套件：
 ```bash
-mvn clean test -DsuiteXmlFile=src/main/resources/prod_regression_testng.xml
+mvn clean test -DsuiteXmlFile=src/main/resources/prod_huika_regression_testng.xml
 ```
 
 3. 生成Allure报告：

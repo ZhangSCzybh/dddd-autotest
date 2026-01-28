@@ -1,0 +1,99 @@
+{
+  "productDeliveryType": "1",
+  "creditSource": 0,
+  "integralType": "",
+  "source": 0,
+  "userReceiveAddrId": 111455,
+  "campaginId": "",
+  "sellerOrderList": [
+    {
+      "sellerId": 889387,
+      "buyerComment": "",
+      "itemList": [
+        {
+          "id": 3332438,
+          "skuId": 8392536,
+          "spuCode": 3332438,
+          "title": "再也不会售后对账高尔夫",
+          "titleEn": "",
+          "goodsImage": "https://supplier.qn.seagoor.com/1769588348415.jpg",
+          "goodsSpec": "立式",
+          "goodsPrice": 0.02,
+          "quantity": 1,
+          "totalGoodsPrice": 0.02,
+          "totalFreightPrice": 0,
+          "freight": 0,
+          "creditInfoList": [
+            {
+              "creditSource": 0,
+              "creditName": "积分",
+              "creditNameEn": "Credits",
+              "creditType": 1,
+              "isDefaultCredit": true,
+              "pointAmount": 3000,
+              "canUsePointAmount": 0.02,
+              "checked": true,
+              "businessId": 0,
+              "isBudget": false,
+              "isPurchaseApproval": 1,
+              "payEnterpriseId": 0,
+              "isUpperOrganization": false,
+              "businessOpportunitiesVoList": [
+                {
+                  "globalCredit": false,
+                  "isWhitelist": false,
+                  "credits": []
+                }
+              ],
+              "walletFlag": 0
+            }
+          ],
+          "creditType": 1,
+          "creditSource": 0,
+          "businessId": 0,
+          "payEnterpriseId": 0,
+          "creditName": "积分",
+          "creditNameEn": "Credits",
+          "isShow": false,
+          "shouldUsePointAmount": 0.02,
+          "pointAmount": 3000,
+          "walletFlag": 0
+        }
+      ]
+    }
+  ],
+  "topicId": "",
+  "seckillId": "",
+  "voucherId": "",
+  "creditInfoList": [
+    {
+      "creditSource": 0,
+      "creditName": "积分",
+      "creditNameEn": "Credits",
+      "creditType": 1,
+      "isDefaultCredit": true,
+      "pointAmount": 3000,
+      "canUsePointAmount": 0.02,
+      "checked": true,
+      "businessId": 0,
+      "isBudget": false,
+      "isPurchaseApproval": 1,
+      "payEnterpriseId": 0,
+      "isUpperOrganization": false,
+      "businessOpportunitiesVoList": [
+        {
+          "globalCredit": false,
+          "isWhitelist": false,
+          "credits": []
+        }
+      ],
+      "walletFlag": 0,
+      "usePointAmount": 0.02
+    }
+  ],
+  "payPassword": "",
+  "creditJson": "[{\"creditSource\":0,\"creditName\":\"积分\",\"creditNameEn\":\"Credits\",\"creditType\":1,\"isDefaultCredit\":true,\"pointAmount\":3000,\"canUsePointAmount\":0.02,\"checked\":true,\"businessId\":0,\"isBudget\":false,\"isPurchaseApproval\":1,\"payEnterpriseId\":0,\"isUpperOrganization\":false,\"businessOpportunitiesVoList\":[{\"globalCredit\":false,\"isWhitelist\":false,\"credits\":[]}],\"walletFlag\":0,\"usePointAmount\":0.02}]",
+  "isPurchaseApproval": 1,
+  "sceneStatus": 0,
+  "rechargeAccount": ""
+}

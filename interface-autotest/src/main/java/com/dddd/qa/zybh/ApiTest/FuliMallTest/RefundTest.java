@@ -187,7 +187,7 @@ public class RefundTest {
         
         // 处理 picList（必须用 List<String> 传入）
         List<String> picList = new ArrayList<>();
-        picList.add("https://item.qn.ddingddang.com/1760584998390.jpg");
+        picList.add(Common.picListInfo);
         param.put("picList", picList);
 
         String body = param.toString();
@@ -227,7 +227,7 @@ public class RefundTest {
         
         // 处理 picList（必须用 List<String> 传入）
         List<String> picList = new ArrayList<>();
-        picList.add("https://item.qn.ddingddang.com/1760584998390.jpg");
+        picList.add(Common.picListInfo);
         param.put("picList", picList);
 
         String body = param.toString();
@@ -267,7 +267,7 @@ public class RefundTest {
         
         // 处理 picList（必须用 List<String> 传入）
         List<String> picList = new ArrayList<>();
-        picList.add("https://item.qn.ddingddang.com/1760584998390.jpg");
+        picList.add(Common.picListInfo);
         param.put("picList", picList);
 
         String body = param.toString();

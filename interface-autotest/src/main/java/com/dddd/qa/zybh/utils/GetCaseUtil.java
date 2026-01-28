@@ -58,7 +58,6 @@ public class GetCaseUtil {
         try {
             File file = new File("");
             String filePath = file.getAbsolutePath() + "/src/main/resources/" + fileName + ".json";
-
             InputStream inputStream = new FileInputStream(filePath);
             String caseTags = IOUtils.toString(inputStream, "utf8");
             result = JSONObject.parseObject(caseTags);
@@ -136,6 +135,7 @@ public class GetCaseUtil {
     //智采员工pc平台--发放员工积分
     public static void giveEmployeePointsPC(Integer[] list, String amount){
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(Common.ygpcEmployeePointsParameters);
+        caveat("检查json文件路径:" + Common.ygpcEmployeePointsParameters);
         param.put("list", list);
         param.put("amount", amount);
         String body = param.toString();

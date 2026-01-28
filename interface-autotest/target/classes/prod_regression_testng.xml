@@ -70,12 +70,24 @@
 
     <test name="SgnetProductSynchronization">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.PriceCalculator"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.PriceCalculator"/>
         </classes>
     </test>
     <test name = "JumpLoginMall">
         <classes>
-            <class name="com.dddd.qa.zybh.ApiTest.SourceTest.BatchImportEmployeeJumpLogin"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliHrTest.BatchImportEmployeeJumpLogin"/>
+        </classes>
+    </test>
+
+    <test name="CounterPaymentDev">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentDevTest"/>
+        </classes>
+    </test>
+    <test name="CardsDev">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
         </classes>
     </test>
 

@@ -79,6 +79,18 @@
         </classes>
     </test>
 
+    <test name="CounterPaymentDev">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.CounterPaymentDevTest"/>
+        </classes>
+    </test>
+    <test name="CardsDev">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.CreateCardsTest"/>
+            <class name="com.dddd.qa.zybh.ApiTest.FuliMallTest.MembershipCardTest"/>
+        </classes>
+    </test>
+
     <test name ="statement">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.PlatformSupplierStatementTest"/> -->

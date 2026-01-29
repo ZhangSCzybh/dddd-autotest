@@ -6,6 +6,8 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.parser.Feature;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.CommonUtil;
+import com.dddd.qa.zybh.Constant.Config;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -135,7 +137,6 @@ public class GetCaseUtil {
     //智采员工pc平台--发放员工积分
     public static void giveEmployeePointsPC(Integer[] list, String amount){
         com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(Common.ygpcEmployeePointsParameters);
-        caveat("检查json文件路径:" + Common.ygpcEmployeePointsParameters);
         param.put("list", list);
         param.put("amount", amount);
         String body = param.toString();
@@ -144,7 +145,9 @@ public class GetCaseUtil {
         String result = HttpUtil.createPost(createUrl).addHeaders(headers).body(body).execute().body();
         cn.hutool.json.JSONObject jsonresult = new cn.hutool.json.JSONObject(result);
         String data = jsonresult.get("result").toString();
-        logger.info( data + ":员工积分发放成功！");
+        logger.info("积分发放结果:{}", data);
+        //接口可行性
+        CommonUtil.assertAvailable(jsonresult, body, createUrl, Config.YGPCPro, "员工PC发放积分");
         caveat( "===========智采员工积分补发===========" + "\n"+ "员工编号:" + Arrays.toString(list) + "\n"+ "发放额度:" + amount + "积分" + "\n" + "发放结果:" + data);
     }
 

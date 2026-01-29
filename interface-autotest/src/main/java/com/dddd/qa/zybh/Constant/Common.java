@@ -186,11 +186,11 @@ public class Common {
     public static String addressIdInfo4 = STATIC_PROPERTIES.getProperty("address.id.info4");
     public static String addressIdInfo5 = STATIC_PROPERTIES.getProperty("address.id.info5");
 
-    public static String employeeIdInfo1 = STATIC_PROPERTIES.getProperty("employee.id.info1");
-    public static String employeeIdInfo2 = STATIC_PROPERTIES.getProperty("employee.id.info2");
-    public static String employeeIdInfo3 = STATIC_PROPERTIES.getProperty("employee.id.info3");
-    public static String employeeIdInfo4 = STATIC_PROPERTIES.getProperty("employee.id.info4");
-    public static String employeeIdInfo5 = STATIC_PROPERTIES.getProperty("employee.id.info5");
+    public static Integer employeeIdInfo1 = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id.info1"));
+    public static Integer employeeIdInfo2 = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id.info2"));
+    public static Integer employeeIdInfo3 = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id.info3"));
+    public static Integer employeeIdInfo4 = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id.info4"));
+    public static Integer employeeIdInfo5 = Integer.valueOf(STATIC_PROPERTIES.getProperty("employee.id.info5"));
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

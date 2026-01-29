@@ -3,6 +3,7 @@ package com.dddd.qa.zybh.others;
 
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.utils.GetCaseUtil;
 import com.dddd.qa.zybh.utils.LoginUtil;
 
 import net.sourceforge.tess4j.Tesseract;
@@ -17,6 +18,8 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.util.*;
 import java.io.*;
+
+import static com.dddd.qa.zybh.utils.GetCaseUtil.giveEmployeePointsPC;
 
 
 /**
@@ -63,12 +66,9 @@ public class Testweeks {
 
     @Test
     public void test(){
-        System.out.println(new File("").getAbsolutePath());
-        //4个自建供应商供应商-发货 登录获取token
-        //获取员工employee-cache
-        Common.mallToken = LoginUtil.loginFuliMallToken("https://serverdev.lixiangshop.com/enterprise/account/login",Common.loginMallInfo1);
-        logger.info("获取虞信品员工商城的token：{}", Common.mallToken);
-
+        Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        logger.info("执行登录获取智采员工pc平台的token：" + Common.DDingDDangPCToken);
+        GetCaseUtil.giveEmployeePointsPC(new Integer[] {Integer.valueOf(Common.employeeIdInfo1)},String.valueOf("100"));
     }
 
     @Test

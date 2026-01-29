@@ -143,7 +143,7 @@ public class PurchaseProducts extends BaseTest {
 
 
     //description = "商品下单"
-    //@Test(dataProvider = "staffFuliTokenProvider")
+    @Test(dataProvider = "staffFuliTokenProvider")
     public void purchaseGoods(String num, String tokendata,String addressId ) throws InterruptedException {
         // 获取当前日期
         LocalDate now = LocalDate.now();
@@ -201,7 +201,7 @@ public class PurchaseProducts extends BaseTest {
     }
 
     //description = "自建供应商订单发货"
-    //@Test(dataProvider = "supplierTokenProvider",dependsOnMethods = {"purchaseGoods"})
+    @Test(dataProvider = "supplierTokenProvider",dependsOnMethods = {"purchaseGoods"})
     public void supplierOrderDelivery(String num, String supplierTokenData) throws Exception {
         JSONObject param = JSONUtil.createObj();
         param.put("status", 2);

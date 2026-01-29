@@ -6,4 +6,9 @@
             <class name="com.dddd.qa.zybh.ApiTest.SettingTest.LoginZCTest"/>
         </classes>
     </test>
+    <test name ="PurchaseProducts">
+        <classes>
+            <class name="com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts"/>
+        </classes>
+    </test>
 </suite>

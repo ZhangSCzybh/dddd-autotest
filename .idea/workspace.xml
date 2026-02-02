@@ -10,11 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82c8ab3-4757-4787-b5b6-9dc9604bcad0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/pre_dev_testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/pre_dev_testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod_huika_regression_testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod_huika_regression_testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -682,6 +679,8 @@
       <workItem from="1769673749850" duration="2449000" />
       <workItem from="1769736085408" duration="30000" />
       <workItem from="1769754735325" duration="532000" />
+      <workItem from="1769764669778" duration="87000" />
+      <workItem from="1770004801534" duration="106000" />
     </task>
     <servers />
   </component>

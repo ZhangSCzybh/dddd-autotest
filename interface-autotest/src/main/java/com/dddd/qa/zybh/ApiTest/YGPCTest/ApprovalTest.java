@@ -33,7 +33,7 @@ public class ApprovalTest {
     private static final HashMap<String, String> headers =new HashMap<>();
     private static final String scene = "审批模块";
     private static String approvalEmployeeId;
-    private static final int TIMEOUT_MINUTES = 4;
+    private static final int TIMEOUT_MINUTES = 5;
 
     @BeforeClass
     public static void setUp() {

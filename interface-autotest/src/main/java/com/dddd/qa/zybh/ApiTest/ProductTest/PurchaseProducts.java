@@ -124,18 +124,22 @@ public class PurchaseProducts extends BaseTest {
         if (root.getInt("code") == 1001) {
             JSONObject data = root.getJSONObject("data");
             JSONArray list = data.getJSONArray("list");
-            int length1 = list.toArray().length;
             List<Integer> allIds = new ArrayList<>(); //先把所有的 ID 收集到一个 List 里
-            for (int i = 0; i < length1; i++) {
+            if(list != null){
+                int length1 = list.toArray().length;
+                for (int i = 0; i < length1; i++) {
                 JSONObject sellerObj = list.getJSONObject(i); // 获取第 i 个店铺
                 JSONArray skuList = sellerObj.getJSONArray("skuList");
                 int length2 = skuList.toArray().length;
-                for (int j = 0; j < length2; j++) {
-                    JSONObject skuObj = skuList.getJSONObject(j); // 获取第 j 个商品
-                    String cartProductId = skuObj.get("cartProductId").toString();
-                    logger.info("找到加购商品ID: " + cartProductId);
-                    allIds.add(Integer.valueOf(skuObj.get("cartProductId").toString()));
+                    for (int j = 0; j < length2; j++) {
+                        JSONObject skuObj = skuList.getJSONObject(j); // 获取第 j 个商品
+                        String cartProductId = skuObj.get("cartProductId").toString();
+                        logger.info("找到加购商品ID: " + cartProductId);
+                        allIds.add(Integer.valueOf(skuObj.get("cartProductId").toString()));
+                    }
                 }
+            }else {
+                logger.info("购物车为空，无需清理。");
             }
             if (!allIds.isEmpty()) {
                 String jsonBody = JSONUtil.toJsonStr(allIds);
@@ -149,10 +153,11 @@ public class PurchaseProducts extends BaseTest {
                         .body();
                 System.out.println("删除购物车商品结果 (" + allIds + "): " + result2);
             }
+        }else {
+            logger.error("获取购物车列表失败，Code: " + root.getInt("code"));
         }
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("购物车无商品需要删除!");
         }
         return null;
     }

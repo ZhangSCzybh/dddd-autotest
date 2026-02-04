@@ -24,7 +24,7 @@ import java.util.List;
  * @date 2026年01月26日 16:54:33
  * @packageName com.dddd.qa.zybh.ApiTest.FuliOpTest
  * @className StatementSettlementTest
- * @describe TODO 驳回账单
+ * @describe 运营平台--对账管理（供应商）驳回账单
  */
 public class RejectStatementTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);

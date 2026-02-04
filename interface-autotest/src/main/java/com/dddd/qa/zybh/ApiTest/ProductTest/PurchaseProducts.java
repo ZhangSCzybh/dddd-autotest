@@ -57,7 +57,7 @@ public class PurchaseProducts extends BaseTest {
         Common.DDingDDangToken = LoginUtil.loginDingdangZCToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri , Common.loginDDingDDangInfo );
         logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
 
-        //5个商品下单的员工账号
+        //5个商品下单的员工账号,从员工pc跳转登录商城
         String YGPCToken1 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo1);
         String YGPCToken2 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo2);
         String YGPCToken3 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo3);
@@ -74,6 +74,13 @@ public class PurchaseProducts extends BaseTest {
         Common.SelfsupplierToken2 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo2);
         Common.SelfsupplierToken3 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo3);
         Common.SelfsupplierToken4 = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSelfSupplierInfo4);
+
+        //购物车清空操作
+        PurchaseProducts.clearCart(Common.jumpMallToken1);
+        PurchaseProducts.clearCart(Common.jumpMallToken2);
+        PurchaseProducts.clearCart(Common.jumpMallToken3);
+        PurchaseProducts.clearCart(Common.jumpMallToken4);
+        PurchaseProducts.clearCart(Common.jumpMallToken5);
     }
 
 
@@ -102,6 +109,52 @@ public class PurchaseProducts extends BaseTest {
             default:
                 throw new IllegalStateException("Unexpected value: " + dayOfWeek);
         }
+    }
+
+    //清空员工账号购物车
+    public static String clearCart(String MallToken){
+        try {
+        String cartUrl = Common.MallUrl + "/enterprise/cart/";
+        headers.put("Yian-Cache", MallToken);
+        // 1. 获取购物车数据
+        String result1 = HttpUtil.createPost(cartUrl).addHeaders(headers).execute().body();
+        logger.info("购物车商品:" + result1);
+        JSONObject root = new JSONObject(result1);
+        // 2. 判断接口是否成功
+        if (root.getInt("code") == 1001) {
+            JSONObject data = root.getJSONObject("data");
+            JSONArray list = data.getJSONArray("list");
+            int length1 = list.toArray().length;
+            List<Integer> allIds = new ArrayList<>(); //先把所有的 ID 收集到一个 List 里
+            for (int i = 0; i < length1; i++) {
+                JSONObject sellerObj = list.getJSONObject(i); // 获取第 i 个店铺
+                JSONArray skuList = sellerObj.getJSONArray("skuList");
+                int length2 = skuList.toArray().length;
+                for (int j = 0; j < length2; j++) {
+                    JSONObject skuObj = skuList.getJSONObject(j); // 获取第 j 个商品
+                    String cartProductId = skuObj.get("cartProductId").toString();
+                    logger.info("找到加购商品ID: " + cartProductId);
+                    allIds.add(Integer.valueOf(skuObj.get("cartProductId").toString()));
+                }
+            }
+            if (!allIds.isEmpty()) {
+                String jsonBody = JSONUtil.toJsonStr(allIds);
+                String deUrl = Common.MallUrl + "/enterprise/cart/remove/false";
+                headers.put("Yian-Cache", MallToken);
+                // 发送删除请求
+                String result2 = HttpUtil.createPost(deUrl)
+                        .addHeaders(headers)
+                        .body(jsonBody)
+                        .execute()
+                        .body();
+                System.out.println("删除购物车商品结果 (" + allIds + "): " + result2);
+            }
+        }
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("购物车无商品需要删除!");
+        }
+        return null;
     }
 
     //商品下单：账号编号、token、地址id配置

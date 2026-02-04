@@ -1,8 +1,14 @@
 package com.dddd.qa.zybh.others;
 
 
+import cn.hutool.http.HttpUtil;
+import cn.hutool.json.JSONArray;
+import cn.hutool.json.JSONObject;
+import cn.hutool.json.JSONUtil;
+import com.dddd.qa.zybh.ApiTest.ProductTest.PurchaseProducts;
 import com.dddd.qa.zybh.ApiTest.SettingTest.loginTest;
 import com.dddd.qa.zybh.Constant.Common;
+import com.dddd.qa.zybh.Constant.Config;
 import com.dddd.qa.zybh.utils.GetCaseUtil;
 import com.dddd.qa.zybh.utils.LoginUtil;
 
@@ -16,6 +22,8 @@ import org.testng.annotations.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.util.*;
 import java.io.*;
 
@@ -32,6 +40,7 @@ public class Testweeks {
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     private static final HashMap<String, String> headers =new HashMap<>();
+    private static String orderProdDetails;
     //ceshi测试
     //karen吴女士
     //蒋美娣13858653282
@@ -64,23 +73,68 @@ public class Testweeks {
     }
 
 
-    @Test
+    @DataProvider(name = "staffFuliTokenProvider")
+    public Object[][] staffFuliTokenFromCSV() {
+        return new Object[][] {
+                {"1" ,Common.jumpMallToken1,Common.addressIdInfo1}
+                //{ new Integer[] {123456, 789012} } // 数据集2
+        };
+    }
+    //根据星期选择不同的sku和json文件
+    private static String[] selectArrayByDay(DayOfWeek dayOfWeek) {
+        switch (dayOfWeek) {
+            case MONDAY:
+                orderProdDetails=Common.MonOrderDetailInfo;
+                return Common.array1;
+            case TUESDAY:
+                orderProdDetails=Common.TueOrderDetailInfo;
+                return Common.array2;
+            case WEDNESDAY:
+                orderProdDetails=Common.WedOrderDetailInfo;
+                return Common.array3;
+            case THURSDAY:
+                orderProdDetails=Common.ThuOrderDetailInfo;
+                return Common.array4;
+            case FRIDAY:
+                orderProdDetails=Common.FriOrderDetailInfo;
+                return Common.array5;
+            // 如果是周六或周日，你可以选择默认数组或抛出异常
+            case SATURDAY:
+            case SUNDAY:
+                throw new IllegalStateException("Arrays not defined for Saturday or Sunday");
+            default:
+                throw new IllegalStateException("Unexpected value: " + dayOfWeek);
+        }
+    }
+
+
+    @Test()
+    public void test1(){
+        Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
+        logger.info("执行登录获取智采员工pc平台的token：" + Common.DDingDDangPCToken);
+
+        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(Common.OpUrl + Common.loginOPUri , Common.loginOPInfo);
+        logger.info("执行登录获取慧卡运营平台的token：" + Common.fuliOperationPlatformToken);
+
+        Common.DDingDDangToken = LoginUtil.loginDingdangZCToken(Common.zhicaiHrUrl + Common.loginDDingDDangUri , Common.loginDDingDDangInfo );
+        logger.info("执行登录获取智采企业平台的token：" + Common.DDingDDangToken);
+
+        //5个商品下单的员工账号
+        String YGPCToken1 = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo1);
+        Common.jumpMallToken1 = LoginUtil.loginJumpMallToken(Common.MallUrl+Common.jumpMallLoginUri , YGPCToken1);
+
+        PurchaseProducts.clearCart(Common.jumpMallToken1);
+        //String skuId = new JSONObject(new JSONArray(new JSONObject(new JSONArray(new JSONObject(new JSONObject(result1).get("data")).get("list")).get(0)).get("skuList")).get(0)).get("skuId").toString();
+
+    }
+
+
+    @Test(description = "发智采积分")
     public void test(){
         Common.DDingDDangPCToken = LoginUtil.loginYGPCToken(Common.zhicaiYgUrl + Common.loginDDingDDangYGPCUri , Common.loginDDingDDangYGPCInfo);
         logger.info("执行登录获取智采员工pc平台的token：" + Common.DDingDDangPCToken);
         GetCaseUtil.giveEmployeePointsPC(new Integer[] {Integer.valueOf(Common.employeeIdInfo1)},String.valueOf("100"));
     }
-
-    @Test
-    public void test1(){
-        Common.fuliOperationPlatformToken = LoginUtil.loginOperationPlatformToken(Common.OpUrl + Common.loginOPUri , Common.loginOPInfo);
-        logger.info("执行登录获取慧卡运营平台的token：" + Common.fuliOperationPlatformToken);
-        // 登录获取token
-        Common.supplierToken = LoginUtil.loginSupplierToken(Common.SupplierUrl+Common.supplierLoginUri,Common.loginSupplierInfo);
-        logger.info("执行登录获取供应商平台的token：" + Common.supplierToken);
-    }
-
-
     public static void main(String[] args) {
         System.setProperty("jna.library.path", "/opt/homebrew/lib");
         String dataPath = "/opt/homebrew/Cellar/tesseract/5.5.1_1/share/tessdata";

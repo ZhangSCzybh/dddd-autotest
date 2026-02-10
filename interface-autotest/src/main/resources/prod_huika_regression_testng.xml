@@ -61,13 +61,11 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.BrandReviewTest"/>
         </classes>
     </test>
-
     <test name ="Cursor">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.AiTest.CursorTest"/>
         </classes>
     </test>
-
     <test name="SgnetProductSynchronization">
         <classes>
             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.PriceCalculator"/>
@@ -78,13 +76,13 @@
             <class name="com.dddd.qa.zybh.ApiTest.FuliHrTest.BatchImportEmployeeJumpLogin"/>
         </classes>
     </test>
-
     <test name ="statement">
         <classes>
-            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.PlatformSupplierStatementTest"/> -->
-            <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.RejectStatementTest"/> -->
+            <class name="com.dddd.qa.zybh.ApiTest.FuliSelfSupplierTest.PlatformSupplierStatementTest"/>
+             <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.RejectStatementTest"/>
         </classes>
     </test>
+
     <test name ="Voucher">
         <classes>
             <!-- <class name="com.dddd.qa.zybh.ApiTest.FuliOpTest.VoucherTest"/> -->

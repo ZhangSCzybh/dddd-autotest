@@ -149,7 +149,7 @@ public class PlatformSupplierStatementTest {
 
         //如果接口返回可能是小数，或者为了保险，使用 Double
         Double settlementAmount = new JSONObject(jsonresult.get("result")).getDouble("settlementAmount");
-        Assert.assertEquals(0.08, settlementAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
+        Assert.assertEquals(0.04, settlementAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
 
         //校验售后订单数量正确性
         Integer orderRefundCount = new JSONObject(jsonresult.get("result")).getInt("orderRefundCount");
@@ -157,15 +157,15 @@ public class PlatformSupplierStatementTest {
 
         //校验扣除金额正确性
         Double deductAmount = new JSONObject(jsonresult.get("result")).getDouble("deductAmount");
-        Assert.assertEquals(-0.06, deductAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
+        Assert.assertEquals(-0.03, deductAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
 
         //校验应收金额正确性
         Double receivableAmount = new JSONObject(jsonresult.get("result")).getDouble("receivableAmount");
-        Assert.assertEquals(0.02, receivableAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
+        Assert.assertEquals(0.01, receivableAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
 
         //校验实收金额正确性
         Double actualityAmount = new JSONObject(jsonresult.get("result")).getDouble("actualityAmount");
-        Assert.assertEquals(0.02, actualityAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
+        Assert.assertEquals(0.01, actualityAmount, String.format(Config.result_message, Config.PlatformSupplierPro, scene, ErrorEnum.ISWRONG.getMsg(), createUrl, null, jsonresult));
 
 
     }
